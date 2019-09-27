@@ -15,6 +15,7 @@
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-transformer-remark": "^2.6.24",
     "gatsby-transformer-sharp": "^2.2.16",
+    "gatsby-transformer-yaml": "^2.2.12",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -23,6 +24,7 @@
     "request-promise": "^4.2.4"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -35,7 +37,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "test": "jest"
   },
   "repository": {
     "type": "git",

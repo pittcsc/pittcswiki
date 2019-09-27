@@ -41,7 +41,7 @@ const saveFile = (data) => {
 		},
 		courses: data
 	}
-	const filePath = path.join(__dirname, "..", "src", "pages", "courses", FILENAME);
+	const filePath = path.join(__dirname, "..", "..", "src", "pages", "courses", "helpers", FILENAME);
 	fs.writeFileSync(filePath, JSON.stringify(toWrite, null, 4))
 }
 

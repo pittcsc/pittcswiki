@@ -24,8 +24,9 @@ const IndexPage = () => (
       justifyContent: 'space-between'
     }}>
       <GroupLink name="Courses" href="courses" />
-      <GroupLink name="Interviews" />
-      <GroupLink name="Internship" />
+      <GroupLink name="Resume" />
+      <GroupLink name="Getting an Interview" />
+      <GroupLink name="Interview Prep" />
       <GroupLink name="Companies" />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
