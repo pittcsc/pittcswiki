@@ -32,11 +32,10 @@ module.exports = {
       resolve: "gatsby-source-google-spreadsheet",
       options: {
         spreadsheetId: "1oqIY5x0AOa2WbKYTp0eK01bXpWwKiUV02OKpnOCMkFg",
-        spreadsheetName: "course_testimonials",
         // The `typePrefix` is optional, default value is "GoogleSpreadsheet"
         // It is used as part of the id's during the node creation, as well as in the generated GraphQL-schema
         // It can be overridden to fully customize the root query
-        typePrefix: "GoogleSheet_",
+        typePrefix: "GoogleSheet",
     
         // The `credentials` are only needed when you need to be authenticated to read the document.
         // It's an object with the following shape:
@@ -64,6 +63,27 @@ module.exports = {
         // By implementing a `mapNode(node): node` function, you can provide your own node transformations directly
         // during node sourcing, the default implementation is to return the node as is:
         mapNode: node => node
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `courses_pages`,
+        path: `${__dirname}/src/pages/courses/courses_markdown`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_self",
+            rel: "nofollow"
+          }
+        }
+        ]
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

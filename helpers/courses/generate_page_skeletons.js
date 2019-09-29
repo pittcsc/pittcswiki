@@ -1,8 +1,8 @@
 const TEMPLATE =
 `---
 path: "/courses/{{ id }}"
-date: "{{ date }}"
 title: "{{ title }}"
+id: "{{ id }}"
 ---
 [Link to SCI]("{{ href }}")
 
@@ -40,10 +40,12 @@ const BASE_PATH = path.join(__dirname, "..", "..", "src", "pages", "courses", "c
 
 function updatePage() {}
 
+const DO_NOT_REPLACE_PAGES = false;
+
 courseList.forEach((data) => {
 	const id = data.id;
 	const currentPath = path.join(BASE_PATH, id+".md");
-	if(fs.existsSync(currentPath)) {
+	if(fs.existsSync(currentPath) && DO_NOT_REPLACE_PAGES) {
 		updatePage(currentPath, data)
 	} else {
 		const toWrite = replaceTemplate(TEMPLATE, {
