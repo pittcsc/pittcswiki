@@ -1,4 +1,9 @@
-const GOOGLE_SERVICE_ACCOUNT_CREDENTIALS = require("./google_api_secret.json");
+const GOOGLE_SERVICE_ACCOUNT_CREDENTIALS = process.env.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS || require("./google_api_secret.json");
+
+if (!GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) {
+  console.error("No google account credentials set. Please download these or set them as an environment variable");
+}
+
 module.exports = {
   siteMetadata: {
     title: `Pitt CS Wiki`,
@@ -72,6 +77,7 @@ module.exports = {
         path: `${__dirname}/src/pages/courses/courses_markdown`,
       },
     },
+    
     {
       resolve: `gatsby-transformer-remark`,
       options: {

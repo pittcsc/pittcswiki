@@ -9,7 +9,7 @@ const path = require(`path`)
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const coursesPageTemplate = path.resolve(`src/pages/courses/courses-template.js`);
+  const coursesPageTemplate = path.resolve(`src/components/templates/courses-template.js`);
 
   return graphql(`
     {
