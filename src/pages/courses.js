@@ -8,7 +8,7 @@ import COURSE_LIST_JSON from "./courses/helpers/course_list.json";
 
 /*
 Testimonials are built up from this Google Sheet. Its like a fake database.
-https://docs.google.com/spreadsheets/d/1oqIY5x0AOa2WbKYTp0eK01bXpWwKiUV02OKpnOCMkFg/edit#gid=0
+https://docs.google.com/spreadsheets/d/1JsJKialTXTAEPljU9GDAJnxvsJUL3rKdNNBRvLzXcEk/edit#gid=349594831
 */
 
 
