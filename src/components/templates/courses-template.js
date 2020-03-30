@@ -15,13 +15,13 @@ export default function Template({
     <SEO title={title} />
 	<div className="blog-post-container">
       <div className="blog-post">
-        <h1>{frontmatter.title}</h1>
+        <h2>{frontmatter.title}</h2>
         <p>Last updated on {modifiedTime}</p>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-		<h1>Testimonials</h1>
+		<h2>Testimonials</h2>
 		<div>
 			<pre>
 				{ JSON.stringify(allGoogleSheetCourseTestimonials, false, 4)}
