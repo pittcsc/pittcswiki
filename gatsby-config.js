@@ -7,8 +7,8 @@ if (!GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) {
 module.exports = {
   siteMetadata: {
     title: `Pitt CS Wiki`,
-    description: `Stay informed!`,
-    author: `@matvarughese`,
+    description: `Learn everything you want about Computer Science at Pitt`,
+    author: `@pittcsc`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: "gatsby-source-google-spreadsheet",
       options: {
-        spreadsheetId: "1oqIY5x0AOa2WbKYTp0eK01bXpWwKiUV02OKpnOCMkFg",
+        spreadsheetId: "1JsJKialTXTAEPljU9GDAJnxvsJUL3rKdNNBRvLzXcEk",
         // The `typePrefix` is optional, default value is "GoogleSpreadsheet"
         // It is used as part of the id's during the node creation, as well as in the generated GraphQL-schema
         // It can be overridden to fully customize the root query
@@ -47,7 +47,8 @@ module.exports = {
         // {
         //   client_email: "<your service account email address>",
         //   private_key: "<the prive key for your service account>"
-        // }
+        // },
+        credentials: GOOGLE_SERVICE_ACCOUNT_CREDENTIALS,
         //
         // Refer to googles own documentation to retrieve the credentials for your service account:
         //   - https://github.com/googleapis/google-api-nodejs-client#service-to-service-authentication
@@ -55,7 +56,7 @@ module.exports = {
         //
         // When you have generated your credentials, it's easiest to refer to them from an environment variable
         // and parse it directly:
-        credentials: typeof GOOGLE_SERVICE_ACCOUNT_CREDENTIALS === "string" ? JSON.parse(GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) : GOOGLE_SERVICE_ACCOUNT_CREDENTIALS,
+        // credentials: typeof GOOGLE_SERVICE_ACCOUNT_CREDENTIALS === "string" ? JSON.parse(GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) : GOOGLE_SERVICE_ACCOUNT_CREDENTIALS,
     
         // Simple node transformation during node sourcing can be achieved by implementing the following functions
         // - `filterNode`
