@@ -6,8 +6,7 @@ Check out brainstorming on the issues page!
 
 ## Instructions
 If you want to run this locally, you need credentials to access the Pitt CSC course
-testimonials google sheet. You can download [this JSON file](https://drive.google.com/open?id=1IFJIa3mCCGfO7f5vFy0YVz_GjTSTc9O4) (if you are a CS officer) and save it in the root of the folder. Or you can set the `GOOGLE_SERVICE_ACCOUNT_CREDENTIALS` environment variable to the value of the JSON string.
-
+testimonials google sheet. You can download this JSON file in the Pitt CSC Wiki [here](https://drive.google.com/drive/folders/1gj8PFneOhnre0uFxrx4Fb_qB1zAeNPc6) or ask an officer for access. You can also set the `GOOGLE_SERVICE_ACCOUNT_CREDENTIALS` environment variable to the value of the JSON string.
 
 ```
 yarn start
