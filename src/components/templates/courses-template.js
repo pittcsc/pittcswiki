@@ -2,6 +2,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../layout"
+import Testimonial from "../testimonial"
 import SEO from "../seo"
 
 export default function Template({
@@ -24,8 +25,12 @@ export default function Template({
 		<h2>Testimonials</h2>
 		<div>
 			<pre>
-				{ JSON.stringify(allGoogleSheetCourseTestimonials, false, 4)}
+				{ JSON.stringify(allGoogleSheetCourseTestimonials.edges, false, 4)}
+				
 			</pre>
+			{
+					allGoogleSheetCourseTestimonials.edges.map((item, key) => <Testimonial item={item} />)
+			}
 		</div>
 		<h1>Resources</h1>
 		<pre>Drag to upload stuff here please</pre>

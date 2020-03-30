@@ -25,10 +25,10 @@ const CourseListing = () => {
   const courses = COURSE_LIST_JSON.courses.map(course => <Course key={course.id} {...course} />);
   return (
     <div className="course-listing-wrapper">
+      <p className="last-updated-line">Last updated {COURSE_LIST_JSON.metadata.updated}</p>
       <div className="course-listings">
         { courses }
       </div>
-      <p className="last-updated-line">Last updated {COURSE_LIST_JSON.metadata.updated}</p>
     </div>
   );
 }
