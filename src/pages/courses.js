@@ -38,7 +38,7 @@ const CoursesPage = () => (
   <Layout>
     <SEO title="Courses" />
     <h1>Courses</h1>
-    <p>What classes should you take?</p>
+    <hr />
     <CourseListing />
     <Link to="/">Homepage</Link>
   </Layout>

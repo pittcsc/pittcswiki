@@ -10,11 +10,11 @@ const FrontPageLinks = [
     links: [
       {
         name: "Courses",
-        link: "courses",
+        href: "courses",
       },
       {
         name: "(In Dev:) Scheduling Classes",
-        link: "",
+        href: "",
       },
     ],
   },
@@ -23,7 +23,11 @@ const FrontPageLinks = [
     links: [
       {
         name: "Resume",
-        link: "resume",
+        href: "resume",
+      },
+      {
+        name: "More Guides...",
+        href: "guide",
       },
     ],
   },
@@ -32,15 +36,15 @@ const FrontPageLinks = [
     links: [
       {
         name: "(In Dev:) Interview Prep",
-        link: "",
+        href: "",
       },
       {
         name: "(In Dev:) Getting an Interview",
-        link: "",
+        href: "",
       },
       {
         name: "(In Dev:) Companies",
-        link: "",
+        href: "",
       },
     ],
   }
