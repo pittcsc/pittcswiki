@@ -1,913 +1,913 @@
 {
-    "metadata": {
-        "updated": "2019-10-04T06:42:28.689Z"
+  "metadata": {
+    "updated": "2019-10-04T06:42:28.689Z"
+  },
+  "courses": [
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0004",
+      "title": "INTRODUCTION TO COMPUTER PROGRAMMING-BASIC",
+      "id": "CS0004",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
     },
-    "courses": [
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0004",
-            "title": "INTRODUCTION TO COMPUTER PROGRAMMING-BASIC",
-            "id": "CS0004",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0007",
-            "title": "INTRODUCTION TO COMPUTER PROGRAMMING",
-            "id": "CS0007",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0008",
-            "title": "INTRODUCTION TO COMPUTER PROGRAMMING WITH PYTHON",
-            "id": "CS0008",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0010",
-            "title": "INTRODUCTION TO COMPUTING FOR SYSTEMS ENGINEERS",
-            "id": "CS0010",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0011",
-            "title": "INTRODUCTION TO COMPUTING FOR SCIENTISTS",
-            "id": "CS0011",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0012",
-            "title": "INTRODUCTION TO COMPUTING FOR THE HUMANITIES",
-            "id": "CS0012",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0090",
-            "title": "SUSTAINABILITY AND COMPUTING",
-            "id": "CS0090",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0134",
-            "title": "WEB SITE DESIGN AND DEVELOPMENT",
-            "id": "CS0134",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0155",
-            "title": "DATA WITCHCRAFT",
-            "id": "CS0155",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0334",
-            "title": "INTERMEDIATE WEB SITE DESIGN AND DEVELOPMENT",
-            "id": "CS0334",
-            "levelInfo": {
-                "name": "Basic",
-                "group": "WEIRD_CLASS"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0401",
-            "title": "INTERMEDIATE PROGRAMMING USING JAVA",
-            "id": "CS0401",
-            "levelInfo": {
-                "name": "Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0441",
-            "title": "DISCRETE STRUCTURES FOR CS",
-            "id": "CS0441",
-            "levelInfo": {
-                "name": "Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0445",
-            "title": "DATA STRUCTURES",
-            "id": "CS0445",
-            "levelInfo": {
-                "name": "Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0447",
-            "title": "COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
-            "id": "CS0447",
-            "levelInfo": {
-                "name": "Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0449",
-            "title": "INTRODUCTION TO SYSTEMS SOFTWARE",
-            "id": "CS0449",
-            "levelInfo": {
-                "name": "Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0590",
-            "title": "SOCIAL IMPLICATIONS OF COMPUTING TECHNOLOGY",
-            "id": "CS0590",
-            "levelInfo": {
-                "name": "Special",
-                "group": "SPECIAL"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-0699",
-            "title": "SPECIAL TOPICS IN COMPUTER SCIENCE",
-            "id": "CS0699",
-            "levelInfo": {
-                "name": "Special",
-                "group": "SPECIAL"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1501",
-            "title": "ALGORITHM IMPLEMENTATION",
-            "id": "CS1501",
-            "levelInfo": {
-                "name": "Upper Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1502",
-            "title": "FORMAL METHODS IN COMPUTER SCIENCE",
-            "id": "CS1502",
-            "levelInfo": {
-                "name": "Upper Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1510",
-            "title": "ALGORITHM DESIGN",
-            "id": "CS1510",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1511",
-            "title": "THEORY OF COMPUTATION",
-            "id": "CS1511",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1520",
-            "title": "PROGRAMMING LANGUAGE FOR WEB APPLICATIONS",
-            "id": "CS1520",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1530",
-            "title": "SOFTWARE ENGINEERING",
-            "id": "CS1530",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1538",
-            "title": "INTRODUCTION TO SIMULATION",
-            "id": "CS1538",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1541",
-            "title": "INTRODUCTION TO COMPUTER ARCHITECTURE",
-            "id": "CS1541",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1550",
-            "title": "INTRODUCTION TO OPERATING SYSTEMS",
-            "id": "CS1550",
-            "levelInfo": {
-                "name": "Upper Core",
-                "group": "CORE_REQUIREMENT"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1555",
-            "title": "DATABASE MANAGEMENT SYSTEMS",
-            "id": "CS1555",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1566",
-            "title": "INTRODUCTION COMPUTER GRAPHICS",
-            "id": "CS1566",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1567",
-            "title": "PROGRAMMING SYSTEM DESIGN ON A MOBILE ROBOT PLATFORM",
-            "id": "CS1567",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1571",
-            "title": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
-            "id": "CS1571",
-            "levelInfo": {
-                "name": "Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1621",
-            "title": "STRUCTURE PROGRAMMING LANGUAGES",
-            "id": "CS1621",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1622",
-            "title": "INTRODUCTION TO COMPILER DESIGN",
-            "id": "CS1622",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1631",
-            "title": "SOFTWARE DESIGN METHODOLOGY",
-            "id": "CS1631",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1632",
-            "title": "SOFTWARE QUALITY ASSURANCE",
-            "id": "CS1632",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1635",
-            "title": "INTERFACE DESIGN METHODOLOGY",
-            "id": "CS1635",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1640",
-            "title": "BIOINFORMATICS SOFTWARE DESIGN",
-            "id": "CS1640",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1645",
-            "title": "INTRODUCTION TO HIGH PERFORMANCE COMPUTING SYSTEMS",
-            "id": "CS1645",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1651",
-            "title": "ADVANCED SYSTEMS SOFTWARE",
-            "id": "CS1651",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1652",
-            "title": "DATA COMMUNICATION AND COMPUTER NETWORKS",
-            "id": "CS1652",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1653",
-            "title": "APPLIED CRYPTOGRAPHY AND NETWORK SECURITY",
-            "id": "CS1653",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1655",
-            "title": "SECURE DATA MANAGEMENT AND WEB APPLICATIONS",
-            "id": "CS1655",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1656",
-            "title": "INTRODUCTION TO DATA SCIENCE",
-            "id": "CS1656",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1660",
-            "title": "INTRODUCTION TO CLOUD COMPUTING",
-            "id": "CS1660",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1666",
-            "title": "PRINCIPLES OF COMPUTER GAME DESIGN AND IMPLEMENTATION",
-            "id": "CS1666",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1671",
-            "title": "HUMAN LANGUAGE TECHNOLOGIES",
-            "id": "CS1671",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1674",
-            "title": "INTRODUCTION TO COMPUTER VISION",
-            "id": "CS1674",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1675",
-            "title": "INTRODUCTION TO MACHINE LEARNING",
-            "id": "CS1675",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1699",
-            "title": "SPECIAL TOPICS IN COMPUTER SCIENCE",
-            "id": "CS1699",
-            "levelInfo": {
-                "name": "Special Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1900",
-            "title": "INTERNSHIP",
-            "id": "CS1900",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1902",
-            "title": "DIRECTED STUDY",
-            "id": "CS1902",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1906",
-            "title": "COMPUTER SCIENCE COOPERATIVE PROGRAM",
-            "id": "CS1906",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1950",
-            "title": "DIRECTED RESEARCH",
-            "id": "CS1950",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-1980",
-            "title": "TEAM PROJECT DESIGN AND IMPLEMENTATION",
-            "id": "CS1980",
-            "levelInfo": {
-                "name": "Upper Electives",
-                "group": "ELECTIVES"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2000",
-            "title": "MS THESIS RESEARCH",
-            "id": "CS2000",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2001",
-            "title": "RESEARCH TOPICS/COMPUTER SCIENCE",
-            "id": "CS2001",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2002",
-            "title": "RESEARCH EXPERIENCE/COMPUTER SCI",
-            "id": "CS2002",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2003",
-            "title": "COMPUTER SCIENCE COLLOQUIUM",
-            "id": "CS2003",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2012",
-            "title": "ALGORITHM DESIGN",
-            "id": "CS2012",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2045",
-            "title": "INTRODUCTION TO HIGH PERFORMANCE COMPUTING SYSTEMS",
-            "id": "CS2045",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2053",
-            "title": "APPLIED CRYPTOGRAPHY AND NETWORK SECURITY",
-            "id": "CS2053",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2055",
-            "title": "DATABASE MANAGEMENT SYSTEMS",
-            "id": "CS2055",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2056",
-            "title": "INTRODUCTION TO DATA SCIENCE",
-            "id": "CS2056",
-            "levelInfo": {
-                "name": "Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2110",
-            "title": "THEORY OF COMPUTATION",
-            "id": "CS2110",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2150",
-            "title": "DESIGN & ANALYSIS OF ALGORITHMS",
-            "id": "CS2150",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2210",
-            "title": "COMPILER DESIGN",
-            "id": "CS2210",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2310",
-            "title": "SOFTWARE ENGINEERING",
-            "id": "CS2310",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2410",
-            "title": "COMPUTER ARCHITECTURE",
-            "id": "CS2410",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2510",
-            "title": "COMPUTER OPERATING SYSTEMS",
-            "id": "CS2510",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2520",
-            "title": "WIDE AREA NETWORKS",
-            "id": "CS2520",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2530",
-            "title": "COMPUTER AND NETWORK SECURITY",
-            "id": "CS2530",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2550",
-            "title": "PRINCIPLES OF DATABASE SYSTEMS",
-            "id": "CS2550",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2610",
-            "title": "INTERFACE DESIGN & EVALUATION",
-            "id": "CS2610",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2620",
-            "title": "INTERDISCIPLINARY MODELING AND VISUALIZATION",
-            "id": "CS2620",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2710",
-            "title": "FOUNDTNS OF ARTIFICIAL INTELLGNC",
-            "id": "CS2710",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2731",
-            "title": "INTRO NATURAL LANGUAGE PROCSSNG",
-            "id": "CS2731",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2750",
-            "title": "MACHINE LEARNING",
-            "id": "CS2750",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2770",
-            "title": "COMPUTER VISION",
-            "id": "CS2770",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2900",
-            "title": "GRADUATE INTERNSHIP",
-            "id": "CS2900",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2905",
-            "title": "COMPUTER SCIENCE COOPERATIVE PROGRAM",
-            "id": "CS2905",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2910",
-            "title": "MS PROJECT",
-            "id": "CS2910",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-2990",
-            "title": "INDEPENDENT STUDY",
-            "id": "CS2990",
-            "levelInfo": {
-                "name": "Upper Grad",
-                "group": "GRAD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3000",
-            "title": "RESEARCH AND DISSERTATION PHD",
-            "id": "CS3000",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3150",
-            "title": "ADV TOPCS DSGN & ANALYS ALGORTHM",
-            "id": "CS3150",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3210",
-            "title": "ADV TOPICS PROGRAMMING LANGUAGES",
-            "id": "CS3210",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3220",
-            "title": "COMPILING TECHNQS/PARALLEL SYMS",
-            "id": "CS3220",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3410",
-            "title": "ADV TOPICS COMPUTER ARCHITECTURE",
-            "id": "CS3410",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3510",
-            "title": "ADV TOPICS IN OPERATING SYSTEMS",
-            "id": "CS3510",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3525",
-            "title": "ADVANCED TOPICS IN SUCURITY AND PRIVACY",
-            "id": "CS3525",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3530",
-            "title": "ADV TOPCS DISTBD & REAL-TIME SYS",
-            "id": "CS3530",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3550",
-            "title": "ADV TOPICS IN MANAGEMENT OF DATA",
-            "id": "CS3550",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3551",
-            "title": "ADV TOPICS IN DISTBD INFOR SYS",
-            "id": "CS3551",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3570",
-            "title": "ADVANCED TOPICS IN USER INTERFACE",
-            "id": "CS3570",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3580",
-            "title": "SEM: ADV TOPC PARALLEL COMPUTING",
-            "id": "CS3580",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3650",
-            "title": "VISUAL LANGUAGES AND PROGRAMMING",
-            "id": "CS3650",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3710",
-            "title": "ADV TOPICS ARTIFICIAL INTELLGNC",
-            "id": "CS3710",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3720",
-            "title": "ADVANCED TOPICS IN INTERNET OF THINGS",
-            "id": "CS3720",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3730",
-            "title": "ADV TOPCS NATURAL LANG PROCSSNG",
-            "id": "CS3730",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3750",
-            "title": "ADV TOPICS IN MACHINE LEARNING",
-            "id": "CS3750",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3790",
-            "title": "PATTERN RECOGNITION",
-            "id": "CS3790",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/CS-3900",
-            "title": "PHD DIRECTED STUDY",
-            "id": "CS3900",
-            "levelInfo": {
-                "name": "Phd",
-                "group": "PHD"
-            }
-        },
-        {
-            "href": "http://courses.sci.pitt.edu//courses/view/FTDJ-0000",
-            "title": "FULL-TIME DISSERTATION STUDY",
-            "id": "FTDJ0000",
-            "levelInfo": ""
-        }
-    ]
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0007",
+      "title": "INTRODUCTION TO COMPUTER PROGRAMMING",
+      "id": "CS0007",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0008",
+      "title": "INTRODUCTION TO COMPUTER PROGRAMMING WITH PYTHON",
+      "id": "CS0008",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0010",
+      "title": "INTRODUCTION TO COMPUTING FOR SYSTEMS ENGINEERS",
+      "id": "CS0010",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0011",
+      "title": "INTRODUCTION TO COMPUTING FOR SCIENTISTS",
+      "id": "CS0011",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0012",
+      "title": "INTRODUCTION TO COMPUTING FOR THE HUMANITIES",
+      "id": "CS0012",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0090",
+      "title": "SUSTAINABILITY AND COMPUTING",
+      "id": "CS0090",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0134",
+      "title": "WEB SITE DESIGN AND DEVELOPMENT",
+      "id": "CS0134",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0155",
+      "title": "DATA WITCHCRAFT",
+      "id": "CS0155",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0334",
+      "title": "INTERMEDIATE WEB SITE DESIGN AND DEVELOPMENT",
+      "id": "CS0334",
+      "levelInfo": {
+        "name": "Basic",
+        "group": "WEIRD_CLASS"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0401",
+      "title": "INTERMEDIATE PROGRAMMING USING JAVA",
+      "id": "CS0401",
+      "levelInfo": {
+        "name": "Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0441",
+      "title": "DISCRETE STRUCTURES FOR CS",
+      "id": "CS0441",
+      "levelInfo": {
+        "name": "Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0445",
+      "title": "DATA STRUCTURES",
+      "id": "CS0445",
+      "levelInfo": {
+        "name": "Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0447",
+      "title": "COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
+      "id": "CS0447",
+      "levelInfo": {
+        "name": "Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0449",
+      "title": "INTRODUCTION TO SYSTEMS SOFTWARE",
+      "id": "CS0449",
+      "levelInfo": {
+        "name": "Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0590",
+      "title": "SOCIAL IMPLICATIONS OF COMPUTING TECHNOLOGY",
+      "id": "CS0590",
+      "levelInfo": {
+        "name": "Special",
+        "group": "SPECIAL"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-0699",
+      "title": "SPECIAL TOPICS IN COMPUTER SCIENCE",
+      "id": "CS0699",
+      "levelInfo": {
+        "name": "Special",
+        "group": "SPECIAL"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1501",
+      "title": "ALGORITHM IMPLEMENTATION",
+      "id": "CS1501",
+      "levelInfo": {
+        "name": "Upper Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1502",
+      "title": "FORMAL METHODS IN COMPUTER SCIENCE",
+      "id": "CS1502",
+      "levelInfo": {
+        "name": "Upper Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1510",
+      "title": "ALGORITHM DESIGN",
+      "id": "CS1510",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1511",
+      "title": "THEORY OF COMPUTATION",
+      "id": "CS1511",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1520",
+      "title": "PROGRAMMING LANGUAGE FOR WEB APPLICATIONS",
+      "id": "CS1520",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1530",
+      "title": "SOFTWARE ENGINEERING",
+      "id": "CS1530",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1538",
+      "title": "INTRODUCTION TO SIMULATION",
+      "id": "CS1538",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1541",
+      "title": "INTRODUCTION TO COMPUTER ARCHITECTURE",
+      "id": "CS1541",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1550",
+      "title": "INTRODUCTION TO OPERATING SYSTEMS",
+      "id": "CS1550",
+      "levelInfo": {
+        "name": "Upper Core",
+        "group": "CORE_REQUIREMENT"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1555",
+      "title": "DATABASE MANAGEMENT SYSTEMS",
+      "id": "CS1555",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1566",
+      "title": "INTRODUCTION COMPUTER GRAPHICS",
+      "id": "CS1566",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1567",
+      "title": "PROGRAMMING SYSTEM DESIGN ON A MOBILE ROBOT PLATFORM",
+      "id": "CS1567",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1571",
+      "title": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+      "id": "CS1571",
+      "levelInfo": {
+        "name": "Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1621",
+      "title": "STRUCTURE PROGRAMMING LANGUAGES",
+      "id": "CS1621",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1622",
+      "title": "INTRODUCTION TO COMPILER DESIGN",
+      "id": "CS1622",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1631",
+      "title": "SOFTWARE DESIGN METHODOLOGY",
+      "id": "CS1631",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1632",
+      "title": "SOFTWARE QUALITY ASSURANCE",
+      "id": "CS1632",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1635",
+      "title": "INTERFACE DESIGN METHODOLOGY",
+      "id": "CS1635",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1640",
+      "title": "BIOINFORMATICS SOFTWARE DESIGN",
+      "id": "CS1640",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1645",
+      "title": "INTRODUCTION TO HIGH PERFORMANCE COMPUTING SYSTEMS",
+      "id": "CS1645",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1651",
+      "title": "ADVANCED SYSTEMS SOFTWARE",
+      "id": "CS1651",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1652",
+      "title": "DATA COMMUNICATION AND COMPUTER NETWORKS",
+      "id": "CS1652",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1653",
+      "title": "APPLIED CRYPTOGRAPHY AND NETWORK SECURITY",
+      "id": "CS1653",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1655",
+      "title": "SECURE DATA MANAGEMENT AND WEB APPLICATIONS",
+      "id": "CS1655",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1656",
+      "title": "INTRODUCTION TO DATA SCIENCE",
+      "id": "CS1656",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1660",
+      "title": "INTRODUCTION TO CLOUD COMPUTING",
+      "id": "CS1660",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1666",
+      "title": "PRINCIPLES OF COMPUTER GAME DESIGN AND IMPLEMENTATION",
+      "id": "CS1666",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1671",
+      "title": "HUMAN LANGUAGE TECHNOLOGIES",
+      "id": "CS1671",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1674",
+      "title": "INTRODUCTION TO COMPUTER VISION",
+      "id": "CS1674",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1675",
+      "title": "INTRODUCTION TO MACHINE LEARNING",
+      "id": "CS1675",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1699",
+      "title": "SPECIAL TOPICS IN COMPUTER SCIENCE",
+      "id": "CS1699",
+      "levelInfo": {
+        "name": "Special Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1900",
+      "title": "INTERNSHIP",
+      "id": "CS1900",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1902",
+      "title": "DIRECTED STUDY",
+      "id": "CS1902",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1906",
+      "title": "COMPUTER SCIENCE COOPERATIVE PROGRAM",
+      "id": "CS1906",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1950",
+      "title": "DIRECTED RESEARCH",
+      "id": "CS1950",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-1980",
+      "title": "TEAM PROJECT DESIGN AND IMPLEMENTATION",
+      "id": "CS1980",
+      "levelInfo": {
+        "name": "Upper Electives",
+        "group": "ELECTIVES"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2000",
+      "title": "MS THESIS RESEARCH",
+      "id": "CS2000",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2001",
+      "title": "RESEARCH TOPICS/COMPUTER SCIENCE",
+      "id": "CS2001",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2002",
+      "title": "RESEARCH EXPERIENCE/COMPUTER SCI",
+      "id": "CS2002",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2003",
+      "title": "COMPUTER SCIENCE COLLOQUIUM",
+      "id": "CS2003",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2012",
+      "title": "ALGORITHM DESIGN",
+      "id": "CS2012",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2045",
+      "title": "INTRODUCTION TO HIGH PERFORMANCE COMPUTING SYSTEMS",
+      "id": "CS2045",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2053",
+      "title": "APPLIED CRYPTOGRAPHY AND NETWORK SECURITY",
+      "id": "CS2053",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2055",
+      "title": "DATABASE MANAGEMENT SYSTEMS",
+      "id": "CS2055",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2056",
+      "title": "INTRODUCTION TO DATA SCIENCE",
+      "id": "CS2056",
+      "levelInfo": {
+        "name": "Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2110",
+      "title": "THEORY OF COMPUTATION",
+      "id": "CS2110",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2150",
+      "title": "DESIGN & ANALYSIS OF ALGORITHMS",
+      "id": "CS2150",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2210",
+      "title": "COMPILER DESIGN",
+      "id": "CS2210",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2310",
+      "title": "SOFTWARE ENGINEERING",
+      "id": "CS2310",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2410",
+      "title": "COMPUTER ARCHITECTURE",
+      "id": "CS2410",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2510",
+      "title": "COMPUTER OPERATING SYSTEMS",
+      "id": "CS2510",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2520",
+      "title": "WIDE AREA NETWORKS",
+      "id": "CS2520",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2530",
+      "title": "COMPUTER AND NETWORK SECURITY",
+      "id": "CS2530",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2550",
+      "title": "PRINCIPLES OF DATABASE SYSTEMS",
+      "id": "CS2550",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2610",
+      "title": "INTERFACE DESIGN & EVALUATION",
+      "id": "CS2610",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2620",
+      "title": "INTERDISCIPLINARY MODELING AND VISUALIZATION",
+      "id": "CS2620",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2710",
+      "title": "FOUNDTNS OF ARTIFICIAL INTELLGNC",
+      "id": "CS2710",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2731",
+      "title": "INTRO NATURAL LANGUAGE PROCSSNG",
+      "id": "CS2731",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2750",
+      "title": "MACHINE LEARNING",
+      "id": "CS2750",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2770",
+      "title": "COMPUTER VISION",
+      "id": "CS2770",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2900",
+      "title": "GRADUATE INTERNSHIP",
+      "id": "CS2900",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2905",
+      "title": "COMPUTER SCIENCE COOPERATIVE PROGRAM",
+      "id": "CS2905",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2910",
+      "title": "MS PROJECT",
+      "id": "CS2910",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-2990",
+      "title": "INDEPENDENT STUDY",
+      "id": "CS2990",
+      "levelInfo": {
+        "name": "Upper Grad",
+        "group": "GRAD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3000",
+      "title": "RESEARCH AND DISSERTATION PHD",
+      "id": "CS3000",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3150",
+      "title": "ADV TOPCS DSGN & ANALYS ALGORTHM",
+      "id": "CS3150",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3210",
+      "title": "ADV TOPICS PROGRAMMING LANGUAGES",
+      "id": "CS3210",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3220",
+      "title": "COMPILING TECHNQS/PARALLEL SYMS",
+      "id": "CS3220",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3410",
+      "title": "ADV TOPICS COMPUTER ARCHITECTURE",
+      "id": "CS3410",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3510",
+      "title": "ADV TOPICS IN OPERATING SYSTEMS",
+      "id": "CS3510",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3525",
+      "title": "ADVANCED TOPICS IN SUCURITY AND PRIVACY",
+      "id": "CS3525",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3530",
+      "title": "ADV TOPCS DISTBD & REAL-TIME SYS",
+      "id": "CS3530",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3550",
+      "title": "ADV TOPICS IN MANAGEMENT OF DATA",
+      "id": "CS3550",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3551",
+      "title": "ADV TOPICS IN DISTBD INFOR SYS",
+      "id": "CS3551",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3570",
+      "title": "ADVANCED TOPICS IN USER INTERFACE",
+      "id": "CS3570",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3580",
+      "title": "SEM: ADV TOPC PARALLEL COMPUTING",
+      "id": "CS3580",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3650",
+      "title": "VISUAL LANGUAGES AND PROGRAMMING",
+      "id": "CS3650",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3710",
+      "title": "ADV TOPICS ARTIFICIAL INTELLGNC",
+      "id": "CS3710",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3720",
+      "title": "ADVANCED TOPICS IN INTERNET OF THINGS",
+      "id": "CS3720",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3730",
+      "title": "ADV TOPCS NATURAL LANG PROCSSNG",
+      "id": "CS3730",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3750",
+      "title": "ADV TOPICS IN MACHINE LEARNING",
+      "id": "CS3750",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3790",
+      "title": "PATTERN RECOGNITION",
+      "id": "CS3790",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/CS-3900",
+      "title": "PHD DIRECTED STUDY",
+      "id": "CS3900",
+      "levelInfo": {
+        "name": "Phd",
+        "group": "PHD"
+      }
+    },
+    {
+      "href": "http://courses.sci.pitt.edu//courses/view/FTDJ-0000",
+      "title": "FULL-TIME DISSERTATION STUDY",
+      "id": "FTDJ0000",
+      "levelInfo": ""
+    }
+  ]
 }
