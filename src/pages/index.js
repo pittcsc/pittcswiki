@@ -4,31 +4,105 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const GroupLink = ({ name, href }) => (
-  <div style={{
-    padding: '20px',
-    display: 'inline-block',
-    marginBottom: '10px'
-  }}>
-    <Link to={href}>{ name }</Link>
-  </div>
+const FrontPageLinks = [
+  {
+    title: "Classes",
+    links: [
+      {
+        name: "Courses",
+        href: "courses",
+      },
+      {
+        name: "(In Dev:) Scheduling Classes",
+        href: "",
+      },
+    ],
+  },
+  {
+    title: "Guides",
+    links: [
+      {
+        name: "Resume",
+        href: "resume",
+      },
+      {
+        name: "More Guides...",
+        href: "guide",
+      },
+    ],
+  },
+  {
+    title: "Career",
+    links: [
+      {
+        name: "(In Dev:) Interview Prep",
+        href: "",
+      },
+      {
+        name: "(In Dev:) Getting an Interview",
+        href: "",
+      },
+      {
+        name: "(In Dev:) Companies",
+        href: "",
+      },
+    ],
+  }
+]
+
+const LinkGroup = ({ spacing, header, links }) => (
+  <td
+    style={{
+      verticalAlign: "top",
+      width: spacing
+    }}
+  >
+    <div>
+      <h3>{header}</h3>
+      <ul>
+        {links.map((entry) => (
+          <li>
+            <Link to={entry.href}>{entry.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </td>
 )
+
+const LinkPanel = ({ data }) => {
+  const width_space = parseInt(100 / data.length) + '%';
+  const link_groups = data.map((entry) => (
+    <LinkGroup spacing={width_space} header={entry.title} links={entry.links} />
+  ))
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+      }}
+    >
+      <table rules="cols">
+        <tr>{link_groups}</tr>
+      </table>
+    </div>
+  )
+}
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>What can we help with?</h1>
-    <div style={{
-      display: 'flex',
-      justifyContent: 'space-between'
-    }}>
-      <GroupLink name="Courses" href="courses" />
-      <GroupLink name="(In Dev:) Scheduling Classes"/>
-      <GroupLink name="Resume" href="resume" />
-      <GroupLink name="(In Dev:) Getting an Interview" />
-      <GroupLink name="(In Dev:) Interview Prep" />
-      <GroupLink name="(In Dev:) Companies" />
-    </div>
+    <h1
+      style={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      Welcome to the Unoffical Pitt CS Wiki
+    </h1>
+    <hr />
+    <LinkPanel data={FrontPageLinks} />
+    <hr />
   </Layout>
 )
 
