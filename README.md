@@ -1,5 +1,10 @@
-# WORK IN PROGRESS
 # Pitt CS Wiki
+<div align="center">
+  <a href="https://pittcswiki.netlify.com/">
+    <img src="src/images/logo.svg" alt="Pitt CS Wiki" width="400">
+  </a>
+  <br>
+</div>
 
 ## In Development!
 Check out brainstorming on the issues page!
