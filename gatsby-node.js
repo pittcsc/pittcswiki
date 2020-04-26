@@ -9,7 +9,9 @@ const path = require(`path`)
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
-  const coursesPageTemplate = path.resolve(`src/components/templates/courses-template.js`);
+  const coursesPageTemplate = path.resolve(
+    `src/components/templates/courses-template.js`
+  )
 
   return graphql(`
     {
@@ -20,25 +22,25 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             frontmatter {
-			  path
-			  id
+              path
+              id
             }
           }
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
 
     return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-		path: node.frontmatter.path,
+        path: node.frontmatter.path,
         component: coursesPageTemplate,
         context: {
-			courseId: node.frontmatter.id,
-		}
+          courseId: node.frontmatter.id,
+        },
       })
     })
   })
