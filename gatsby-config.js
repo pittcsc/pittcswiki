@@ -43,7 +43,10 @@ module.exports = {
       options: {
         spreadsheetId: "1JsJKialTXTAEPljU9GDAJnxvsJUL3rKdNNBRvLzXcEk",
         typePrefix: "GoogleSheet",
-        credentials: GOOGLE_SERVICE_ACCOUNT_CREDENTIALS,
+        credentials:
+          typeof GOOGLE_SERVICE_ACCOUNT_CREDENTIALS === "string"
+            ? JSON.parse(GOOGLE_SERVICE_ACCOUNT_CREDENTIALS)
+            : GOOGLE_SERVICE_ACCOUNT_CREDENTIALS,
         filterNode: () => true,
         mapNode: (node) => node,
       },
