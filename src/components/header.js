@@ -3,21 +3,9 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  // gold #CDB87D
-  <header
-    style={{
-      background: `#1C2957`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+  <header className="wiki-header">
+    <div>
+      <span>
         <Link
           to="/"
           style={{
@@ -27,7 +15,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+      </span>
     </div>
   </header>
 )

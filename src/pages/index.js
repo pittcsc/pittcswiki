@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import logo from "../images/logo.svg"
+import "../styles/front-page.sass"
 
 const FrontPageLinks = [
   {
@@ -47,62 +49,38 @@ const FrontPageLinks = [
         href: "",
       },
     ],
-  }
+  },
 ]
 
-const LinkGroup = ({ spacing, header, links }) => (
-  <td
-    style={{
-      verticalAlign: "top",
-      width: spacing
-    }}
-  >
-    <div>
-      <h3>{header}</h3>
-      <ul>
-        {links.map((entry) => (
-          <li>
-            <Link to={entry.href}>{entry.name}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  </td>
+const LinkGroup = ({ header, links }) => (
+  <div className="link-group">
+    <h3>{header}</h3>
+    <ul>
+      {links.map((entry) => (
+        <li>
+          <Link to={entry.href}>{entry.name}</Link>
+        </li>
+      ))}
+    </ul>
+  </div>
 )
 
 const LinkPanel = ({ data }) => {
-  const width_space = parseInt(100 / data.length) + '%';
-  const link_groups = data.map((entry) => (
-    <LinkGroup spacing={width_space} header={entry.title} links={entry.links} />
+  const linkGroups = data.map((entry) => (
+    <LinkGroup header={entry.title} links={entry.links} />
   ))
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-      }}
-    >
-      <table rules="cols">
-        <tr>{link_groups}</tr>
-      </table>
-    </div>
-  )
+  return <div className="link-group-container">{linkGroups}</div>
 }
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1
-      style={{
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      Welcome to the Unoffical Pitt CS Wiki
-    </h1>
-    <hr />
+    <div className="intro-block">
+      <img src={logo} />
+      <h1>Pitt CS Wiki!</h1>
+    </div>
+
     <LinkPanel data={FrontPageLinks} />
-    <hr />
   </Layout>
 )
 

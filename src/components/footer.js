@@ -8,12 +8,12 @@ import { fas } from "@fortawesome/free-solid-svg-icons"
 library.add(fas)
 
 const Footer = () => (
-  // gold #CDB87D
   <footer>
     © {new Date().getFullYear()}, Made with{" "}
-    <FontAwesomeIcon icon="heart" color="red" /> by{" "}
-    <a href="https://pittcsc.org">PittCSC</a>.{` `} (Not affiliated with Pitt CS
-    Department)
+    <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
+    <a href="https://pittcsc.org">PittCSC</a>.{` `} 
+    <p>(Unaffiliated with Pitt CS
+    Department)</p>
   </footer>
 )
 
