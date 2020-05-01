@@ -59,27 +59,11 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `courses_pages`,
-        path: `${__dirname}/src/pages/courses/courses_markdown`,
+        name: `course_pages`,
+        path: `${__dirname}/src/pages/courses/markdown`,
       },
     },
-
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-external-links",
-            options: {
-              target: "_self",
-              rel: "nofollow",
-            },
-          },
-        ],
-      },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-transformer-remark`, // To learn more, visit: https://gatsby.dev/offline // this (optional) plugin enables Progressive Web App + Offline functionality
+    `gatsby-plugin-offline`,
   ],
 }

@@ -104,14 +104,14 @@ async function saveScrapedFileToFrontend() {
   await fs.writeFile(AUTOGEN_COURSE_INFO_PATH, JSON.stringify(toWrite, null, 2))
 }
 
-const markdownTemplateGen = (id, title) => `
----
+const markdownTemplateGen = (id, title) => `---
 path: "/courses/${id}"
 title: "${title}"
 id: "${id}"
 ---
 
 # Advice
+
 `
 
 async function generateMarkdownFiles() {
