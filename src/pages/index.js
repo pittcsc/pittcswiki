@@ -53,9 +53,9 @@ const FrontPageLinks = [
 ]
 
 const LinkGroup = ({ header, links }) => (
-  <div className="flex-1 bg-white border-solid border-2 border-gray-200 m-3 rounded-lg p-6">
+  <div className="flex-1 bg-white m-3 rounded-lg p-6">
     <h3>{header}</h3>
-    <ul className="list-inside">
+    <ul className="list-outside">
       {links.map((entry) => (
         <li className="text-indigo-500">
           <Link to={entry.href}>{entry.name}</Link>
@@ -69,7 +69,7 @@ const LinkPanel = ({ data }) => {
   const linkGroups = data.map((entry) => (
     <LinkGroup header={entry.title} links={entry.links} />
   ))
-  return <div className="flex flex-col md:flex-row">{linkGroups}</div>
+  return <div className="flex flex-col md:flex-row border-t">{linkGroups}</div>
 }
 
 const IndexPage = () => (
