@@ -47,7 +47,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest",
-    "scrape_courses": "node helpers/courses/course_scraper.js --save"
+    "scrape_courses": "node helpers/courses/course_scraper.js --save",
+    "generate_markdown": "node helpers/courses/course_scraper.js --generatemarkdown"
   },
   "repository": {
     "type": "git",
