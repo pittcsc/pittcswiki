@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+a {
+	@apply text-blue-500;
+
+	&:hover {
+		@apply text-blue-800;
+	}
+}
