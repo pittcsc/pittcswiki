@@ -42,9 +42,9 @@ const Header = ({ siteTitle }) => (
                        py-1 pr-4 pl-10 block w-full appearance-none
                        leading-normal ds-input"
           />
-          <div class="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
+          <div className="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
             <svg
-              class="fill-current pointer-events-none text-gray-600 w-4 h-4"
+              className="fill-current pointer-events-none text-gray-600 w-4 h-4"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               style={{ maxWidth: "30px" }}

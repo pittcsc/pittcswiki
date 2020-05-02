@@ -515,3 +515,11 @@ footer {
     margin-bottom: 0;
   }
 }
+
+.btn {
+  @apply font-semibold py-2 px-2 border rounded;
+
+  &:hover {
+    @apply bg-gray-900 text-white border-transparent;
+  }
+}
