@@ -5,15 +5,9 @@ import { cleanCourseId, cleanCourseTitle } from "../utils/course-namer"
 const Course = ({ id, title, onClick, showTitle, isSelected }) => {
   const display = showTitle ? cleanCourseTitle(title) : cleanCourseId(id)
 
-  const classes = isSelected
-    ? "bg-gray-700 border-gray-800 text-white"
-    : "border"
   return (
     <div
-      className={
-        "rounded-full border mr-4 py-2 px-4 my-1 inline-block hover:bg-gray-700 hover:border-gray-800 hover:text-white cursor-pointer " +
-        classes
-      }
+      className={"course-pill" + (isSelected ? " selected" : "")}
       onClick={onClick}
     >
       {display}
