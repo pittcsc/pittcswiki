@@ -1,29 +1,22 @@
 [{
 	"name": "Intro",
-	"description": "These are meant for non-majors or potential majors to dabble in the field of computing",
 	"courses": ["CS0008", "CS0007", "CS0010", "CS0011", "CS0012"]
 }, {
 	"name": "Core",
-	"description": "These courses are required core courses that most electives build on",
 	"courses": ["CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449"]
 }, {
 	"name": "Upper Core",
-	"description": "These are harder required upper core courses",
 	"courses": ["CS1501", "CS1502", "CS1550"]
 }, {
 	"name": "Electives",
-	"description": "These are electives! Take what interest you",
 	"courses": ["CS1509 - 1700"]
 }, {
 	"name": "Capstone",
-	"description": "These courses aim to force you to get real world expierence through internships, team projects, or internships",
 	"courses": ["CS1900", "CS1902", "CS1906", "CS1980"]
 }, {
 	"name": "Masters",
-	"description": "It is possible for undergrads to take these courses with special permission from the department",
 	"courses": ["CS1999 - 3000"]
 }, {
 	"name": "PhD",
-	"description": "These courses are probably hard",
 	"courses": ["CS2999 - 4000"]
 }]

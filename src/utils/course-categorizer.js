@@ -10,7 +10,7 @@ const applyFilter = (courseMap, filter) => {
   return Object.keys(courseMap)
     .map((id) => {
       const num = getNumFromCourseId(id)
-      if (courseMap[id] && num >= start && num <= end) {
+      if (courseMap[id].used && num >= start && num <= end) {
         courseMap[id].used = false
         return courseMap[id].data
       }
