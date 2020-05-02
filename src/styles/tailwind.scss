@@ -11,3 +11,20 @@ a {
 		@apply text-blue-800;
 	}
 }
+
+.btn {
+	@apply font-semibold py-2 px-2 border rounded;
+
+	&:hover {
+		@apply bg-gray-200 cursor-pointer;
+	}
+
+	&.btn-blue:hover {
+		@apply bg-blue-400;
+	}
+
+	&:hover a,
+	a:hover {
+		@apply text-white
+	}
+}
