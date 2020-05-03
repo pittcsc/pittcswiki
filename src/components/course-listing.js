@@ -8,10 +8,13 @@ const Course = ({ id, title, onClick, showTitle, isSelected }) => {
   return (
     <>
       <div
+        role="button"
+        tabIndex={0}
         className={
           "hidden md:inline-block course-pill" + (isSelected ? " selected" : "")
         }
         onClick={onClick}
+        onKeyDown={onClick}
       >
         {display}
       </div>
@@ -100,6 +103,9 @@ const CourseListing = ({ courseList, courseCategories }) => {
 
   return (
     <div className="">
+      <div className="hidden">
+        <CourseControls /> {/* TODO add more control for searching courses */}
+      </div>
       <p className="">Last updated {courseList.metadata.generated}</p>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="md:w-2/3">

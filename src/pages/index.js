@@ -76,7 +76,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="intro-block">
-      <img src={logo} />
+      <img src={logo} alt="Pitt CS Wiki Logo" />
       <h1>Pitt CS Wiki!</h1>
     </div>
 

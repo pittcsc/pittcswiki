@@ -20,7 +20,7 @@ const ResumePage = () => (
     <h2>Example Resumes</h2>
     <ul>
       <li>
-        <a target="_blank" href="http://zacyu.com">
+        <a target="_blank" rel="noopener noreferrer" href="http://zacyu.com">
           Zac Yu
         </a>
       </li>
