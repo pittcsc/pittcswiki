@@ -6,12 +6,22 @@ const Course = ({ id, title, onClick, showTitle, isSelected }) => {
   const display = showTitle ? cleanCourseTitle(title) : cleanCourseId(id)
 
   return (
-    <div
-      className={"course-pill" + (isSelected ? " selected" : "")}
-      onClick={onClick}
-    >
-      {display}
-    </div>
+    <>
+      <div
+        className={
+          "hidden md:inline-block course-pill" + (isSelected ? " selected" : "")
+        }
+        onClick={onClick}
+      >
+        {display}
+      </div>
+      <Link
+        className="md:hidden inline-block course-pill"
+        to={`/courses/${id}`}
+      >
+        {display}
+      </Link>
+    </>
   )
 }
 
@@ -57,11 +67,12 @@ const CourseQuickView = ({
           ? description.substring(0, 800) + "…"
           : description}
       </p>
-      <div className="btn btn-blue hover:text-white border-blue-200 p-2 text-center mt-auto">
-        <Link className="font-semibold" to={`courses/${id}`}>
-          View more details
-        </Link>
-      </div>
+      <Link
+        className="font-semibold btn btn-blue hover:text-white border-blue-200 p-2 text-center mt-auto"
+        to={`/courses/${id}`}
+      >
+        View more details
+      </Link>
     </>
   ) : (
     <h3>Click a course on the left to see details</h3>
@@ -100,7 +111,7 @@ const CourseListing = ({ courseList, courseCategories }) => {
           />
         </div>
         <div
-          className="md:w-1/3 flex flex-col sticky top-0"
+          className="md:w-1/3 hidden md:flex flex-col sticky top-0"
           style={{ height: "70vh", top: "2rem" }}
         >
           <CourseQuickView {...currentCourse} />
