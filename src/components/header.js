@@ -3,18 +3,19 @@ import PropTypes from "prop-types"
 import React from "react"
 import logo from "../images/pantherhandbook-mini.svg"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, hideLogo }) => (
   <header className="flex flex-none h-16 px-8 mb-4 pwiki-header">
     <div className="flex items-center flex-1 justify-between">
       <div className="md:flex hidden items-center">
         <Link
           to="/"
-          className="header-logo flex font-semibold pl-4 text-white uppercase items-center"
+          className="header-logo flex font-semibold text-white uppercase items-center"
         >
           <img
-            className="w-10"
-            style={{ "max-width": "50px" }}
+            className={hideLogo ? "hidden" : "w-10"}
+            style={{ maxWidth: "50px" }}
             src={logo}
+            alt=""
           ></img>
           <span className="ml-2">{siteTitle}</span>
         </Link>

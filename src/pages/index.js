@@ -73,7 +73,7 @@ const LinkPanel = ({ data }) => {
 }
 
 const IndexPage = () => (
-  <Layout>
+  <Layout hideHeaderLogo>
     <SEO title="Home" />
     <div className="intro-block">
       <img src={logo} alt="Pitt CS Wiki Logo" />
