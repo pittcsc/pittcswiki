@@ -15,7 +15,7 @@ import "../styles/tailwind.scss"
 import "../styles/layout.scss"
 import "../styles/components.scss"
 
-const Layout = ({ children, hideHeaderLogo }) => {
+const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,10 +28,7 @@ const Layout = ({ children, hideHeaderLogo }) => {
 
   return (
     <>
-      <Header
-        hideLogo={hideHeaderLogo}
-        siteTitle={data.site.siteMetadata.title}
-      />
+      <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container mx-auto">
         <main style={{}}>{children}</main>
       </div>
