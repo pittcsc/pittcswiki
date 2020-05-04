@@ -1,23 +1,24 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/pantherhandbook-mini.svg"
 
 const Header = ({ siteTitle }) => (
   <header className="flex flex-none h-16 px-8 mb-4 pwiki-header">
     <div className="flex items-center flex-1 justify-between">
-      <div className="md:flex hidden">
-        <span className="font-semibold pl-4">
-          <Link
-            to="/"
-            style={{
-              color: `white`,
-              textDecoration: `none`,
-            }}
-          >
-            {siteTitle}
-          </Link>
-        </span>
-        <nav className="flex ml-8">
+      <div className="md:flex hidden items-center">
+        <Link
+          to="/"
+          className="header-logo flex font-semibold pl-4 text-white uppercase items-center"
+        >
+          <img
+            className="w-10"
+            style={{ "max-width": "50px" }}
+            src={logo}
+          ></img>
+          <span className="ml-2">{siteTitle}</span>
+        </Link>
+        <nav className="flex ml-8 align-middle">
           <ul className="-mt-1 flex m-0">
             <li className="text-white rounded hover:bg-gray-800 mt-1 px-2">
               Courses
