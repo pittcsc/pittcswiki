@@ -1,4 +1,4 @@
-@import "vars.sass";
+@import 'vars';
 
 h1 {
   margin-left: 0;
@@ -476,16 +476,6 @@ body,
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-header {
-  background: $pittblue;
-
-  div {
-    span {
-      text-transform: uppercase
-    }
-  }
 }
 
 .content {

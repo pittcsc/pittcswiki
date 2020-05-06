@@ -4,6 +4,13 @@
 
 @import "tailwindcss/utilities";
 
+@import "vars";
+
+.bg-pittblue {
+	--bg-opacity: 1;
+	background-color: $pittblue;
+}
+
 a {
 	@apply text-blue-500;
 

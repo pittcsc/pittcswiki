@@ -2,9 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from "../images/pantherhandbook-mini.svg"
+import Search from "./search"
 
 const Header = ({ siteTitle }) => (
-  <header className="flex flex-none h-16 px-8 mb-4 pwiki-header">
+  <header className="flex flex-none h-16 px-8 mb-4 bg-pittblue pwiki-header">
     <div className="flex items-center flex-1 justify-between">
       <div className="md:flex hidden items-center">
         <Link
@@ -17,7 +18,7 @@ const Header = ({ siteTitle }) => (
             src={logo}
             alt=""
           ></img>
-          <span className="ml-2">{siteTitle}</span>
+          <span className="ml-2 uppercase">{siteTitle}</span>
         </Link>
         <nav className="flex ml-8 align-middle">
           <ul className="-mt-1 flex m-0">
@@ -35,25 +36,10 @@ const Header = ({ siteTitle }) => (
       </div>
       <div className="w-full md:w-1/3">
         <div className="relative">
-          <input
-            placeholder="Search!"
-            className="transition-colors duration-100 ease-in-out 
-                       focus:outline-0 border border-transparent 
-                       focus:bg-white focus:border-gray-300 
-                       placeholder-gray-600 rounded-sm bg-gray-200 
-                       py-1 pr-4 pl-10 block w-full appearance-none
-                       leading-normal ds-input"
+          <Search
+            collapse
+            indices={[{ name: "Pages", title: "Courses", hitComp: "PageHit" }]}
           />
-          <div className="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
-            <svg
-              className="fill-current pointer-events-none text-gray-600 w-4 h-4"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              style={{ maxWidth: "30px" }}
-            >
-              <path d="M12.9 14.32a8 8 0 1 1 1.41-1.41l5.35 5.33-1.42 1.42-5.33-5.34zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path>
-            </svg>
-          </div>
         </div>
       </div>
     </div>

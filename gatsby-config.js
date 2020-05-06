@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const GOOGLE_SERVICE_ACCOUNT_CREDENTIALS =
   process.env.GOOGLE_SERVICE_ACCOUNT_CREDENTIALS ||
   require("./google_api_secret.json")
@@ -7,6 +9,8 @@ if (!GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) {
     "No google account credentials set. Please download these or set them as an environment variable"
   )
 }
+
+const queries = require("./src/utils/algolia")
 
 module.exports = {
   siteMetadata: {
@@ -65,5 +69,14 @@ module.exports = {
     },
     `gatsby-transformer-remark`, // To learn more, visit: https://gatsby.dev/offline // this (optional) plugin enables Progressive Web App + Offline functionality
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        queries,
+        chunkSize: 1000,
+      },
+    },
   ],
 }
