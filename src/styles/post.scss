@@ -1,0 +1,15 @@
+.blog-post-container {
+	.blog-post {
+		.frontmatter {
+			@apply mb-4;
+
+			.title {
+				@apply mb-1;
+			}
+
+			.sub-title {
+				@apply mb-1;
+			}
+		}
+	}
+}
