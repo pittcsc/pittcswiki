@@ -3,7 +3,7 @@ import React from "react"
 const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
   return (
     <div className="border shadow-sm">
-      <div className="bg-pittblue flex justify-between text-white px-3 py-1">
+      <div className="bg-pittblue flex flex-col md:flex-row justify-between text-white px-3 py-1">
         <span>
           <span className="mr-4">
             <span className="text-gray-500">Term </span>

@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
 import { cleanCourseId, cleanCourseTitle } from "../utils/course-namer"
+import TermPills from "./term-pills"
 
 const Course = ({ id, title, onClick, showTitle, isSelected }) => {
   const display = showTitle ? cleanCourseTitle(title) : cleanCourseId(id)
@@ -62,9 +63,10 @@ const CourseQuickView = ({
 }) => {
   const content = id ? (
     <>
-      <h1>{cleanCourseId(id)}</h1>
-      <h2>{cleanCourseTitle(title)}</h2>
-      <p>{requirements}</p>
+      <h1 className="mb-2">{cleanCourseId(id)}</h1>
+      <h2 className="mb-2">{cleanCourseTitle(title)}</h2>
+      <TermPills termsMap={terms_offered} />
+      <p className="mt-2">{requirements}</p>
       <p className="text-xs">
         {description.length > 850
           ? description.substring(0, 800) + "…"
