@@ -18,3 +18,49 @@
 		color: #fdb61a
 	}
 }
+
+.search-results {
+	@apply shadow-xl mt-1 border rounded bg-white absolute flex-col;
+	z-index: 2;
+	left: 0;
+	right: 0;
+
+	&:before {
+		display: block;
+		position: absolute;
+		content: "";
+		width: 14px;
+		height: 14px;
+		background: #fff;
+		z-index: 1000;
+		left: calc(50% - 7px);
+		top: -8px;
+		border-top: 1px solid #e2e8f0;
+		border-right: 1px solid #e2e8f0;
+		transform: rotate(-45deg);
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+
+
+		li>div {
+			border-bottom: 1px solid #e2e8f0;
+
+			&>a {
+				@apply text-gray-800 p-3 block;
+				font-weight: bold;
+			}
+
+			&:hover {
+				@apply bg-gray-200 text-white
+			}
+
+			mark {
+				color: #253e8a;
+				background-color: #E8EAF6;
+			}
+		}
+	}
+}
