@@ -1,16 +1,17 @@
 import React from "react"
-import { Highlight, Snippet } from "react-instantsearch-dom"
+import { Highlight } from "react-instantsearch-dom"
 import { Link } from "gatsby"
 
 export const PageHit = (clickHandler) => ({ hit }) => (
   <div>
     <Link to={hit.path} onClick={clickHandler}>
-      <Highlight attribute="title" hit={hit} tagName="mark" />
+      {hit.id} - <Highlight attribute="title" hit={hit} tagName="mark" />
     </Link>
     {/* <Snippet attribute="excerpt" hit={hit} tagName="mark" /> */}
   </div>
 )
 
+// TODO Add searchable sections for other parts of the wiki once they are finished
 // export const PostHit = (clickHandler) => ({ hit }) => (
 //   <div>
 //     <Link to={hit.slug} onClick={clickHandler}>

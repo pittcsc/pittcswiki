@@ -13,6 +13,8 @@ const pageQuery = `{
 	}
   }`
 
+// TODO add more search indexs. Take CS0447 for example - add "447" and cs 447 so is better for searching
+
 const flatten = (arr) =>
   arr.map(({ frontmatter, ...rest }) => ({
     ...frontmatter,
