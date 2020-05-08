@@ -13,9 +13,9 @@ Check out brainstorming on the issues page!
 
 ## Instructions
 
-Since this fetches data from a Google Sheet, you need a Google Sheets API key to be able to run this. You can ask a CSC Officer to get you this key, which will be a JSON file you can save in the root of this project.
+You need to download an `.env` file and place it in the root of this repository to set up the appropiate environment variables.
 
-To start, run these commands
+Then to start, run these commands:
 
 ```
 yarn install
