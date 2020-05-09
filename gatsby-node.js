@@ -39,6 +39,7 @@ exports.createPages = ({ actions, graphql }) => {
               path
               id
               type
+              title
             }
             fields {
               slug
