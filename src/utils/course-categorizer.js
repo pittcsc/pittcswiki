@@ -1,5 +1,5 @@
 const getNumFromCourseId = require("./course-namer").getNumFromCourseId
-const categoriesData = require("../pages/courses/categories.json")
+const categoriesData = require("../data/categories.json")
 
 // This buckets courses into different types as specified in the
 // categories.json file required above
