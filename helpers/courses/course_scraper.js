@@ -108,20 +108,25 @@ const markdownTemplateGen = (id, title) => `---
 path: "/courses/${id}"
 title: "${title}"
 id: "${id}"
+type: "individual-course"
 ---
-
-## Advice
-
 `
 
 async function generateMarkdownFiles() {
+  // To prevent you from deleting any data, this function does not overwrite anything that already exists.
   localCourseInfo.forEach(async ({ id, title }) => {
     const filePath = path.join(COURSE_MARKDOWN_PATH, `${id}.md`)
+    let markdown = markdownTemplateGen(id, title)
     if (!fileExists(filePath)) {
       console.log(`Creating ${filePath}`)
-      const markdown = markdownTemplateGen(id, title)
-      await fs.writeFile(filePath, markdown)
+    } else {
+      console.log(`${filePath} exists - updating front matter`)
+      const text = (await fs.readFile(filePath)).toString()
+      const endOfFrontMatter = text.indexOf("---", 5) + 4
+      const textMinusOldFrontMatter = text.substring(endOfFrontMatter)
+      markdown += textMinusOldFrontMatter
     }
+    await fs.writeFile(filePath, markdown)
   })
 }
 
@@ -130,7 +135,7 @@ if (mode === "--compare") {
   scrapeSciCoursesAndGetLocal()
 } else if (mode === "--save") {
   saveScrapedFileToFrontend()
-} else if (mode === "--generatemarkdown") {
+} else if (mode === "--generatemarkdownfrontmatter") {
   generateMarkdownFiles()
 }
 
