@@ -1,17 +1,17 @@
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 
-const pageQuery = `{
-	pages: allMarkdownRemark {
-	  nodes {
-		frontmatter {
-		  id
-		  path
-		  title
-		}
-		rawMarkdownBody
-	  }
-	}
-  }`
+const pageQuery = `query CoursePageQuery {
+  pages: allMarkdownRemark(filter: {frontmatter: {type: {eq: "individual-course"}}}) {
+    nodes {
+      frontmatter {
+        id
+        path
+        title
+      }
+    }
+  }
+}
+`
 
 // TODO add more search indexs. Take CS0447 for example - add "447" and cs 447 so is better for searching
 
