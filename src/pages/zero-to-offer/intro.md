@@ -3,7 +3,7 @@ title: "Zero to Offer - Overview"
 ---
 
 Zero to Offer is a Pitt CSC 'course' aimed at arming students with the knowledge and confidence they
-need to try to land the internships they want.
+need to try to land the internships they want. These are notes from that course.
 
 > TODO: Disclaimer
 
