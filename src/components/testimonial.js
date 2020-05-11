@@ -10,7 +10,7 @@ const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
             {term} {year}
           </span>
           <span>
-            <span className="text-gray-500">Profressor </span>
+            <span className="text-gray-500">Professor </span>
             {prof}{" "}
           </span>
         </span>
