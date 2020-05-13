@@ -16,7 +16,7 @@ const FrontPageLinks = [
       },
       {
         name: "(In Dev:) Scheduling Classes",
-        href: "",
+        href: "/guides/",
       },
     ],
   },
@@ -24,25 +24,25 @@ const FrontPageLinks = [
     title: "Guides",
     links: [
       {
-        name: "Resume",
-        href: "resume",
+        name: "Study Abroad",
+        href: "/guides/study-abroad",
       },
       {
         name: "More Guides...",
-        href: "guide",
+        href: "/guides",
       },
     ],
   },
   {
-    title: "Career",
+    title: "Zero to Offer",
     links: [
       {
-        name: "(In Dev:) Interview Prep",
-        href: "",
+        name: "Introduction",
+        href: "/zero-to-offer/intro",
       },
       {
-        name: "(In Dev:) Getting an Interview",
-        href: "",
+        name: "Resume",
+        href: "/zero-to-offer/resume",
       },
       {
         name: "(In Dev:) Companies",
@@ -57,7 +57,7 @@ const LinkGroup = ({ header, links }) => (
     <h3>{header}</h3>
     <ul className="list-outside">
       {links.map((entry) => (
-        <li className="text-indigo-500">
+        <li key={entry.href} className="text-indigo-500">
           <Link to={entry.href}>{entry.name}</Link>
         </li>
       ))}
@@ -76,6 +76,15 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="intro-block">
+      <p className="mt-0 p-2 text-orange-600 bg-orange-200">
+        Under Construction -{" "}
+        <a href="https://github.com/PittCSWiki/pittcswiki.github.io/issues">
+          Add issues or suggestions here{" "}
+          <span role="img" aria-label="happy">
+            😃
+          </span>
+        </a>
+      </p>
       <img src={logo} alt="Pitt CS Wiki Logo" />
       <h1>Pitt CS Wiki!</h1>
     </div>
