@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
         </Link>
         <nav className="flex ml-8 align-middle">
           <ul className="-mt-1 flex m-0">
-            <li className="text-white rounded hover:bg-gray-800 mt-1 px-2">
+            {/* <li className="text-white rounded hover:bg-gray-800 mt-1 px-2">
               Courses
             </li>
             <li className="text-white rounded hover:bg-gray-800 mt-1 px-2">
@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
             </li>
             <li className="text-white rounded hover:bg-gray-800 mt-1 px-2">
               Resume
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

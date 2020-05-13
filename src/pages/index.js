@@ -11,12 +11,12 @@ const FrontPageLinks = [
     title: "Classes",
     links: [
       {
-        name: "Courses",
+        name: "Course Explorer",
         href: "courses",
       },
       {
-        name: "(In Dev:) Scheduling Classes",
-        href: "/guides/",
+        name: "Scheduling Classes",
+        href: "/guides/scheduling",
       },
     ],
   },
@@ -45,8 +45,8 @@ const FrontPageLinks = [
         href: "/zero-to-offer/resume",
       },
       {
-        name: "(In Dev:) Companies",
-        href: "",
+        name: "Application Process",
+        href: "/zero-to-offer/application-process",
       },
     ],
   },
