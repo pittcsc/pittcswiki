@@ -7,31 +7,31 @@
 @import "vars";
 
 .bg-pittblue {
-	--bg-opacity: 1;
-	background-color: $pittblue;
+  --bg-opacity: 1;
+  background-color: $pittblue;
 }
 
 a {
-	@apply text-blue-500;
+  @apply text-blue-500;
 
-	&:hover {
-		@apply text-blue-800;
-	}
+  &:hover {
+    @apply text-blue-800;
+  }
 }
 
 .btn {
-	@apply font-semibold py-2 px-2 border rounded;
+  @apply font-semibold py-2 px-2 border rounded;
 
-	&:hover {
-		@apply bg-gray-200 cursor-pointer;
-	}
+  &:hover {
+    @apply bg-gray-200 cursor-pointer;
+  }
 
-	&.btn-blue:hover {
-		@apply bg-blue-400;
-	}
+  &.btn-blue:hover {
+    @apply bg-blue-400;
+  }
 
-	&:hover a,
-	a:hover {
-		@apply text-white;
-	}
+  &:hover a,
+  a:hover {
+    @apply text-white;
+  }
 }
