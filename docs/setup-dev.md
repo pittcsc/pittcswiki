@@ -12,6 +12,7 @@ I recommened using VSCode and these extensions https://marketplace.visualstudio.
 5. Ask a CS Officer for the `.env` file (Stored in `Wiki > DATA > .env`). This file has private environment variables that are
 used with the site. For example
 Google Sheets API key (used for course testimonial data) and Algolia search (Aloglia the API used to make searching fast)
+  - Save this file in the root of the directory
 
 Congrats! Now, whenever you are ready to start editing the code, make sure you have the latest code by doing `git pull`. Then,
 you can do:
