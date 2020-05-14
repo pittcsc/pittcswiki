@@ -11,16 +11,7 @@
 
 Check out brainstorming on the issues page!
 
-## Instructions
-
-You need to download an `.env` file and place it in the root of this repository to set up the appropiate environment variables. You can ask a CS Officer to provide you with this.
-
-Then to start, run these commands:
-
-```
-yarn install
-yarn start
-```
+Want to contribute? Read [how to get started here](docs/setup-dev.md)
 
 ### Making Sure Wiki and SCI Courses are up to date
 
