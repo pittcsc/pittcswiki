@@ -32,7 +32,7 @@
 		width: 14px;
 		height: 14px;
 		background: #fff;
-		z-index: 1000;
+		z-index: 800;
 		left: calc(50% - 7px);
 		top: -8px;
 		border-top: 1px solid #e2e8f0;
@@ -62,5 +62,34 @@
 				background-color: #E8EAF6;
 			}
 		}
+	}
+}
+
+
+.course-graph {
+
+	text {
+		font-weight: 300;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+		font-size: 14px;
+	}
+
+	// Try to match this to the 'course-pill' object
+	// for a cleaner look
+	.node rect {
+		stroke: #999;
+		fill: #fff;
+		stroke-width: 1.5px;
+		rx: 8;
+		ry: 8;
+	}
+
+	.edgePath path {
+		stroke: #333;
+		stroke-width: 1.5px;
+	}
+
+	.edgePath.coreq path {
+		stroke-dasharray: 5, 5;
 	}
 }
