@@ -75,13 +75,11 @@
 	}
 
 	// Try to match this to the 'course-pill' object
-	// for a cleaner look
+	// for consistency?
 	.node rect {
 		stroke: #999;
 		fill: #fff;
 		stroke-width: 1.5px;
-		rx: 8;
-		ry: 8;
 	}
 
 	.edgePath path {

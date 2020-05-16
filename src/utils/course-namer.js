@@ -14,8 +14,15 @@ const cleanCourseTitle = (title) => {
   return title.replace("INTRODUCTION", "INTRO")
 }
 
+const toProperCourseId = (id) => {
+  const dept = id.replace(/\d/g, "")
+  const num = id.replace(/[a-zA-Z]/g, "").padStart(4, "0")
+  return dept + num
+}
+
 module.exports = {
   cleanCourseId,
   cleanCourseTitle,
   getNumFromCourseId,
+  toProperCourseId,
 }

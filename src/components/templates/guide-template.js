@@ -26,15 +26,6 @@ export default function Template({
             className="mt-4 blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <CourseGraph
-            reqs={[
-              ["CMP401", "CS445"],
-              ["CS445", "CS447"],
-              ["CS445", "CS449"],
-              ["CS447", "CS449", { type: "coreq" }],
-              ["CS449", "CS1501"],
-            ]}
-          />
           <Link to="/">Back to Homepage</Link>
         </div>
       </div>

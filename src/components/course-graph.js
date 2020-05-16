@@ -1,11 +1,14 @@
 import DagreGraph from "dagre-d3-react"
 import React from "react"
+import { navigate } from "gatsby"
+import { toProperCourseId } from "../utils/course-namer"
+
 /*
 Usage <CourseGraph reqs={ 
 	[
 		["CMP401", "CS445"],
-		["CS445", "CS447"]
-		["CS447", "CS449", { type: 'coreq' }]
+		["CS445", "CS447"],
+		["CS447", "CS449", { type: 'coreq' }],
 		["CS449", "CS1501"]
 	]
  }
@@ -14,7 +17,14 @@ Usage <CourseGraph reqs={
 const addNode = (id, nodeHash, nodes) => {
   if (!nodeHash[id]) {
     nodeHash[id] = true
-    nodes.push({ label: id, id: id, class: "course" })
+    nodes.push({
+      label: id,
+      id: id,
+      class: "course cursor-pointer",
+      config: {
+        width: 50,
+      },
+    })
   }
 }
 
@@ -40,15 +50,16 @@ export default ({ reqs }) => {
       links={links}
       options={{
         rankdir: "LR",
+        align: "UL",
+        ranker: "tight-tree",
       }}
-      width="500"
       height="500"
-      animate={1000}
+      width="500"
       shape="rect"
-      fitBoundaries
-      className="course-graph"
-      onNodeClick={(e) => console.log(e)}
-      onRelationshipClick={(e) => console.log(e)}
+      className="course-graph mx-auto"
+      onNodeClick={({ original: { id } }) => {
+        navigate(`/courses/${toProperCourseId(id)}`)
+      }}
     />
   )
 }
