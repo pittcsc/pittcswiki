@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Breadcrumb from "../components/breadcrumb"
 import { Link, graphql } from "gatsby"
 
 const GuidesListing = ({ posts }) => {
@@ -18,6 +19,7 @@ const GuidesListing = ({ posts }) => {
 const GuidesPage = ({ data: { guides, interactiveGuides } }) => (
   <Layout>
     <SEO title="Guides" />
+    <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
     <p>
       A collection of guides written by Pitt CS members aimed to help! Let us
@@ -32,7 +34,6 @@ const GuidesPage = ({ data: { guides, interactiveGuides } }) => (
         <Link to="/zero-to-offer/intro">Learn more</Link>
       </p>
     </div>
-    <Link to="/">Homepage</Link>
   </Layout>
 )
 

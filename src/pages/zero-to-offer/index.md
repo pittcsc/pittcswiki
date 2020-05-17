@@ -1,5 +1,7 @@
 ---
 title: "Zero to Offer - Overview"
+redirect_from:
+	- /zero-to-offer/intro
 ---
 
 Zero to Offer is a Pitt CSC 'course' aimed at arming students with the knowledge and confidence they

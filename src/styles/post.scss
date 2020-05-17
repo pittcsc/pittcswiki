@@ -1,23 +1,25 @@
 .blog-post-container {
-	.blog-post {
-		.frontmatter {
-			@apply mb-4;
+  .blog-post {
+    @apply mb-1;
 
-			.title {
-				@apply mb-1;
-			}
+    .frontmatter {
+      @apply mb-4;
 
-			.sub-title {
-				@apply mb-1;
-			}
-		}
+      .title {
+        @apply mb-1;
+      }
 
-		.date {
-			@apply text-sm text-gray-600 text-right;
-		}
+      .sub-title {
+        @apply mb-1;
+      }
+    }
 
-		.label {
-			@apply font-bold mr-2;
-		}
-	}
+    .date {
+      @apply text-sm text-gray-600 text-right;
+    }
+
+    .label {
+      @apply font-bold mr-2;
+    }
+  }
 }
