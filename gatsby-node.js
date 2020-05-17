@@ -9,7 +9,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
+  if (`MarkdownRemark|Mdx`.includes(node.internal.type)) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
     createNodeField({
       node,
@@ -21,14 +21,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
-  const coursesPageTemplate = path.resolve(
-    `src/components/templates/courses-template.js`
-  )
-
-  const guidePagesTemplate = path.resolve(
-    "src/components/templates/guide-template.js"
-  )
 
   return graphql(`
     {
@@ -47,17 +39,29 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      allMdx {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+          }
+        }
+      }
     }
   `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
 
-    return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       if (node.frontmatter && node.frontmatter.type === "individual-course") {
         createPage({
           path: node.frontmatter.path,
-          component: coursesPageTemplate,
+          component: path.resolve(
+            `src/components/templates/courses-template.js`
+          ),
           context: {
             courseId: node.frontmatter.id,
           },
@@ -71,7 +75,7 @@ exports.createPages = ({ actions, graphql }) => {
         }
         createPage({
           path: node.fields.slug,
-          component: guidePagesTemplate,
+          component: path.resolve("src/components/templates/guide-template.js"),
           context: {
             // Data passed to context is available
             // in page queries as GraphQL variables.
