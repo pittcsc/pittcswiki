@@ -77,7 +77,6 @@ export default function Template({
               googleSheetData={allGoogleSheetCourseTestimonials}
             />
           </div>
-          <Link to="/">Back to Homepage</Link>
         </div>
       </div>
     </Layout>

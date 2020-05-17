@@ -40,7 +40,6 @@ export default function Template({
               )}
             </div>
             {children}
-            <Link to="/">Back to Homepage</Link>
           </div>
         </div>
       </Layout>

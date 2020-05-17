@@ -35,7 +35,6 @@ export default function Template({
           {gitAuthorTime && !gitAuthorTime.includes("Invalid") && (
             <div className="date">Last updated: {gitAuthorTime}</div>
           )}
-          <Link to="/">Back to Homepage</Link>
         </div>
       </div>
     </Layout>
