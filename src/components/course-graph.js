@@ -38,8 +38,6 @@ export default ({ reqs }) => {
       target: req[1],
       class: req[2] ? req[2].type : "prereq",
     }
-    addNode(link.source, nodeHash, nodes)
-    addNode(link.target, nodeHash, nodes)
     links.push(link)
   })
   console.log(nodes)
