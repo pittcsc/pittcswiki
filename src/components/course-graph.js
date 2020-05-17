@@ -40,8 +40,8 @@ export default ({ reqs }) => {
     }
     links.push(link)
   })
-  console.log(nodes)
-  console.log(links)
+  addNode(link.source, nodeHash, nodes)	
+  addNode(link.target, nodeHash, nodes)
   return (
     <DagreGraph
       nodes={nodes}
