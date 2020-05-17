@@ -7,7 +7,9 @@ like "Path through CS".
 
 Some guides are more refined, and deserve their own folder. Like, the `Zero to Offer` set.
 
-We write them in Markdown, but with MDX (https://www.gatsbyjs.org/docs/mdx/), we can have _interactive_ parts of our guide, which is really cool.
+We write them in Markdown.
+
+(With MDX (https://www.gatsbyjs.org/docs/mdx/), we can have _interactive_ parts of our guide, which is really cool. Read more about that [here](/docs/how-to-create-an-interactive-guide.md)
 
 To add a guide, open a PR, and create an appropiate markdown file in the `pages` folder.
 
