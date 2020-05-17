@@ -16,7 +16,7 @@ https://github.com/gatsbyjs/gatsby/issues/16224
 
 const shortcodes = { CourseGraph }
 
-export default function Template({ children, pathContext: { frontmatter } }) {
+export default function Template({ children, pageContext: { frontmatter } }) {
   return (
     <MDXProvider components={shortcodes}>
       <Layout>

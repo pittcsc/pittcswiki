@@ -1,93 +1,99 @@
 .course-pill {
-	@apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer w-24 text-center;
-	width: 6.3rem;
+  @apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer w-24 text-center;
+  width: 6.3rem;
 
-	&:focus {
-		outline: none;
-		box-shadow: none;
-	}
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
-	&:hover,
-	&.selected {
-		@apply bg-gray-700 border-gray-800 text-white;
-	}
+  &:hover,
+  &.selected {
+    @apply bg-gray-700 border-gray-800 text-white;
+  }
 }
 
 .header-logo {
-	&:hover span {
-		color: #fdb61a
-	}
+  &:hover span {
+    color: #fdb61a;
+  }
 }
 
 .search-results {
-	@apply shadow-xl mt-1 border rounded bg-white absolute flex-col;
-	z-index: 2;
-	left: 0;
-	right: 0;
+  @apply shadow-xl mt-1 border rounded bg-white absolute flex-col;
+  z-index: 2;
+  left: 0;
+  right: 0;
 
-	&:before {
-		display: block;
-		position: absolute;
-		content: "";
-		width: 14px;
-		height: 14px;
-		background: #fff;
-		z-index: 800;
-		left: calc(50% - 7px);
-		top: -8px;
-		border-top: 1px solid #e2e8f0;
-		border-right: 1px solid #e2e8f0;
-		transform: rotate(-45deg);
-	}
+  &:before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    z-index: 800;
+    left: calc(50% - 7px);
+    top: -8px;
+    border-top: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    transform: rotate(-45deg);
+  }
 
-	ul {
-		list-style-type: none;
-		margin: 0;
+  ul {
+    list-style-type: none;
+    margin: 0;
 
+    li > div {
+      border-bottom: 1px solid #e2e8f0;
 
-		li>div {
-			border-bottom: 1px solid #e2e8f0;
+      & > a {
+        @apply text-gray-800 p-3 block;
+        font-weight: bold;
+      }
 
-			&>a {
-				@apply text-gray-800 p-3 block;
-				font-weight: bold;
-			}
+      &:hover {
+        @apply bg-gray-200 text-white;
+      }
 
-			&:hover {
-				@apply bg-gray-200 text-white
-			}
-
-			mark {
-				color: #253e8a;
-				background-color: #E8EAF6;
-			}
-		}
-	}
+      mark {
+        color: #253e8a;
+        background-color: #e8eaf6;
+      }
+    }
+  }
 }
 
-
 .course-graph {
+  text {
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+    font-size: 14px;
+  }
 
-	text {
-		font-weight: 300;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
-		font-size: 14px;
-	}
+  // Try to match this to the 'course-pill' object
+  // for consistency?
+  .node rect {
+    stroke: #999;
+    fill: #fff;
+    stroke-width: 1.5px;
+  }
 
-	// Try to match this to the 'course-pill' object
-	// for consistency?
-	.node rect {
-		stroke: #999;
-		fill: #fff;
-		stroke-width: 1.5px;
-	}
+  .edgePath path {
+    stroke: #333;
+    stroke-width: 1.5px;
+  }
 
-	.edgePath path {
-		stroke: #333;
-		stroke-width: 1.5px;
-	}
+  .edgePath.coreq path {
+    stroke-dasharray: 5, 5;
+  }
 
-	.edgePath.coreq path {
-		stroke-dasharray: 5, 5;
-	}
+  .node:hover {
+    text {
+      fill: white;
+    }
+    rect {
+      fill: #333;
+    }
+  }
 }

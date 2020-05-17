@@ -72,6 +72,8 @@ const LinkPanel = ({ data }) => {
   return <div className="flex flex-col md:flex-row border-t">{linkGroups}</div>
 }
 
+// TODO - update this page to look less bland.
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
