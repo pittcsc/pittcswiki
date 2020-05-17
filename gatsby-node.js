@@ -6,6 +6,7 @@
 
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { execSync } = require("child_process")
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -15,6 +16,17 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       name: `slug`,
       value: slug,
+    })
+
+    // https://angelos.dev/2019/09/add-support-for-modification-times-in-gatsby/
+    const gitAuthorTime = execSync(
+      `git log -1 --pretty=format:%aI ${node.fileAbsolutePath}`
+    ).toString()
+
+    createNodeField({
+      node,
+      name: "gitAuthorTime",
+      value: gitAuthorTime,
     })
   }
 }

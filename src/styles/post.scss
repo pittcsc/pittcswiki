@@ -12,6 +12,10 @@
 			}
 		}
 
+		.date {
+			@apply text-sm text-gray-600 text-right;
+		}
+
 		.label {
 			@apply font-bold mr-2;
 		}

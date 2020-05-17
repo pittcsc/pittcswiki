@@ -14,6 +14,10 @@ use.
 https://github.com/gatsbyjs/gatsby/issues/16224
 */
 
+// Unlike the 'guide template', this does not have access to
+// other GraphQL queries. To fix that, we would need to figure out
+// how to create MDX pages with the Gatbsy createPage API.
+
 const shortcodes = { CourseGraph }
 
 export default function Template({ children, pageContext: { frontmatter } }) {
@@ -28,9 +32,6 @@ export default function Template({ children, pageContext: { frontmatter } }) {
               {frontmatter.subtitle && (
                 <h2 className="sub-title">{frontmatter.subtitle}</h2>
               )}
-              <i className="date">
-                This page was last updated on todo issue #64
-              </i>
             </div>
             {children}
             <Link to="/">Back to Homepage</Link>

@@ -3,15 +3,21 @@ import { graphql, Link } from "gatsby"
 import Layout from "../layout"
 import SEO from "../seo"
 
+// This template is used for regular plain Markdown files. Look at mdx-guide-template
+// guides that use MDX!
+
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data: { markdownRemark }, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const {
+    frontmatter,
+    html,
+    fields: { gitAuthorTime },
+  } = markdownRemark
 
   return (
     <Layout>
-      <SEO title={"Guide"} />
+      <SEO title={frontmatter.title} />
       <div className="blog-post-container">
         <div className="blog-post">
           <div className="frontmatter">
@@ -19,12 +25,12 @@ export default function Template({
             {frontmatter.subtitle && (
               <h2 className="sub-title">{frontmatter.subtitle}</h2>
             )}
-            <i className="date">This page was last updated on todo issue #64</i>
           </div>
           <div
             className="mt-4 blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <div className="date">Last updated: {gitAuthorTime}</div>
           <Link to="/">Back to Homepage</Link>
         </div>
       </div>
@@ -38,6 +44,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+      }
+      fields {
+        gitAuthorTime(formatString: "MMM Do YYYY")
       }
     }
   }
