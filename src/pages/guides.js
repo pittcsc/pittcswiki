@@ -23,7 +23,8 @@ const GuidesPage = ({ data: { guides, interactiveGuides } }) => (
     <h1>Guides</h1>
     <p>
       A collection of guides written by Pitt CS members aimed to help! Let us
-      know if there is something you are curious about but cannot find!
+      know if there is something you are curious about but cannot find! TODO -
+      this page needs to be updated
     </p>
     <GuidesListing posts={guides.nodes.concat(interactiveGuides.nodes)} />
     <div>
