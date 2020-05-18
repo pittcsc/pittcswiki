@@ -1,6 +1,8 @@
+const { cleanCourseId, getNumFromCourseId } = require("./course-namer")
+
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 
-const pageQuery = `query CoursePageQuery {
+const courseQuery = `query CoursePageQuery {
   pages: allMarkdownRemark(filter: {frontmatter: {type: {eq: "individual-course"}}}) {
     nodes {
       frontmatter {
@@ -13,21 +15,67 @@ const pageQuery = `query CoursePageQuery {
 }
 `
 
-// TODO add more search indexs. Take CS0447 for example - add "447" and cs 447 so is better for searching
+// TODO consider adding more stuff in here to search for.
 
-const flatten = (arr) =>
-  arr.map(({ frontmatter, ...rest }) => ({
-    ...frontmatter,
-    ...rest,
-  }))
-const settings = { attributesToSnippet: [`excerpt:20`] }
+const guidesQuery = `{
+  pages: allMarkdownRemark(filter: {frontmatter: {type: {ne: "individual-course"}}}) {
+    nodes {
+      id
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+        search_tags
+      }
+    }
+  }
+  mdxpages: allMdx {
+    nodes {
+      id
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+  }
+}`
+
+const addCourseTags = (arr) =>
+  arr.map(({ frontmatter, ...rest }) => {
+    const id = frontmatter.id
+    const cleanId = cleanCourseId(id)
+    const courseNumber = getNumFromCourseId(id)
+    const searchData = {
+      ...frontmatter,
+      ...rest,
+      cleanId,
+      courseNumber,
+    }
+    return searchData
+  })
 
 const queries = [
   {
-    query: pageQuery,
-    transformer: ({ data }) => flatten(data.pages.nodes),
-    indexName: `Pages`,
-    settings,
+    query: guidesQuery,
+    indexName: "Guides",
+    settings: { hitsPerPage: 10 },
+    transformer: ({ data }) =>
+      data.pages.nodes
+        .concat(data.mdxpages.nodes)
+        .map(({ id, fields: { slug }, frontmatter }) => ({
+          ...frontmatter,
+          slug,
+          id,
+        })),
+  },
+  {
+    query: courseQuery,
+    transformer: ({ data }) => addCourseTags(data.pages.nodes),
+    indexName: `Courses`,
+    settings: { attributesToSnippet: [`excerpt:20`], hitsPerPage: 4 },
   },
 ]
 

@@ -74,9 +74,7 @@ export default function Search({ indices, collapse }) {
       <HitsWrapper show={query.length > 0 && focus}>
         {indices.map(({ name, title, hitComp }) => (
           <Index key={name} indexName={name}>
-            <div>
-              <div className="text-xl mb-0 pl-3 pt-3 border-b">{title}</div>
-            </div>
+            <div className="text-xl mb-0 pl-3 pt-3 border-b">{title}</div>
             <Results>
               <Hits hitComponent={hitComps[hitComp](() => setFocus(false))} />
             </Results>

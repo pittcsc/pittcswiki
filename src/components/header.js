@@ -38,7 +38,10 @@ const Header = ({ siteTitle }) => (
         <div className="relative">
           <Search
             collapse
-            indices={[{ name: "Pages", title: "Courses", hitComp: "PageHit" }]}
+            indices={[
+              { name: "Guides", title: "Guides", hitComp: "GuideHit" },
+              { name: "Courses", title: "Courses", hitComp: "CourseHit" },
+            ]}
           />
         </div>
       </div>

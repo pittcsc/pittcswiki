@@ -2,12 +2,20 @@ import React from "react"
 import { Highlight } from "react-instantsearch-dom"
 import { Link } from "gatsby"
 
-export const PageHit = (clickHandler) => ({ hit }) => (
+export const CourseHit = (clickHandler) => ({ hit }) => (
   <div>
     <Link to={hit.path} onClick={clickHandler}>
       {hit.id} - <Highlight attribute="title" hit={hit} tagName="mark" />
     </Link>
     {/* <Snippet attribute="excerpt" hit={hit} tagName="mark" /> */}
+  </div>
+)
+
+export const GuideHit = (clickHandler) => ({ hit }) => (
+  <div>
+    <Link to={hit.slug} onClick={clickHandler}>
+      <Highlight attribute="title" hit={hit} tagName="mark" />
+    </Link>
   </div>
 )
 
