@@ -12,7 +12,7 @@ const Footer = () => (
     © {new Date().getFullYear()}, Made with{" "}
     <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
     <a href="https://pittcsc.org">PittCSC</a>.{` `}
-    <p>(Unaffiliated with Pitt CS Department)</p>
+    <p>(Not affiliated with Pitt CS Department)</p>
   </footer>
 )
 
