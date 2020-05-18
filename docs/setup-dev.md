@@ -1,6 +1,9 @@
 # How to get started developing!
 
-If you are curious about how this project works and want to become a serious contributer - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/) 
+If you want to just contribute text - you can just follow this page. You only have to do this if you want to add new
+functionality or interactive elements.!
+
+## Set up
 
 I recommened using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
 
@@ -21,9 +24,13 @@ you can do:
 yarn start
 ```
 
-Now, you can open up localhost:8000 in your web browser!
+This might take 10ish minutes the first time you do this, but then it will be faster. Eventually, you can open up localhost:8000 in your web browser!
 
 `src/pages` is the folder where all of the website routes live. For example, `localhost:8000/courses` corresponds to 
-the page defined in `src/page/courses.js`.
+the page defined in `src/page/courses.js`. 
+
+Markdown files are converted to HTML pages with the `src/components/templates/guides-template` file.  Read more about guides
+
+If you are curious about how this project works and want to become a serious contributer - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/) 
 
 Thanks for contributing!
