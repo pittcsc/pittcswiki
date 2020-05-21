@@ -1,9 +1,10 @@
-# How to get started developing!
+# How to contribute!
 
-If you want to just contribute text - you can just follow this page. You only have to do this if you want to add new
-functionality or interactive elements.!
+## If you want to just contribute a guide, add text - it is much easier - [read here](docs/setup-dev.md)
 
-## Set up
+You only have to do below if you want to add new functionality with Javascript!
+
+## Set up deb
 
 I recommened using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
 
@@ -12,7 +13,7 @@ I recommened using VSCode and these extensions https://marketplace.visualstudio.
 2. Download yarn: `npm install -g yarn`
 3. Clone this directory - `git clone https://github.com/PittCSWiki/pittcswiki.github.io.git`
 4. `yarn install`
-5. Ask a CS Officer for the `.env` file (Stored in `Wiki > DATA > .env`). This file has private environment variables that are
+5. Ask a CS Officer for the `.env` file (Stored in `PittCSC Folder > Wiki > DATA > .env`). This file has private environment variables that are
 used with the site. For example
 Google Sheets API key (used for course testimonial data) and Algolia search (Aloglia the API used to make searching fast)
   - Save this file in the root of the directory
