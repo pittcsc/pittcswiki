@@ -13,6 +13,9 @@ const Footer = () => (
     <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
     <a href="https://pittcsc.org">PittCSC</a>.{` `}
     <p>(Not affiliated with Pitt CS Department)</p>
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" />
+  </a>
   </footer>
 )
 
