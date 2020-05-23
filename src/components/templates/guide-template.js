@@ -13,7 +13,6 @@ export default function Template({
     html,
     fields: { gitAuthorTime, slug },
   } = markdownRemark
-  console.log(title, is_index_page)
   return (
     <BlogPostLayout
       {...{

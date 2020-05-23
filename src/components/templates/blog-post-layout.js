@@ -44,8 +44,6 @@ const GITHUB_BASE_URL = `https://github.com/PittCSWiki/pittcswiki.github.io/tree
 const EditOnGithub = ({ fileType, slug, isIndexPage }) => {
   const parts = slug.split("/").filter((s) => s)
   let githubFileLink = parts.join("/")
-  console.log(slug)
-  console.log(isIndexPage)
   if (isIndexPage) {
     githubFileLink += "/index"
   }
