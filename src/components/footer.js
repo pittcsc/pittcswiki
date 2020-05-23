@@ -28,7 +28,7 @@ const Footer = () => (
 const NetlifySvg = (
   <svg width="114px" height="51px" version="1.1">
     <defs>
-      <rect id="path-1" x="0" y="0" j width="114" height="51" rx="4"></rect>
+      <rect id="path-1" x="0" y="0" width="114" height="51" rx="4"></rect>
       <mask
         id="mask-2"
         maskContentUnits="userSpaceOnUse"

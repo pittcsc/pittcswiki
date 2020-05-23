@@ -32,14 +32,16 @@ export default ({ slug }) => {
 
   const breadcrumbs = urls.map((url, i) => {
     return i < urls.length - 1 ? (
-      <>
-        <Link className="uppercase" to={url} key={`breadcrumb_${i}`}>
+      <span key={`breadcrumb_${url}`}>
+        <Link className="uppercase" to={url}>
           {displayNames[i]}
         </Link>
         {i < urls.length - 1 && arrowSvg}
-      </>
+      </span>
     ) : (
-      <span className="uppercase">{displayNames[i]}</span>
+      <span className="uppercase" key={`breadcrumb_${url}`}>
+        {displayNames[i]}
+      </span>
     )
   })
 

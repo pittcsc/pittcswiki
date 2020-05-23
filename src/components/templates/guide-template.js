@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../layout"
-import SEO from "../seo"
-import Breadcrumb from "../breadcrumb"
+import BlogPostLayout from "./blog-post-layout"
 
 // This template is used for regular plain Markdown files. Look at mdx-guide-template
 // guides that use MDX!
@@ -11,35 +9,31 @@ export default function Template({
   data: { markdownRemark }, // this prop will be injected by the GraphQL query below.
 }) {
   const {
-    frontmatter,
+    frontmatter: { title, subtitle, is_index_page },
     html,
     fields: { gitAuthorTime, slug },
   } = markdownRemark
-
+  console.log(title, is_index_page)
   return (
-    <Layout>
-      <SEO title={frontmatter.title} />
-      <Breadcrumb slug={slug} />
-      <div className="blog-post-container">
-        <div className="blog-post">
-          <div className="frontmatter">
-            <h1 className="title">{frontmatter.title}</h1>
-            {frontmatter.subtitle && (
-              <h2 className="sub-title">{frontmatter.subtitle}</h2>
-            )}
-          </div>
-          <div
-            className="mt-4 blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          {gitAuthorTime && !gitAuthorTime.includes("Invalid") && (
-            <div className="date">Last updated: {gitAuthorTime}</div>
-          )}
-        </div>
-      </div>
-    </Layout>
+    <BlogPostLayout
+      {...{
+        title,
+        subtitle,
+        is_index_page,
+        gitAuthorTime,
+        slug,
+        fileType: ".md",
+      }}
+    >
+      <div
+        className="mt-4 blog-post-content"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </BlogPostLayout>
   )
 }
+
+// TODO is_index_page is ugly way to do this. Related to #82
 
 export const pageQuery = graphql`
   query($slug: String!) {
@@ -47,6 +41,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        subtitle
+        is_index_page
       }
       fields {
         slug

@@ -1,6 +1,6 @@
 .blog-post-container {
   .blog-post {
-    @apply mb-1;
+    @apply mb-6;
 
     .frontmatter {
       @apply mb-4;
@@ -12,10 +12,6 @@
       .sub-title {
         @apply mb-1;
       }
-    }
-
-    .date {
-      @apply text-sm text-gray-600 text-right;
     }
 
     .label {

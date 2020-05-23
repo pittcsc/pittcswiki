@@ -1,5 +1,6 @@
 ---
 title: "CS + Another Minor"
+is_index_page: true
 ---
 
 Interested in other minors?

@@ -1,5 +1,6 @@
 ---
 title: "Zero to Offer - Overview"
+is_index_page: true
 redirect_from:
 	- /zero-to-offer/intro
 ---

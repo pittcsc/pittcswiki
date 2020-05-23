@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container mx-auto">
-        <main style={{}}>{children}</main>
+        <main>{children}</main>
       </div>
       <Footer />
     </>

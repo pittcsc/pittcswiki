@@ -1,9 +1,7 @@
 import React from "react"
-import Layout from "../layout"
-import SEO from "../seo"
+import BlogPostLayout from "./blog-post-layout"
 import CourseGraph from "../course-graph"
 import { MDXProvider } from "@mdx-js/react"
-import Breadcrumb from "../breadcrumb"
 
 /* 
 Read more about MDX (Markdown X) here 
@@ -23,25 +21,21 @@ const shortcodes = { CourseGraph }
 export default function Template({
   path,
   children,
-  pageContext: { frontmatter },
+  pageContext: {
+    frontmatter: { title, subtitle, redirect_from },
+  },
 }) {
   return (
-    <MDXProvider components={shortcodes}>
-      <Layout>
-        <SEO title={frontmatter.title} />
-        <Breadcrumb slug={path} />
-        <div className="blog-post-container">
-          <div className="blog-post">
-            <div className="frontmatter">
-              <h1 className="title">{frontmatter.title}</h1>
-              {frontmatter.subtitle && (
-                <h2 className="sub-title">{frontmatter.subtitle}</h2>
-              )}
-            </div>
-            {children}
-          </div>
-        </div>
-      </Layout>
-    </MDXProvider>
+    <BlogPostLayout
+      {...{
+        title,
+        subtitle,
+        redirect_from,
+        slug: path,
+        fileType: ".mdx",
+      }}
+    >
+      <MDXProvider components={shortcodes}>{children}</MDXProvider>
+    </BlogPostLayout>
   )
 }
