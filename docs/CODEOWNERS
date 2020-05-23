@@ -2,7 +2,7 @@
 # the repo. Unless a later match takes precedence,
 # they will be requested for
 # review when someone opens a pull request.
-*       @varughese @azharichenko @rohit-ganguly
+src/pages/*       @varughese @azharichenko @rohit-ganguly
 
 # Order is important; the last matching pattern takes the most
 # precedence. When someone opens a pull request that only
