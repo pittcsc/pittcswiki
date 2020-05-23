@@ -27,6 +27,8 @@ yarn start
 
 This might take 10ish minutes the first time you do this, but then it will be faster. Eventually, you can open up localhost:8000 in your web browser!
 
+It is likely you will run into caching issues when developing! This is when you make a change, but you can't see it show up. Open up the developer tools, click the Network tab, and then click disable cache (follow [here](https://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development) fro instructions). You can try hard reloading. Also going in the developer tools, then going to Application -> Clear storage, clear site data will help!
+
 `src/pages` is the folder where all of the website routes live. For example, `localhost:8000/courses` corresponds to 
 the page defined in `src/page/courses.js`. 
 
