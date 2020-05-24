@@ -187,7 +187,7 @@ export default function FeedbackWidget() {
       <div
         className={
           formState === States.THANK_YOU
-            ? "bg-green-400 p-4 text-green-800"
+            ? "bg-pink-400 p-4 text-pink-900"
             : "hidden"
         }
       >
