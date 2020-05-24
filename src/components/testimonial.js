@@ -2,26 +2,28 @@ import React from "react"
 
 const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
   return (
-    <div className="border shadow-sm">
-      <div className="bg-pittblue flex flex-col md:flex-row justify-between text-white px-3 py-1">
+    <div className="border shadow-sm mb-4">
+      <div className="bg-gray-100 flex flex-col md:flex-row justify-between text-gray-900 px-3 py-1 border-b">
         <span>
           <span className="mr-4">
             <span className="text-gray-500">Term </span>
-            {term} {year}
+            <span className="font-bold">
+              {term} {year}
+            </span>
           </span>
           <span>
             <span className="text-gray-500">Professor </span>
-            {prof}{" "}
+            <span className="font-bold"> {prof} </span>
           </span>
         </span>
         <span>
           <span className="mr-4">
             <span className="text-gray-500">Difficulty </span>
-            {difficulty}/5
+            <span className="font-bold">{difficulty}/5</span>
           </span>
           <span>
             <span className="text-gray-500">Quality </span>
-            {quality}/5
+            <span className="font-bold">{quality}/5</span>
           </span>
         </span>
       </div>

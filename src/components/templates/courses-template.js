@@ -93,7 +93,10 @@ export const pageQuery = graphql`
         id
       }
     }
-    allGoogleSheetCourseTestimonials(filter: { courseId: { eq: $courseId } }) {
+    allGoogleSheetCourseTestimonials(
+      filter: { courseId: { eq: $courseId } }
+      sort: { fields: year, order: DESC }
+    ) {
       edges {
         node {
           courseId
