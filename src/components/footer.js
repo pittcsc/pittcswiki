@@ -8,7 +8,7 @@ library.add(fas)
 config.autoAddCss = false
 
 const Footer = () => (
-  <footer className="flex">
+  <footer className="hidden md:flex">
     <div className="m-auto text-gray-500">
       © {new Date().getFullYear()}, Built with{" "}
       <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
