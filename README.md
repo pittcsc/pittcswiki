@@ -1,4 +1,5 @@
 # Pitt CS Wiki (Major Work in Progress)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/414d5550-2260-420c-ad71-7efab98f99e0/deploy-status)](https://app.netlify.com/sites/pittcswiki/deploys) 
 
 <div align="center">
   <a href="https://pittcswiki.netlify.com/">
