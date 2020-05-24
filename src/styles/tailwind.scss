@@ -11,6 +11,11 @@
   background-color: $pittblue;
 }
 
+.bg-pittgold {
+  --bg-opacity: 1;
+  background-color: $pittgold;
+}
+
 a {
   @apply text-blue-500;
 

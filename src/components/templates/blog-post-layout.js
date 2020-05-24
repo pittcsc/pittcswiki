@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../layout"
 import SEO from "../seo"
 import Breadcrumb from "../breadcrumb"
+import FeedbackWidget from "../feedback"
 
 export default function BlogPostLayout({
   title,
@@ -23,6 +24,9 @@ export default function BlogPostLayout({
             {subtitle && <h2 className="sub-title">{subtitle}</h2>}
           </div>
           {children}
+          <div className="my-8 text-center sm:w-full md:w-auto">
+            <FeedbackWidget />
+          </div>
           <div className="flex justify-between text-sm text-gray-600">
             <EditOnGithub
               fileType={fileType}
@@ -53,7 +57,7 @@ const EditOnGithub = ({ fileType, slug, isIndexPage }) => {
   return (
     <a
       target="_blank"
-      className="text-gray-600"
+      className="text-gray-600 hidden md:inline"
       rel="noopener noreferrer"
       href={gitHubLink}
     >
