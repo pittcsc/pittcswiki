@@ -104,11 +104,25 @@
     @apply h-24 w-1/3 border bg-gray-200 p-3 text-center cursor-pointer relative;
 
     .face-icon {
-      @apply h-10 text-gray-500 block m-auto mb-2;
+      @apply h-10 text-gray-500 block m-auto mb-2 ease-out duration-300;
     }
 
     input[type="radio"] {
       @apply absolute top-0 bottom-0 left-0 right-0 w-full h-full opacity-0 cursor-pointer;
+    }
+
+    &:hover {
+      .fa-meh {
+        transform: rotate(34deg);
+      }
+
+      .fa-smile {
+        transform: translate(0px, -20px);
+      }
+
+      .fa-frown {
+        transform: translate(0px, 10px);
+      }
     }
 
     &.active {

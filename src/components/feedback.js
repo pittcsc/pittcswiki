@@ -25,7 +25,7 @@ const FeedbackTitle = ({ onClick, show }) => (
   <button
     onClick={onClick}
     className={
-      "p-2 w-full md:w-1/3 border bg-pittgold shadow-sm " +
+      "p-2 w-full md:w-1/3 border bg-pittgold shadow-sm hover:shadow-xl hover:bg-gray-800 hover:text-white " +
       (show ? "" : "hidden")
     }
   >
@@ -34,7 +34,7 @@ const FeedbackTitle = ({ onClick, show }) => (
 )
 
 const FeedbackForm = ({ setFormState, show }) => {
-  const [state, setState] = React.useState({})
+  const [state, setState] = React.useState({ location: window.location })
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value })
@@ -74,6 +74,12 @@ const FeedbackForm = ({ setFormState, show }) => {
             <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
+        <input
+          hidden
+          name="location"
+          value={window.location}
+          onChange={handleChange}
+        />
         <div
           style={{ bottom: "60px" }}
           className="absolute flex flex-col justify-between border bg-white shadow-md h-64 p-3 w-full"
@@ -151,13 +157,16 @@ const FeedbackForm = ({ setFormState, show }) => {
         <div className="w-full flex justify-between">
           <button
             type="button"
-            className="p-2 border bg-gray-200"
+            className="p-2 border bg-gray-200 hover:bg-gray-800 hover:text-white"
             onClick={() => setFormState(States.DOC)}
           >
             Cancel
           </button>
 
-          <button className="p-2 ml-4 w-1/2 border bg-pittgold" type="submit">
+          <button
+            className="p-2 ml-4 w-1/2 border bg-pittgold hover:shadow-xl hover:bg-gray-800 hover:text-white "
+            type="submit"
+          >
             Send feedback
           </button>
         </div>
@@ -181,7 +190,9 @@ export default function FeedbackWidget() {
       />
       <div
         className={
-          formState === States.THANK_YOU ? "bg-orange-200 p-4" : "hidden"
+          formState === States.THANK_YOU
+            ? "bg-green-400 p-4 text-green-800"
+            : "hidden"
         }
       >
         Thanks! Your feedback makes the wiki better!
