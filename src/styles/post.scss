@@ -17,5 +17,14 @@
     .label {
       @apply font-bold mr-2;
     }
+
+
+    blockquote {
+      @apply pl-4 py-2 ml-0 bg-gray-100 border-l-8
+    }
+
+    ol {
+      list-style: decimal;
+    }
   }
 }
