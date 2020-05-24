@@ -46,9 +46,11 @@ export default ({ slug }) => {
   })
 
   return (
-    <div className="breadcrumbs flex items-center mb-3">
-      <Link to={"/"}>HOME</Link>
-      {arrowSvg}
+    <div className="breadcrumbs flex md:flex-row flex-col md:items-center mb-3">
+      <span>
+        <Link to={"/"}>HOME</Link>
+        {arrowSvg}
+      </span>
       {breadcrumbs}
     </div>
   )
