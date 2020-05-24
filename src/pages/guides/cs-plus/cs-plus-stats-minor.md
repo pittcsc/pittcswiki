@@ -1,6 +1,7 @@
 ---
 state: "Needs revision"
 title: "Applied Stats Minor"
+author: "Alex Zharichenko"
 ---
 
 ## How to start and how to progress

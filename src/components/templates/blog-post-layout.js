@@ -5,14 +5,14 @@ import Breadcrumb from "../breadcrumb"
 import FeedbackWidget from "../feedback"
 
 export default function BlogPostLayout({
-  title,
-  subtitle,
+  frontmatter,
   isIndexPage,
   gitAuthorTime,
   slug,
   fileType,
   children,
 }) {
+  const { title, subtitle, author } = frontmatter
   return (
     <Layout>
       <SEO title={title} />
@@ -22,6 +22,7 @@ export default function BlogPostLayout({
           <div className="frontmatter">
             <h1 className="title">{title}</h1>
             {subtitle && <h2 className="sub-title">{subtitle}</h2>}
+            {author && <i className="sub-title">{author}</i>}
           </div>
           {children}
           <div

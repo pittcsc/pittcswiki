@@ -9,15 +9,14 @@ export default function Template({
   data: { markdownRemark }, // this prop will be injected by the GraphQL query below.
 }) {
   const {
-    frontmatter: { title, subtitle },
+    frontmatter,
     html,
     fields: { gitAuthorTime, slug, isIndexPage },
   } = markdownRemark
   return (
     <BlogPostLayout
       {...{
-        title,
-        subtitle,
+        frontmatter,
         isIndexPage,
         gitAuthorTime,
         slug,
@@ -42,6 +41,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
+        author
       }
       fields {
         slug

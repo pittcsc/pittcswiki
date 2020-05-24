@@ -21,16 +21,12 @@ const shortcodes = { CourseGraph }
 export default function Template({
   path,
   children,
-  pageContext: {
-    frontmatter: { title, subtitle, redirect_from },
-  },
+  pageContext: { frontmatter },
 }) {
   return (
     <BlogPostLayout
       {...{
-        title,
-        subtitle,
-        redirect_from,
+        frontmatter,
         slug: path,
         fileType: ".mdx",
       }}
