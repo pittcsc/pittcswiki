@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Pitt CS Wiki`,
+        short_name: `CS Wiki`,
         start_url: `/`,
         background_color: `#003594`,
         theme_color: `#FFB81C`,
