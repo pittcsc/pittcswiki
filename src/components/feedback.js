@@ -16,13 +16,9 @@ const States = {
 }
 
 function encode(data) {
-  const formData = new FormData()
-
-  for (const key of Object.keys(data)) {
-    formData.append(key, data[key])
-  }
-
-  return formData
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&")
 }
 
 const FeedbackTitle = ({ onClick }) => (
@@ -43,11 +39,11 @@ const FeedbackForm = ({ setFormState }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const form = e.target
     fetch("/", {
       method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
-        "form-name": form.getAttribute("name"),
+        "form-name": "feedback",
         ...state,
       }),
     }).then(() => setFormState(States.THANK_YOU))
@@ -64,7 +60,6 @@ const FeedbackForm = ({ setFormState }) => {
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="feedback" />
-        <input type="hidden" name="bot-field" value="feedback" />
         <p hidden>
           <label>
             Don’t fill this out:{" "}
