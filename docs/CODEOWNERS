@@ -4,6 +4,8 @@
 # review when someone opens a pull request.
 src/pages/*       @varughese @azharichenko @rohit-ganguly
 
+*.md @Zmwang622 @varughese @azharichenko @rohit-ganguly
+
 # Order is important; the last matching pattern takes the most
 # precedence. When someone opens a pull request that only
 # modifies JS files, only this owner and not the global

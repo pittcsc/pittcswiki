@@ -75,7 +75,7 @@ const queries = [
     query: courseQuery,
     transformer: ({ data }) => addCourseTags(data.pages.nodes),
     indexName: `Courses`,
-    settings: { attributesToSnippet: [`excerpt:20`], hitsPerPage: 4 },
+    settings: { attributesToSnippet: [`excerpt:20`], hitsPerPage: 6 },
   },
 ]
 
