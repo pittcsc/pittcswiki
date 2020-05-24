@@ -13,6 +13,9 @@ them. This will make you better!
 You can read more about specific CSC members interview journeys
 [here](/career/interview-journeys/intro).
 
+Once you have practiced a bit, definitely do mock interviews! Don't know who to ask? Sign
+up [here](https://docs.google.com/forms/d/1-fcGpBMt0x-Qpdc9z81QzaaqYiMwGIExEk8QL5rWJHo/edit#responses)!
+
 # Tips
 
 - Do not neglect the behavorials
