@@ -44,10 +44,10 @@
     list-style-type: none;
     margin: 0;
 
-    li > div {
+    li>div {
       border-bottom: 1px solid #e2e8f0;
 
-      & > a {
+      &>a {
         @apply text-gray-800 p-3 block;
         font-weight: bold;
       }
@@ -92,8 +92,31 @@
     text {
       fill: white;
     }
+
     rect {
       fill: #333;
+    }
+  }
+}
+
+.feedback-form {
+  .sentiment {
+    @apply h-24 w-1/3 border bg-gray-200 p-3 text-center cursor-pointer;
+
+    .face-icon {
+      @apply h-10 text-gray-500 block m-auto mb-2;
+    }
+
+    &.active {
+      @apply bg-purple-700 text-white;
+
+      .face-icon {
+        @apply text-white;
+      }
+
+      span {
+        @apply text-white;
+      }
     }
   }
 }
