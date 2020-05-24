@@ -9,21 +9,22 @@ export default function Template({
   data: { markdownRemark }, // this prop will be injected by the GraphQL query below.
 }) {
   const {
-    frontmatter: { title, subtitle, is_index_page },
+    frontmatter: { title, subtitle },
     html,
-    fields: { gitAuthorTime, slug },
+    fields: { gitAuthorTime, slug, isIndexPage },
   } = markdownRemark
   return (
     <BlogPostLayout
       {...{
         title,
         subtitle,
-        is_index_page,
+        isIndexPage,
         gitAuthorTime,
         slug,
         fileType: ".md",
       }}
     >
+      {isIndexPage}
       <div
         className="mt-4 blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
@@ -32,7 +33,7 @@ export default function Template({
   )
 }
 
-// TODO is_index_page is ugly way to do this. Related to #82
+// TODO I do not like how we have 'is index page'
 
 export const pageQuery = graphql`
   query($slug: String!) {
@@ -41,10 +42,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         subtitle
-        is_index_page
       }
       fields {
         slug
+        isIndexPage
         gitAuthorTime(formatString: "MMM Do YYYY")
       }
     }

@@ -7,7 +7,7 @@ import FeedbackWidget from "../feedback"
 export default function BlogPostLayout({
   title,
   subtitle,
-  is_index_page,
+  isIndexPage,
   gitAuthorTime,
   slug,
   fileType,
@@ -24,14 +24,19 @@ export default function BlogPostLayout({
             {subtitle && <h2 className="sub-title">{subtitle}</h2>}
           </div>
           {children}
-          <div className="my-8 text-center sm:w-full md:w-auto">
+          <div
+            className={
+              "my-8 text-center sm:w-full md:w-auto " +
+              (isIndexPage && "hidden")
+            }
+          >
             <FeedbackWidget />
           </div>
           <div className="flex justify-between text-sm text-gray-600">
             <EditOnGithub
               fileType={fileType}
               slug={slug}
-              isIndexPage={!!is_index_page}
+              isIndexPage={isIndexPage}
             />
             {gitAuthorTime && !gitAuthorTime.includes("Invalid") && (
               <div className="text-right">Last updated: {gitAuthorTime}</div>

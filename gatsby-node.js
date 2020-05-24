@@ -18,6 +18,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     })
 
+    if (node.fileAbsolutePath && node.fileAbsolutePath.includes("/index.")) {
+      createNodeField({
+        node,
+        name: "isIndexPage",
+        value: true,
+      })
+    }
     // https://angelos.dev/2019/09/add-support-for-modification-times-in-gatsby/
     const gitAuthorTime = execSync(
       `git log -1 --pretty=format:%aI ${node.fileAbsolutePath}`
