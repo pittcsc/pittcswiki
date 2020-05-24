@@ -1,6 +1,6 @@
 // Inspired by https://github.com/gatsbyjs/gatsby/tree/master/www/src/components/feedback-widget
 
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { library, config } from "@fortawesome/fontawesome-svg-core"
 import "@fortawesome/fontawesome-svg-core/styles.css"
@@ -34,7 +34,9 @@ const FeedbackTitle = ({ onClick, show }) => (
 )
 
 const FeedbackForm = ({ setFormState, show }) => {
-  const [state, setState] = React.useState({ location: window.location })
+  const [state, setState] = React.useState()
+
+  useEffect(() => setState({ ...state, location: window.location }), [state])
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value })
@@ -74,12 +76,7 @@ const FeedbackForm = ({ setFormState, show }) => {
             <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <input
-          hidden
-          name="location"
-          value={window.location}
-          onChange={handleChange}
-        />
+        <input hidden name="location" onChange={handleChange} />
         <div
           style={{ bottom: "60px" }}
           className="absolute flex flex-col justify-between border bg-white shadow-md h-64 p-3 w-full"
