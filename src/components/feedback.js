@@ -15,6 +15,16 @@ const States = {
   THANK_YOU: "THANK_YOU",
 }
 
+function encode(data) {
+  const formData = new FormData()
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key])
+  }
+
+  return formData
+}
+
 const FeedbackTitle = ({ onClick }) => (
   <button
     onClick={onClick}
@@ -24,24 +34,61 @@ const FeedbackTitle = ({ onClick }) => (
   </button>
 )
 
-const FeedbackForm = ({ onSubmit }) => {
-  const [sentiment, setSentiment] = useState(null)
+const FeedbackForm = ({ setFormState }) => {
+  const [state, setState] = React.useState({})
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...state,
+      }),
+    }).then(() => setFormState(States.THANK_YOU))
+  }
 
   return (
     <div className="w-full md:w-1/3 m-auto relative feedback-form">
-      <form netlify="true">
+      <form
+        name="feedback"
+        data-netlify="true"
+        action="/"
+        data-netlify-honeypot="bot-field"
+        method="post"
+        onSubmit={handleSubmit}
+      >
+        <input type="hidden" name="form-name" value="feedback" />
+        <input type="hidden" name="bot-field" value="feedback" />
+        <p hidden>
+          <label>
+            Don’t fill this out:{" "}
+            <input name="bot-field" onChange={handleChange} />
+          </label>
+        </p>
         <div
           style={{ bottom: "60px" }}
           className="absolute flex flex-col justify-between border bg-white shadow-md h-64 p-3 w-full"
         >
           <div className="text-left">
-            <label>Rate your experience</label>
-
+            <span> Rate your experience</span>
             <div className="flex justify-between">
               <div
-                onClick={() => setSentiment("poor")}
-                className={"sentiment " + (sentiment === "poor" && " active")}
+                className={
+                  "sentiment " + (state.sentiment === "poor" && " active")
+                }
               >
+                <input
+                  type="radio"
+                  name="sentiment"
+                  value="poor"
+                  onChange={handleChange}
+                />
                 <FontAwesomeIcon
                   className="face-icon "
                   style={{ width: "50px" }}
@@ -50,9 +97,16 @@ const FeedbackForm = ({ onSubmit }) => {
                 <span className="font-bold text-gray-800">Poor</span>
               </div>
               <div
-                onClick={() => setSentiment("okay")}
-                className={"sentiment " + (sentiment === "okay" && " active")}
+                className={
+                  "sentiment " + (state.sentiment === "okay" && " active")
+                }
               >
+                <input
+                  type="radio"
+                  name="sentiment"
+                  value="okay"
+                  onChange={handleChange}
+                />
                 <FontAwesomeIcon
                   className="face-icon"
                   style={{ width: "50px" }}
@@ -61,9 +115,16 @@ const FeedbackForm = ({ onSubmit }) => {
                 <span className="font-bold text-gray-800">Okay</span>
               </div>
               <div
-                onClick={() => setSentiment("great")}
-                className={"sentiment " + (sentiment === "great" && " active")}
+                className={
+                  "sentiment " + (state.sentiment === "great" && " active")
+                }
               >
+                <input
+                  type="radio"
+                  name="sentiment"
+                  value="great"
+                  onChange={handleChange}
+                />
                 <FontAwesomeIcon
                   className="face-icon"
                   style={{ width: "50px" }}
@@ -76,16 +137,30 @@ const FeedbackForm = ({ onSubmit }) => {
           <div className="text-left">
             <label className="w-full font-bold">
               Your comments (optional):
+              <textarea
+                name="comment"
+                className="p-3 w-full flex border h-20 mt-auto"
+                onChange={handleChange}
+              ></textarea>
             </label>
-            <textarea className="p-3 w-full flex border h-20 mt-auto"></textarea>
           </div>
         </div>
-        <button
-          className="p-2 mt-3 w-full border bg-gray-200"
-          onClick={onSubmit}
-        >
-          Submit
-        </button>
+        <div className="w-full flex justify-between">
+          <button
+            type="button"
+            className="p-2 mt-3 border bg-gray-200"
+            onClick={() => setFormState(States.IS_HELPFUL)}
+          >
+            Cancel
+          </button>
+
+          <button
+            className="p-2 mt-3 ml-4 w-1/2 border bg-pittgold"
+            type="submit"
+          >
+            Send feedback
+          </button>
+        </div>
       </form>
     </div>
   )
@@ -98,12 +173,10 @@ export default function FeedbackWidget() {
     [States.IS_HELPFUL]: (
       <FeedbackTitle onClick={() => setFormState(States.FORM)} />
     ),
-    [States.FORM]: (
-      <FeedbackForm onSubmit={() => setFormState(States.THANK_YOU)} />
-    ),
+    [States.FORM]: <FeedbackForm setFormState={setFormState} />,
     [States.THANK_YOU]: (
       <div className="bg-orange-200 p-4">
-        Thanks! Your comments will make the wiki better!
+        Thanks! Your feedback makes the wiki better!
       </div>
     ),
   }
