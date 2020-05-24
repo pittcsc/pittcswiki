@@ -11,7 +11,7 @@ export default function Template({
   const {
     frontmatter,
     html,
-    fields: { gitAuthorTime, slug, isIndexPage },
+    fields: { gitAuthorTime, lastUpdatedString, slug, isIndexPage },
   } = markdownRemark
   return (
     <BlogPostLayout
@@ -19,6 +19,7 @@ export default function Template({
         frontmatter,
         isIndexPage,
         gitAuthorTime,
+        lastUpdatedString,
         slug,
         fileType: ".md",
       }}
@@ -46,7 +47,8 @@ export const pageQuery = graphql`
       fields {
         slug
         isIndexPage
-        gitAuthorTime(formatString: "MMM Do YYYY")
+        gitAuthorTime
+        lastUpdatedString: gitAuthorTime(formatString: "MMM Do YYYY")
       }
     }
   }

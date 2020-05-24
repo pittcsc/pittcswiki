@@ -8,6 +8,7 @@ export default function BlogPostLayout({
   frontmatter,
   isIndexPage,
   gitAuthorTime,
+  lastUpdatedString,
   slug,
   fileType,
   children,
@@ -24,6 +25,7 @@ export default function BlogPostLayout({
             {subtitle && <h2 className="sub-title">{subtitle}</h2>}
             {author && <i className="sub-title">{author}</i>}
           </div>
+          <FreshnessDisclaimer lastUpdated={gitAuthorTime} />
           {children}
           <div
             className={
@@ -39,8 +41,10 @@ export default function BlogPostLayout({
               slug={slug}
               isIndexPage={isIndexPage}
             />
-            {gitAuthorTime && !gitAuthorTime.includes("Invalid") && (
-              <div className="text-right">Last updated: {gitAuthorTime}</div>
+            {lastUpdatedString && !lastUpdatedString.includes("Invalid") && (
+              <div className="text-right">
+                Last updated: {lastUpdatedString}
+              </div>
             )}
           </div>
         </div>
@@ -86,3 +90,16 @@ const EditIcon = (
     <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path>
   </svg>
 )
+
+const FreshnessDisclaimer = ({ lastUpdated }) => {
+  // How old do we consider something to display a banner? In  second
+  const FRESHNESS_THRESHOLD_IN_DAYS = 200
+  const diff = (new Date() - new Date(lastUpdated)) / (1000 * 60 * 60 * 24)
+  if (diff < FRESHNESS_THRESHOLD_IN_DAYS) return null
+
+  return (
+    <p className="bg-orange-200 text-orange-800 p-4">
+      Head's up, this has not been updated in a while!
+    </p>
+  )
+}
