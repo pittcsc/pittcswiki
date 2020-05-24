@@ -14,7 +14,7 @@ export default function BlogPostLayout({
 }) {
   const { title, subtitle, author } = frontmatter
   return (
-    <Layout>
+    <Layout readingMode>
       <SEO title={title} />
       <Breadcrumb slug={slug} />
       <div className="blog-post-container">

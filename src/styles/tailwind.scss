@@ -6,6 +6,10 @@
 
 @import "vars";
 
+.container {
+  padding: 0 10px;
+}
+
 .bg-pittblue {
   --bg-opacity: 1;
   background-color: $pittblue;

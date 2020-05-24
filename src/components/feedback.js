@@ -25,7 +25,7 @@ const FeedbackTitle = ({ onClick, show }) => (
   <button
     onClick={onClick}
     className={
-      "p-2 w-full md:w-1/3 border bg-pittgold shadow-sm hover:shadow-xl hover:bg-gray-800 hover:text-white " +
+      "p-2 w-full md:w-1/2 border bg-pittgold shadow-sm hover:shadow-xl hover:bg-gray-800 hover:text-white " +
       (show ? "" : "hidden")
     }
   >
@@ -56,7 +56,7 @@ const FeedbackForm = ({ setFormState, show }) => {
   return (
     <div
       className={
-        "w-full md:w-1/3 m-auto relative feedback-form " +
+        "w-full md:w-1/2 m-auto relative feedback-form " +
         (show ? "" : "hidden")
       }
     >

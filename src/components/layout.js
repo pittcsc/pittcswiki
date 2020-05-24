@@ -16,7 +16,7 @@ import "../styles/tailwind.scss"
 import "../styles/layout.scss"
 import "../styles/components.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, readingMode }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -30,7 +30,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="container mx-auto">
+      <div
+        className={"container px-2 mx-auto " + (readingMode && " max-w-2xl")}
+      >
         <main>{children}</main>
       </div>
       <Footer />
