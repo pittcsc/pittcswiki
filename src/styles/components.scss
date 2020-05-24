@@ -108,7 +108,7 @@
     }
 
     input[type="radio"] {
-      @apply absolute top-0 bottom-0 left-0 right-0 w-full h-full opacity-0 cursor-pointer;
+      @apply absolute z-10 top-0 bottom-0 left-0 right-0 w-full h-full opacity-0 cursor-pointer;
     }
 
     &:hover {
