@@ -10,7 +10,7 @@ library.add(fas)
 config.autoAddCss = false
 
 const States = {
-  IS_HELPFUL: "IS_HELPFUL",
+  DOC: "DOC",
   FORM: "FORM",
   THANK_YOU: "THANK_YOU",
 }
@@ -21,16 +21,19 @@ function encode(data) {
     .join("&")
 }
 
-const FeedbackTitle = ({ onClick }) => (
+const FeedbackTitle = ({ onClick, show }) => (
   <button
     onClick={onClick}
-    className="p-2 w-full md:w-1/3 border bg-pittgold shadow-sm"
+    className={
+      "p-2 w-full md:w-1/3 border bg-pittgold shadow-sm " +
+      (show ? "" : "hidden")
+    }
   >
     Was this helpful?
   </button>
 )
 
-const FeedbackForm = ({ setFormState }) => {
+const FeedbackForm = ({ setFormState, show }) => {
   const [state, setState] = React.useState({})
 
   const handleChange = (e) => {
@@ -50,7 +53,12 @@ const FeedbackForm = ({ setFormState }) => {
   }
 
   return (
-    <div className="w-full md:w-1/3 m-auto relative feedback-form">
+    <div
+      className={
+        "w-full md:w-1/3 m-auto relative feedback-form " +
+        (show ? "" : "hidden")
+      }
+    >
       <form
         name="feedback"
         data-netlify="true"
@@ -143,16 +151,13 @@ const FeedbackForm = ({ setFormState }) => {
         <div className="w-full flex justify-between">
           <button
             type="button"
-            className="p-2 mt-3 border bg-gray-200"
-            onClick={() => setFormState(States.IS_HELPFUL)}
+            className="p-2 border bg-gray-200"
+            onClick={() => setFormState(States.DOC)}
           >
             Cancel
           </button>
 
-          <button
-            className="p-2 mt-3 ml-4 w-1/2 border bg-pittgold"
-            type="submit"
-          >
+          <button className="p-2 ml-4 w-1/2 border bg-pittgold" type="submit">
             Send feedback
           </button>
         </div>
@@ -162,19 +167,25 @@ const FeedbackForm = ({ setFormState }) => {
 }
 
 export default function FeedbackWidget() {
-  const [formState, setFormState] = useState(States.IS_HELPFUL)
+  const [formState, setFormState] = useState(States.DOC)
 
-  const elements = {
-    [States.IS_HELPFUL]: (
-      <FeedbackTitle onClick={() => setFormState(States.FORM)} />
-    ),
-    [States.FORM]: <FeedbackForm setFormState={setFormState} />,
-    [States.THANK_YOU]: (
-      <div className="bg-orange-200 p-4">
+  return (
+    <>
+      <FeedbackTitle
+        show={formState === States.DOC}
+        onClick={() => setFormState(States.FORM)}
+      />
+      <FeedbackForm
+        show={formState === States.FORM}
+        setFormState={setFormState}
+      />
+      <div
+        className={
+          formState === States.THANK_YOU ? "bg-orange-200 p-4" : "hidden"
+        }
+      >
         Thanks! Your feedback makes the wiki better!
       </div>
-    ),
-  }
-
-  return elements[formState]
+    </>
+  )
 }
