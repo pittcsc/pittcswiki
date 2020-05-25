@@ -100,7 +100,11 @@ const CourseQuickView = ({
   ) : (
     <div>
       <h3>Click a course on the left to see details</h3>
-      <p>With the controls at the top, you can filter and more!</p>
+      <p>
+        With the controls at the top, you can filter. If you want to know more
+        about a class, click view details after selecting it. Dont forget the
+        search bar at the top right of the page works too!
+      </p>
     </div>
   )
 

@@ -22,7 +22,7 @@
 	}, {
 		"name": "Capstone",
 		"description": {
-			"__html": "These are required classes that involve doing an internship, research. <a href='/guides/capstone'>Read our guide here</a>"
+			"__html": "These involve applying your skills! <a href='/guides/capstone'>Read our guide on capstone classes hese here</a>"
 		},
 		"courses": ["CS1900", "CS1902", "CS1906", "CS1950", "CS1980"]
 	}, {
