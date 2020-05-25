@@ -108,7 +108,6 @@ const CourseListing = ({ courseList, courseCategories }) => {
       <div className="hidden">
         <CourseControls /> {/* TODO add more control for searching courses */}
       </div>
-      <p className="">Last updated {courseList.metadata.generated}</p>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="md:w-2/3">
           <CourseInteractiveListing
@@ -131,6 +130,15 @@ const CourseListing = ({ courseList, courseCategories }) => {
           {/* <CourseControls /> */}
         </div>
       </div>
+      <p className="text-sm italic">
+        This list was last updated on{" "}
+        {new Date(courseList.metadata.generated).toDateString()}. For the most
+        up to date information, look at{" "}
+        <a href="http://courses.sci.pitt.edu/courses">
+          Pitt's official website
+        </a>
+        .
+      </p>
     </div>
   )
 }
