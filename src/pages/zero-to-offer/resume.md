@@ -105,7 +105,7 @@ In a different scenario, some students have low GPA, but it might be due to some
 
 Also, when you list your GPA/results, try to benchmark it. Instead of simply listing 4.6, write 4.6/5.0 (First Class Honors or Summa Cum Laude). To the recruiter, 4.6 does not mean anything if he/she is not familiar with your grading system.
 
-For Pitt CS students, a good GPA would be a 3.3+. An exceptional GPA would be a 3.75+. **Note:** Just because you have a low GPA doesn't mean you can't receive a top internship! Plenty of Pitt students got top tier offers will sub 3.3 GPAs.
+For Pitt CS students, a good GPA would be a 3.3+. An exceptional GPA would be a 3.75+. **Note:** Just because you have a low GPA doesn't mean you can't receive a top internship! Plenty of Pitt students got top tier offers with sub-3.3 GPAs.
 
 ### High School?
 Once you enter college, it is highly discouraged to include information from high school. Completing personal coding projects and working relevant opportunities (like research or TAing) are far superior to your HS GPA or SAT score.
