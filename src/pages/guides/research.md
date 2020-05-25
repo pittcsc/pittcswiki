@@ -112,8 +112,8 @@ computer systems, software engineering, algorithms) and a list research
 projects or areas that are specific to a professor.
 
 When applying to an REU, convince the decision-makers of the following:
-- I am interested in 1+ of the REU's research areas.
-- I am technically qualified to conduct research in 1+ of the
+- You are interested in 1+ of the REU's research areas.
+- You are technically qualified to conduct research in 1+ of the
         REU's research areas.
 
 Applications require up to 2 letters of recommendation from faculty members.
