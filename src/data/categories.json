@@ -1,8 +1,4 @@
 [{
-		"name": "Intro",
-		"courses": ["CS0008", "CS0007", "CS0010", "CS0011", "CS0012"],
-		"display": "hidden"
-	}, {
 		"name": "Hidden",
 		"display": "hidden",
 		"description": {
@@ -18,7 +14,7 @@
 		"courses": ["CS1501", "CS1502", "CS1550"]
 	}, {
 		"name": "Electives",
-		"courses": ["CS1509 - 1700"]
+		"courses": ["CS1509 - 1700", "CS0590"]
 	}, {
 		"name": "Capstone",
 		"description": {
@@ -31,5 +27,11 @@
 	}, {
 		"name": "PhD",
 		"courses": ["CS2999 - 4000"]
+	}, {
+		"name": "Intro",
+		"courses": ["CS0008", "CS0007", "CS0010", "CS0011", "CS0012"],
+		"description": {
+			"__html": "If you are curious about CS, these intro classes are good places to start!"
+		}
 	}
 ]
