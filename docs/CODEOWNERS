@@ -2,7 +2,7 @@
 # the repo. Unless a later match takes precedence,
 # they will be requested for
 # review when someone opens a pull request.
-src/pages/*       @varughese @azharichenko @rohit-ganguly
+src/pages/*       @varughese @azharichenko 
 
 *.md @Zmwang622 @varughese @azharichenko @rohit-ganguly
 
@@ -11,3 +11,4 @@ src/pages/*       @varughese @azharichenko @rohit-ganguly
 # modifies JS files, only this owner and not the global
 # owner(s) will be requested for a review.
 *.js    @varughese
+*.json @varughese

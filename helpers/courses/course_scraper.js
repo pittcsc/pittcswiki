@@ -6,6 +6,8 @@ const path = require("path")
 
 const BASE_SCI_URL = "http://courses.sci.pitt.edu"
 
+/* THIS IS DEPRECATED! MOVING TO USE PITT API INSTEAD FOR CLEANER AND MORE RELIABLE SOURCE DATA! */
+
 async function getCourseListing() {
   const html = await request(`${BASE_SCI_URL}/courses`)
   const $ = cheerio.load(html)

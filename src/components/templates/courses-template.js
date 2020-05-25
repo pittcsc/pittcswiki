@@ -64,6 +64,11 @@ export default function Template({
             <span className="label">Credits:</span>
             <span>{courseData.credits}</span>
           </div>
+          {courseData.replaces && (
+            <p className="p-2 bg-orange-200">
+              Heads up, this course replaced {courseData.replaces} !
+            </p>
+          )}
           <a
             href={courseData.sci_href}
             target="_blank"
