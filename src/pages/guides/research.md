@@ -34,7 +34,7 @@ get more mentorship and work in a team.
 
 ### Earn credits or $$$!!!
 
-You can take CS1950 to fulfill your capstone, write and defend an honors
+You can take [CS1950](/courses/CS1950) to fulfill your capstone, write and defend an honors
 thesis to earn a Bachelors of Philosophy, or get paid in cold, hard cash
 as a research assistant or intern!
 
@@ -67,7 +67,7 @@ Deep Learning, some graduate classes).
 ### CS1980 (not to be confused with CS1950)
 
 Sometimes research projects show up as one of the project options for the
-CS1980 capstone course.
+[CS1980](/courses/CS1980) capstone course.
 
 ### Cold-emailing professors.
 
