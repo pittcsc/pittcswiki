@@ -9,8 +9,6 @@ Some guides are more refined, and deserve their own folder. Like, the `Zero to O
 
 We write them in Markdown.
 
-(With MDX (https://www.gatsbyjs.org/docs/mdx/), we can have _interactive_ parts of our guide, which is really cool. Read more about that [here](/docs/how-to-create-an-interactive-guide.md)
-
 To add a guide, open a PR, and create an appropiate markdown file in the `pages` folder.
 
 ## How to Create a Guide
@@ -28,11 +26,22 @@ title: "Study Abroad"
 Studying abroad as a CS major ...
 ```
 
+Make sure the very first line in your markdown file is the three dashes! If you have an extra newline it will not work.
+
 Note the 'title' will be used as the title of the web page, displayed as a title, and it will be indexed so it can be searchable by the search bar.
 
-3. Submit a PR
+3. Submit a PR ([Follow these steps](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request))
 
 After you a submit a PR and it is merged to the master branch, you are all set!
+
+### How about a collection of related guides?
+
+Say you want to make 5 different guides about research.
+
+1. Make a new folder in the `src/pages/guides` folder, called `research`
+2. Add an `index.md` in this folder to serve as on overview.
+3. Add more markdown files inside the folder! 
+
 
 ## Guiding Principles
 
@@ -56,3 +65,6 @@ by other members.
 ## How does this all work?
 
 When you add a new markdown file to `src/pages`, GatsbyJS (the framework we use), will automatically create a webpage, and transform your markdown into HTML. More information can be found by following this Gatsby tutorial if you wish to learn more - https://www.gatsbyjs.org/tutorial/
+
+If you want to make a guide with interactive components - read how you can do that [here](/docs/how-to-create-an-interactive-guide.md)
+
