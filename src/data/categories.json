@@ -18,12 +18,15 @@
 	}, {
 		"name": "Capstone",
 		"description": {
-			"__html": "These involve applying your skills! <a href='/guides/capstone'>Read our guide on capstone classes hese here</a>"
+			"__html": "These involve applying your skills. <a href='/guides/capstone'>Read our guide on the capstone classes here!</a>"
 		},
 		"courses": ["CS1900", "CS1902", "CS1906", "CS1950", "CS1980"]
 	}, {
 		"name": "Masters",
-		"courses": ["CS1999 - 3000"]
+		"courses": ["CS1999 - 3000"],
+		"description": {
+			"__html": "It is possible to take masters classes as an undergrad! There is also the BS/MS, which <a href='/guides/bsms'>we have a guide on you can read here</a>. Read our guide on <a href='guides/gradschool'>grad school here!</a>"
+		}
 	}, {
 		"name": "PhD",
 		"courses": ["CS2999 - 4000"]
