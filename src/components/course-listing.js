@@ -118,68 +118,79 @@ const CourseControls = ({
   const handleSetTermOffered = (e) => {
     setTermOfferedFilter(e.target.value)
   }
+  const handleShowHidden = (e) => {
+    setShowHidden(e.target.checked)
+    if (e.target.checked) setTermOfferedFilter("OFF")
+  }
   return (
-    <div className="my-4 flex content-center flex-none">
-      <label>
-        <input
-          type="checkbox"
-          checked={showTitles}
-          onChange={(e) => setShowTitles(e.target.checked)}
-        />
-        Show Course Titles
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          checked={showHidden}
-          onChange={(e) => setShowHidden(e.target.checked)}
-        />
-        Show Hidden Classes
-      </label>
-      <div>
-        Filter by Term Offered:
-        <fieldset id="term_offered">
-          <label>
-            <input
-              type="radio"
-              value="FALL"
-              checked={termOfferedFilter === "FALL"}
-              name="term_offered"
-              onChange={handleSetTermOffered}
-            />
+    <div className="my-4 content-center course-controls flex-none border bg-gray-100 p-2">
+      <h4 className="mb-0">Course Filter Controls</h4>
+      <p>
+        Use these controls to find the perfect courses for you! And don't forget
+        you can use the search bar at the top right anywhere on the wiki if you
+        know the name of a course!
+      </p>
+      <div className="md:flex align-center items-center md:h-10">
+        <label>
+          <input
+            type="checkbox"
+            checked={showTitles}
+            onChange={(e) => setShowTitles(e.target.checked)}
+          />
+          Show Course Titles
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={showHidden}
+            onChange={handleShowHidden}
+          />
+          Show Hidden Classes
+        </label>
+        <span className="font-bold">Offered in:</span>
+        <div className="ml-2" id="term_offered">
+          <button
+            value="FALL"
+            className={
+              "btn bg-white md:w-20 small " +
+              (termOfferedFilter === "FALL" && "active")
+            }
+            name="term_offered"
+            onClick={handleSetTermOffered}
+          >
             Fall
-          </label>
-          <label>
-            <input
-              type="radio"
-              value="SPRING"
-              nane="term_offered"
-              checked={termOfferedFilter === "SPRING"}
-              onChange={handleSetTermOffered}
-            />
-            Spring
-          </label>
-          <label>
-            <input
-              type="radio"
-              value="SUMMER"
-              name="term_offered"
-              checked={termOfferedFilter === "SUMMER"}
-              onChange={handleSetTermOffered}
-            />
-            Summer
-          </label>
+          </button>
           <button
             className={
-              termOfferedFilter === "OFF"
-                ? "hidden"
-                : " text-gray-800 px-2 py-1 border"
+              "btn bg-white md:w-20 small " +
+              (termOfferedFilter === "SPRING" && "active")
             }
-            onClick={() => setTermOfferedFilter("OFF")}
+            value="SPRING"
+            nane="term_offered"
+            onClick={handleSetTermOffered}
           >
-            Clear Term Offered Filter
+            Spring
           </button>
-        </fieldset>
+          <button
+            className={
+              "btn bg-white md:w-20 small " +
+              (termOfferedFilter === "SUMMER" && "active")
+            }
+            value="SUMMER"
+            name="term_offered"
+            onClick={handleSetTermOffered}
+          >
+            Summer
+          </button>
+        </div>
+        <button
+          className={
+            termOfferedFilter === "OFF" ? "hidden" : "ml-1 small bg-red-100 btn"
+          }
+          onClick={() => setTermOfferedFilter("OFF")}
+        >
+          Clear Term Offered Filter
+        </button>
       </div>
     </div>
   )

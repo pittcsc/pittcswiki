@@ -23,6 +23,35 @@
   }
 }
 
+.course-controls {
+  p {
+    @apply mb-2;
+
+  }
+
+  input {
+    @apply mr-1;
+  }
+
+  #term_offered {
+    button {
+      @apply mr-2;
+
+      &:hover {
+        @apply bg-gray-200;
+      }
+
+      &.active {
+        @apply bg-blue-200;
+      }
+    }
+  }
+
+  label {
+    @apply mr-2 h-full flex items-center px-2;
+  }
+}
+
 .search-results {
   @apply shadow-xl mt-1 border rounded bg-white absolute flex-col;
   z-index: 2;
