@@ -236,17 +236,15 @@ const CourseListing = ({ courseList, courseCategories }) => {
         </div>
       </div> */}
 
-      <div>
-        <div className="my-4 content-center course-controls flex-none ">
-          <h4 className="mb-0">Course Filter Controls</h4>
-          <p>
-            Use these controls to find the perfect courses for you! And don't
-            forget you can use the search bar at the top right anywhere on the
-            wiki if you know the name of a course!
-          </p>
-          <div className="md:flex align-center items-center md:h-10">
-            <CourseControls filters={filters} setFilters={setFilters} />
-          </div>
+      <div className="my-4 content-center course-controls flex-none border p-1">
+        <h4 className="mb-0">Course Filter Controls</h4>
+        <p>
+          Use these controls to find the perfect courses for you! And don't
+          forget you can use the search bar at the top right anywhere on the
+          wiki if you know the name of a course!
+        </p>
+        <div className="md:flex align-center items-center md:h-10">
+          <CourseControls filters={filters} setFilters={setFilters} />
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row">

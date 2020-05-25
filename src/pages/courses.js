@@ -14,10 +14,11 @@ const CoursesPage = () => (
     <SEO title="Pitt CS Course Exploration" />
     <h1>Courses</h1>
     <p>
-      This page is meant to be an easy way to discover Pitt CS courses! If you
-      are unsure of what classes you should take or the degree requirements, be
-      sure to check out our{" "}
-      <Link to="/guides/scheduling">scheduling guide</Link>!
+      If you are new to the CS classes,
+      <span className="ml-2 bg-yellow-300 px-2 py-1">
+        we suggest viewing our{" "}
+        <Link to="/guides/scheduling">scheduling guide</Link>!
+      </span>
     </p>
     <CourseListing
       courseList={COURSE_LIST}

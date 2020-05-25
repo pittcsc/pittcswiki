@@ -11,7 +11,7 @@
 		"description": {
 			"__html": "These courses are required for the major and a lot of electives. We make it easier to visualize what classes have what requirements by color coding them. For example, if a class has the prereq of CS 449, then it has a green dot. "
 		},
-		"courses": ["CS0007", "CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449", "CS1501", "CS1502", "CS1550"]
+		"courses": ["CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449", "CS1501", "CS1502", "CS1550"]
 	}, {
 		"name": "Electives",
 		"courses": ["CS1509 - 1700", "CS0590"]
