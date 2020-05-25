@@ -1,22 +1,35 @@
 [{
-	"name": "Intro",
-	"courses": ["CS0008", "CS0007", "CS0010", "CS0011", "CS0012"]
-}, {
-	"name": "Core",
-	"courses": ["CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449"]
-}, {
-	"name": "Upper Core",
-	"courses": ["CS1501", "CS1502", "CS1550"]
-}, {
-	"name": "Electives",
-	"courses": ["CS1509 - 1700"]
-}, {
-	"name": "Capstone",
-	"courses": ["CS1900", "CS1902", "CS1906",  "CS1950", "CS1980"]
-}, {
-	"name": "Masters",
-	"courses": ["CS1999 - 3000"]
-}, {
-	"name": "PhD",
-	"courses": ["CS2999 - 4000"]
-}]
+		"name": "Intro",
+		"courses": ["CS0008", "CS0007", "CS0010", "CS0011", "CS0012"],
+		"display": "hidden"
+	}, {
+		"name": "Hidden",
+		"display": "hidden",
+		"description": {
+			"__html": "These classes are not shown to be offered on Pitt's website so we hide them by default!"
+		},
+		"courses": ["CS1538", "CS1635", "CS1651", "CS1655"]
+	},
+	{
+		"name": "Core",
+		"courses": ["CS0007", "CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449"]
+	}, {
+		"name": "Upper Core",
+		"courses": ["CS1501", "CS1502", "CS1550"]
+	}, {
+		"name": "Electives",
+		"courses": ["CS1509 - 1700"]
+	}, {
+		"name": "Capstone",
+		"description": {
+			"__html": "These are required classes that involve doing an internship, research. <a href='/guides/capstone'>Read our guide here</a>"
+		},
+		"courses": ["CS1900", "CS1902", "CS1906", "CS1950", "CS1980"]
+	}, {
+		"name": "Masters",
+		"courses": ["CS1999 - 3000"]
+	}, {
+		"name": "PhD",
+		"courses": ["CS2999 - 4000"]
+	}
+]

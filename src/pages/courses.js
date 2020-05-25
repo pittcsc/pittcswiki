@@ -15,10 +15,10 @@ const CoursesPage = () => (
     <h1>Courses</h1>
     <p>
       This page is meant to be an easy way to discover Pitt CS courses! If you
-      are unsure of what classes you should take, be sure to check out our{" "}
+      are unsure of what classes you should take or the degree requirements, be
+      sure to check out our{" "}
       <Link to="/guides/scheduling">scheduling guide</Link>!
     </p>
-    <hr />
     <CourseListing
       courseList={COURSE_LIST}
       courseCategories={categorizedCourses}

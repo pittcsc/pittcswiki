@@ -1,10 +1,14 @@
 .course-pill {
-  @apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer w-24 text-center;
+  @apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer text-center;
   width: 6.3rem;
 
   &:focus {
     outline: none;
     box-shadow: none;
+  }
+
+  &.w-auto {
+    width: auto;
   }
 
   &:hover,
