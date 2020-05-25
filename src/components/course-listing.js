@@ -9,11 +9,19 @@ import {
 } from "./courses/requirements"
 import COURSE_REQUIREMENTS from "../data/requirements.json"
 
-const Course = ({ id, title, onClick, showTitle, isSelected }) => {
+const Course = ({
+  id,
+  title,
+  onClick,
+  showTitle,
+  isSelected,
+  colorLegend = {},
+}) => {
+  // Supply a color legend if you would like to apply colors!
   const displayId = cleanCourseId(id)
   const displayTitle = cleanCourseTitle(title)
   const display = showTitle ? displayTitle : displayId
-
+  const highlightColor = colorLegend[id]
   return (
     <>
       <div
@@ -23,6 +31,13 @@ const Course = ({ id, title, onClick, showTitle, isSelected }) => {
           "hidden md:inline-block course-pill" +
           (isSelected ? " selected" : "") +
           (showTitle ? " w-auto " : "")
+        }
+        style={
+          highlightColor && {
+            borderColor: highlightColor,
+            color: highlightColor,
+            boxShadow: "0px 0px 4px",
+          }
         }
         onClick={onClick}
         onKeyDown={onClick}
@@ -73,6 +88,7 @@ const CourseInteractiveListing = ({
               {...course}
               onClick={() => setCurrentCourse(course)}
               isSelected={selectedCourseId === course.id}
+              colorLegend={CSLegendData}
             />
           ))}
         </div>
@@ -212,19 +228,13 @@ const CourseListing = ({ courseList, courseCategories }) => {
   const setFilters = { setShowTitles, setShowHidden, setTermOfferedFilter }
   return (
     <div className="">
-      <div className="mb-4">
+      {/* <div className="mb-4">
         <h4 className="mb-0">Course Requirement Visualization</h4>
-        <p className="mb-1">
-          Sometimes the hardest part of picking the right elective is knowing
-          the prereqs. We make it easier to visualize what classes have what
-          requirements by color coding them. For example, CS 1510 has the
-          requirements of CS 1501 and CS 1502, so it has a blue and orange
-          circle next to it.
-        </p>
+        <p className="mb-1"></p>
         <div className="border inline-block">
           <PrereqLegend legendData={CSLegendData} />
         </div>
-      </div>
+      </div> */}
 
       <div>
         <div className="my-4 content-center course-controls flex-none ">
@@ -240,7 +250,7 @@ const CourseListing = ({ courseList, courseCategories }) => {
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row">
-        <div className="md:w-2/3">
+        <div className="md:w-2/3 md:pr-1">
           <CourseInteractiveListing
             filters={filters}
             setCurrentCourse={setCurrentCourse}

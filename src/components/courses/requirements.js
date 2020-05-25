@@ -1,6 +1,8 @@
 import React from "react"
 import { cleanCourseId } from "../../utils/course-namer"
 
+// Look at the components.scss file for styles relating to this component
+
 const CSLegendData = {
   CS0447: "#f44336", // red
   CS0441: "#fdd835", // yellow
@@ -39,6 +41,19 @@ const requirementsToColor = (reqs, legend) => {
   return reqs.sort().map((id) => legend[id] || legend.OTHER)
 }
 
+const requirementsToDotsJsx = (requirements, legend) => {
+  if (!requirements) return null
+
+  if (requirements.or) {
+    return (
+      <OrRequirementDots req={requirementsToColor(requirements.or, legend)} />
+    )
+  } else if (requirements.length > 0 || requirements.and) {
+    const reqs = requirements.and ? requirements.and : requirements
+    return <ListRequirementDots req={requirementsToColor(reqs, legend)} />
+  }
+}
+
 const RequirementDots = ({ requirements, legend }) => {
   if (!requirements) return null
   // This only looks at prereqs, not coreqs for now. Maybe coreqs can be fed in the same way, and be triangles
@@ -51,15 +66,16 @@ const RequirementDots = ({ requirements, legend }) => {
   // 	"or": ["CS0007", "CS0401"]
   // }
   // "prereq": ["CS0445"]
-  const prereq = requirements.prereq
-  if (!prereq) return null
-
-  if (prereq.or) {
-    return <OrRequirementDots req={requirementsToColor(prereq.or, legend)} />
-  } else if (prereq.length > 0 || prereq.and) {
-    const reqs = prereq.and ? prereq.and : prereq
-    return <ListRequirementDots req={requirementsToColor(reqs, legend)} />
-  }
+  return (
+    <>
+      <span className="reqs-dots prereqs">
+        {requirementsToDotsJsx(requirements.prereq, legend)}
+      </span>
+      <span className="reqs-dots coreqs">
+        {requirementsToDotsJsx(requirements.coreq, legend)}
+      </span>
+    </>
+  )
 }
 
 const PrereqLegend = ({ legendData }) => {

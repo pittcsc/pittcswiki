@@ -22,8 +22,14 @@
   }
 }
 
-.course-req-dot {
-  @apply w-2 h-2 inline-block rounded-full mr-1;
+.reqs-dots {
+  .course-req-dot {
+    @apply w-2 h-2 inline-block rounded-full mr-1;
+  }
+  &.coreqs .course-req-dot {
+    @apply rounded-none;
+    transform: rotate(45deg);
+  }
 }
 
 .course-controls {

@@ -27,7 +27,8 @@
 	},
 	"CS0449": {
 		"requirements": " PREQ: CS 0445 or CS 0455 (Min Grade 'C' or Transfer); CREQ: CS 0447 or CS 0456 or COE 0447 or COE 0147",
-		"prereq": ["CS0449"]
+		"prereq": ["CS0445"],
+		"coreq": ["CS0447"]
 	},
 	"CS0590": {
 		"requirements": "Course Attributes:",
