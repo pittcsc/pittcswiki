@@ -8,35 +8,35 @@ search_tags:
 
 ### Advance the frontier of knowledge.
 
-    Researchers get a sneak peak at the future. Computer science, being a
-    relatively young field, is full of opportunities for exploration.
-    Young researchers are capable of making a large impact on the frontier of
-    computing thanks to the sheer extent of what remains unknown in CS.
+Researchers get a sneak peak at the future. Computer science, being a
+relatively young field, is full of opportunities for exploration.
+Young researchers are capable of making a large impact on the frontier of
+computing thanks to the sheer extent of what remains unknown in CS.
 
 ### Preparation for research-based graduate programs.
 
-    Ph. D. and research-based masters programs focus on producing original
-    research. By conducting research in your UG years, you demonstrate your
-    ability to conduct research in graduate school.
+Ph. D. and research-based masters programs focus on producing original
+research. By conducting research in your UG years, you demonstrate your
+ability to conduct research in graduate school.
 
 ### A stepping stone for industry.
 
-    Research will likely expose you to some industry-relevant technical
-    knowledge. Examples range from practical experience with a specific
-    tool (e.g.: a programming language, a machine learning library) to in-depth
-    knowledge of an industrially relevant domain (e.g.: software security,
-    natural language processing).
+Research will likely expose you to some industry-relevant technical
+knowledge. Examples range from practical experience with a specific
+tool (e.g.: a programming language, a machine learning library) to in-depth
+knowledge of an industrially relevant domain (e.g.: software security,
+natural language processing).
 
-    I claim that research is a strong alternative to personal projects.
-    Although supervised research doesn't provide the same freedom to choose
-    what you want to create and what technology stack you'll use, you will
-    get more mentorship and work in a team.
+I claim that research is a strong alternative to personal projects.
+Although supervised research doesn't provide the same freedom to choose
+what you want to create and what technology stack you'll use, you will
+get more mentorship and work in a team.
 
 ### Earn credits or $$$!!!
 
-    You can take CS1950 to fulfill your capstone, write and defend an honors
-    thesis to earn a Bachelors of Philosophy, or get paid in cold, hard cash
-    as a research assistant or intern!
+You can take CS1950 to fulfill your capstone, write and defend an honors
+thesis to earn a Bachelors of Philosophy, or get paid in cold, hard cash
+as a research assistant or intern!
 
 ## Getting started.
 
