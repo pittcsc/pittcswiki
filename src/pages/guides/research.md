@@ -64,9 +64,10 @@ research potential is easier to achieve in classes that feature a research-y
 project as part of the curriculum (e.g.: Human Language Technologies,
 Deep Learning, some graduate classes).
 
-### CS1980
+### CS1980 (not to be confused with CS1950)
 
-Sometimes research projects show up as options for the CS1980 research project.
+Sometimes research projects show up as one of the project options for the
+CS1980 capstone course.
 
 ### Cold-emailing professors.
 
