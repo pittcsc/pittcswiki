@@ -236,6 +236,9 @@ are also often higher than full conference research papers.
 The narrow topic of workshops often attracts that topic's forerunners, giving
 the workshop attendee a very good opportunity to network with important people.
 
+There are exceptions: some workshops in theoretical CS are as competitive as
+top conferences.
+
 ### Student research competitions.
 
 Some conferences host [student research competitions](https://src.acm.org/).
