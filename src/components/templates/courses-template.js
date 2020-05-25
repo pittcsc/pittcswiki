@@ -56,7 +56,7 @@ export default function Template({
             <span className="label">Requirements</span>
             <span>{courseData.requirements}</span>
           </div>
-          <div className="mb-4">
+          <div className="mb-2">
             <span className="label">Course Description</span>
             <span>{courseData.description}</span>
           </div>
