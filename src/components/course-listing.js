@@ -6,7 +6,7 @@ import TermPills from "./term-pills"
 const Course = ({ id, title, onClick, showTitle, isSelected }) => {
   const displayId = cleanCourseId(id)
   const displayTitle = cleanCourseTitle(title)
-  const display = showTitle ? displayId + " - " + displayTitle : displayId
+  const display = showTitle ? displayTitle : displayId
 
   return (
     <>
