@@ -8,10 +8,7 @@
 	},
 	{
 		"name": "Core",
-		"courses": ["CS0007", "CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449"]
-	}, {
-		"name": "Upper Core",
-		"courses": ["CS1501", "CS1502", "CS1550"]
+		"courses": ["CS0007", "CMP0401", "CS0401", "CS0441", "CS0445", "CS0447", "CS0449", "CS1501", "CS1502", "CS1550"]
 	}, {
 		"name": "Electives",
 		"courses": ["CS1509 - 1700", "CS0590"]
