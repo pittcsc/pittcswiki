@@ -15,7 +15,7 @@ computing thanks to the sheer extent of what remains unknown in CS.
 
 ### Preparation for research-based graduate programs.
 
-Ph. D. and research-based masters programs focus on producing original
+PhD and research-based masters programs focus on producing original
 research. By conducting research in your UG years, you demonstrate your
 ability to conduct research in graduate school.
 
@@ -53,7 +53,7 @@ recruit undergraduate researchers.
 
 You will have a chance to ask questions in a Q&A session. If you're interested
 in a professor's pitch, I suggest asking a question or two; asking questions
-demonstrate interest and makes you a little more memorable, which might be
+demonstrate interest and makes you more memorable, which might be
 helpful if you later ask to join the professor's research project.
 
 ### Doing well in a professor's class.
@@ -83,7 +83,7 @@ be on their homepage, in their CV, or on a page dedicated for research.
 
 To get more specific information on the professor's recent research interests,
 I would suggest skimming over their recent publications (up to 3 years is my
-recommendation). Look at the titles and maybe the abstracts of their
+suggestion). Look at the titles and maybe the abstracts of their
 recent publications; reading entire papers is probably overboard for now
 (unless if you're hooked, then read on!).
 
