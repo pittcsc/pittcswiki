@@ -120,7 +120,12 @@ const CourseListing = ({ courseList, courseCategories }) => {
         </div>
         <div
           className="md:w-1/3 hidden md:flex flex-col sticky top-0"
-          style={{ height: "70vh", top: "2rem" }}
+          style={{
+            height: "70vh",
+            top: "2rem",
+            minWidth: "25rem",
+            maxHeight: "45rem",
+          }}
         >
           <CourseQuickView {...currentCourse} />
           {/* <CourseControls /> */}
