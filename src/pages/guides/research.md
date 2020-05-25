@@ -257,7 +257,8 @@ getting pwned by PhDs with 5 years of experience.
 
 ### arXiv.
 
-arXiv is an online repository of preprints–early, non-reviewed scholarly
+[arXiv](https://arxiv.org/)
+is an online repository of preprints–early, non-reviewed scholarly
 papers. Online preprints facilitate rapid sharing of new research. Some fields
 (e.g: machine learning) upload dozens of preprints per day onto arXiv.
 
