@@ -43,21 +43,15 @@
 	},
 	"CS1501": {
 		"requirements": " PREQ: (CS 0441 or CS 0406) and (CS 0445 or CS 0455 or COE 0445) ; (MIN GRADE 'C'  or Transfer FOR ALL COURSES LISTED)",
-		"prereq": {
-			"and": ["CS0441", "CS0445"]
-		}
+		"prereq": ["CS0441", "CS0445"]
 	},
 	"CS1502": {
 		"requirements": " PREQ: (CS 0441 or CS 0406) and (CS 0445 or CS 0455 or COE 0445) ; (MIN GRADE C'  or Transfer FOR ALL COURSES LISTED)",
-		"prereq": {
-			"and": ["CS0441", "CS0445"]
-		}
+		"prereq": ["CS0441", "CS0445"]
 	},
 	"CS1510": {
 		"requirements": " PREQ: [(CS 1501 or COE 1501) and CS 1502] or (CS 0458 and CS 1710); MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED",
-		"prereq": {
-			"and": ["CS1501", "CS1502"]
-		}
+		"prereq": ["CS1501", "CS1502"]
 	},
 	"CS1511": {
 		"requirements": " PREQ: CS 1502 (MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED)",
@@ -81,9 +75,7 @@
 	},
 	"CS1550": {
 		"requirements": " PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449) or (0456 and 1750); MIN GRADE 'C'  or TRANSFER FOR ALL COURSES LISTED",
-		"prereq": {
-			"and": ["CS0447", "CS0449"]
-		}
+		"prereq": ["CS0447", "CS0449"]
 	},
 	"CS1555": {
 		"requirements": " PREQ: CS 1501 (Min Grade 'C')",
@@ -95,15 +87,11 @@
 	},
 	"CS1567": {
 		"requirements": " PREQ: CS (0441 and (0445 or COE 0445)) or (0406 and 0455) (MIN GRADE 'C' or Transfer), MIN GPA: 3.25",
-		"prereq": {
-			"and": ["CS0441", "CS0445"]
-		}
+		"prereq": ["CS0441", "CS0445"]
 	},
 	"CS1571": {
 		"requirements": " PREQ: (CS 1501 or COE 1501) and CS 1502 (Min Grade 'C' or Transfer for All Listed Courses)",
-		"prereq": {
-			"and": ["CS0441", "CS0445"]
-		}
+		"prereq": ["CS0441", "CS0445"]
 	},
 	"CS1621": {
 		"requirements": " PREQ: CS (0441 and 0445) or (0406 and 0455); (MIN GRADE 'C' or TRANSFER FOR ALL COURSES LISTED)",
@@ -111,15 +99,11 @@
 	},
 	"CS1622": {
 		"requirements": " PREQ: CS 0441 and ((CS or COE 0447) or (CS 0406 and 0456)); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": {
-			"and": ["CS0441", "CS0447"]
-		}
+		"prereq": ["CS0441", "CS0447"]
 	},
 	"CS1631": {
 		"requirements": " PREQ: (CS 0441 and (CS or COE 0445)) or (CS 0406 and 0455); (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": {
-			"and": ["CS0441", "CS0445"]
-		}
+		"prereq": ["CS0441", "CS0445"]
 	},
 	"CS1632": {
 		"requirements": " PREQ: (CS 0445 or COE 0445 or CS 0455) or (PLAN COE and (CS 0445 or COE 0445) (Min Grade 'C'  or Transfer for All Listed Courses)",
@@ -145,7 +129,7 @@
 	},
 	"CS1651": {
 		"requirements": " PREQ: CS 1550 or 1312 or 1792; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1550"]
 	},
 	"CS1652": {
 		"requirements": " PREQ: (CS 0447 or COE 0447) and (CS 0449 or COE 0449); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
@@ -165,11 +149,11 @@
 	},
 	"CS1660": {
 		"requirements": " CS 1550: Intro to Operating Systems; MIN GRADE: C or Transfer",
-		"prereq": ["TODO"]
+		"prereq": ["CS1550"]
 	},
 	"CS1666": {
 		"requirements": " PREQ: CS 1501 or COE 1501; (MIN GRADE 'C' or Transfer)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1501"]
 	},
 	"CS1671": {
 		"requirements": " PREQ: CS 1501; (MIN GRADE 'C'  OR TRANSFER)",

@@ -1,6 +1,5 @@
 .course-pill {
-  @apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer text-center;
-  width: 6.3rem;
+  @apply rounded-full border w-32 mr-4 py-2 px-4 my-1 cursor-pointer text-center;
 
   &:focus {
     outline: none;
@@ -23,10 +22,13 @@
   }
 }
 
+.course-req-dot {
+  @apply w-2 h-2 inline-block rounded-full mr-1;
+}
+
 .course-controls {
   p {
     @apply mb-2;
-
   }
 
   input {
@@ -77,10 +79,10 @@
     list-style-type: none;
     margin: 0;
 
-    li>div {
+    li > div {
       border-bottom: 1px solid #e2e8f0;
 
-      &>a {
+      & > a {
         @apply text-gray-800 p-3 block;
         font-weight: bold;
       }

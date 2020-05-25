@@ -2,6 +2,12 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 import { cleanCourseId, cleanCourseTitle } from "../utils/course-namer"
 import TermPills from "./term-pills"
+import {
+  CSLegendData,
+  PrereqLegend,
+  RequirementDots,
+} from "./courses/requirements"
+import COURSE_REQUIREMENTS from "../data/requirements.json"
 
 const Course = ({ id, title, onClick, showTitle, isSelected }) => {
   const displayId = cleanCourseId(id)
@@ -21,6 +27,10 @@ const Course = ({ id, title, onClick, showTitle, isSelected }) => {
         onClick={onClick}
         onKeyDown={onClick}
       >
+        <RequirementDots
+          legend={CSLegendData}
+          requirements={COURSE_REQUIREMENTS[id]}
+        />
         {display}
       </div>
       <Link
@@ -127,75 +137,67 @@ const CourseControls = ({
     if (e.target.checked) setTermOfferedFilter("OFF")
   }
   return (
-    <div className="my-4 content-center course-controls flex-none border bg-gray-100 p-2">
-      <h4 className="mb-0">Course Filter Controls</h4>
-      <p>
-        Use these controls to find the perfect courses for you! And don't forget
-        you can use the search bar at the top right anywhere on the wiki if you
-        know the name of a course!
-      </p>
-      <div className="md:flex align-center items-center md:h-10">
-        <label>
-          <input
-            type="checkbox"
-            checked={showTitles}
-            onChange={(e) => setShowTitles(e.target.checked)}
-          />
-          Show Course Titles
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={showHidden}
-            onChange={handleShowHidden}
-          />
-          Show Hidden Classes
-        </label>
-        <span className="font-bold">Offered in:</span>
-        <div className="ml-2" id="term_offered">
-          <button
-            value="FALL"
-            className={
-              "btn bg-white md:w-20 small " +
-              (termOfferedFilter === "FALL" && "active")
-            }
-            name="term_offered"
-            onClick={handleSetTermOffered}
-          >
-            Fall
-          </button>
-          <button
-            className={
-              "btn bg-white md:w-20 small " +
-              (termOfferedFilter === "SPRING" && "active")
-            }
-            value="SPRING"
-            nane="term_offered"
-            onClick={handleSetTermOffered}
-          >
-            Spring
-          </button>
-          <button
-            className={
-              "btn bg-white md:w-20 small " +
-              (termOfferedFilter === "SUMMER" && "active")
-            }
-            value="SUMMER"
-            name="term_offered"
-            onClick={handleSetTermOffered}
-          >
-            Summer
-          </button>
-        </div>
+    <div className="md:flex align-center items-center md:h-10">
+      <label>
+        <input
+          type="checkbox"
+          checked={showTitles}
+          onChange={(e) => setShowTitles(e.target.checked)}
+        />
+        Show Course Titles
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          checked={showHidden}
+          onChange={handleShowHidden}
+        />
+        Show Hidden Classes
+      </label>
+      <span className="font-bold">Offered in:</span>
+      <div className="ml-2" id="term_offered">
+        <button
+          value="FALL"
+          className={
+            "btn bg-white md:w-20 small " +
+            (termOfferedFilter === "FALL" && "active")
+          }
+          name="term_offered"
+          onClick={handleSetTermOffered}
+        >
+          Fall
+        </button>
         <button
           className={
-            termOfferedFilter === "OFF" ? "hidden" : "ml-1 small bg-red-100 btn"
+            "btn bg-white md:w-20 small " +
+            (termOfferedFilter === "SPRING" && "active")
           }
-          onClick={() => setTermOfferedFilter("OFF")}
+          value="SPRING"
+          nane="term_offered"
+          onClick={handleSetTermOffered}
         >
-          Clear Term Offered Filter
+          Spring
+        </button>
+        <button
+          className={
+            "btn bg-white md:w-20 small " +
+            (termOfferedFilter === "SUMMER" && "active")
+          }
+          value="SUMMER"
+          name="term_offered"
+          onClick={handleSetTermOffered}
+        >
+          Summer
         </button>
       </div>
+      <button
+        className={
+          termOfferedFilter === "OFF" ? "hidden" : "ml-1 small bg-red-100 btn"
+        }
+        onClick={() => setTermOfferedFilter("OFF")}
+      >
+        Clear Term Offered Filter
+      </button>
     </div>
   )
 }
@@ -210,8 +212,32 @@ const CourseListing = ({ courseList, courseCategories }) => {
   const setFilters = { setShowTitles, setShowHidden, setTermOfferedFilter }
   return (
     <div className="">
+      <div className="mb-4">
+        <h4 className="mb-0">Course Requirement Visualization</h4>
+        <p className="mb-1">
+          Sometimes the hardest part of picking the right elective is knowing
+          the prereqs. We make it easier to visualize what classes have what
+          requirements by color coding them. For example, CS 1510 has the
+          requirements of CS 1501 and CS 1502, so it has a blue and orange
+          circle next to it.
+        </p>
+        <div className="border inline-block">
+          <PrereqLegend legendData={CSLegendData} />
+        </div>
+      </div>
+
       <div>
-        <CourseControls filters={filters} setFilters={setFilters} />
+        <div className="my-4 content-center course-controls flex-none ">
+          <h4 className="mb-0">Course Filter Controls</h4>
+          <p>
+            Use these controls to find the perfect courses for you! And don't
+            forget you can use the search bar at the top right anywhere on the
+            wiki if you know the name of a course!
+          </p>
+          <div className="md:flex align-center items-center md:h-10">
+            <CourseControls filters={filters} setFilters={setFilters} />
+          </div>
+        </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="md:w-2/3">
