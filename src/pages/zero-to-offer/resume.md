@@ -160,7 +160,8 @@ Most resumes are either made in LaTeX or Microsoft Word. Use whatever you are mo
 ### Online Resume Makers
 If you don't want to go through the hassle of formatting your resume on Word or LaTeX, there are a few websites that we recommend using instead.
  - [Resumake](https://resumake.io/)
- - 
+ - [Creddle](http://creddle.io/)
+ - [Overleaf](https://www.overleaf.com/latex/templates)(For LaTeX templates!)
 
 ## Cover Letters
 Cover Letters are definitely not required when applying. In most cases, it is better to have no cover letter than to have a bad cover letter, especially if your cover letter is "templated" content. An effective cover letter needs to highlight the fit between the job requirements and your skills/experiences. Do not just say what you have done in your cover letter; Tell  the recruiter how it is a fit for what he or she is looking for.
