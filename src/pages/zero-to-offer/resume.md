@@ -1,4 +1,3 @@
-
 ---
 title: "Zero to Offer - Resume"
 ---
