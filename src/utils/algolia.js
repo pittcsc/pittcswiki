@@ -9,6 +9,7 @@ const courseQuery = `query CoursePageQuery {
         id
         path
         title
+        search_tags
       }
     }
   }
