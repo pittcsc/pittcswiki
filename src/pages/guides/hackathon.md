@@ -55,4 +55,4 @@ Pitt Challenge is a hackathon that's themed and focused on healthcare problems a
 ### Hacking4Humanity
 Hacking4Humanity is a hackathon themed toward more social issue problems, with each year focusing on one issue. Some of these issues include human trafficking and digital disinformation. This hackathon is put on by the Institute for Cyber Law, Policy, and Security, and is typically a fairly small hackathon (usually less than 15 teams participating), but despite the size does yield, like all other hackathons, amazing projects with incredible solutions.
 
-> Interested in organizing one of Pitt's amazing hackathons? Contact me at [azharichenko@gmail.com](mailto:azharichenko)!
+> Interested in organizing one of Pitt's amazing hackathons? Contact me at [azharichenko@gmail.com](mailto:azharichenko@gmail.com)!
