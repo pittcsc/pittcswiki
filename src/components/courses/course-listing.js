@@ -1,13 +1,9 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
-import { cleanCourseId, cleanCourseTitle } from "../utils/course-namer"
-import TermPills from "./term-pills"
-import {
-  CSLegendData,
-  PrereqLegend,
-  RequirementDots,
-} from "./courses/requirements"
-import COURSE_REQUIREMENTS from "../data/requirements.json"
+import { cleanCourseId, cleanCourseTitle } from "../../utils/course-namer"
+import TermPills from "../term-pills"
+import { CSLegendData, PrereqLegend, RequirementDots } from "./requirements"
+import COURSE_REQUIREMENTS from "../../data/requirements.json"
 
 const Course = ({
   id,

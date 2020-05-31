@@ -33,6 +33,12 @@
   }
 }
 
+.requirements-listing {
+  a {
+    @apply mr-2 border p-1;
+  }
+}
+
 .course-controls {
   p {
     @apply mb-2;

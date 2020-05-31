@@ -1,7 +1,7 @@
 import DagreGraph from "dagre-d3-react"
 import React from "react"
 import { navigate } from "gatsby"
-import { toProperCourseId } from "../utils/course-namer"
+import { toProperCourseId } from "../../utils/course-namer"
 
 /*
 Usage <CourseGraph reqs={ 
@@ -38,11 +38,11 @@ export default ({ reqs }) => {
       target: req[1],
       class: req[2] ? req[2].type : "prereq",
     }
-    addNode(link.source, nodeHash, nodes)	
+    addNode(link.source, nodeHash, nodes)
     addNode(link.target, nodeHash, nodes)
     links.push(link)
   })
-  
+
   return (
     <DagreGraph
       nodes={nodes}

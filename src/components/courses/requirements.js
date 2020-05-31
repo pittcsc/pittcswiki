@@ -1,5 +1,6 @@
 import React from "react"
 import { cleanCourseId } from "../../utils/course-namer"
+import CourseLink from "./course-link"
 
 // Look at the components.scss file for styles relating to this component
 
@@ -94,4 +95,53 @@ const PrereqLegend = ({ legendData }) => {
   return <div>{legend}</div>
 }
 
-export { PrereqLegend, CSLegendData, RequirementDots }
+const requirementsTraverser = (requirements) => {
+  if (!requirements) return null
+
+  if (requirements.or) {
+    const or = requirements.or.map((id) => <CourseLink key={id} id={id} />)
+    return <span>{or}</span>
+  } else if (requirements.length > 0 || requirements.and) {
+    const andReqs = requirements.and ? requirements.and : requirements
+    const and = andReqs.map((id) => <CourseLink key={id} id={id} />)
+    return <span>{and}</span>
+  } else {
+    console.log("Error parsing requirements")
+    return <span>Check the SCI Website!</span>
+  }
+}
+
+const RequirementsListing = ({ requirements }) => {
+  if (!requirements) {
+    console.log("Requirements not found! Check the SCI Website!")
+    return "N/A"
+  }
+
+  const { prereq, coreq, requirementsString } = requirements
+  const hasPrereq = prereq && prereq[0] !== "TODO"
+  const hasCoreq = coreq && coreq[0] !== "TODO"
+  if (!hasPrereq && !hasCoreq) {
+    return <span>{requirementsString}</span>
+  }
+
+  const prereqJsx = hasPrereq && (
+    <span>
+      <span className="font-bold">PRE-REQ: </span>{" "}
+      {requirementsTraverser(prereq)}
+    </span>
+  )
+
+  const coreqJsx = hasCoreq && (
+    <span>
+      <span className="font-bold">CO-REQ: </span> {requirementsTraverser(coreq)}
+    </span>
+  )
+
+  return (
+    <span class="requirements-listing">
+      {prereqJsx} {coreqJsx}
+    </span>
+  )
+}
+
+export { PrereqLegend, CSLegendData, RequirementDots, RequirementsListing }
