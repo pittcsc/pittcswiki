@@ -52,6 +52,12 @@ export default ({ reqs, showPreview = false }) => {
 
   const [currentCourse, setCurrentCourse] = useState(null)
 
+  const onNodeClick = showPreview
+    ? ({ original: { id } }) => setCurrentCourse(toProperCourseId(id))
+    : ({ original: { id } }) => {
+        navigate(`/courses/${toProperCourseId(id)}`)
+      }
+
   return (
     <div>
       <DagreGraph
@@ -61,15 +67,13 @@ export default ({ reqs, showPreview = false }) => {
           rankdir: "LR",
           align: "UL",
           ranker: "tight-tree",
-          fitBoundaries: true,
+          fitBoundaries: false,
         }}
         height="400"
         width="480"
         shape="rect"
         className="course-graph mx-auto"
-        onNodeClick={({ original: { id } }) =>
-          setCurrentCourse(toProperCourseId(id))
-        }
+        onNodeClick={onNodeClick}
       />
       <div
         style={{ top: "10rem" }}
