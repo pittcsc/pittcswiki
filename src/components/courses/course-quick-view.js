@@ -2,6 +2,8 @@ import TermPills from "../term-pills"
 import { cleanCourseId, cleanCourseTitle } from "../../utils/course-namer"
 import React from "react"
 import { Link } from "gatsby"
+import COURSE_REQUIREMENTS from "../../data/requirements.json"
+import { RequirementsListing } from "../courses/requirements"
 
 const CourseQuickViewContent = ({
   id,
@@ -15,7 +17,9 @@ const CourseQuickViewContent = ({
     <h1 className="mb-2">{cleanCourseId(id)}</h1>
     <h2 className="mb-2">{cleanCourseTitle(title)}</h2>
     <TermPills termsMap={terms_offered} />
-    <p className="mt-2">{requirements}</p>
+    <div className="mt-4 mb-2">
+      <RequirementsListing requirements={COURSE_REQUIREMENTS[id]} />
+    </div>
     <p className="text-xs">
       {description.length > 850
         ? description.substring(0, 800) + "…"

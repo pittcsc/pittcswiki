@@ -53,11 +53,7 @@ export default function Template({
           </div>
           <TermPills termsMap={courseData.terms_offered} />
           <div className="my-4">
-            <span>
-              <RequirementsListing
-                requirements={COURSE_REQUIREMENTS[courseId]}
-              />
-            </span>
+            <RequirementsListing requirements={COURSE_REQUIREMENTS[courseId]} />
           </div>
           <div className="mb-2">
             <span className="label">Course Description</span>

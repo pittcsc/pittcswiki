@@ -56,11 +56,8 @@ export default ({ reqs, showPreview = false }) => {
 
   const onNodeClick = showPreview
     ? ({ original: { id } }) => setCurrentCourse(id)
-    : ({ original: { id } }) => {
-        navigate(`/courses/${id}`)
-      }
+    : ({ original: { id } }) => navigate(`/courses/${id}`)
 
-  console.log("rendr")
   return (
     <div className="lg:flex">
       <DagreGraph
