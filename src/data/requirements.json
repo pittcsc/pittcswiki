@@ -111,7 +111,7 @@
 		"prereq": ["CS0445"]
 	},
 	"CS1635": {
-		"requirements": "\n            ",
+		"requirements": "\n",
 		"prereq": ["TODO"]
 	},
 	"CS1637": {
@@ -126,7 +126,7 @@
 	},
 	"CS1645": {
 		"requirements": " PREQ: CS 0447 and 0449 and 1501; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS0447","CS0449","CS1501"]
 	},
 	"CS1651": {
 		"requirements": " PREQ: CS 1550 or 1312 or 1792; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
@@ -134,19 +134,19 @@
 	},
 	"CS1652": {
 		"requirements": " PREQ: (CS 0447 or COE 0447) and (CS 0449 or COE 0449); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS0447","CS0449"]
 	},
 	"CS1653": {
 		"requirements": " PREQ: (CS 0449 or COE 0449) and (CS 1501 or COE 1501) or (CS 0458 or CS 1750); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS0449", "CS1501"]
 	},
 	"CS1655": {
 		"requirements": " PREQ: CS 0441 and (CS 0445 or COE 0445); (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS0441","CS0445"]
 	},
 	"CS1656": {
 		"requirements": " PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' or Transfer For All Listed Coures)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1501"]
 	},
 	"CS1660": {
 		"requirements": " CS 1550: Intro to Operating Systems; MIN GRADE: C or Transfer",
@@ -158,19 +158,19 @@
 	},
 	"CS1671": {
 		"requirements": " PREQ: CS 1501; (MIN GRADE 'C'  OR TRANSFER)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1501"]
 	},
 	"CS1674": {
 		"requirements": " PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' OR TRANSFER)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1501"]
 	},
 	"CS1675": {
 		"requirements": " PREQ: CS 1501 or COE 1501 and (STAT 1000 or 1100 or 1151 or ENGR 0020) (Min Grade 'C' or Transfer for All Listed Courses)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1501", { "or":["STAT1000","STAT1100","STAT1151","ENGR0020"]} ]
 	},
 	"CS1699": {
 		"requirements": "Current Sections",
-		"prereq": ["TODO"]
+		"prereq": [{"comment":"Depends"}]
 	},
 	"CS1900": {
 		"requirements": " Capstone Course\n",
@@ -190,7 +190,7 @@
 	},
 	"CS1980": {
 		"requirements": " PREQ: CS 1550; PLAN: Computer Science (CS-BS, CSCI-BS); (MIN GRADE 'C' OR TRANSFER  FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS1550"]
 	},
 	"CS2000": {
 		"requirements": "Current Sections",
@@ -202,11 +202,11 @@
 	},
 	"CS2002": {
 		"requirements": " PREQ: CS 2001",
-		"prereq": ["TODO"]
+		"prereq": ["CS2001"]
 	},
 	"CS2003": {
 		"requirements": " PREQ: CS 2001 and 2002; PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS)",
-		"prereq": ["TODO"]
+		"prereq": ["CS2001", "CS2002"]
 	},
 	"CS2012": {
 		"requirements": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
