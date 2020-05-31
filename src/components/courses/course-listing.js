@@ -1,9 +1,9 @@
 import { Link } from "gatsby"
 import React, { useState } from "react"
 import { cleanCourseId, cleanCourseTitle } from "../../utils/course-namer"
-import TermPills from "../term-pills"
 import { CSLegendData, PrereqLegend, RequirementDots } from "./requirements"
 import COURSE_REQUIREMENTS from "../../data/requirements.json"
+import { CourseQuickView } from "./course-quick-view"
 
 const Course = ({
   id,
@@ -99,50 +99,6 @@ const CourseInteractiveListing = ({
       </div>
     ) : null
   })
-}
-
-const CourseQuickView = ({
-  id,
-  credits,
-  description,
-  requirements,
-  title,
-  terms_offered,
-}) => {
-  const content = id ? (
-    <>
-      <h1 className="mb-2">{cleanCourseId(id)}</h1>
-      <h2 className="mb-2">{cleanCourseTitle(title)}</h2>
-      <TermPills termsMap={terms_offered} />
-      <p className="mt-2">{requirements}</p>
-      <p className="text-xs">
-        {description.length > 850
-          ? description.substring(0, 800) + "…"
-          : description}
-      </p>
-      <Link
-        className="font-semibold btn btn-blue hover:text-white border-blue-200 p-2 text-center mt-auto"
-        to={`/courses/${id}`}
-      >
-        View more details
-      </Link>
-    </>
-  ) : (
-    <div>
-      <h3>Click a course on the left to see details</h3>
-      <p>
-        With the controls at the top, you can filter. If you want to know more
-        about a class, click view details after selecting it. Dont forget the
-        search bar at the top right of the page works too!
-      </p>
-    </div>
-  )
-
-  return (
-    <div className="flex flex-col h-full p-8 shadow-xl border rounded br-8">
-      {content}
-    </div>
-  )
 }
 
 const CourseControls = ({ filters, setFilters }) => {
@@ -304,8 +260,19 @@ const CourseListing = ({ courseList, courseCategories }) => {
             maxHeight: "45rem",
           }}
         >
-          <CourseQuickView {...state.currentCourse} />
-          {/* <CourseControls /> */}
+          <div className="flex flex-col h-full p-8 shadow-xl border rounded br-8">
+            <CourseQuickView {...state.currentCourse}>
+              <div>
+                <h3>Click a course on the left to see details</h3>
+                <p>
+                  With the controls at the top, you can filter. If you want to
+                  know more about a class, click view details after selecting
+                  it. Dont forget the search bar at the top right of the page
+                  works too!
+                </p>
+              </div>
+            </CourseQuickView>
+          </div>
         </div>
       </div>
       <p className="text-sm italic">
