@@ -136,7 +136,8 @@
     stroke-dasharray: 5, 5;
   }
 
-  .node:hover {
+  .node:hover,
+  .node.active {
     text {
       fill: white;
     }
