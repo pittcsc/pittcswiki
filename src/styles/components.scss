@@ -26,6 +26,7 @@
   .course-req-dot {
     @apply w-2 h-2 inline-block rounded-full mr-1;
   }
+
   &.coreqs .course-req-dot {
     @apply rounded-none;
     transform: rotate(45deg);
@@ -85,10 +86,10 @@
     list-style-type: none;
     margin: 0;
 
-    li > div {
+    li>div {
       border-bottom: 1px solid #e2e8f0;
 
-      & > a {
+      &>a {
         @apply text-gray-800 p-3 block;
         font-weight: bold;
       }

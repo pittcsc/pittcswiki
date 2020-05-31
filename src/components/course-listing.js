@@ -15,13 +15,15 @@ const Course = ({
   onClick,
   showTitle,
   isSelected,
+  customCss,
+  isPrereqFilterModeOn = false,
   colorLegend = {},
 }) => {
   // Supply a color legend if you would like to apply colors!
   const displayId = cleanCourseId(id)
   const displayTitle = cleanCourseTitle(title)
   const display = showTitle ? displayTitle : displayId
-  const highlightColor = colorLegend[id]
+  const highlightColor = isPrereqFilterModeOn ? colorLegend[id] : null
   return (
     <>
       <div
@@ -30,22 +32,24 @@ const Course = ({
         className={
           "hidden md:inline-block course-pill" +
           (isSelected ? " selected" : "") +
-          (showTitle ? " w-auto " : "")
+          (showTitle ? " w-auto " : "") +
+          (customCss ? customCss : "")
         }
         style={
           highlightColor && {
             borderColor: highlightColor,
-            color: highlightColor,
-            boxShadow: "0px 0px 4px",
+            boxShadow: `0px 0px 4px ${highlightColor}`,
           }
         }
         onClick={onClick}
         onKeyDown={onClick}
       >
-        <RequirementDots
-          legend={CSLegendData}
-          requirements={COURSE_REQUIREMENTS[id]}
-        />
+        {!highlightColor && isPrereqFilterModeOn && (
+          <RequirementDots
+            legend={CSLegendData}
+            requirements={COURSE_REQUIREMENTS[id]}
+          />
+        )}
         {display}
       </div>
       <Link
@@ -62,7 +66,7 @@ const Course = ({
 
 const CourseInteractiveListing = ({
   setCurrentCourse,
-  filters: { showTitles, showHidden, termOfferedFilter },
+  filters: { showTitles, showHidden, termOfferedFilter, isPrereqFilterModeOn },
   courseCategories,
   selectedCourseId,
 }) => {
@@ -88,6 +92,7 @@ const CourseInteractiveListing = ({
               {...course}
               onClick={() => setCurrentCourse(course)}
               isSelected={selectedCourseId === course.id}
+              isPrereqFilterModeOn={isPrereqFilterModeOn}
               colorLegend={CSLegendData}
             />
           ))}
@@ -141,32 +146,45 @@ const CourseQuickView = ({
   )
 }
 
-const CourseControls = ({
-  filters: { showTitles, showHidden, termOfferedFilter },
-  setFilters: { setShowTitles, setShowHidden, setTermOfferedFilter },
-}) => {
+const CourseControls = ({ filters, setFilters }) => {
   const handleSetTermOffered = (e) => {
-    setTermOfferedFilter(e.target.value)
+    setFilters({ ...filters, termOfferedFilter: e.target.value })
   }
-  const handleShowHidden = (e) => {
-    setShowHidden(e.target.checked)
-    if (e.target.checked) setTermOfferedFilter("OFF")
+  const turnOffTermOfferedFilter = () => {
+    setFilters({ ...filters, termOfferedFilter: "OFF" })
+  }
+  const handleCheckbox = (e) => {
+    const newFilters = { ...filters, [e.target.name]: e.target.checked }
+    if (e.target.name === "showHidden" && e.target.checked)
+      newFilters.termOfferedFilter = "OFF"
+    setFilters(newFilters)
   }
   return (
     <div className="md:flex align-center items-center md:h-10">
       <label>
         <input
           type="checkbox"
-          checked={showTitles}
-          onChange={(e) => setShowTitles(e.target.checked)}
+          name="showTitles"
+          checked={filters.showTitles}
+          onChange={handleCheckbox}
         />
         Show Course Titles
       </label>
       <label>
         <input
           type="checkbox"
-          checked={showHidden}
-          onChange={handleShowHidden}
+          name="isPrereqFilterModeOn"
+          checked={filters.isPrereqFilterModeOn}
+          onChange={handleCheckbox}
+        />
+        Filter Based on Requirements
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          name="showHidden"
+          checked={filters.showHidden}
+          onChange={handleCheckbox}
         />
         Show Hidden Classes
       </label>
@@ -176,7 +194,7 @@ const CourseControls = ({
           value="FALL"
           className={
             "btn bg-white md:w-20 small " +
-            (termOfferedFilter === "FALL" && "active")
+            (filters.termOfferedFilter === "FALL" && "active")
           }
           name="term_offered"
           onClick={handleSetTermOffered}
@@ -186,7 +204,7 @@ const CourseControls = ({
         <button
           className={
             "btn bg-white md:w-20 small " +
-            (termOfferedFilter === "SPRING" && "active")
+            (filters.termOfferedFilter === "SPRING" && "active")
           }
           value="SPRING"
           nane="term_offered"
@@ -197,7 +215,7 @@ const CourseControls = ({
         <button
           className={
             "btn bg-white md:w-20 small " +
-            (termOfferedFilter === "SUMMER" && "active")
+            (filters.termOfferedFilter === "SUMMER" && "active")
           }
           value="SUMMER"
           name="term_offered"
@@ -208,9 +226,11 @@ const CourseControls = ({
       </div>
       <button
         className={
-          termOfferedFilter === "OFF" ? "hidden" : "ml-1 small bg-red-100 btn"
+          filters.termOfferedFilter === "OFF"
+            ? "hidden"
+            : "ml-1 small bg-red-100 btn"
         }
-        onClick={() => setTermOfferedFilter("OFF")}
+        onClick={turnOffTermOfferedFilter}
       >
         Clear Term Offered Filter
       </button>
@@ -219,23 +239,16 @@ const CourseControls = ({
 }
 
 const CourseListing = ({ courseList, courseCategories }) => {
-  const [currentCourse, setCurrentCourse] = useState({})
-  const [showTitles, setShowTitles] = useState(false)
-  const [showHidden, setShowHidden] = useState(false)
-  const [termOfferedFilter, setTermOfferedFilter] = useState("OFF")
+  const [state, setState] = useState({
+    currentCourse: {},
+    showTitles: false,
+    showHidden: false,
+    isPrereqFilterModeOn: true,
+    termOfferedFilter: "OFF",
+  })
 
-  const filters = { showTitles, showHidden, termOfferedFilter }
-  const setFilters = { setShowTitles, setShowHidden, setTermOfferedFilter }
   return (
     <div className="">
-      {/* <div className="mb-4">
-        <h4 className="mb-0">Course Requirement Visualization</h4>
-        <p className="mb-1"></p>
-        <div className="border inline-block">
-          <PrereqLegend legendData={CSLegendData} />
-        </div>
-      </div> */}
-
       <div className="my-4 content-center course-controls flex-none border p-1">
         <h4 className="mb-0">Course Filter Controls</h4>
         <p>
@@ -244,15 +257,41 @@ const CourseListing = ({ courseList, courseCategories }) => {
           wiki if you know the name of a course!
         </p>
         <div className="md:flex align-center items-center md:h-10">
-          <CourseControls filters={filters} setFilters={setFilters} />
+          <CourseControls filters={state} setFilters={setState} />
+        </div>
+      </div>
+      <div
+        className={state.isPrereqFilterModeOn ? "mb-4 border p-1" : "hidden"}
+      >
+        <h4 className="mb-0">Filter by Requirement</h4>
+        <p className="mb-1 course-requirements-filter-description">
+          Sometimes the hardest part of finding classes is knowing which classes
+          you have the requirements for. Color coding shows which classes have
+          what requirements based on the a color legend. For example, below
+          shows that CS 1622 (Compilers) has the prerequisites of CS 441 and CS
+          447, based on the colored dots in it.
+        </p>
+        <Course
+          key={"CS1622"}
+          showTitle={state.showTitles}
+          {...{ id: "CS1622", title: "INTRO TO COMPILERS" }}
+          isSelected={state.currentCourse.id === "CS1622"}
+          onClick={() => null}
+          isPrereqFilterModeOn={true}
+          colorLegend={CSLegendData}
+        />
+        <div className="inline-block">
+          <PrereqLegend legendData={CSLegendData} />
         </div>
       </div>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="md:w-2/3 md:pr-1">
           <CourseInteractiveListing
-            filters={filters}
-            setCurrentCourse={setCurrentCourse}
-            selectedCourseId={currentCourse.id}
+            filters={state}
+            setCurrentCourse={(course) =>
+              setState({ ...state, currentCourse: course })
+            }
+            selectedCourseId={state.currentCourse.id}
             courseCategories={courseCategories}
             courses={courseList.courses}
           />
@@ -266,7 +305,7 @@ const CourseListing = ({ courseList, courseCategories }) => {
             maxHeight: "45rem",
           }}
         >
-          <CourseQuickView {...currentCourse} />
+          <CourseQuickView {...state.currentCourse} />
           {/* <CourseControls /> */}
         </div>
       </div>
