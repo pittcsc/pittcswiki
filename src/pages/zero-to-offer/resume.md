@@ -175,22 +175,22 @@ Some small nitpicks:
 Still in a rut? Follow this step-by-step algorithm to make your resume!
 
  1. Make a brain dump of your experiences
-	 a.  It may be helpful to jot your work experience and projects from start to finish. 
-	 b. Make sure your list adheres to the guidelines on this page! 
+	-  It may be helpful to jot your work experience and projects from start to finish. 
+	- Make sure your list adheres to the guidelines on this page! 
 2. Choose a resume template/style
-	a.  Fill out the contact, education, and skills section of the resume
+	-  Fill out the contact, education, and skills section of the resume
 3. Curate your work experience
-	a. Now put your **relevant** work experience in.
+	- Now put your **relevant** work experience in.
 4. Curate your projects
-	a. Now put your projects on the resume until it goes over one page.
-	b. Prioritize your more complex and relevant projects.
+	- Now put your projects on the resume until it goes over one page.
+	- Prioritize your more complex and relevant projects.
 5. (Optional) Add Activities and Awards Section
-	a. Only do this step if there is enough space. If there isn't don't worry about fitting this section in.
+	- Only do this step if there is enough space. If there isn't don't worry about fitting this section in.
 6. Cut your resume down to one page
-	a. Reword your longer sentences.
-	b. Lower margins, padding, font size, and line spaces. 
-	c. Make sure your font size isn't too small!
+	- Reword your longer sentences.
+	- Lower margins, padding, font size, and line spaces. 
+	- Make sure your font size isn't too small!
 7. Check your resume for consistent formatting
-	a. Use the formatting checklist above to make sure everything is uniform!
+	- Use the formatting checklist above to make sure everything is uniform!
 8. If you're a Pitt student, send it to us and we'll make more changes!
 
