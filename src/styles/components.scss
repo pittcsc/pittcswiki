@@ -121,8 +121,8 @@
   }
 
   .node rect {
-    stroke: #886008;
-    fill: #ffb81d;
+    stroke: black;
+    fill: #ececec;
     stroke-width: 2px;
   }
 
@@ -142,7 +142,8 @@
     }
 
     rect {
-      fill: #333;
+      fill: #ffb81d;
+      stroke: #a57306;
     }
   }
 }

@@ -24,12 +24,15 @@ Usage <CourseGraph reqs={
 const addNode = (id, nodeHash, nodes) => {
   if (!nodeHash[id]) {
     nodeHash[id] = true
+    console.log(id, toProperCourseId(id))
     nodes.push({
       label: id,
       id: id,
       class: "course cursor-pointer",
       config: {
         width: 50,
+        rx: 5,
+        ry: 5,
       },
     })
   }
@@ -59,26 +62,18 @@ export default ({ reqs, showPreview = false }) => {
       }
 
   return (
-    <div>
+    <div className="lg:flex">
       <DagreGraph
         nodes={nodes}
         links={links}
-        options={{
-          rankdir: "LR",
-          align: "UL",
-          ranker: "tight-tree",
-          fitBoundaries: false,
-        }}
-        height="400"
+        fitBoundaries="false"
+        height="500"
         width="480"
         shape="rect"
         className="course-graph mx-auto"
         onNodeClick={onNodeClick}
       />
-      <div
-        style={{ top: "10rem" }}
-        className="border p-6 flex flex-col rounded br-8 lg:fixed lg:rounded-r-none lg:right-0 lg:w-1/4 shadow-md lg:border-r-0"
-      >
+      <div className="mb-5 border p-6 flex flex-col rounded br-8 lg:absolute lg:rounded-r-none lg:right-0 lg:w-1/4 shadow-md lg:border-r-0">
         <CourseQuickView {...getCourseData(currentCourse)}>
           <h3>Click a course on the graph to see details</h3>
           <p>
