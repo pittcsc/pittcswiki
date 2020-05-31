@@ -71,7 +71,7 @@ export default function Template({
           </div>
           {courseData.replaces && (
             <p className="p-2 bg-orange-200">
-              Heads up, this course replaced {courseData.replaces} !
+              Heads up, this course recently replaced {courseData.replaces} !
             </p>
           )}
           <a
