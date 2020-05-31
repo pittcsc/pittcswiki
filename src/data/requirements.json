@@ -171,10 +171,7 @@
 		}]
 	},
 	"CS1699": {
-		"requirementsString": "Current Sections",
-		"prereq": [{
-			"comment": "Since this class changes every year, it depends!"
-		}]
+		"requirementsString": "This class is special and has different requirements each year. Check the SCI website for information about it!"
 	},
 	"CS1900": {
 		"requirementsString": " Capstone Course\n",

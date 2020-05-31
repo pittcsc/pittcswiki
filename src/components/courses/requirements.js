@@ -98,6 +98,10 @@ const PrereqLegend = ({ legendData }) => {
 const requirementsTraverser = (requirements) => {
   if (!requirements) return null
 
+  if (requirements.comment) {
+    return <span>{requirements.comment}</span>
+  }
+
   if (requirements.or) {
     const or = requirements.or.map((id) => <CourseLink key={id} id={id} />)
     return <span>{or}</span>
@@ -118,27 +122,38 @@ const RequirementsListing = ({ requirements }) => {
   }
 
   const { prereq, coreq, requirementsString } = requirements
-  const hasPrereq = prereq && prereq[0] !== "TODO"
-  const hasCoreq = coreq && coreq[0] !== "TODO"
-  if (!hasPrereq && !hasCoreq) {
-    return <span>{requirementsString}</span>
+  if (prereq && prereq[0] === "TODO") {
+    console.log("Please fill out src/data/requirements.json!")
+    return (
+      <>
+        <span className="font-bold">Requirements</span> {requirementsString}
+      </>
+    )
   }
 
-  const prereqJsx = hasPrereq && (
+  if (!prereq && !coreq) {
+    return requirementsString ? (
+      <div className="p-4 bg-orange-200 text-orange-800">
+        {requirementsString}
+      </div>
+    ) : null
+  }
+
+  const prereqJsx = prereq && (
     <span>
       <span className="font-bold">PRE-REQ: </span>{" "}
       {requirementsTraverser(prereq)}
     </span>
   )
 
-  const coreqJsx = hasCoreq && (
+  const coreqJsx = coreq && (
     <span>
       <span className="font-bold">CO-REQ: </span> {requirementsTraverser(coreq)}
     </span>
   )
 
   return (
-    <span class="requirements-listing">
+    <span className="requirements-listing">
       {prereqJsx} {coreqJsx}
     </span>
   )

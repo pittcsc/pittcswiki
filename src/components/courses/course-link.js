@@ -12,6 +12,7 @@ const coursesWithWikiPages = COURSE_LIST.courses.reduce((acc, current) => {
 }, {})
 
 export default function CourseLink({ id }) {
+  if (!id || typeof id !== "string") return null
   const cleanedId = cleanCourseId(id)
   if (coursesWithWikiPages[id]) {
     return <Link to={`/courses/${id}`}>{cleanedId}</Link>
