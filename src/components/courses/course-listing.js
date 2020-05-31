@@ -198,7 +198,7 @@ const CourseListing = ({ courseList, courseCategories }) => {
     currentCourse: {},
     showTitles: false,
     showHidden: false,
-    isPrereqFilterModeOn: true,
+    isPrereqFilterModeOn: false,
     termOfferedFilter: "OFF",
   })
 
