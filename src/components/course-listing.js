@@ -24,6 +24,8 @@ const Course = ({
   const displayTitle = cleanCourseTitle(title)
   const display = showTitle ? displayTitle : displayId
   const highlightColor = isPrereqFilterModeOn ? colorLegend[id] : null
+  // this is confusing because it has the html for both mobile format and
+  // regular
   return (
     <>
       <div
@@ -32,7 +34,7 @@ const Course = ({
         className={
           "hidden md:inline-block course-pill" +
           (isSelected ? " selected" : "") +
-          (showTitle ? " w-auto " : "") +
+          (showTitle || isPrereqFilterModeOn ? " w-auto " : "") +
           (customCss ? customCss : "")
         }
         style={
@@ -54,7 +56,8 @@ const Course = ({
       </div>
       <Link
         className={
-          "md:hidden inline-block course-pill" + (showTitle ? " w-auto " : "")
+          "md:hidden inline-block course-pill" +
+          (showTitle || isPrereqFilterModeOn ? " w-auto " : "")
         }
         to={`/courses/${id}`}
       >
