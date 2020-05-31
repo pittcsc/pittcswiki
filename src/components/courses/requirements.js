@@ -117,13 +117,11 @@ const requirementsTraverser = (requirements) => {
 
 const RequirementsListing = ({ requirements }) => {
   if (!requirements) {
-    console.log("Requirements not found! Check the SCI Website!")
     return "N/A"
   }
 
   const { prereq, coreq, requirementsString } = requirements
   if (prereq && prereq[0] === "TODO") {
-    console.log("Please fill out src/data/requirements.json!")
     return (
       <>
         <span className="font-bold">Requirements</span> {requirementsString}
