@@ -1,0 +1,33 @@
+import React from "react"
+import Slugger from "github-slugger"
+
+const slugger = new Slugger()
+
+const truncate = (word) => {
+  if (word.length > 28) return word.substring(0, 18) + "..."
+  return word
+}
+
+export default function TableOfContents({ headings }) {
+  slugger.reset()
+  return (
+    <ul className="fixed left-0 list-none markdown-toc">
+      {headings
+        .filter((heading) => heading.depth !== 1)
+        .map((heading) => (
+          <li
+            key={heading.value}
+            className={"toc-heading-depth-" + heading.depth}
+            style={{ marginLeft: heading.depth + "rem" }}
+          >
+            <a
+              className="text-gray-600"
+              href={"#" + slugger.slug(heading.value)}
+            >
+              {truncate(heading.value)}
+            </a>
+          </li>
+        ))}
+    </ul>
+  )
+}
