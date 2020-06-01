@@ -1,0 +1,384 @@
+{
+	"CS0004": {},
+	"CS0007": {},
+	"CS0008": {},
+	"CS0010": {},
+	"CS0011": {},
+	"CS0012": {},
+	"CS0090": {},
+	"CS0134": {},
+	"CS0155": {},
+	"CS0334": {
+		"requirementsString": " PREQ: CS 0007 or 0134 or 0401 or INFSCI 0017 (Min Grade 'C' or Transfer)",
+		"prereq": ["CS0007"]
+	},
+	"CS0401": {},
+	"CS0441": {
+		"requirementsString": " CREQ: MATH 0220 or 0230 or 0235 or 0140 (Min Grade 'C' or Transfer) or (Plan: CS-MN or CSCI-MN and MATH 0120)",
+		"coreq": ["MATH0220"]
+	},
+	"CS0445": {
+		"requirementsString": " PREQ: CS 0401 or COE 0401 or 0422 or CIST 0150 (MIN GRADE 'C' or Transfer)",
+		"prereq": ["CS0401"]
+	},
+	"CS0447": {
+		"requirementsString": " CREQ: CS 0445 or COE 0445 or 0458 (Min Grade 'C' or Transfer)",
+		"coreq": ["CS0445"]
+	},
+	"CS0449": {
+		"requirementsString": " PREQ: CS 0445 or CS 0455 (Min Grade 'C' or Transfer); CREQ: CS 0447 or CS 0456 or COE 0447 or COE 0147",
+		"prereq": ["CS0445"],
+		"coreq": ["CS0447"]
+	},
+	"CS0590": {
+		"requirementsString": "Course Attributes:",
+		"prereq": {
+			"or": ["CS0007", "CS0401"]
+		}
+	},
+	"CS0699": {
+		"requirementsString": " PREQ: CS 0401 or COE 0401 or CS 0004 or 0007 or 0008 (Min Grade 'C' or Transfer for All Listed Courses)",
+		"prereq": {
+			"or": ["CS0401", "CS0007"]
+		}
+	},
+	"CS1501": {
+		"requirementsString": " PREQ: (CS 0441 or CS 0406) and (CS 0445 or CS 0455 or COE 0445) ; (MIN GRADE 'C'  or Transfer FOR ALL COURSES LISTED)",
+		"prereq": ["CS0441", "CS0445"]
+	},
+	"CS1502": {
+		"requirementsString": " PREQ: (CS 0441 or CS 0406) and (CS 0445 or CS 0455 or COE 0445) ; (MIN GRADE C'  or Transfer FOR ALL COURSES LISTED)",
+		"prereq": ["CS0441", "CS0445"]
+	},
+	"CS1510": {
+		"requirementsString": " PREQ: [(CS 1501 or COE 1501) and CS 1502] or (CS 0458 and CS 1710); MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED",
+		"prereq": ["CS1501", "CS1502"]
+	},
+	"CS1511": {
+		"requirementsString": " PREQ: CS 1502 (MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED)",
+		"prereq": ["CS1502"]
+	},
+	"CS1520": {
+		"requirementsString": " PREQ: CS 0445 or COE 0445; (MIN GRADE 'C' or Transfer)",
+		"prereq": ["CS0445"]
+	},
+	"CS1530": {
+		"requirementsString": " PREQ: CS 0445 or COE 0445; (MIN GRADE 'C' or Transfer)",
+		"prereq": ["CS0445"]
+	},
+	"CS1538": {
+		"requirementsString": " PREQ: CS 0447 and (STAT 1000 or 1100 or 1151 or MATH 1153) (Min Grade 'C' or Transfer for All Listed Courses)",
+		"prereq": ["CS0445"]
+	},
+	"CS1541": {
+		"requirementsString": " PREQ: (CS 0447 or COE 0447) and (CS 0449 or COE 0449) ; (MIN GRADE 'C' or Transfer)",
+		"prereq": ["CS0445"]
+	},
+	"CS1550": {
+		"requirementsString": " PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449) or (0456 and 1750); MIN GRADE 'C'  or TRANSFER FOR ALL COURSES LISTED",
+		"prereq": ["CS0447", "CS0449"]
+	},
+	"CS1555": {
+		"requirementsString": " PREQ: CS 1501 (Min Grade 'C')",
+		"prereq": ["CS1501"]
+	},
+	"CS1566": {
+		"requirementsString": " PREQ: (CS 0447 or 0456 or COE 0447 or COE 0147); (MIN GRADE 'C'  or TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0447"]
+	},
+	"CS1567": {
+		"requirementsString": " PREQ: CS (0441 and (0445 or COE 0445)) or (0406 and 0455) (MIN GRADE 'C' or Transfer), MIN GPA: 3.25",
+		"prereq": ["CS0441", "CS0445"]
+	},
+	"CS1571": {
+		"requirementsString": " PREQ: (CS 1501 or COE 1501) and CS 1502 (Min Grade 'C' or Transfer for All Listed Courses)",
+		"prereq": ["CS0441", "CS0445"]
+	},
+	"CS1621": {
+		"requirementsString": " PREQ: CS (0441 and 0445) or (0406 and 0455); (MIN GRADE 'C' or TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["TODO"]
+	},
+	"CS1622": {
+		"requirementsString": " PREQ: CS 0441 and ((CS or COE 0447) or (CS 0406 and 0456)); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0441", "CS0447"]
+	},
+	"CS1631": {
+		"requirementsString": " PREQ: (CS 0441 and (CS or COE 0445)) or (CS 0406 and 0455); (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0441", "CS0445"]
+	},
+	"CS1632": {
+		"requirementsString": " PREQ: (CS 0445 or COE 0445 or CS 0455) or (PLAN COE and (CS 0445 or COE 0445) (Min Grade 'C'  or Transfer for All Listed Courses)",
+		"prereq": ["CS0445"]
+	},
+	"CS1635": {
+		"requirementsString": "\n",
+		"prereq": ["TODO"]
+	},
+	"CS1637": {
+		"requirementsString": " CS 1501.",
+		"prereq": ["CS1501"]
+	},
+	"CS1640": {
+		"requirementsString": " PREQ: CS 1501 or COE 1501 or BIOSC 1540 (Min Grade 'C' or Transfer); PLAN: Bioinformatics or Computational Biology",
+		"prereq": {
+			"or": ["CS1501", "BIOSC1540"]
+		}
+	},
+	"CS1645": {
+		"requirementsString": " PREQ: CS 0447 and 0449 and 1501; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0447", "CS0449", "CS1501"]
+	},
+	"CS1651": {
+		"requirementsString": " PREQ: CS 1550 or 1312 or 1792; (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS1550"]
+	},
+	"CS1652": {
+		"requirementsString": " PREQ: (CS 0447 or COE 0447) and (CS 0449 or COE 0449); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0447", "CS0449"]
+	},
+	"CS1653": {
+		"requirementsString": " PREQ: (CS 0449 or COE 0449) and (CS 1501 or COE 1501) or (CS 0458 or CS 1750); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0449", "CS1501"]
+	},
+	"CS1655": {
+		"requirementsString": " PREQ: CS 0441 and (CS 0445 or COE 0445); (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)",
+		"prereq": ["CS0441", "CS0445"]
+	},
+	"CS1656": {
+		"requirementsString": " PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' or Transfer For All Listed Coures)",
+		"prereq": ["CS1501"]
+	},
+	"CS1660": {
+		"requirementsString": " CS 1550: Intro to Operating Systems; MIN GRADE: C or Transfer",
+		"prereq": ["CS1550"]
+	},
+	"CS1666": {
+		"requirementsString": " PREQ: CS 1501 or COE 1501; (MIN GRADE 'C' or Transfer)",
+		"prereq": ["CS1501"]
+	},
+	"CS1671": {
+		"requirementsString": " PREQ: CS 1501; (MIN GRADE 'C'  OR TRANSFER)",
+		"prereq": ["CS1501"]
+	},
+	"CS1674": {
+		"requirementsString": " PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' OR TRANSFER)",
+		"prereq": ["CS1501"]
+	},
+	"CS1675": {
+		"requirementsString": " PREQ: CS 1501 or COE 1501 and (STAT 1000 or 1100 or 1151 or ENGR 0020) (Min Grade 'C' or Transfer for All Listed Courses)",
+		"prereq": ["CS1501", {
+			"or": ["STAT1000", "STAT1100", "STAT1151", "ENGR0020"]
+		}]
+	},
+	"CS1699": {
+		"requirementsString": "This class is special and has different requirements each year. Check the SCI website for information about it!"
+	},
+	"CS1900": {
+		"requirementsString": " Capstone Course\n",
+		"prereq": ["TODO"]
+	},
+	"CS1902": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"CS1906": {
+		"requirementsString": " Summer 2020Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 19510 (1010)Days: ByApptTimes: 12:00 am - 12:00 amRoom: TBA Instructor(s): TA(s): Type: INDSession: 12WWriting: ",
+		"prereq": ["TODO"]
+	},
+	"CS1950": {
+		"requirementsString": " Capstone Course\n",
+		"prereq": ["TODO"]
+	},
+	"CS1980": {
+		"requirementsString": " PREQ: CS 1550; PLAN: Computer Science (CS-BS, CSCI-BS); (MIN GRADE 'C' OR TRANSFER  FOR ALL COURSES LISTED)",
+		"prereq": ["CS1550"]
+	},
+	"CS2000": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"CS2001": {
+		"requirementsString": "Future Sections",
+		"prereq": ["TODO"]
+	},
+	"CS2002": {
+		"requirementsString": " PREQ: CS 2001",
+		"prereq": ["CS2001"]
+	},
+	"CS2003": {
+		"requirementsString": " PREQ: CS 2001 and 2002; PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS)",
+		"prereq": ["CS2001", "CS2002"]
+	},
+	"CS2012": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2045": {
+		"requirementsString": "Future Sections",
+		"prereq": ["TODO"]
+	},
+	"CS2053": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2055": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2056": {
+		"requirementsString": "    \n",
+		"prereq": ["TODO"]
+	},
+	"CS2110": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2150": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2210": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2310": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2410": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2510": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2520": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2530": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS2550": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2620": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2710": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2731": {
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": ["TODO"]
+	},
+	"CS2770": {
+		"requirementsString": "    \n",
+		"prereq": ["TODO"]
+	},
+	"CS2900": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"CS2905": {
+		"requirementsString": " Fall 2020Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 31402 (1010)Days: ByApptTimes: 12:00 am - 12:00 amRoom: TBA Instructor(s): TA(s): Type: INDSession: ATWriting: ",
+		"prereq": ["TODO"]
+	},
+	"CS2910": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"CS2990": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"CS3000": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"CS3150": {
+		"requirementsString": " PREQ: CS 2150",
+		"prereq": ["TODO"]
+	},
+	"CS3210": {
+		"requirementsString": " PREQ: CS 2210",
+		"prereq": ["TODO"]
+	},
+	"CS3220": {
+		"requirementsString": " PREQ: CS 2210",
+		"prereq": ["TODO"]
+	},
+	"CS3410": {
+		"requirementsString": " PREQ:  CS 2410",
+		"prereq": ["TODO"]
+	},
+	"CS3510": {
+		"requirementsString": " PREQ: CS 2510",
+		"prereq": ["TODO"]
+	},
+	"CS3525": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3530": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3550": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3551": {
+		"requirementsString": " PREQ: CS 2510 and 2550",
+		"prereq": ["TODO"]
+	},
+	"CS3570": {
+		"requirementsString": " Fall 2019Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 29738 (1010)Days: TuThTimes: 11:00 am - 12:15 pmRoom: SENSQ 5313Instructor(s): J. BiehlTA(s): Type: SEMSession: ATWriting: ",
+		"prereq": ["TODO"]
+	},
+	"CS3580": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3650": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3710": {
+		"requirementsString": " PREQ: CS 2710",
+		"prereq": ["TODO"]
+	},
+	"CS3720": {
+		"requirementsString": "Past Sections",
+		"prereq": ["TODO"]
+	},
+	"CS3730": {
+		"requirementsString": " PREQ: CS 2731",
+		"prereq": ["TODO"]
+	},
+	"CS3750": {
+		"requirementsString": " PREQ: CS 2750",
+		"prereq": ["TODO"]
+	},
+	"CS3790": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3800": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	},
+	"CS3900": {
+		"requirementsString": "Current Sections",
+		"prereq": ["TODO"]
+	},
+	"FTDJ0000": {
+		"requirementsString": "",
+		"prereq": ["TODO"]
+	}
+}

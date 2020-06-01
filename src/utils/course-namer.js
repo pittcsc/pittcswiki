@@ -4,6 +4,7 @@ const getNumFromCourseId = (id) => {
 }
 
 const cleanCourseId = (id) => {
+  if (!id) return ""
   const backFour = id.length - 4
   const dept = id.substring(0, backFour)
   const num = getNumFromCourseId(id) + ""
