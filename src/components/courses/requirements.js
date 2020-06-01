@@ -103,11 +103,25 @@ const requirementsTraverser = (requirements) => {
   }
 
   if (requirements.or) {
-    const or = requirements.or.map((id) => <CourseLink key={id} id={id} />)
-    return <span>{or}</span>
+    const or = requirements.or.map((id, index) => (
+      <>
+        <CourseLink key={id} id={id} />
+        {index < requirements.or.length - 1 && <span className="mr-1">OR</span>}
+      </>
+    ))
+    return <span className="inline-block p-1 border">{or}</span>
   } else if (requirements.length > 0 || requirements.and) {
     const andReqs = requirements.and ? requirements.and : requirements
-    const and = andReqs.map((id) => <CourseLink key={id} id={id} />)
+    const and = andReqs.map((currentReq, index) => {
+      if (typeof currentReq === "string") {
+        const id = currentReq
+        return <CourseLink key={id} id={id} />
+      } else {
+        return (
+          <span key={`and${index}`}>{requirementsTraverser(currentReq)}</span>
+        )
+      }
+    })
     return <span>{and}</span>
   } else {
     console.log("Error parsing requirements")
