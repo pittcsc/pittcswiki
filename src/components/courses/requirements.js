@@ -117,7 +117,7 @@ const requirementsTraverser = (requirements) => {
 
 const RequirementsListing = ({ requirements }) => {
   if (!requirements) {
-    return "N/A"
+    return null
   }
 
   const { prereq, coreq, requirementsString } = requirements

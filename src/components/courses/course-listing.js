@@ -221,10 +221,10 @@ const CourseListing = ({ courseList, courseCategories }) => {
         <h4 className="mb-0">Filter by Requirement</h4>
         <p className="mb-1 course-requirements-filter-description">
           Sometimes the hardest part of finding classes is knowing which classes
-          you have the requirements for. Color coding shows which classes have
-          what requirements based on the a color legend. For example, below
-          shows that CS 1622 (Compilers) has the prerequisites of CS 441 and CS
-          447, based on the colored dots in it.
+          you can actually take. Color coding shows which classes have what
+          requirements based on the a color legend. For example, based on CS
+          1622 (Compilers)'s dot colors you can tell it has the prerequisites of
+          CS 441 and CS 447.
         </p>
         <Course
           key={"CS1622"}
