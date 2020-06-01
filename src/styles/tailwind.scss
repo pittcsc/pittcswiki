@@ -43,4 +43,14 @@ a {
   a:hover {
     @apply text-white;
   }
+
+  &.small {
+    @apply p-1;
+  }
+}
+
+.button-group {
+  button {
+    @apply mr-2;
+  }
 }
