@@ -58,8 +58,8 @@
     "serve": "gatsby serve",
     "test": "jest",
     "check_correct_courses": "jest tests/check_course_info_matches.test.js",
-    "scrape_courses": "node helpers/courses/course_scraper.js --save",
-    "generate_markdown": "node helpers/courses/course_scraper.js --generatemarkdown"
+    "DEPECRATED_scrape_courses": "node helpers/courses/course_scraper.js --save",
+    "DEPRECATED_generate_markdown": "node helpers/courses/course_scraper.js --generatemarkdown"
   },
   "repository": {
     "type": "git",

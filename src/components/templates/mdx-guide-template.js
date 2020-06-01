@@ -1,6 +1,6 @@
 import React from "react"
 import BlogPostLayout from "./blog-post-layout"
-import CourseGraph from "../course-graph"
+import CourseGraph from "../courses/course-graph"
 import { MDXProvider } from "@mdx-js/react"
 
 /* 

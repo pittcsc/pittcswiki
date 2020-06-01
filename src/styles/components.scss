@@ -1,10 +1,13 @@
 .course-pill {
-  @apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer w-24 text-center;
-  width: 6.3rem;
+  @apply rounded-full border w-32 mr-4 py-2 px-4 my-1 cursor-pointer text-center;
 
   &:focus {
     outline: none;
     box-shadow: none;
+  }
+
+  &.w-auto {
+    width: auto;
   }
 
   &:hover,
@@ -16,6 +19,51 @@
 .header-logo {
   &:hover span {
     color: #fdb61a;
+  }
+}
+
+.reqs-dots {
+  .course-req-dot {
+    @apply w-2 h-2 inline-block rounded-full mr-1;
+  }
+
+  &.coreqs .course-req-dot {
+    @apply rounded-none;
+    transform: rotate(45deg);
+  }
+}
+
+.requirements-listing {
+  a {
+    @apply mr-2 border p-1;
+  }
+}
+
+.course-controls {
+  p {
+    @apply mb-2;
+  }
+
+  input {
+    @apply mr-1;
+  }
+
+  #term_offered {
+    button {
+      @apply mr-2;
+
+      &:hover {
+        @apply bg-gray-200;
+      }
+
+      &.active {
+        @apply bg-blue-200;
+      }
+    }
+  }
+
+  label {
+    @apply mr-2 h-full flex items-center px-2;
   }
 }
 
@@ -66,21 +114,20 @@
 
 .course-graph {
   text {
-    font-weight: 300;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
-    font-size: 14px;
+    font-size: 15px;
+    fill: black;
   }
 
-  // Try to match this to the 'course-pill' object
-  // for consistency?
   .node rect {
-    stroke: #999;
-    fill: #fff;
-    stroke-width: 1.5px;
+    stroke: black;
+    fill: #ececec;
+    stroke-width: 2px;
   }
 
   .edgePath path {
-    stroke: #333;
+    stroke: #757575;
+    fill: #757575;
     stroke-width: 1.5px;
   }
 
@@ -88,13 +135,15 @@
     stroke-dasharray: 5, 5;
   }
 
-  .node:hover {
+  .node:hover,
+  .node.active {
     text {
       fill: white;
     }
 
     rect {
-      fill: #333;
+      fill: #ffb81d;
+      stroke: #a57306;
     }
   }
 }
