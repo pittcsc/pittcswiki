@@ -1,5 +1,6 @@
 ---
 title: "Cross Registration Guide"
+search_tags: ["Carnegie Mellon", "CMU", "Duquesne", "University", "cross", "harder", "challenge"]
 ---
 One of the best perk of going to a Pittsburgh university is that you get to take courses at other local universities for no extra price! The process is actually quite simple: 
 
