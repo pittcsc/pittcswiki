@@ -35,7 +35,7 @@
 
 .requirements-listing {
   a {
-    @apply mr-2 border px-1 inline-block
+    @apply mr-2 border px-1 inline-block;
   }
 }
 
@@ -92,10 +92,10 @@
     list-style-type: none;
     margin: 0;
 
-    li>div {
+    li > div {
       border-bottom: 1px solid #e2e8f0;
 
-      &>a {
+      & > a {
         @apply text-gray-800 p-3 block;
         font-weight: bold;
       }
@@ -185,5 +185,30 @@
         @apply text-white;
       }
     }
+  }
+}
+
+.markdown-toc {
+  margin-top: -1rem;
+  overflow: hidden;
+  .toc-heading-depth-2 {
+    margin-left: 20rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+  }
+
+  .toc-heading-depth-3 {
+    margin-left: 30rem;
+    @apply text-xs;
+  }
+
+  .toc-heading-depth-4 {
+    margin-left: 40rem;
+    @apply text-xs;
+  }
+
+  .toc-heading-depth-5 {
+    margin-left: 50rem;
+    @apply text-xs;
   }
 }

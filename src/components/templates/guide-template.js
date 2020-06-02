@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import BlogPostLayout from "./blog-post-layout"
+import TableOfContents from "../table-of-contents"
 
 // This template is used for regular plain Markdown files. Look at mdx-guide-template
 // guides that use MDX!
@@ -11,6 +12,7 @@ export default function Template({
   const {
     frontmatter,
     html,
+    headings,
     fields: { gitAuthorTime, lastUpdatedString, slug, isIndexPage },
   } = markdownRemark
   return (
@@ -24,7 +26,7 @@ export default function Template({
         fileType: ".md",
       }}
     >
-      {isIndexPage}
+      <TableOfContents headings={headings} />
       <div
         className="mt-4 blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
@@ -43,6 +45,10 @@ export const pageQuery = graphql`
         title
         subtitle
         author
+      }
+      headings {
+        depth
+        value
       }
       fields {
         slug
