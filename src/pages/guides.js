@@ -8,19 +8,23 @@ const GuidesListing = ({ posts }) => {
   const guides = posts
     .filter((p) => p.excerpt)
     .map((post, index) => (
-      <Link to={post.fields.slug} key={`g_${index}`}>
-        <div className="p-4 w-1/2 flex-1 h-40 inline-block border mb-10">
+      <Link
+        className="inline-block p-1 w-full text-gray-800 px-4 py-4 md:w-1/2"
+        to={post.fields.slug}
+        key={`g_${index}`}
+      >
+        <div className="border bg-gray-200 shadow-sm h-64 p-4">
           <h1>{post.frontmatter.title}</h1>
           <div>{post.excerpt}</div>
         </div>
       </Link>
     ))
 
-  return <div className="">{guides}</div>
+  return <div className="flex flex-wrap -mx-4 -mt-4">{guides}</div>
 }
 
 // TODO DESIGN fix this hr, make consitent titles
-const GuidesPage = ({ data: { guides, interactiveGuides } }) => (
+const GuidesPage = ({ data: { guides } }) => (
   <Layout>
     <SEO title="Guides" />
     <Breadcrumb slug="/guides/" />
@@ -32,11 +36,11 @@ const GuidesPage = ({ data: { guides, interactiveGuides } }) => (
     </p>
     <GuidesListing posts={guides.nodes} />
     <div>
-      <h3>Recommended</h3>
+      <h2>Recommended</h2>
       <p>todo</p>
     </div>
     <div>
-      <h3>Recently Updated</h3>
+      <h2>Recently Updated</h2>
       <p>todo</p>
     </div>
   </Layout>

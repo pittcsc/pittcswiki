@@ -1,7 +1,7 @@
 ---
 title: "Zero to Offer - Overview"
 redirect_from:
-	- /zero-to-offer/intro
+	- /guides/zero-to-offer/intro
 ---
 
 Zero to Offer is a Pitt CSC 'course' aimed at arming students with the knowledge and confidence they
@@ -46,9 +46,9 @@ This is broken up into 5 parts. Happy reading!
 
 > This is under development:
 
-1. [Mindset](/zero-to-offer/mindset)
-2. [Resume](/zero-to-offer/resume)
-3. [Application Process](/zero-to-offer/application-process)
-4. [Interview Prep](/zero-to-offer/interview-prep)
-5. [Interview](/zero-to-offer/interview)
-6. [Rejection](/zero-to-offer/rejection)
+1. [Mindset](/guides/zero-to-offer/mindset)
+2. [Resume](/guides/zero-to-offer/resume)
+3. [Application Process](/guides/zero-to-offer/application-process)
+4. [Interview Prep](/guides/zero-to-offer/interview-prep)
+5. [Interview](/guides/zero-to-offer/interview)
+6. [Rejection](/guides/zero-to-offer/rejection)
