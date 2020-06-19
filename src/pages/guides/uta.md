@@ -1,6 +1,7 @@
 ---
 title: "How to UTA"
 author: "Gordon Lu"
+search_tags: ["Teaching Assistant", "uta", "part time job", "peer tutor"]
 ---
 
 ## How to be a TA
