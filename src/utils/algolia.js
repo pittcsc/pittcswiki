@@ -6,7 +6,7 @@ const { cleanCourseId, getNumFromCourseId } = require("./course-namer")
 // we only index when running the gatsby build command with the environment variable CONTEXT = production
 // (Netlify sets this on production deploys). For testing, you can also run with the env variable INDEX_ALGOLIA
 // set to true.
-// INDEX_ALGOLIA=true gatsby build
+// npm run indexalgolia
 
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 
@@ -27,10 +27,10 @@ const courseQuery = `query CoursePageQuery {
 const guidesQuery = `{
   pages: allMarkdownRemark(filter: {frontmatter: {type: {ne: "individual-course"}}}) {
     nodes {
-      id
       fields {
         slug
       }
+      id
       frontmatter {
         title
         search_tags
@@ -39,10 +39,10 @@ const guidesQuery = `{
   }
   mdxpages: allMdx {
     nodes {
-      id
       fields {
         slug
       }
+      id
       frontmatter {
         title
       }
@@ -68,7 +68,7 @@ const queries = [
   {
     query: guidesQuery,
     indexName: "Guides",
-    settings: { hitsPerPage: 15 },
+    settings: { hitsPerPage: 12 },
     transformer: ({ data }) =>
       data.pages.nodes
         .concat(data.mdxpages.nodes)
