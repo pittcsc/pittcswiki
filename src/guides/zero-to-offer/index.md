@@ -1,5 +1,6 @@
 ---
-title: "Zero to Offer - Overview"
+title: "Zero to Offer"
+guides_blurb: "Zero to Offer is a 'course' aimed at arming students with the knowledge and confidence they need to land the internships they want. It is created by students that have done internships across the industry. These are a collection of notes and guides from that course!"
 redirect_from:
 	- /zero-to-offer/intro
 ---

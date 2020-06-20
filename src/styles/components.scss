@@ -1,10 +1,13 @@
 .course-pill {
-  @apply rounded-full border mr-4 py-2 px-4 my-1 cursor-pointer w-24 text-center;
-  width: 6.3rem;
+  @apply rounded-full border w-32 mr-4 py-2 px-4 my-1 cursor-pointer text-center;
 
   &:focus {
     outline: none;
     box-shadow: none;
+  }
+
+  &.w-auto {
+    width: auto;
   }
 
   &:hover,
@@ -16,6 +19,51 @@
 .header-logo {
   &:hover span {
     color: #fdb61a;
+  }
+}
+
+.reqs-dots {
+  .course-req-dot {
+    @apply w-2 h-2 inline-block rounded-full mr-1;
+  }
+
+  &.coreqs .course-req-dot {
+    @apply rounded-none;
+    transform: rotate(45deg);
+  }
+}
+
+.requirements-listing {
+  a {
+    @apply mr-2 border px-1 inline-block;
+  }
+}
+
+.course-controls {
+  p {
+    @apply mb-2;
+  }
+
+  input {
+    @apply mr-1;
+  }
+
+  #term_offered {
+    button {
+      @apply mr-2;
+
+      &:hover {
+        @apply bg-gray-200;
+      }
+
+      &.active {
+        @apply bg-blue-200;
+      }
+    }
+  }
+
+  label {
+    @apply mr-2 h-full flex items-center px-2;
   }
 }
 
@@ -44,10 +92,10 @@
     list-style-type: none;
     margin: 0;
 
-    li>div {
+    li > div {
       border-bottom: 1px solid #e2e8f0;
 
-      &>a {
+      & > a {
         @apply text-gray-800 p-3 block;
         font-weight: bold;
       }
@@ -66,21 +114,20 @@
 
 .course-graph {
   text {
-    font-weight: 300;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
-    font-size: 14px;
+    font-size: 15px;
+    fill: black;
   }
 
-  // Try to match this to the 'course-pill' object
-  // for consistency?
   .node rect {
-    stroke: #999;
-    fill: #fff;
-    stroke-width: 1.5px;
+    stroke: black;
+    fill: #ececec;
+    stroke-width: 2px;
   }
 
   .edgePath path {
-    stroke: #333;
+    stroke: #757575;
+    fill: #757575;
     stroke-width: 1.5px;
   }
 
@@ -88,13 +135,15 @@
     stroke-dasharray: 5, 5;
   }
 
-  .node:hover {
+  .node:hover,
+  .node.active {
     text {
       fill: white;
     }
 
     rect {
-      fill: #333;
+      fill: #ffb81d;
+      stroke: #a57306;
     }
   }
 }
@@ -136,5 +185,30 @@
         @apply text-white;
       }
     }
+  }
+}
+
+.markdown-toc {
+  margin-top: -1rem;
+  overflow: hidden;
+  .toc-heading-depth-2 {
+    margin-left: 20rem;
+    margin-top: 1rem;
+    text-decoration: underline;
+  }
+
+  .toc-heading-depth-3 {
+    margin-left: 30rem;
+    @apply text-xs;
+  }
+
+  .toc-heading-depth-4 {
+    margin-left: 40rem;
+    @apply text-xs;
+  }
+
+  .toc-heading-depth-5 {
+    margin-left: 50rem;
+    @apply text-xs;
   }
 }

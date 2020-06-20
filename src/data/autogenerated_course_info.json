@@ -2,8 +2,7 @@
   "metadata": {
     "generated": "2020-05-09T04:21:39.454Z"
   },
-  "courses": [
-    {
+  "courses": [{
       "sci_href": "http://courses.sci.pitt.edu/courses/view/CS-0004",
       "title": "INTRODUCTION TO COMPUTER PROGRAMMING-BASIC",
       "id": "CS0004",
@@ -135,11 +134,12 @@
     },
     {
       "sci_href": "http://courses.sci.pitt.edu/courses/view/CS-0401",
-      "title": "INTERMEDIATE PROGRAMMING (replaced by CMPINF 0401, effective Fall 2020)",
-      "id": "CS0401",
+      "title": "INTERMEDIATE PROGRAMMING",
+      "id": "CMP0401",
       "credits": 4,
       "description": "This course is a rigorous introduction to the fundamental concepts and techniques of computer programming using the java programming language.  This is a first course for students who intend to major in computer science.",
       "requirements": " DSAS Quant.-Formal Reason General Ed. Requirement\n",
+      "replaces": "CS0401",
       "terms_offered": {
         "SPRING": true,
         "FALL": true,
@@ -1266,7 +1266,7 @@
     },
     {
       "sci_href": "http://courses.sci.pitt.edu/courses/view/CS-3790",
-      "title": "ADVANCED TOPICS IN EDUCATIONAL TECHNOLOGY: PERSONALIZED LEARNING ENVIRONMENTS",
+      "title": "ADV TOPICS IN ED TECH: PERSONALIZED LEARNING ENVIRONMENTS",
       "id": "CS3790",
       "credits": 3,
       "description": "The 2010 National Educational Technology Plan outlined how \"The challenge for our education system is to leverage the learning sciences and modern technology to create engaging, relevant, and personalized learning experiences for all learners.\" While instruction has traditionally been one-size-fits-all, the rise of web-based and mobile technologies provide an opportunity to automatically detect what learners need and adapt instruction to their unique prior knowledge, motivation, and preferences. In this seminar course, we survey different types of personalization in educational technologies (e.g., cognitive, metacognitive, social, motivational), computational modeling techniques for representing learners and their needs, and best practices in designing personalized supports for learners. Students will lead one or more class discussions, participate in the other discussions, and complete a group course project. \n\n",

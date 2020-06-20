@@ -12,11 +12,11 @@ const FrontPageLinks = [
     links: [
       {
         name: "Course Explorer",
-        href: "courses",
+        href: "/courses",
       },
       {
         name: "Scheduling Classes",
-        href: "/guides/scheduling",
+        href: "/academics/scheduling",
       },
     ],
   },
@@ -25,7 +25,7 @@ const FrontPageLinks = [
     links: [
       {
         name: "Study Abroad",
-        href: "/guides/study-abroad",
+        href: "/academics/study-abroad",
       },
       {
         name: "More Guides...",
@@ -78,15 +78,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="intro-block">
-      <p className="mt-0 p-2 text-orange-600 bg-orange-200">
-        Under Construction -{" "}
-        <a href="https://github.com/PittCSWiki/pittcswiki.github.io/issues">
-          Add issues or suggestions here{" "}
-          <span role="img" aria-label="happy">
-            😃
-          </span>
-        </a>
-      </p>
       <img src={logo} alt="Pitt CS Wiki Logo" />
       <h1>Pitt CS Wiki!</h1>
     </div>

@@ -26,12 +26,14 @@
     "gatsby-plugin-sass": "^2.3.0",
     "gatsby-plugin-sharp": "^2.2.25",
     "gatsby-redirect-from": "^0.2.2",
+    "gatsby-remark-autolink-headers": "^2.3.3",
     "gatsby-remark-external-links": "^0.0.4",
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-source-google-spreadsheet": "^2.0.0",
     "gatsby-transformer-remark": "^2.6.26",
     "gatsby-transformer-sharp": "^2.2.16",
     "gatsby-transformer-yaml": "^2.2.12",
+    "github-slugger": "^1.3.0",
     "node-sass": "^4.14.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
@@ -58,8 +60,8 @@
     "serve": "gatsby serve",
     "test": "jest",
     "check_correct_courses": "jest tests/check_course_info_matches.test.js",
-    "scrape_courses": "node helpers/courses/course_scraper.js --save",
-    "generate_markdown": "node helpers/courses/course_scraper.js --generatemarkdown"
+    "DEPECRATED_scrape_courses": "node helpers/courses/course_scraper.js --save",
+    "DEPRECATED_generate_markdown": "node helpers/courses/course_scraper.js --generatemarkdown"
   },
   "repository": {
     "type": "git",

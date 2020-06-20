@@ -5,65 +5,84 @@ import Breadcrumb from "../components/breadcrumb"
 import { Link, graphql } from "gatsby"
 
 const GuidesListing = ({ posts }) => {
-  return posts
+  const guides = posts
     .filter((p) => p.excerpt)
     .map((post, index) => (
-      <div className="p-2 border mb-10" key={`post_${index}`}>
-        <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-        <div>{post.excerpt}</div>
-      </div>
+      <Link
+        className="inline-block p-1 w-full text-gray-800 px-4 py-4 md:w-1/2"
+        to={post.fields.slug}
+        key={`g_${index}`}
+      >
+        <div className="border bg-gray-200 shadow-sm h-64 p-4 hover:bg-gray-600 hover:text-white hover:shadow-md">
+          <h1>{post.frontmatter.title}</h1>
+          <div>{post.frontmatter.guides_blurb}</div>
+        </div>
+      </Link>
     ))
+
+  return <div className="flex flex-wrap -mx-4 -mt-4">{guides}</div>
 }
 
-// TODO DESIGN fix this hr, make consitent titles
-const GuidesPage = ({ data: { guides, interactiveGuides } }) => (
+// TODO - recommended and recently updated
+const GuidesPage = ({ data: { guides } }) => (
   <Layout>
     <SEO title="Guides" />
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
     <p>
-      A collection of guides written by Pitt CS members aimed to help! Let us
-      know if there is something you are curious about but cannot find! TODO -
-      this page needs to be updated
+      These are collections of guides organized by topic. Also feel free to use
+      the search bar, or check out the sitemap! (TODO, make a site map)
     </p>
-    <GuidesListing posts={guides.nodes.concat(interactiveGuides.nodes)} />
+    <GuidesListing posts={guides.nodes} />
     <div>
-      <h3>Zero to Offer</h3>
-      <p>
-        Zero to Offer is Pitt CSC's course dedicated to helping you get an
-        offer!&nbsp;
-        <Link to="/zero-to-offer/intro">Learn more</Link>
-      </p>
+      <h2>Popular</h2>
+      <ul>
+        <li>
+          <Link to={"/academics/study-abroad"}>Study Abroad</Link>
+        </li>
+        <li>
+          <Link to={"/academics/scheduling"}>Scheduling</Link>
+        </li>
+        <li>
+          <Link to={"/courses"}>Courses</Link>
+        </li>
+      </ul>
     </div>
+    <div>
+      <h2>New</h2>
+      <ul>
+        <li>
+          <Link to={"/academics/uta"}>How to Become a TA</Link>
+        </li>
+        <li>
+          <Link to={"/skills/hackathons"}>Hackathons</Link>
+        </li>
+      </ul>
+    </div>
+    <p>
+      Still curious about a topic but cannot find it? Let us know!!{" "}
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform">
+        Fill out this form!
+      </a>
+    </p>
   </Layout>
 )
 
 export default GuidesPage
 
+// This query gets all the index pages in the "first" folder
 export const pageQuery = graphql`
   query Guides {
     guides: allMarkdownRemark(
-      filter: { fields: { slug: { regex: "/guides/" } } }
-    ) {
-      nodes {
-        frontmatter {
-          title
-        }
-        fields {
-          slug
-        }
-        wordCount {
-          words
-        }
-        excerpt(pruneLength: 250)
+      filter: {
+        fields: { slug: { glob: "/*/" }, isIndexPage: { eq: true } }
+        internal: {}
       }
-    }
-    interactiveGuides: allMdx(
-      filter: { fields: { slug: { regex: "/guides/" } } }
     ) {
       nodes {
         frontmatter {
           title
+          guides_blurb
         }
         fields {
           slug
