@@ -1,7 +1,8 @@
 ---
-title: "Zero to Offer - Overview"
+title: "Zero to Offer"
+guides_blurb: "Zero to Offer is a 'course' aimed at arming students with the knowledge and confidence they need to land the internships they want. It is created by students that have done internships across the industry. These are a collection of notes and guides from that course!"
 redirect_from:
-	- /guides/zero-to-offer/intro
+	- /zero-to-offer/intro
 ---
 
 Zero to Offer is a Pitt CSC 'course' aimed at arming students with the knowledge and confidence they
@@ -46,9 +47,9 @@ This is broken up into 5 parts. Happy reading!
 
 > This is under development:
 
-1. [Mindset](/guides/zero-to-offer/mindset)
-2. [Resume](/guides/zero-to-offer/resume)
-3. [Application Process](/guides/zero-to-offer/application-process)
-4. [Interview Prep](/guides/zero-to-offer/interview-prep)
-5. [Interview](/guides/zero-to-offer/interview)
-6. [Rejection](/guides/zero-to-offer/rejection)
+1. [Mindset](/zero-to-offer/mindset)
+2. [Resume](/zero-to-offer/resume)
+3. [Application Process](/zero-to-offer/application-process)
+4. [Interview Prep](/zero-to-offer/interview-prep)
+5. [Interview](/zero-to-offer/interview)
+6. [Rejection](/zero-to-offer/rejection)

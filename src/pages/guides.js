@@ -13,9 +13,9 @@ const GuidesListing = ({ posts }) => {
         to={post.fields.slug}
         key={`g_${index}`}
       >
-        <div className="border bg-gray-200 shadow-sm h-64 p-4">
+        <div className="border bg-gray-200 shadow-sm h-64 p-4 hover:bg-gray-600 hover:text-white hover:shadow-md">
           <h1>{post.frontmatter.title}</h1>
-          <div>{post.excerpt}</div>
+          <div>{post.frontmatter.guides_blurb}</div>
         </div>
       </Link>
     ))
@@ -23,42 +23,66 @@ const GuidesListing = ({ posts }) => {
   return <div className="flex flex-wrap -mx-4 -mt-4">{guides}</div>
 }
 
-// TODO DESIGN fix this hr, make consitent titles
+// TODO - recommended and recently updated
 const GuidesPage = ({ data: { guides } }) => (
   <Layout>
     <SEO title="Guides" />
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
     <p>
-      A collection of guides written by Pitt CS members aimed to help! Let us
-      know if there is something you are curious about but cannot find! TODO -
-      this page needs to be updated
+      These are collections of guides organized by topic. Also feel free to use
+      the search bar, or check out the sitemap! (TODO, make a site map)
     </p>
     <GuidesListing posts={guides.nodes} />
     <div>
-      <h2>Recommended</h2>
-      <p>todo</p>
+      <h2>Popular</h2>
+      <ul>
+        <li>
+          <Link to={"/academics/study-abroad"}>Study Abroad</Link>
+        </li>
+        <li>
+          <Link to={"/academics/scheduling"}>Scheduling</Link>
+        </li>
+        <li>
+          <Link to={"/courses"}>Courses</Link>
+        </li>
+      </ul>
     </div>
     <div>
-      <h2>Recently Updated</h2>
-      <p>todo</p>
+      <h2>New</h2>
+      <ul>
+        <li>
+          <Link to={"/academics/uta"}>How to Become a TA</Link>
+        </li>
+        <li>
+          <Link to={"/skills/hackathons"}>Hackathons</Link>
+        </li>
+      </ul>
     </div>
+    <p>
+      Still curious about a topic but cannot find it? Let us know!!{" "}
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform">
+        Fill out this form!
+      </a>
+    </p>
   </Layout>
 )
 
 export default GuidesPage
 
+// This query gets all the index pages in the "first" folder
 export const pageQuery = graphql`
   query Guides {
     guides: allMarkdownRemark(
       filter: {
-        fields: { slug: { glob: "/guides/*/" }, isIndexPage: { eq: true } }
+        fields: { slug: { glob: "/*/" }, isIndexPage: { eq: true } }
         internal: {}
       }
     ) {
       nodes {
         frontmatter {
           title
+          guides_blurb
         }
         fields {
           slug

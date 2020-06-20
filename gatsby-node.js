@@ -11,7 +11,8 @@ const { execSync } = require("child_process")
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (`MarkdownRemark|Mdx`.includes(node.internal.type)) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    console.log(node.frontmatter.title)
+    const slug = createFilePath({ node, getNode, basePath: `guides` })
     createNodeField({
       node,
       name: `slug`,

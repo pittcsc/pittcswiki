@@ -12,11 +12,11 @@ const FrontPageLinks = [
     links: [
       {
         name: "Course Explorer",
-        href: "courses",
+        href: "/courses",
       },
       {
         name: "Scheduling Classes",
-        href: "/guides/scheduling",
+        href: "/academics/scheduling",
       },
     ],
   },
@@ -25,7 +25,7 @@ const FrontPageLinks = [
     links: [
       {
         name: "Study Abroad",
-        href: "/guides/academics/study-abroad",
+        href: "/academics/study-abroad",
       },
       {
         name: "More Guides...",
@@ -38,15 +38,15 @@ const FrontPageLinks = [
     links: [
       {
         name: "Introduction",
-        href: "/guides/zero-to-offer/intro",
+        href: "/zero-to-offer/intro",
       },
       {
         name: "Resume",
-        href: "/guides/zero-to-offer/resume",
+        href: "/zero-to-offer/resume",
       },
       {
         name: "Application Process",
-        href: "/guides/zero-to-offer/application-process",
+        href: "/zero-to-offer/application-process",
       },
     ],
   },

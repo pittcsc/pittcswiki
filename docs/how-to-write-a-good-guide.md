@@ -9,13 +9,13 @@ Some guides are more refined, and deserve their own folder. Like, the `Zero to O
 
 We write them in Markdown.
 
-To add a guide, open a PR, and create an appropiate markdown file in the `pages` folder.
+To add a guide, open a PR, and create an appropiate markdown file in the `srcs/guides` folder.
 
 ## How to Create a Guide
 
 Say you wish to create a new guide on how to study abroad.
 
-1. Add a new markdown file under `src/pages/guides`. Say, `study-abroad.md`.
+1. Add a new markdown file under `src/guides`, in the specific topic. Say, `study-abroad.md` under the `academics` folder.
 2. Make sure to add a frontmatter to your file. This is basically meta information at the top of your file.
 
 ```
@@ -38,10 +38,9 @@ After you a submit a PR and it is merged to the master branch, you are all set!
 
 Say you want to make 5 different guides about research.
 
-1. Make a new folder in the `src/pages/guides` folder, called `research`
+1. Make a new folder in the `src/guides/academics/` folder, called `research` (where academics is the appropiate category)
 2. Add an `index.md` in this folder to serve as on overview.
-3. Add more markdown files inside the folder! 
-
+3. Add more markdown files inside the folder!
 
 ## Guiding Principles
 
@@ -64,7 +63,6 @@ by other members.
 
 ## How does this all work?
 
-When you add a new markdown file to `src/pages`, GatsbyJS (the framework we use), will automatically create a webpage, and transform your markdown into HTML. More information can be found by following this Gatsby tutorial if you wish to learn more - https://www.gatsbyjs.org/tutorial/
+When you add a new markdown file to `src/guides`, GatsbyJS (the framework we use), will automatically create a webpage, and transform your markdown into HTML. More information can be found by following this Gatsby tutorial if you wish to learn more - https://www.gatsbyjs.org/tutorial/
 
 If you want to make a guide with interactive components - read how you can do that [here](/docs/how-to-create-an-interactive-guide.md)
-

@@ -77,6 +77,29 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `guides`,
+        path: `${__dirname}/src/guides/`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/guides`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve(
+            `${__dirname}/src/components/templates/mdx-guide-template.js`
+          ),
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -100,16 +123,6 @@ module.exports = {
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
         queries,
         chunkSize: 1000,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        defaultLayouts: {
-          default: require.resolve(
-            `${__dirname}/src/components/templates/mdx-guide-template.js`
-          ),
-        },
       },
     },
     "gatsby-redirect-from",
