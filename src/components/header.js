@@ -36,13 +36,7 @@ const Header = ({ siteTitle }) => (
       </div>
       <div className="w-full md:w-1/3">
         <div className="relative">
-          <Search
-            collapse
-            indices={[
-              { name: "Guides", title: "Guides", hitComp: "GuideHit" },
-              { name: "Courses", title: "Courses", hitComp: "CourseHit" },
-            ]}
-          />
+          <Search collapse />
         </div>
       </div>
     </div>

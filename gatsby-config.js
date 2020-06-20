@@ -10,7 +10,12 @@ if (!GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) {
   )
 }
 
-const queries = require("./src/utils/algolia")
+const isIndexingAlgolia =
+  process.env.CONTEXT == "production" || process.env.INDEX_ALGOLIA
+
+if (isIndexingAlgolia) {
+  console.log("Indexing on Algolia!")
+}
 
 module.exports = {
   siteMetadata: {
@@ -116,16 +121,22 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries,
-        chunkSize: 1000,
-      },
-    },
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
-  ],
+  ].concat(
+    isIndexingAlgolia
+      ? [
+          {
+            resolve: `gatsby-plugin-algolia`,
+            options: {
+              enablePartialUpdates: true,
+              appId: process.env.GATSBY_ALGOLIA_APP_ID,
+              apiKey: process.env.ALGOLIA_ADMIN_KEY,
+              queries: require("./src/utils/algolia"),
+              chunkSize: 1000,
+            },
+          },
+        ]
+      : []
+  ),
 }

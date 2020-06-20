@@ -1,5 +1,6 @@
 ---
 title: "High Schooler"
+search_tags: ["freshmen", "incoming", "is pitt right for me"]
 ---
 
 Are you are a high schooler? Considering college or CS? This page is for you.

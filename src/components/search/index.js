@@ -8,7 +8,7 @@ import {
 import algoliasearch from "algoliasearch/lite"
 
 import Input from "./input"
-import * as hitComps from "./hit-comps"
+import PageHit from "./hit-comps"
 import AlgoliaPoweredBy from "../../images/algolia-nebula-blue-full-logo.svg"
 
 const HitsWrapper = ({ show, children }) => (
@@ -49,7 +49,9 @@ const useClickOutside = (ref, handler, events) => {
   })
 }
 
-export default function Search({ indices, collapse }) {
+const INDEX_NAME = "Guides"
+
+export default function Search({ collapse }) {
   const ref = createRef()
   const [query, setQuery] = useState(``)
   const [focus, setFocus] = useState(false)
@@ -63,7 +65,7 @@ export default function Search({ indices, collapse }) {
   return (
     <InstantSearch
       searchClient={searchClient}
-      indexName={indices[0].name}
+      indexName={INDEX_NAME}
       onSearchStateChange={({ query }) => setQuery(query)}
     >
       <Input
@@ -72,14 +74,11 @@ export default function Search({ indices, collapse }) {
         {...{ collapse, focus }}
       />
       <HitsWrapper show={query.length > 0 && focus}>
-        {indices.map(({ name, title, hitComp }) => (
-          <Index key={name} indexName={name}>
-            <div className="text-xl mb-0 pl-3 pt-3 border-b">{title}</div>
-            <Results>
-              <Hits hitComponent={hitComps[hitComp](() => setFocus(false))} />
-            </Results>
-          </Index>
-        ))}
+        <Index indexName={INDEX_NAME}>
+          <Results>
+            <Hits hitComponent={PageHit(() => setFocus(false))} />
+          </Results>
+        </Index>
         <PoweredBy />
       </HitsWrapper>
     </InstantSearch>
