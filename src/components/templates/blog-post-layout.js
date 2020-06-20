@@ -17,7 +17,10 @@ export default function BlogPostLayout({
   return (
     <Layout readingMode>
       <SEO title={title} />
-      <Breadcrumb slug={slug} />
+      <Breadcrumb
+        slug={slug}
+        firstBreadCrumb={{ link: "/guides", text: "GUIDES" }}
+      />
       <div className="blog-post-container">
         <div className="blog-post mb-8">
           <div className="frontmatter">

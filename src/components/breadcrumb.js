@@ -16,7 +16,8 @@ const arrowSvg = (
   </svg>
 )
 
-export default ({ slug }) => {
+/* This component is kind of confusing to use lol, but it works! */
+export default ({ slug, firstBreadCrumb = { link: "/", text: "HOME" } }) => {
   if (!slug) return
 
   const parts = slug.split("/").filter((x) => x)
@@ -48,7 +49,7 @@ export default ({ slug }) => {
   return (
     <div className="breadcrumbs flex md:flex-row flex-col md:items-center mb-3">
       <span>
-        <Link to={"/"}>HOME</Link>
+        <Link to={firstBreadCrumb.link}>{firstBreadCrumb.text}</Link>
         {arrowSvg}
       </span>
       {breadcrumbs}
