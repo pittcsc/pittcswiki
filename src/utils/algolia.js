@@ -1,5 +1,13 @@
 const { cleanCourseId, getNumFromCourseId } = require("./course-namer")
 
+// Be careful with this file. You can take down the search feature by messing with this!
+
+// In order to prevent Netlify from constantly building this and using all the Algolia quota,
+// we only index when running the gatsby build command with the environment variable CONTEXT = production
+// (Netlify sets this on production deploys). For testing, you can also run with the env variable INDEX_ALGOLIA
+// set to true.
+// INDEX_ALGOLIA=true gatsby build
+
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 
 const courseQuery = `query CoursePageQuery {
@@ -15,8 +23,6 @@ const courseQuery = `query CoursePageQuery {
   }
 }
 `
-
-// TODO consider adding more stuff in here to search for.
 
 const guidesQuery = `{
   pages: allMarkdownRemark(filter: {frontmatter: {type: {ne: "individual-course"}}}) {
@@ -62,7 +68,7 @@ const queries = [
   {
     query: guidesQuery,
     indexName: "Guides",
-    settings: { hitsPerPage: 10 },
+    settings: { hitsPerPage: 15 },
     transformer: ({ data }) =>
       data.pages.nodes
         .concat(data.mdxpages.nodes)
@@ -75,7 +81,7 @@ const queries = [
   {
     query: courseQuery,
     transformer: ({ data }) => addCourseTags(data.pages.nodes),
-    indexName: `Courses`,
+    indexName: `Guides`,
     settings: { attributesToSnippet: [`excerpt:20`], hitsPerPage: 6 },
   },
 ]
