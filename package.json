@@ -58,6 +58,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "indexalgolia": "INDEX_ALGOLIA=true gatsby build",
     "test": "jest",
     "check_correct_courses": "jest tests/check_course_info_matches.test.js",
     "DEPECRATED_scrape_courses": "node helpers/courses/course_scraper.js --save",
