@@ -8,25 +8,44 @@ library.add(fas)
 config.autoAddCss = false
 
 const Footer = () => (
-  <footer className="hidden md:flex">
-    <div className="m-auto text-gray-500">
+  <footer className="md:flex mt-auto text-center p-8 bg-gray-100">
+    <div className="m-auto text-gray-600">
       © {new Date().getFullYear()}, Built with{" "}
       <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
-      <a className="text-gray-600" href="https://pittcsc.org">
+      <a className="text-gray-800 font-bold" href="https://pittcsc.org">
         PittCSC
       </a>
       .{` `}
-      <p>Not affiliated with Pitt CS Department</p>
+      <p className="mb-0 text-sm">
+        <a href="/about/" className="mr-2">
+          About
+        </a>
+        <a href="mailto:pittcsc+wiki@gmail.com" className="mr-2">
+          Contact
+        </a>
+        <a
+          target="_blank"
+          rel="noopener"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform"
+          className="mr-2"
+        >
+          Feedback
+        </a>
+        <a href="/guides/" className="mr-2">
+          Guides
+        </a>
+        <a href="https://github.com/PittCSWiki/pittcswiki">GitHub</a>
+      </p>
     </div>
 
-    <div className="absolute right-0 mr-4 opacity-50 hover:opacity-100 -mt-1">
+    <div className="block mt-3 md:absolute right-0 mr-4 md:opacity-50 md:hover:opacity-100 md:-mt-1">
       <a href="https://www.netlify.com">{NetlifySvg}</a>
     </div>
   </footer>
 )
 
 const NetlifySvg = (
-  <svg width="114px" height="51px" version="1.1">
+  <svg width="114px" height="51px" version="1.1" className="inline">
     <defs>
       <rect id="path-1" x="0" y="0" width="114" height="51" rx="4"></rect>
       <mask
