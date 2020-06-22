@@ -11,7 +11,7 @@ const BASE_PATH = path.join(__dirname, "..", "src")
 const getData = async (sources) => {
   const filePathsPromise = sources.map(async (source) => {
     // also reads .mdx files
-    return await glob(path.join(source, "**/**/*.md*"))
+    return await glob(path.join(source, "**/*.md*"))
   })
   const filesBySource = await Promise.all(filePathsPromise)
   const filesWithSlugs = filesBySource
