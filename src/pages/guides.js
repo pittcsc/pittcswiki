@@ -30,8 +30,9 @@ const GuidesPage = ({ data: { guides } }) => (
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
     <p>
-      These are collections of guides organized by topic. Also feel free to use
-      the search bar, or check out the sitemap! (TODO, make a site map)
+      These are collections of guides organized by topic. You can also look at
+      the <Link to="/sitemap">sitemap</Link> for a full list of guides or use
+      the search bar at the top right corner.
     </p>
     <GuidesListing posts={guides.nodes} />
     <div>

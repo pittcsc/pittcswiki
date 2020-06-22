@@ -83,7 +83,8 @@ const SitemapPage = () => {
       <h1>Site Map</h1>
       <p>
         This lists every page on the wiki! If you are feeling overwhelmed, check
-        out the <Link to="/guides/">guides</Link> or try out the search!
+        out the <Link to="/guides/">guides listing page</Link>, or try using the
+        search in the top right corner.
       </p>
       <SitemapTree tree={tree} />
       <div className="mb-10"></div>
