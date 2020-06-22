@@ -16,7 +16,7 @@ const TreeView = ({ tree }) => {
         </li>
       )}
       {tree.children &&
-        tree.title != "Courses" &&
+        tree.title !== "Courses" &&
         tree.children.map((child) => <TreeView key={child.id} tree={child} />)}
     </ol>
   )
@@ -36,7 +36,6 @@ const SitemapPage = () => {
       }
       mdx: allMdx {
         nodes {
-          rawMarkdownBody: rawBody
           fields {
             slug
           }
@@ -47,7 +46,6 @@ const SitemapPage = () => {
       }
       pages: allMarkdownRemark {
         nodes {
-          rawMarkdownBody
           fields {
             slug
           }
@@ -58,7 +56,6 @@ const SitemapPage = () => {
       }
     }
   `)
-  const extraLinks = ["/about/", "/guides/"]
   const { tree } = siteGraphGenerator(
     sites.nodes.map((n) => n.path),
     pages.nodes

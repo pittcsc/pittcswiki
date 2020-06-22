@@ -1,9 +1,12 @@
 const { siteGraphGenerator } = require("../src/utils/sitegraph-generator")
 const readMarkdown = require("../helpers/read-markdown")
 
-test("No broken links", async () => {
+test("No broken links or missing index files", async () => {
   const data = await readMarkdown()
-  const sites = data.map((node) => node.slug)
+  // hard code the non markdown routes
+  const sites = data
+    .map((node) => node.slug)
+    .concat(["/courses/", "/about/", "/guides/", "/sitemap/"])
   const { errors } = siteGraphGenerator(sites, data)
   if (errors.length > 0) {
     console.log("Broken Links:")

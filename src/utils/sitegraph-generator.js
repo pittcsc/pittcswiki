@@ -46,9 +46,8 @@ function siteGraphGenerator(sites, pages) {
     return {
       id: cleanSiteLink(node.slug),
       slug: node.slug,
-      links: parse(node.rawMarkdownBody),
+      links: node.rawMarkdownBody ? parse(node.rawMarkdownBody) : undefined,
       title: node.title,
-      externalLinks: 0,
     }
   })
 
@@ -83,21 +82,21 @@ function siteGraphGenerator(sites, pages) {
       nodeMap[node.id] = { ...node, children: {} }
     }
 
-    node.links.forEach((link) => {
-      const parsedLink = parseLink(link)
-      if (parsedLink.error) {
-        errors.push({ file: node.slug, brokenLink: link })
-      } else {
-        if (!isExternalLink(parsedLink) && !siteMap[parsedLink]) {
+    if (node.links) {
+      // recursively check all links !
+      node.links.forEach((link) => {
+        const parsedLink = parseLink(link)
+        if (parsedLink.error) {
           errors.push({ file: node.slug, brokenLink: link })
+        } else {
+          if (!isExternalLink(parsedLink) && !siteMap[parsedLink]) {
+            errors.push({ file: node.slug, brokenLink: link })
+          }
         }
-      }
-    })
+      })
+    }
     nodes.push(node)
   })
-
-  console.log(tree)
-  console.log("---------")
 
   // this is turning {skills: {children: {}}, academics: {children: { studyabroad: {} }, }} into
   // [{id: skils, children: [...], {id: academics, children: [...]}
