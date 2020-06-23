@@ -9,7 +9,7 @@ const truncate = (word) => {
 }
 
 export default function TableOfContents({ headings }) {
-  if (headings.length < 4) return null
+  if (!headings || headings.length < 4) return null
   slugger.reset()
   return (
     <ul className="hidden lg:block fixed lg:left-0 list-none ml-0 markdown-toc">

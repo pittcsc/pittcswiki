@@ -56,7 +56,7 @@ export default function BlogPostLayout({
   )
 }
 
-const GITHUB_BASE_URL = `https://github.com/PittCSWiki/pittcswiki.github.io/tree/master/src/pages/`
+const GITHUB_BASE_URL = `https://github.com/PittCSWiki/pittcswiki.github.io/tree/master/src/guides/`
 
 const EditOnGithub = ({ fileType, slug, isIndexPage }) => {
   const parts = slug.split("/").filter((s) => s)
