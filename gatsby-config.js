@@ -123,6 +123,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
+    "gatsby-plugin-catch-links",
   ].concat(
     isIndexingAlgolia
       ? [

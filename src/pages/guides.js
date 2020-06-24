@@ -77,8 +77,9 @@ export const pageQuery = graphql`
     guides: allMarkdownRemark(
       filter: {
         fields: { slug: { glob: "/*/" }, isIndexPage: { eq: true } }
-        internal: {}
+        frontmatter: { guides_blurb: { ne: null } }
       }
+      sort: { order: ASC, fields: frontmatter___title }
     ) {
       nodes {
         frontmatter {

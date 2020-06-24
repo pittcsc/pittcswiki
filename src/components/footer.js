@@ -23,16 +23,16 @@ const Footer = () => (
         <a href="mailto:pittcsc+wiki@gmail.com" className="mr-2">
           Contact
         </a>
+        <a href="/sitemap/" className="mr-2">
+          Sitemap
+        </a>
         <a
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform"
           className="mr-2"
         >
           Feedback
-        </a>
-        <a href="/guides/" className="mr-2">
-          Guides
         </a>
         <a href="https://github.com/PittCSWiki/pittcswiki">GitHub</a>
       </p>

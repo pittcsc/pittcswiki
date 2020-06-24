@@ -7,11 +7,19 @@ const parse = require("parse-markdown-links")
 // this is used both to make the /sitemap page and also for unit tests
 
 const isExternalLink = (link) =>
-  link.toLowerCase().substring(0, 3) === "www" ||
-  link.toLowerCase().substring(0, 4) === "http" ||
-  link.toLowerCase().substring(0, 4) === "mail"
+  link.substring(0, 3) === "www" ||
+  link.substring(0, 4) === "http" ||
+  link.substring(0, 4) === "mail"
 
-const parseLink = (link) => {
+// clean link to a standard format. convert relative links to full links.
+// check for errors (like an invalid url)
+const parseLink = (link, basePath) => {
+  link = cleanSiteLink(link)
+  if (link.substring(0, 2) === "./") {
+    // Support relative links, like "./bsms" would point to "/academics/bsms"
+    // if the link was in academics folder
+    link = basePath + link.substring(2)
+  }
   // links can be malformed
   if (link[0] !== "/" && !isExternalLink(link)) {
     return { error: "invalid link" }
@@ -41,7 +49,6 @@ function siteGraphGenerator(sites, pages) {
     map[cleanSiteLink(link)] = true
     return map
   }, {})
-  console.log(siteMap)
   const siteNodes = pages.map((node) => {
     return {
       id: cleanSiteLink(node.slug),
@@ -85,7 +92,7 @@ function siteGraphGenerator(sites, pages) {
     if (node.links) {
       // recursively check all links !
       node.links.forEach((link) => {
-        const parsedLink = parseLink(link)
+        const parsedLink = parseLink(link, node.id)
         if (parsedLink.error) {
           errors.push({ file: node.slug, brokenLink: link })
         } else {
@@ -104,14 +111,15 @@ function siteGraphGenerator(sites, pages) {
     if ((tree && !tree.children) || !tree) return []
     return Object.keys(tree.children).map((key) => {
       const node = tree.children[key]
+      // If no title is set, its either no title in the frontmatter, or this page is a javacsript
+      // page in src/pages
       if (!node.title) {
-        const slug = "/" + key + "/"
         node.title = key.charAt(0).toUpperCase() + key.substring(1)
-        node.slug = slug
-        if (!siteMap[slug]) {
+        if (!siteMap[node.slug]) {
           errors.push({
-            file: slug,
-            error: "Missing a 'index.md' file in this folder! ",
+            file: node.slug,
+            error:
+              "If this is a folder, are you missing a 'index.md' file in this folder? Or if this is a file, are you missing the frontmatter and title?",
           })
         }
       }
