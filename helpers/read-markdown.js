@@ -50,5 +50,9 @@ module.exports = async function () {
     path.join(BASE_PATH, "guides"),
     path.join(BASE_PATH, "pages"),
   ])
-  return parse(data)
+  return parse(data).concat([
+    { slug: "/courses/", rawMarkdownBody: "", title: "generated" },
+    { slug: "/about/", rawMarkdownBody: "", title: "generated" },
+    { slug: "/guides/", rawMarkdownBody: "", title: "generated" },
+  ])
 }

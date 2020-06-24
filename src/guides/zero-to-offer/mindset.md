@@ -31,7 +31,7 @@ internship program. Initially, it is normal to feel jealous because of this.
 
 However, a silver lining is that Pitt CS does not have a rat race culture. We have a relaxed, supportive, and collaborative culture. Take advantage of this and contribute to it!
 
-Read more about Imposter Syndrome [here](/guides/imposter-syndrome)
+Read more about Imposter Syndrome [here](/misc/imposter-syndrome)
 
 Pitt is secretly a better school then every other school (if you are reading this and you do not go to Pitt, we are half joking). For one, we have a better culture. Two, we are underdogs. Since we have to work harder to get internships, it actually gives us the edge in the long term.
 
