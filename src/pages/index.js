@@ -49,11 +49,11 @@ const IndexPage = () => (
 )
 
 const LinkPanel = () => {
-  // Shout out to Alex for coming up with this idae
+  // Shout out to Alex for originally creating this
   return (
     <div
       id="blurb-grid"
-      className="mt-12 flex flex-col flex-wrap md:flex-row items-center md:items-baseline justify-center"
+      className="my-12 flex flex-col flex-wrap md:flex-row justify-center"
     >
       <div
         className="quick-blurb"
