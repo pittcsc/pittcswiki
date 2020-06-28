@@ -20,7 +20,7 @@ const IndexPage = () => (
       </div>
       <div className="max-w-4xl mx-auto">
         <div className="md:mt-24 flex">
-          <div className="self-end h-64 bg-white p-6 shadow-2xl w-1/2 border">
+          <div className="hidden md:block self-end h-64 bg-white p-6 shadow-2xl w-1/2 border">
             <h1>The Pitt CS Wiki</h1>
             <p>
               A collection of course testimonials, guides, career prep
@@ -41,7 +41,19 @@ const IndexPage = () => (
             />
           </div>
         </div>
-
+        <div className="md:hidden mt-12">
+          <h1>The Pitt CS Wiki</h1>
+          <p>
+            A collection of course testimonials, guides, career prep resources,
+            and much more!
+          </p>
+          <Link
+            to="/guides/"
+            className="btn inline-flex bg-pittgold items-center"
+          >
+            Get Started {rightArrowSvg}
+          </Link>
+        </div>
         <LinkPanel />
       </div>
     </div>
@@ -53,7 +65,7 @@ const LinkPanel = () => {
   return (
     <div
       id="blurb-grid"
-      className="my-12 flex flex-col flex-wrap md:flex-row justify-center"
+      className="my-12 flex flex-col items-center flex-wrap md:flex-row justify-center"
     >
       <div
         className="quick-blurb"
@@ -73,8 +85,8 @@ const LinkPanel = () => {
         />
         <h3>Course Explorer</h3>
         <p>
-          Read course testimonials, profressor reviews, and find which electives
-          are right for you. <Link to="/courses/">Learn more.</Link>
+          Find the right course for you! Professor reviews, course testimonials,
+          and more. <Link to="/courses/">Learn more.</Link>
         </p>
       </div>
       <div
@@ -91,9 +103,8 @@ const LinkPanel = () => {
         <img src={guidesIcon} alt="guide by Youmena from the Noun Project" />
         <h3>Guides</h3>
         <p>
-          All of our tips and content organized by topic! Everything from
-          studying abroad, to if CS is right for you, to managing your finances!{" "}
-          <Link to="/guides/">Learn more.</Link>
+          View all of our articles organized by topic. Check out popular ones
+          and recently updated. <Link to="/guides/">Learn more.</Link>
         </p>
       </div>
       <div
@@ -113,9 +124,8 @@ const LinkPanel = () => {
         />
         <h3>Career</h3>
         <p>
-          There are big ships and small ships, but the best ships are
-          internships! Check out all of our tips on how to land job offers and
-          suceed in your career journey. <Link to="/career/">Learn more.</Link>
+          Read our carefully curated tips on how to land job offers and succeed
+          in your career. <Link to="/career/">Learn more.</Link>
         </p>
       </div>
       <div
@@ -135,9 +145,9 @@ const LinkPanel = () => {
         />
         <h3>Academics</h3>
         <p>
-          Thinking about a double major? Is your schedule right? Curious about
-          research? Learn the answers to all of your related questions here!{" "}
-          <Link to="/academics/">Learn more.</Link>
+          Thinking about a double major? Not sure what classes to take when?
+          Curious about research? Learn the answers to all of your questions
+          here! <Link to="/academics/">Learn more.</Link>
         </p>
       </div>
       <div
@@ -157,8 +167,8 @@ const LinkPanel = () => {
         />
         <h3>Sitemap</h3>
         <p>
-          Click here to see a list of EVERYTHING we have!{" "}
-          <Link to="/sitemap/">Learn more.</Link>
+          We have a lot of content and its growing. Click here to see a list of
+          everything we have. <Link to="/sitemap/">Learn more.</Link>
         </p>
       </div>
     </div>
