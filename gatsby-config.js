@@ -75,6 +75,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-mdx`,
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
@@ -94,16 +97,7 @@ module.exports = {
         path: `${__dirname}/src/guides`,
       },
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        defaultLayouts: {
-          default: require.resolve(
-            `${__dirname}/src/components/templates/mdx-guide-template.js`
-          ),
-        },
-      },
-    },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {

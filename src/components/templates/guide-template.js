@@ -35,8 +35,6 @@ export default function Template({
   )
 }
 
-// TODO I do not like how we have 'is index page'
-
 export const pageQuery = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
