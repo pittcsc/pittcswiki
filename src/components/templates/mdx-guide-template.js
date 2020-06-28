@@ -1,7 +1,10 @@
 import React from "react"
 import BlogPostLayout from "./blog-post-layout"
 import CourseGraph from "../courses/course-graph"
+import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
+import { MDXRenderer } from "gatsby-plugin-mdx"
+import TableOfContents from "../table-of-contents"
 
 /* 
 Read more about MDX (Markdown X) here 
@@ -18,20 +21,47 @@ https://github.com/gatsbyjs/gatsby/issues/16224
 
 const shortcodes = { CourseGraph }
 
-export default function Template({
-  path,
-  children,
-  pageContext: { frontmatter },
-}) {
+export default function Template({ data: { mdx } }) {
+  const {
+    frontmatter,
+    body,
+    headings,
+    fields: { gitAuthorTime, lastUpdatedString, slug },
+  } = mdx
   return (
     <BlogPostLayout
       {...{
         frontmatter,
-        slug: path,
+        gitAuthorTime,
+        lastUpdatedString,
+        slug,
         fileType: ".mdx",
       }}
     >
-      <MDXProvider components={shortcodes}>{children}</MDXProvider>
+      <TableOfContents headings={headings} />
+      <MDXProvider components={shortcodes}>
+        <MDXRenderer>{body}</MDXRenderer>
+      </MDXProvider>
     </BlogPostLayout>
   )
 }
+
+export const pageQuery = graphql`
+  query($slug: String!) {
+    mdx(fields: { slug: { eq: $slug } }) {
+      body
+      frontmatter {
+        title
+      }
+      headings {
+        depth
+        value
+      }
+      fields {
+        slug
+        gitAuthorTime
+        lastUpdatedString: gitAuthorTime(formatString: "MMM Do YYYY")
+      }
+    }
+  }
+`
