@@ -74,18 +74,6 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    result.data.allMdx.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve(
-          "src/components/templates/mdx-guide-template.js"
-        ),
-        context: {
-          slug: node.fields.slug,
-        },
-      })
-    })
-
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       if (node.frontmatter && node.frontmatter.type === "individual-course") {
         createPage({
