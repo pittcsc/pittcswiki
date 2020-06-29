@@ -33,15 +33,6 @@ const Layout = ({ children, readingMode }) => {
       <div
         className={"container px-2 mx-auto " + (readingMode && " max-w-2xl")}
       >
-        <p className="mt-0 p-2 text-center text-orange-600 bg-orange-200">
-          The Wiki is Under Construction -{" "}
-          <a href="https://github.com/PittCSWiki/pittcswiki.github.io/issues">
-            Add issues or suggestions here{" "}
-            <span role="img" aria-label="happy">
-              😃
-            </span>
-          </a>
-        </p>
         <main>{children}</main>
       </div>
       <Footer />
