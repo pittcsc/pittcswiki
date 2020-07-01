@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Breadcrumb from "../components/breadcrumb"
+import SitemapList from "../components/sitemap-list"
 import { Link, graphql } from "gatsby"
 
 const GuidesListing = ({ posts }) => {
@@ -30,40 +31,33 @@ const GuidesPage = ({ data: { guides } }) => (
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
     <p>
-      These are collections of guides organized by topic. You can also look at
-      the <Link to="/sitemap">sitemap</Link> for a full list of guides or use
-      the search bar at the top right corner.
+      These are collections of guides organized by topic. You can also use the
+      search bar at the top right to search for classes and more!
     </p>
     <GuidesListing posts={guides.nodes} />
     <div>
       <h2>Popular</h2>
       <ul>
         <li>
-          <Link to={"/academics/study-abroad"}>Study Abroad</Link>
-        </li>
-        <li>
           <Link to={"/academics/scheduling"}>Scheduling</Link>
         </li>
         <li>
-          <Link to={"/courses"}>Courses</Link>
+          <Link to={"/courses"}>Course Explorer</Link>
+        </li>
+        <li>
+          <Link to={"/zero-to-offer"}>Zero to Offer</Link>
         </li>
       </ul>
     </div>
-    <div>
-      <h2>New</h2>
-      <ul>
-        <li>
-          <Link to={"/academics/uta"}>How to Become a TA</Link>
-        </li>
-        <li>
-          <Link to={"/skills/hackathons"}>Hackathons</Link>
-        </li>
-      </ul>
+    <div className="mb-8">
+      <h2>Full Guide Listing</h2>
+      <SitemapList />
     </div>
     <p>
-      Still curious about a topic but cannot find it? Let us know!!{" "}
+      Still curious about something but cannot find it? Please let us know and
+      we can add it!{" "}
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform">
-        Fill out this form!
+        Fill out this form.
       </a>
     </p>
   </Layout>
