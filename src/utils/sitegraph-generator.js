@@ -1,5 +1,3 @@
-const parse = require("parse-markdown-links")
-
 // this code is confusing because its like an interview question,
 // given a flat list of urls, construct a tree diagram, and ensure no
 // broken links contained in the urls
@@ -19,6 +17,7 @@ const parseLink = (link, basePath) => {
     // Support relative links, like "./bsms" would point to "/academics/bsms"
     // if the link was in academics folder
     link = basePath + link.substring(2)
+    console.log(link)
   }
   // links can be malformed
   if (link[0] !== "/" && !isExternalLink(link)) {
@@ -53,7 +52,7 @@ function siteGraphGenerator(sites, pages) {
     return {
       id: cleanSiteLink(node.slug),
       slug: node.slug,
-      links: node.rawMarkdownBody ? parse(node.rawMarkdownBody) : undefined,
+      links: node.links, // node.links is defined during tests
       title: node.title,
     }
   })

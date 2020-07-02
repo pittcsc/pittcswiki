@@ -7,7 +7,7 @@
 // so we parse them into [{link: "/majors/stats/", title: "Stats"}, ...]
 // and do error handling
 // ---
-export default function (relatedLinks) {
+module.exports = function (relatedLinks) {
   const links = []
 
   if (!relatedLinks || !relatedLinks.length || relatedLinks.length % 2 !== 0) {
