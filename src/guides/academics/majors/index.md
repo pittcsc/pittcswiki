@@ -2,4 +2,4 @@
 title: "Double Major?"
 ---
 
-[Stat](./stats)
+[Stat](/academics/majors/stats)
