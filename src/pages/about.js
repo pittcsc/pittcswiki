@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 import Breadcrumb from "../components/breadcrumb"
 
 export default () => (
@@ -26,11 +27,9 @@ export default () => (
         </p>
         <p>
           If you have feedback or questions, let us know by{" "}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform">
-            filling out this form!
-          </a>{" "}
-          If you are interested in the technical details of the wiki, everything
-          is open source and documented on{" "}
+          <Link to="/feedback">filling out this form!</Link> If you are
+          interested in the technical details of the wiki, everything is open
+          source and documented on{" "}
           <a href="https://github.com/PittCSWiki/pittcswiki">
             the GitHub repo!
           </a>

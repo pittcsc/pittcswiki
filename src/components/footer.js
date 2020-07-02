@@ -26,12 +26,7 @@ const Footer = () => (
         <a href="/sitemap/" className="mr-2">
           Sitemap
         </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform"
-          className="mr-2"
-        >
+        <a href="/feedback/" className="mr-2">
           Feedback
         </a>
         <a href="https://github.com/PittCSWiki/pittcswiki">GitHub</a>

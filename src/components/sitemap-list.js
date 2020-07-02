@@ -67,8 +67,11 @@ export default function SitemapList() {
         },
         {
           slug: "/courses/",
-          nugget: "wisdom",
           title: "Course Explorer and Testimonials",
+        },
+        {
+          slug: "/feedback/",
+          title: "Feedback",
         },
       ])
   )
