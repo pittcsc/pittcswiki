@@ -20,17 +20,19 @@ const convertLinkToFullPath = (link, node) => {
     if (link.substring(0, 2) === "./") {
       // Support relative links, like "./bsms" would point to "/academics/bsms"
       // if the link was in academics folder index page.
-      // however, if the current page is not an indexPage, then we replace
-      // the current page
-      const linkWithoutDot = link.substring(2)
-      if (node.fields.isIndexPage) {
-        link = basePath + linkWithoutDot
-      } else {
-        link = basePath.replace(/\/\w*\/$/g, "/" + linkWithoutDot)
+      // however, if the current page is not an indexPage, then there is a really
+      // weird bug that stops it from working sometimes. no clue what is happening.
+      // It is probably better to use relative linking.
+      link = basePath + link.substring(2)
+      if (basePath.split("/").length !== 3) {
+        return {
+          error:
+            "Only use relative linking on certain pages. Read PR #162 for more details",
+        }
       }
     } else {
       return {
-        eror:
+        error:
           "We only support one level of relative linking (./bsms) not (../zero-to-offer). This makes it too difficult to test.",
       }
     }
@@ -115,7 +117,7 @@ function siteGraphGenerator(sites, pages) {
           errors.push({
             file: node.slug,
             brokenLink: link,
-            msg: "Could not parse",
+            msg: parsedLink.error,
           })
         } else {
           if (!isExternalLink(parsedLink) && !siteMap[parsedLink]) {
