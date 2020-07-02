@@ -1,7 +1,8 @@
 ---
 title: "Study Abroad"
 search_tags:
-  - "rohit ganguly"
+  - "korea"
+related: ["Scheduling", "/academics/scheduling"]
 ---
 
 Studying abroad is one of the most exciting and unique things you can do during your time at Pitt. In this guide we will explain the basics of how to study abroad as a Pitt CS student. You can learn more about specific programs at [abroad.pitt.edu/](https://abroad.pitt.edu "Study Abroad at Pitt").

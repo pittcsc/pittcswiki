@@ -2,7 +2,9 @@ import React from "react"
 import Layout from "../layout"
 import SEO from "../seo"
 import Breadcrumb from "../breadcrumb"
+import { Link } from "gatsby"
 import FeedbackWidget from "../feedback"
+import relatedGuidesParser from "../../utils/related-guides-parser"
 
 export default function BlogPostLayout({
   frontmatter,
@@ -39,6 +41,7 @@ export default function BlogPostLayout({
           </div>
           <FreshnessDisclaimer lastUpdated={gitAuthorTime} />
           {children}
+          <RelatedGuides related={frontmatter.related} />
           <div
             className={
               "my-8 text-center sm:w-full md:w-auto " +
@@ -62,6 +65,27 @@ export default function BlogPostLayout({
         </div>
       </div>
     </Layout>
+  )
+}
+
+const RelatedGuides = ({ related }) => {
+  const links = relatedGuidesParser(related)
+
+  if (!links || links.length === 0) return null
+
+  return (
+    <div className="text-sm border-t border-b py-4">
+      <h4 className="mb-1">Related Resources</h4>
+      <ul className="mb-0">
+        {links.map(({ link, title }, i) =>
+          !link || !title ? null : (
+            <li key={i}>
+              <Link to={link}>{title}</Link>
+            </li>
+          )
+        )}
+      </ul>
+    </div>
   )
 }
 

@@ -4,6 +4,6 @@ title: "CS + Another Minor"
 
 Interested in other minors?
 
-[Stat](./stats/)
+[Stat](/academics/minors/stats/)
 
 TODO - reorganize these
