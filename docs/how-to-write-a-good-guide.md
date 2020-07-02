@@ -42,6 +42,18 @@ Say you want to make 5 different guides about research.
 2. Add an `index.md` in this folder to serve as on overview.
 3. Add more markdown files inside the folder!
 
+If you would like to add a "Related Resources" section to the guide, add a
+"related" field to the frontmatter like so:
+
+```
+---
+title: "Scheduling Classes"
+related: ["Stats Major", "./majors/stats", "Course Explorer", "/courses/"]
+---
+```
+
+The related is a list, and starts with the title of the link, and next is the actual link.
+
 ## Guiding Principles
 
 (Pun Intended)
