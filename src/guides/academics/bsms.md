@@ -1,6 +1,7 @@
 ---
 title: "Pitt BS + MS Program"
-related: ["Research", "./research", "Scheduling", "./scheduling"]
+related:
+  ["Research", "/academics/research", "Scheduling", "/academics/scheduling"]
 ---
 
 ## BS + MS Program

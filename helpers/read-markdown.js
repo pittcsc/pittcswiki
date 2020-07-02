@@ -35,7 +35,9 @@ const getData = async (sources) => {
 }
 
 const parseSlug = (pathSlug) => {
-  return pathSlug.replace(/\/index\.md$/g, "").replace(/\.mdx?$/g, "")
+  // remove any "md" or "mdx" extenstions, and if its an index page, remove
+  // the "index.md" part
+  return pathSlug.replace(/\/index\.mdx?$/g, "").replace(/\.mdx?$/g, "")
 }
 
 const parse = (data) => {

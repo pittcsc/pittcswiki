@@ -4,6 +4,8 @@
 
 // this is used both to make the /sitemap page and also for unit tests
 
+// this is the worst code in the whole repo, hard to read, bad names
+
 const isExternalLink = (link) =>
   link.substring(0, 3) === "www" ||
   link.substring(0, 4) === "http" ||
@@ -11,17 +13,31 @@ const isExternalLink = (link) =>
 
 // clean link to a standard format. convert relative links to full links.
 // check for errors (like an invalid url)
-const parseLink = (link, basePath) => {
+const convertLinkToFullPath = (link, node) => {
   link = cleanSiteLink(link)
-  if (link.substring(0, 2) === "./") {
-    // Support relative links, like "./bsms" would point to "/academics/bsms"
-    // if the link was in academics folder
-    link = basePath + link.substring(2)
-    console.log(link)
+  const basePath = node.id
+  if (link[0] === ".") {
+    if (link.substring(0, 2) === "./") {
+      // Support relative links, like "./bsms" would point to "/academics/bsms"
+      // if the link was in academics folder index page.
+      // however, if the current page is not an indexPage, then we replace
+      // the current page
+      const linkWithoutDot = link.substring(2)
+      if (node.fields.isIndexPage) {
+        link = basePath + linkWithoutDot
+      } else {
+        link = basePath.replace(/\/\w*\/$/g, "/" + linkWithoutDot)
+      }
+    } else {
+      return {
+        eror:
+          "We only support one level of relative linking (./bsms) not (../zero-to-offer). This makes it too difficult to test.",
+      }
+    }
   }
   // links can be malformed
   if (link[0] !== "/" && !isExternalLink(link)) {
-    return { error: "invalid link" }
+    return { error: "This link is malformed" }
   }
   // links can have "/index" at the end
   return cleanSiteLink(link)
@@ -34,7 +50,7 @@ const cleanSiteLink = (link) => {
     clean += "/"
   }
   // some links my have "index" at the end
-  return clean.replace(/\/index$/g, "")
+  return clean.replace(/index$/g, "")
 }
 
 /*
@@ -54,6 +70,9 @@ function siteGraphGenerator(sites, pages) {
       slug: node.slug,
       links: node.links, // node.links is defined during tests
       title: node.title,
+      fields: {
+        isIndexPage: node.fields && node.fields.isIndexPage,
+      },
     }
   })
 
@@ -91,12 +110,20 @@ function siteGraphGenerator(sites, pages) {
     if (node.links) {
       // recursively check all links !
       node.links.forEach((link) => {
-        const parsedLink = parseLink(link, node.id)
+        const parsedLink = convertLinkToFullPath(link, node)
         if (parsedLink.error) {
-          errors.push({ file: node.slug, brokenLink: link })
+          errors.push({
+            file: node.slug,
+            brokenLink: link,
+            msg: "Could not parse",
+          })
         } else {
           if (!isExternalLink(parsedLink) && !siteMap[parsedLink]) {
-            errors.push({ file: node.slug, brokenLink: link })
+            errors.push({
+              file: node.slug,
+              brokenLink: link,
+              msg: "Was not in the list of pages",
+            })
           }
         }
       })

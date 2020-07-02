@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../layout"
 import SEO from "../seo"
 import Breadcrumb from "../breadcrumb"
+import { Link } from "gatsby"
 import FeedbackWidget from "../feedback"
 import relatedGuidesParser from "../../utils/related-guides-parser"
 
@@ -68,9 +69,7 @@ export default function BlogPostLayout({
 }
 
 const RelatedGuides = ({ related }) => {
-  console.log(related)
   const links = relatedGuidesParser(related)
-  console.log(links)
 
   if (!links || links.length === 0) return null
 
@@ -81,7 +80,7 @@ const RelatedGuides = ({ related }) => {
         {links.map(({ link, title }, i) =>
           !link || !title ? null : (
             <li key={i}>
-              <a href={link}>{title}</a>
+              <Link to={link}>{title}</Link>
             </li>
           )
         )}
