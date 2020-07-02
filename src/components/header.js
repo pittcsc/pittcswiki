@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       <div className="flex items-center">
         <Link
           to="/"
-          className="header-logo flex font-semibold text-white uppercase items-center"
+          className="header-logo flex font-semibold text-white items-center"
         >
           <img
             className="w-10 md:mr-0 mr-4"
@@ -18,9 +18,6 @@ const Header = ({ siteTitle }) => (
             src={logo}
             alt=""
           ></img>
-          <span className="hidden md:inline-block ml-2 uppercase">
-            {siteTitle}
-          </span>
         </Link>
       </div>
       <div className="w-full md:w-1/3">
