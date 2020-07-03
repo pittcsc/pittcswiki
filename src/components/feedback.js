@@ -139,14 +139,14 @@ const FeedbackForm = ({ setFormState, show }) => {
         <div className="w-full flex justify-between">
           <button
             type="button"
-            className="p-2 border bg-gray-200 hover:bg-gray-800 hover:text-white"
+            className="btn"
             onClick={() => setFormState(States.DOC)}
           >
             Cancel
           </button>
 
           <button
-            className="p-2 ml-4 w-1/2 border bg-pittgold hover:shadow-xl hover:bg-gray-800 hover:text-white "
+            className="btn btn-purple hover:shadow-xl ml-4 w-1/2"
             type="submit"
           >
             {sending ? "Sending..." : "Send Feedback!"}
