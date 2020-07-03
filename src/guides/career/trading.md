@@ -1,15 +1,17 @@
-
 ---
 
 title: "A Brief Introduction to Trading"
 
 search_tags:
+- "money"
 
 - "quant"
 
 - "stonks"
 
 - "quantitative"
+
+- "stocks"
 
 - "SIG"
 
