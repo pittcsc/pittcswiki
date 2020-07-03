@@ -1,10 +1,10 @@
-const parse = require("parse-markdown-links")
-
 // this code is confusing because its like an interview question,
 // given a flat list of urls, construct a tree diagram, and ensure no
 // broken links contained in the urls
 
 // this is used both to make the /sitemap page and also for unit tests
+
+// this is the worst code in the whole repo, hard to read, bad names
 
 const isExternalLink = (link) =>
   link.substring(0, 3) === "www" ||
@@ -13,16 +13,33 @@ const isExternalLink = (link) =>
 
 // clean link to a standard format. convert relative links to full links.
 // check for errors (like an invalid url)
-const parseLink = (link, basePath) => {
+const convertLinkToFullPath = (link, node) => {
   link = cleanSiteLink(link)
-  if (link.substring(0, 2) === "./") {
-    // Support relative links, like "./bsms" would point to "/academics/bsms"
-    // if the link was in academics folder
-    link = basePath + link.substring(2)
+  const basePath = node.id
+  if (link[0] === ".") {
+    if (link.substring(0, 2) === "./") {
+      // Support relative links, like "./bsms" would point to "/academics/bsms"
+      // if the link was in academics folder index page.
+      // however, if the current page is not an indexPage, then there is a really
+      // weird bug that stops it from working sometimes. no clue what is happening.
+      // It is probably better to use relative linking.
+      link = basePath + link.substring(2)
+      if (basePath.split("/").length !== 3) {
+        return {
+          error:
+            "Only use relative linking on certain pages. Read PR #162 for more details",
+        }
+      }
+    } else {
+      return {
+        error:
+          "We only support one level of relative linking (./bsms) not (../zero-to-offer). This makes it too difficult to test.",
+      }
+    }
   }
   // links can be malformed
   if (link[0] !== "/" && !isExternalLink(link)) {
-    return { error: "invalid link" }
+    return { error: "This link is malformed" }
   }
   // links can have "/index" at the end
   return cleanSiteLink(link)
@@ -35,7 +52,7 @@ const cleanSiteLink = (link) => {
     clean += "/"
   }
   // some links my have "index" at the end
-  return clean.replace(/\/index$/g, "")
+  return clean.replace(/index$/g, "")
 }
 
 /*
@@ -53,8 +70,11 @@ function siteGraphGenerator(sites, pages) {
     return {
       id: cleanSiteLink(node.slug),
       slug: node.slug,
-      links: node.rawMarkdownBody ? parse(node.rawMarkdownBody) : undefined,
+      links: node.links, // node.links is defined during tests
       title: node.title,
+      fields: {
+        isIndexPage: node.fields && node.fields.isIndexPage,
+      },
     }
   })
 
@@ -92,12 +112,20 @@ function siteGraphGenerator(sites, pages) {
     if (node.links) {
       // recursively check all links !
       node.links.forEach((link) => {
-        const parsedLink = parseLink(link, node.id)
+        const parsedLink = convertLinkToFullPath(link, node)
         if (parsedLink.error) {
-          errors.push({ file: node.slug, brokenLink: link })
+          errors.push({
+            file: node.slug,
+            brokenLink: link,
+            msg: parsedLink.error,
+          })
         } else {
           if (!isExternalLink(parsedLink) && !siteMap[parsedLink]) {
-            errors.push({ file: node.slug, brokenLink: link })
+            errors.push({
+              file: node.slug,
+              brokenLink: link,
+              msg: "Was not in the list of pages",
+            })
           }
         }
       })

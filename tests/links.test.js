@@ -7,6 +7,7 @@ test("No broken links or missing index files", async () => {
   const sites = data
     .map((node) => node.slug)
     .concat(["/courses/", "/about/", "/guides/", "/sitemap/"])
+
   const { errors } = siteGraphGenerator(sites, data)
   if (errors.length > 0) {
     console.log("Broken Links:")

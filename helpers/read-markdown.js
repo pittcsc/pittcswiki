@@ -3,7 +3,8 @@ const path = require("path")
 const { promisify } = require("util")
 const glob = promisify(require("glob"))
 const parseFrontMatter = require("gray-matter")
-const { siteGraphGenerator } = require("../src/utils/sitegraph-generator")
+const parseRelatedLinksFromFrontmatter = require("../src/utils/related-guides-parser")
+const parseMarkdownLinks = require("parse-markdown-links")
 
 const BASE_PATH = path.join(__dirname, "..", "src")
 
@@ -34,15 +35,25 @@ const getData = async (sources) => {
 }
 
 const parseSlug = (pathSlug) => {
-  return pathSlug.replace(/\/index\.md$/g, "").replace(/\.mdx?$/g, "")
+  // remove any "md" or "mdx" extenstions, and if its an index page, remove
+  // the "index.md" part
+  return pathSlug.replace(/\/index\.mdx?$/g, "").replace(/\.mdx?$/g, "")
 }
 
 const parse = (data) => {
-  return data.map((file) => ({
-    slug: parseSlug(file.pathSlug),
-    rawMarkdownBody: file.data,
-    title: parseFrontMatter(file.data).data.title,
-  }))
+  return data.map((file) => {
+    const frontmatter = parseFrontMatter(file.data).data
+    const relatedGuidesLinks = parseRelatedLinksFromFrontmatter(
+      frontmatter.related
+    ).map((l) => l.link)
+    const markdownLinks = parseMarkdownLinks(file.data) || []
+    return {
+      slug: parseSlug(file.pathSlug),
+      rawMarkdownBody: file.data,
+      title: frontmatter.title,
+      links: relatedGuidesLinks.concat(markdownLinks),
+    }
+  })
 }
 
 module.exports = async function () {

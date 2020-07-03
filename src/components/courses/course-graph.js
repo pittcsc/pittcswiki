@@ -60,16 +60,18 @@ export default ({ reqs, showPreview = false }) => {
 
   return (
     <div className="lg:flex">
-      <DagreGraph
-        nodes={nodes}
-        links={links}
-        fitBoundaries="false"
-        height="500"
-        width="480"
-        shape="rect"
-        className="course-graph mx-auto"
-        onNodeClick={onNodeClick}
-      />
+      <div className="w-full overflow-x-auto">
+        <DagreGraph
+          nodes={nodes}
+          links={links}
+          fitBoundaries="false"
+          height="500"
+          width="480"
+          shape="rect"
+          className="course-graph mx-auto"
+          onNodeClick={onNodeClick}
+        />
+      </div>
       <div className="mb-5 border p-6 flex flex-col rounded br-8 lg:absolute lg:rounded-r-none lg:right-0 lg:w-1/4 shadow-md lg:border-r-0">
         <CourseQuickView {...getCourseData(currentCourse)}>
           <h3>Click a course on the graph to see details</h3>
