@@ -76,7 +76,8 @@ export default ({ reqs, showPreview = false }) => {
         <CourseQuickView {...getCourseData(currentCourse)}>
           <h3>Click a course on the graph to see details</h3>
           <p>
-            The diagram above shows the relationships between the core classes!
+            The diagram <span className="md:hidden">above</span> shows the
+            relationships between the core classes!
           </p>
         </CourseQuickView>
       </div>
