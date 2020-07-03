@@ -43,10 +43,7 @@ export default function BlogPostLayout({
           {children}
           <RelatedGuides related={frontmatter.related} />
           <div
-            className={
-              "my-8 text-center sm:w-full md:w-auto " +
-              (isIndexPage && "hidden")
-            }
+            className={"my-8 sm:w-full md:w-auto " + (isIndexPage && "hidden")}
           >
             <FeedbackWidget />
           </div>

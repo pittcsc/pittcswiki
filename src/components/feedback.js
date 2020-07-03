@@ -25,7 +25,7 @@ const FeedbackTitle = ({ onClick, show }) => (
   <button
     onClick={onClick}
     className={
-      "p-2 w-full md:w-1/2 border bg-pittgold shadow-sm hover:shadow-xl hover:bg-gray-800 hover:text-white " +
+      "btn bg-pittgold shadow-sm hover:shadow-xl hover:bg-gray-800 hover:text-white " +
       (show ? "" : "hidden")
     }
   >
@@ -40,8 +40,11 @@ const FeedbackForm = ({ setFormState, show }) => {
     setState({ ...state, [e.target.name]: e.target.value })
   }
 
+  const [sending, setSending] = React.useState(false)
+
   const handleSubmit = (e) => {
     e.preventDefault()
+    setSending(true)
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -50,14 +53,20 @@ const FeedbackForm = ({ setFormState, show }) => {
         ...state,
         location: window.location,
       }),
-    }).then(() => setFormState(States.THANK_YOU))
+    }).then(() => {
+      let i = 0
+      while (i < 1000000000) {
+        i++
+      }
+      setSending(false)
+      setFormState(States.THANK_YOU)
+    })
   }
 
   return (
     <div
       className={
-        "w-full md:w-1/2 m-auto relative feedback-form " +
-        (show ? "" : "hidden")
+        "w-full md:w-1/2 relative feedback-form " + (show ? "" : "hidden")
       }
     >
       <form
@@ -163,7 +172,7 @@ const FeedbackForm = ({ setFormState, show }) => {
             className="p-2 ml-4 w-1/2 border bg-pittgold hover:shadow-xl hover:bg-gray-800 hover:text-white "
             type="submit"
           >
-            Send feedback
+            {sending ? "Sending..." : "Send Feedback!"}
           </button>
         </div>
       </form>
