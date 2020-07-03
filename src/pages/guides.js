@@ -24,7 +24,6 @@ const GuidesListing = ({ posts }) => {
   return <div className="flex flex-wrap -mx-4 -mt-4">{guides}</div>
 }
 
-// TODO - recommended and recently updated
 const GuidesPage = ({ data: { guides } }) => (
   <Layout>
     <SEO title="Guides" />
@@ -35,6 +34,10 @@ const GuidesPage = ({ data: { guides } }) => (
       search bar at the top right to search for classes and more!
     </p>
     <GuidesListing posts={guides.nodes} />
+    <p>
+      If you have ever any questions or feedback, you can ask by visiting{" "}
+      <Link to="/feedback">this link!</Link>
+    </p>
     <div>
       <h2>Popular</h2>
       <ul>
@@ -55,10 +58,7 @@ const GuidesPage = ({ data: { guides } }) => (
     </div>
     <p>
       Still curious about something but cannot find it? Please let us know and
-      we can add it!{" "}
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform">
-        Fill out this form.
-      </a>
+      we can add it! <Link to="/feedback">Fill out this form.</Link>
     </p>
   </Layout>
 )
