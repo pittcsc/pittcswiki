@@ -183,6 +183,7 @@ export default function FeedbackWidget() {
   )
 }
 
+// from font awesome
 const sadFaceIcon = (
   <svg
     aria-hidden="true"
