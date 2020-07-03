@@ -54,10 +54,6 @@ const FeedbackForm = ({ setFormState, show }) => {
         location: window.location,
       }),
     }).then(() => {
-      let i = 0
-      while (i < 1000000000) {
-        i++
-      }
       setSending(false)
       setFormState(States.THANK_YOU)
     })
