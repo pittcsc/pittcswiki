@@ -49,9 +49,9 @@ This is broken up into 5 parts. Happy reading!
 
 > This is under development:
 
-1. [Mindset](./mindset)
-2. [Resume](./resume)
-3. [Application Process](./application-process)
-4. [Interview Prep](./interview-prep)
-5. [Interview](./interview)
-6. [Rejection](./rejection)
+1. [Mindset](/zero-to-offer/mindset)
+2. [Resume](/zero-to-offer/resume)
+3. [Application Process](/zero-to-offer/application-process)
+4. [Interview Prep](/zero-to-offer/interview-prep)
+5. [Interview](/zero-to-offer/interview)
+6. [Rejection](/zero-to-offer/rejection)

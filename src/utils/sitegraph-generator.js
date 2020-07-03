@@ -13,28 +13,12 @@ const isExternalLink = (link) =>
 
 // clean link to a standard format. convert relative links to full links.
 // check for errors (like an invalid url)
-const convertLinkToFullPath = (link, node) => {
+const convertLinkToFullPath = (link) => {
   link = cleanSiteLink(link)
-  const basePath = node.id
   if (link[0] === ".") {
-    if (link.substring(0, 2) === "./") {
-      // Support relative links, like "./bsms" would point to "/academics/bsms"
-      // if the link was in academics folder index page.
-      // however, if the current page is not an indexPage, then there is a really
-      // weird bug that stops it from working sometimes. no clue what is happening.
-      // It is probably better to use relative linking.
-      link = basePath + link.substring(2)
-      if (basePath.split("/").length !== 3) {
-        return {
-          error:
-            "Only use relative linking on certain pages. Read PR #162 for more details",
-        }
-      }
-    } else {
-      return {
-        error:
-          "We only support one level of relative linking (./bsms) not (../zero-to-offer). This makes it too difficult to test.",
-      }
+    return {
+      error:
+        "We do not support relative linking. Look at PR #162 for more details. ",
     }
   }
   // links can be malformed
@@ -112,7 +96,7 @@ function siteGraphGenerator(sites, pages) {
     if (node.links) {
       // recursively check all links !
       node.links.forEach((link) => {
-        const parsedLink = convertLinkToFullPath(link, node)
+        const parsedLink = convertLinkToFullPath(link)
         if (parsedLink.error) {
           errors.push({
             file: node.slug,
