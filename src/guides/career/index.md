@@ -8,4 +8,5 @@ guides_blurb: "A collection of tips on how to navigate things like the Career Fa
 Check out our dedicated [ZERO TO OFFER](/zero-to-offer) curriculum!
 
 ## Other Guides
-- [Team Matching](./team-matching)
+
+- [Team Matching](/career/team-matching)

@@ -2,4 +2,4 @@
 title: "Misc"
 ---
 
-- [External Resources](./external-resources)
+- [External Resources](/misc/external-resources)
