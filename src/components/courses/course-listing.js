@@ -115,80 +115,84 @@ const CourseControls = ({ filters, setFilters }) => {
     setFilters(newFilters)
   }
   return (
-    <div className="md:flex align-center items-center md:h-10">
-      <label>
-        <input
-          type="checkbox"
-          name="showTitles"
-          checked={filters.showTitles}
-          onChange={handleCheckbox}
-        />
-        Show Course Titles
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          name="isPrereqFilterModeOn"
-          checked={filters.isPrereqFilterModeOn}
-          onChange={handleCheckbox}
-        />
-        Filter Based on Requirements
-      </label>
-      <label>
-        <input
-          type="checkbox"
-          name="showHidden"
-          checked={filters.showHidden}
-          onChange={handleCheckbox}
-        />
-        Show Hidden Classes
-      </label>
-      <span className="font-bold">Offered in:</span>
-      <div className="ml-2" id="term_offered">
-        <button
-          value="FALL"
-          className={
-            "btn bg-white md:w-20 small " +
-            (filters.termOfferedFilter === "FALL" && "active")
-          }
-          name="term_offered"
-          onClick={handleSetTermOffered}
-        >
-          Fall
-        </button>
-        <button
-          className={
-            "btn bg-white md:w-20 small " +
-            (filters.termOfferedFilter === "SPRING" && "active")
-          }
-          value="SPRING"
-          nane="term_offered"
-          onClick={handleSetTermOffered}
-        >
-          Spring
-        </button>
-        <button
-          className={
-            "btn bg-white md:w-20 small " +
-            (filters.termOfferedFilter === "SUMMER" && "active")
-          }
-          value="SUMMER"
-          name="term_offered"
-          onClick={handleSetTermOffered}
-        >
-          Summer
-        </button>
+    <div className="">
+      <div className="md:flex align-center items-center">
+        <label>
+          <input
+            type="checkbox"
+            name="showTitles"
+            checked={filters.showTitles}
+            onChange={handleCheckbox}
+          />
+          Show Course Titles
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="isPrereqFilterModeOn"
+            checked={filters.isPrereqFilterModeOn}
+            onChange={handleCheckbox}
+          />
+          Filter Based on Requirements
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            name="showHidden"
+            checked={filters.showHidden}
+            onChange={handleCheckbox}
+          />
+          Show Hidden Classes
+        </label>
       </div>
-      <button
-        className={
-          filters.termOfferedFilter === "OFF"
-            ? "hidden"
-            : "ml-1 small bg-red-100 btn"
-        }
-        onClick={turnOffTermOfferedFilter}
-      >
-        Clear Term Offered Filter
-      </button>
+      <div>
+        <span className="ml-2 font-bold">Offered in:</span>
+        <div className="ml-2" id="term_offered">
+          <button
+            value="FALL"
+            className={
+              "btn bg-white md:w-20 small " +
+              (filters.termOfferedFilter === "FALL" && "active")
+            }
+            name="term_offered"
+            onClick={handleSetTermOffered}
+          >
+            Fall
+          </button>
+          <button
+            className={
+              "btn bg-white md:w-20 small " +
+              (filters.termOfferedFilter === "SPRING" && "active")
+            }
+            value="SPRING"
+            nane="term_offered"
+            onClick={handleSetTermOffered}
+          >
+            Spring
+          </button>
+          <button
+            className={
+              "btn bg-white md:w-20 small " +
+              (filters.termOfferedFilter === "SUMMER" && "active")
+            }
+            value="SUMMER"
+            name="term_offered"
+            onClick={handleSetTermOffered}
+          >
+            Summer
+          </button>
+          <button
+            className={
+              filters.termOfferedFilter === "OFF"
+                ? "hidden"
+                : "ml-1 small bg-red-100 btn"
+            }
+            onClick={turnOffTermOfferedFilter}
+          >
+            Clear Term Offered Filter
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
@@ -202,30 +206,36 @@ const CourseListing = ({ courseList, courseCategories }) => {
     termOfferedFilter: "OFF",
   })
 
+  const [showCourseFilters, setShowCourseFilters] = useState(false)
+
   return (
-    <div className="">
-      <div className="my-4 content-center course-controls flex-none border p-1">
-        <h4 className="mb-0">Course Filter Controls</h4>
-        <p>
-          Use these controls to find the perfect courses for you! And don't
-          forget you can use the search bar at the top right anywhere on the
-          wiki if you know the name of a course!
-        </p>
-        <div className="md:flex align-center items-center md:h-10">
-          <CourseControls filters={state} setFilters={setState} />
-        </div>
+    <div>
+      <div className="my-4 content-center course-controls flex-none hidden md:block">
+        <button
+          class="btn"
+          onClick={() => setShowCourseFilters(!showCourseFilters)}
+        >
+          {(showCourseFilters ? "Hide" : "Show") + " Course Filter Controls"}
+        </button>
+        {showCourseFilters && (
+          <div className="mt-4 border px-2 py-3 md:flex align-center items-center">
+            <CourseControls filters={state} setFilters={setState} />
+          </div>
+        )}
       </div>
       <div
-        className={state.isPrereqFilterModeOn ? "mb-4 border p-1" : "hidden"}
+        className={
+          state.isPrereqFilterModeOn ? "mb-4 px-2 py-3 border p-1" : "hidden"
+        }
       >
         <h4 className="mb-0">Filter by Requirement</h4>
-        <p className="mb-1 course-requirements-filter-description">
-          Sometimes the hardest part of finding classes is knowing which classes
-          you can actually take. Color coding shows which classes have what
-          requirements based on the a color legend. For example, based on CS
-          1622 (Compilers)'s dot colors you can tell it has the prerequisites of
-          CS 441 and CS 447.
+        <p className="mb-1">
+          We color coded each core class to make it easier to visualize which
+          classes have which requirements.
         </p>
+        <div className="inline-block mb-3">
+          <PrereqLegend legendData={CSLegendData} />
+        </div>
         <Course
           key={"CS1622"}
           showTitle={state.showTitles}
@@ -235,9 +245,10 @@ const CourseListing = ({ courseList, courseCategories }) => {
           isPrereqFilterModeOn={true}
           colorLegend={CSLegendData}
         />
-        <div className="inline-block">
-          <PrereqLegend legendData={CSLegendData} />
-        </div>
+        <p className="mb-0">
+          For example, this course has the prerequisites of CS 441 and CS 447
+          based on its dot colors.
+        </p>
       </div>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="md:w-2/3 md:pr-1">

@@ -42,26 +42,26 @@ export default function BlogPostLayout({
           <FreshnessDisclaimer lastUpdated={gitAuthorTime} />
           {children}
           <RelatedGuides related={frontmatter.related} />
-          <div
-            className={
-              "my-8 text-center sm:w-full md:w-auto " +
-              (isIndexPage && "hidden")
-            }
-          >
-            <FeedbackWidget />
-          </div>
-          <div className="flex justify-between text-sm text-gray-600">
-            <EditOnGithub
-              fileType={fileType}
-              slug={slug}
-              isIndexPage={isIndexPage}
-            />
-            {lastUpdatedString && !lastUpdatedString.includes("Invalid") && (
-              <div className="text-right">
-                Last updated: {lastUpdatedString}
+          {!isIndexPage && (
+            <>
+              <div className={"my-8 sm:w-full md:w-auto"}>
+                <FeedbackWidget />
               </div>
-            )}
-          </div>
+              <div className="flex justify-between text-sm text-gray-600">
+                <EditOnGithub
+                  fileType={fileType}
+                  slug={slug}
+                  isIndexPage={isIndexPage}
+                />
+                {lastUpdatedString &&
+                  !lastUpdatedString.includes("Invalid") && (
+                    <div className="text-right">
+                      Last updated: {lastUpdatedString}
+                    </div>
+                  )}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </Layout>

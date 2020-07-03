@@ -16,9 +16,19 @@
   }
 }
 
-.header-logo {
-  &:hover span {
-    color: #fdb61a;
+header {
+  .header-logo {
+    img {
+      transition: all .3s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    &:hover span {
+      color: #fdb61a;
+    }
   }
 }
 
@@ -256,4 +266,8 @@
       }
     }
   }
+}
+
+button.bg-pittgold.border {
+  border-color: #efa300;
 }
