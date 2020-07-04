@@ -176,7 +176,7 @@
 	},
 	"CS1900": {
 		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Fill out the Undergrad Internship Application Form",
-		"prereq": ["CS0401, CS0441, CS0445, CS0447, CS0449"]
+		"prereq": ["CS0401", "CS0441", "CS0445", "CS0447", "CS0449"]
 	},
 	"CS1902": {
 		"requirementsString": " Declared CS Major",
