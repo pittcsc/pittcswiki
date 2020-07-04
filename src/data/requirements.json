@@ -175,24 +175,19 @@
 		"prereq": []
 	},
 	"CS1900": {
-		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Fill out the Undergrad Internship Application Form",
-		"prereq": ["CS0401", "CS0441", "CS0445", "CS0447", "CS0449"]
+		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Fill out the Undergrad Internship Application Form"
 	},
 	"CS1902": {
-		"requirementsString": " Declared CS Major",
-		"prereq": []
+		"requirementsString": " Declared CS Major"
 	},
 	"CS1906": {
 		"requirementsString": " PREQ: Declared CS Major, Submitted Interest Form, Unofficial Transcript, Resume, and Co-Op Schedule Form to Co-Op Office in 152-D Benedum Hall.",
-		"prereq": []
 	},
 	"CS1950": {
-		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Signed CS 1950 Learning Agreement",
-		"prereq": []
+		"requirementsString": " Junior Standing, Declared CS Major with 60+ Credits Completed, Signed CS 1950 Learning Agreement",
 	},
 	"CS1980": {
-		"requirementsString": "  PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed",
-		"prereq": ["CS1501", "CS1550"]
+		"requirementsString": "  Junior Standing, Declared CS Major with 60+ Credits Completed",
 	},
 	"CS2000": {
 		"requirementsString": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
