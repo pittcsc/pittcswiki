@@ -171,35 +171,36 @@
 		}]
 	},
 	"CS1699": {
-		"requirementsString": "This class is special and has different requirements each year. Check the SCI website for information about it!"
+		"requirementsString": "This class is special and has different requirements each year. Check the SCI website for information about it!",
+		"prereq": []
 	},
 	"CS1900": {
-		"requirementsString": " Capstone Course\n",
-		"prereq": ["TODO"]
+		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Fill out the Undergrad Internship Application Form",
+		"prereq": ["CS0401, CS0441, CS0445, CS0447, CS0449"]
 	},
 	"CS1902": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " Declared CS Major",
+		"prereq": []
 	},
 	"CS1906": {
-		"requirementsString": " Summer 2020Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 19510 (1010)Days: ByApptTimes: 12:00 am - 12:00 amRoom: TBA Instructor(s): TA(s): Type: INDSession: 12WWriting: ",
-		"prereq": ["TODO"]
+		"requirementsString": " PREQ: Declared CS Major, Submitted Interest Form, Unofficial Transcript, Resume, and Co-Op Schedule Form to Co-Op Office in 152-D Benedum Hall.",
+		"prereq": []
 	},
 	"CS1950": {
-		"requirementsString": " Capstone Course\n",
-		"prereq": ["TODO"]
+		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Signed CS 1950 Learning Agreement",
+		"prereq": []
 	},
 	"CS1980": {
-		"requirementsString": " PREQ: CS 1550; PLAN: Computer Science (CS-BS, CSCI-BS); (MIN GRADE 'C' OR TRANSFER  FOR ALL COURSES LISTED)",
-		"prereq": ["CS1550"]
+		"requirementsString": "  PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed",
+		"prereq": ["CS1501", "CS1550"]
 	},
 	"CS2000": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2001": {
-		"requirementsString": "Future Sections",
-		"prereq": ["TODO"]
+		"requirementsString": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2002": {
 		"requirementsString": " PREQ: CS 2001",
@@ -211,174 +212,174 @@
 	},
 	"CS2012": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2045": {
-		"requirementsString": "Future Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2053": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2055": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2056": {
-		"requirementsString": "    \n",
-		"prereq": ["TODO"]
+		"requirementsString": "PLAN: Computer Science or Computer Engineering",
+		"prereq": []
 	},
 	"CS2110": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2150": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2210": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2310": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2410": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2510": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2520": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2530": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2550": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2620": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2710": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2731": {
 		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
-		"prereq": ["TODO"]
+		"prereq": []
 	},
 	"CS2770": {
-		"requirementsString": "    \n",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science or Computer Engineering",
+		"prereq": []
 	},
 	"CS2900": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2905": {
-		"requirementsString": " Fall 2020Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 31402 (1010)Days: ByApptTimes: 12:00 am - 12:00 amRoom: TBA Instructor(s): TA(s): Type: INDSession: ATWriting: ",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2910": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS2990": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD) or Computer Engineering (COEAS-PHD)",
+		"prereq": []
 	},
 	"CS3000": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3150": {
-		"requirementsString": " PREQ: CS 2150",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) & PREQ: CS 2150",
+		"prereq": ["CS2150"]
 	},
 	"CS3210": {
-		"requirementsString": " PREQ: CS 2210",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) & PREQ: CS 2210",
+		"prereq": ["CS2210"]
 	},
 	"CS3220": {
-		"requirementsString": " PREQ: CS 2210",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) &  PREQ: CS 2210",
+		"prereq": ["CS2210"]
 	},
 	"CS3410": {
-		"requirementsString": " PREQ:  CS 2410",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) &  PREQ:  CS 2410",
+		"prereq": ["CS2410"]
 	},
 	"CS3510": {
-		"requirementsString": " PREQ: CS 2510",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) &  PREQ: CS 2510",
+		"prereq": ["CS2510"]
 	},
 	"CS3525": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3530": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3550": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3551": {
-		"requirementsString": " PREQ: CS 2510 and 2550",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) &  PREQ: CS 2510 and 2550",
+		"prereq": ["CS2510", "CS2550"]
 	},
 	"CS3570": {
-		"requirementsString": " Fall 2019Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 29738 (1010)Days: TuThTimes: 11:00 am - 12:15 pmRoom: SENSQ 5313Instructor(s): J. BiehlTA(s): Type: SEMSession: ATWriting: ",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3580": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3650": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3710": {
-		"requirementsString": " PREQ: CS 2710",
-		"prereq": ["TODO"]
+		"requirementsString": "  PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) & PREQ: CS 2710",
+		"prereq": []
 	},
 	"CS3720": {
-		"requirementsString": "Past Sections",
-		"prereq": ["TODO"]
+		"requirementsString": "  PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3730": {
-		"requirementsString": " PREQ: CS 2731",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) &  PREQ: CS 2731",
+		"prereq": ["CS2731"]
 	},
 	"CS3750": {
-		"requirementsString": " PREQ: CS 2750",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) &  PREQ: CS 2750",
+		"prereq": ["CS2750"]
 	},
 	"CS3790": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3800": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"prereq": []
 	},
 	"CS3900": {
-		"requirementsString": "Current Sections",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD) or Computer Engineering (COEAS-PHDO)",
+		"prereq": []
 	},
 	"FTDJ0000": {
-		"requirementsString": "",
-		"prereq": ["TODO"]
+		"requirementsString": " PLAN: Computer Science (CS-PHD) or Computer Engineering (COEAS-PHDO)",
+		"prereq": []
 	}
 }
