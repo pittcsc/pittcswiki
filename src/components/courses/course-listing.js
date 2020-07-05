@@ -145,7 +145,7 @@ const CourseControls = ({ filters, setFilters }) => {
           Show Hidden Classes
         </label>
       </div>
-      <div>
+      <div className="mt-2">
         <span className="ml-2 font-bold">Offered in:</span>
         <div className="ml-2" id="term_offered">
           <button
