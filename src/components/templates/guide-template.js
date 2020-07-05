@@ -45,6 +45,7 @@ export const pageQuery = graphql`
         title
         subtitle
         author
+        related
       }
       headings {
         depth
