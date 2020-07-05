@@ -10,7 +10,12 @@ if (!GOOGLE_SERVICE_ACCOUNT_CREDENTIALS) {
   )
 }
 
-const queries = require("./src/utils/algolia")
+const isIndexingAlgolia =
+  process.env.CONTEXT == "production" || process.env.INDEX_ALGOLIA
+
+if (isIndexingAlgolia) {
+  console.log("Indexing on Algolia!")
+}
 
 module.exports = {
   siteMetadata: {
@@ -32,7 +37,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        postCssPlugins: [require("tailwindcss")],
+        postCssPlugins: [
+          require("tailwindcss")(require("./tailwind.config.js")),
+        ],
       },
     },
     {
@@ -77,6 +84,29 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `guides`,
+        path: `${__dirname}/src/guides/`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/guides`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve(
+            `${__dirname}/src/components/templates/mdx-guide-template.js`
+          ),
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -93,26 +123,22 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appId: process.env.GATSBY_ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_ADMIN_KEY,
-        queries,
-        chunkSize: 1000,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        defaultLayouts: {
-          default: require.resolve(
-            `${__dirname}/src/components/templates/mdx-guide-template.js`
-          ),
-        },
-      },
-    },
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
-  ],
+    "gatsby-plugin-catch-links",
+  ].concat(
+    isIndexingAlgolia
+      ? [
+          {
+            resolve: `gatsby-plugin-algolia`,
+            options: {
+              appId: process.env.GATSBY_ALGOLIA_APP_ID,
+              apiKey: process.env.ALGOLIA_ADMIN_KEY,
+              queries: require("./src/utils/algolia"),
+              chunkSize: 1000,
+            },
+          },
+        ]
+      : []
+  ),
 }

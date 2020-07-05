@@ -453,9 +453,7 @@ pre tt:after {
     font-size: 100%;
   }
 
-  footer {
-    display: none;
-  }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -463,9 +461,7 @@ pre tt:after {
     font-size: 100%;
   }
 
-  footer {
-    display: none;
-  }
+
 }
 
 html,
@@ -485,17 +481,4 @@ body,
   display: flex;
   flex-direction: column;
   flex: 1;
-}
-
-footer {
-  text-align: center;
-  background: #f7f7f7;
-  padding: 40px;
-  margin-top: auto;
-
-
-  p {
-    font-size: 70%;
-    margin-bottom: 0;
-  }
 }

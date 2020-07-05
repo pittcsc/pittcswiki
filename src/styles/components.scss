@@ -16,9 +16,19 @@
   }
 }
 
-.header-logo {
-  &:hover span {
-    color: #fdb61a;
+header {
+  .header-logo {
+    img {
+      transition: all .3s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    &:hover span {
+      color: #fdb61a;
+    }
   }
 }
 
@@ -80,7 +90,7 @@
     width: 14px;
     height: 14px;
     background: #fff;
-    z-index: 800;
+    z-index: -1;
     left: calc(50% - 7px);
     top: -8px;
     border-top: 1px solid #e2e8f0;
@@ -92,10 +102,10 @@
     list-style-type: none;
     margin: 0;
 
-    li > div {
+    li>div {
       border-bottom: 1px solid #e2e8f0;
 
-      & > a {
+      &>a {
         @apply text-gray-800 p-3 block;
         font-weight: bold;
       }
@@ -191,6 +201,7 @@
 .markdown-toc {
   margin-top: -1rem;
   overflow: hidden;
+
   .toc-heading-depth-2 {
     margin-left: 20rem;
     margin-top: 1rem;
@@ -211,4 +222,52 @@
     margin-left: 50rem;
     @apply text-xs;
   }
+}
+
+.landing-image {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2px;
+  height: 24rem;
+  overflow: hidden;
+}
+
+#blurb-grid {
+  .quick-blurb {
+    display: flex;
+    flex: 1 1 30%;
+    color: black;
+    flex-direction: column;
+    @apply p-4 pt-6 m-3 max-w-xs text-center text-sm;
+
+    h3 {
+      margin-bottom: 4px;
+    }
+
+    p {
+      flex: 1 0 auto;
+    }
+
+    img {
+      margin: 0 auto;
+      height: 4rem;
+      width: 4rem;
+      transition: .3s;
+    }
+
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 0 35px -2px rgba(0, 0, 0, .2);
+
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+button.bg-pittgold.border {
+  border-color: #efa300;
 }

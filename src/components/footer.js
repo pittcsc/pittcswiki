@@ -1,32 +1,38 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { library, config } from "@fortawesome/fontawesome-svg-core"
-import "@fortawesome/fontawesome-svg-core/styles.css"
-import { fas } from "@fortawesome/free-solid-svg-icons"
-
-library.add(fas)
-config.autoAddCss = false
 
 const Footer = () => (
-  <footer className="hidden md:flex">
-    <div className="m-auto text-gray-500">
-      © {new Date().getFullYear()}, Built with{" "}
-      <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
-      <a className="text-gray-600" href="https://pittcsc.org">
+  <footer className="md:flex mt-auto text-center p-8 bg-gray-100">
+    <div className="m-auto text-gray-600">
+      © {new Date().getFullYear()}, Built with {HeartIcon} by{" "}
+      <a className="text-gray-800 font-bold" href="https://pittcsc.org">
         PittCSC
       </a>
       .{` `}
-      <p>Not affiliated with Pitt CS Department</p>
+      <p className="mb-0 text-sm">
+        <a href="/about/" className="mr-2">
+          About
+        </a>
+        <a href="mailto:pittcsc+wiki@gmail.com" className="mr-2">
+          Contact
+        </a>
+        <a href="/sitemap/" className="mr-2">
+          Sitemap
+        </a>
+        <a href="/feedback/" className="mr-2">
+          Feedback
+        </a>
+        <a href="https://github.com/PittCSWiki/pittcswiki">GitHub</a>
+      </p>
     </div>
 
-    <div className="absolute right-0 mr-4 opacity-50 hover:opacity-100 -mt-1">
+    <div className="block mt-3 md:absolute right-0 mr-4 md:opacity-50 md:hover:opacity-100 md:-mt-1">
       <a href="https://www.netlify.com">{NetlifySvg}</a>
     </div>
   </footer>
 )
 
 const NetlifySvg = (
-  <svg width="114px" height="51px" version="1.1">
+  <svg width="114px" height="51px" version="1.1" className="inline">
     <defs>
       <rect id="path-1" x="0" y="0" width="114" height="51" rx="4"></rect>
       <mask
@@ -61,6 +67,33 @@ const NetlifySvg = (
         ></path>
       </g>
     </g>
+  </svg>
+)
+
+// from font awesome
+const HeartIcon = (
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fas"
+    data-icon="heart"
+    style={{
+      width: "1em",
+      display: "inline-block",
+      fontSize: "inherit",
+      height: "1em",
+      verticalAlign: "-.125em",
+    }}
+    className="inline"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512"
+    color="#F44336"
+  >
+    <path
+      fill="currentColor"
+      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+    ></path>
   </svg>
 )
 

@@ -18,8 +18,13 @@ Then, the `gatsby-mdx-plugin` will automatically set it up. Check out the `src/c
 
 If you do not need to use an interactive guide, try not too. It adds overhead and
 increases the page size. So, make sure your interactive guide is really
-cool if you do use it.
+cool if you do use it. (See cons below)
 
 If you do this - I suggest this VSCode plugin - https://github.com/mdx-js/vscode-mdx
 
 Thanks for contributing!
+
+## Cons of using MDX
+
+- cannot do redirects
+- slower (includes more JavaScript on the page)

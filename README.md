@@ -2,12 +2,16 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/414d5550-2260-420c-ad71-7efab98f99e0/deploy-status)](https://app.netlify.com/sites/pittcswiki/deploys)
 
+[![Build Status](https://travis-ci.com/PittCSWiki/pittcswiki.svg?branch=master)](https://travis-ci.com/PittCSWiki/pittcswiki)
+
 <div align="center">
   <a href="https://pittcswiki.netlify.com/">
     <img src="src/images/logo.svg" alt="Pitt CS Wiki" width="400">
   </a>
   <br>
 </div>
+
+[Check out it out! at https://pittcs.wiki !](https://pittcs.wiki)
 
 ## In Development!
 

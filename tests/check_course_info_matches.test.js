@@ -2,7 +2,7 @@ const {
   scrapeSciCoursesAndGetLocal,
 } = require("../helpers/courses/course_scraper")
 
-test("There are no differences between SCI website and ours", async () => {
+test.skip("There are no differences between SCI website and ours", async () => {
   // If this test fails there are a few possibilites:
 
   // A. Did SCI changed course requirements? If so, see what was added
