@@ -96,7 +96,7 @@
 	},
 	"CS1621": {
 		"requirementsString": " PREQ: CS (0441 and 0445) or (0406 and 0455); (MIN GRADE 'C' or TRANSFER FOR ALL COURSES LISTED)",
-		"prereq": ["TODO"]
+		"prereq": ["CS0445", "CS0441"]
 	},
 	"CS1622": {
 		"requirementsString": " PREQ: CS 0441 and ((CS or COE 0447) or (CS 0406 and 0456)); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)",
@@ -111,8 +111,7 @@
 		"prereq": ["CS0445"]
 	},
 	"CS1635": {
-		"requirementsString": "\n",
-		"prereq": ["TODO"]
+		"prereq": ["CS0445"]
 	},
 	"CS1637": {
 		"requirementsString": " CS 1501.",
@@ -171,30 +170,29 @@
 		}]
 	},
 	"CS1699": {
-		"requirementsString": "This class is special and has different requirements each year. Check the SCI website for information about it!",
-		"prereq": []
+		"requirementsString": "This class is special and has channges each semester. Check the SCI website for information about it!"
 	},
 	"CS1900": {
-		"requirementsString": " PREQ: Junior Standing, Declared CS Major with 60+ Credits Completed, Fill out the Undergrad Internship Application Form"
+		"requirementsString": "Junior Standing, Declared CS Major with 60+ Credits Completed"
 	},
 	"CS1902": {
-		"requirementsString": " Declared CS Major"
+		"requirementsString": "Declared CS Major"
 	},
 	"CS1906": {
-		"requirementsString": " PREQ: Declared CS Major, Submitted Interest Form, Unofficial Transcript, Resume, and Co-Op Schedule Form to Co-Op Office in 152-D Benedum Hall."
+		"requirementsString": "Declared CS Major"
 	},
 	"CS1950": {
-		"requirementsString": " Junior Standing, Declared CS Major with 60+ Credits Completed, Signed CS 1950 Learning Agreement."
+		"requirementsString": "Junior Standing, Declared CS Major with 60+ Credits Completed"
 	},
 	"CS1980": {
-		"requirementsString": "  Junior Standing, Declared CS Major with 60+ Credits Completed"
+		"requirementsString": "Junior Standing, Declared CS Major with 60+ Credits Completed"
 	},
 	"CS2000": {
-		"requirementsString": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2001": {
-		"requirementsString": "PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2002": {
@@ -206,99 +204,98 @@
 		"prereq": ["CS2001", "CS2002"]
 	},
 	"CS2012": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2045": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2053": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2055": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2056": {
-		"requirementsString": "PLAN: Computer Science or Computer Engineering",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2110": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2150": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2210": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2310": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2410": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2510": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2520": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2530": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2550": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2620": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2710": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2731": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2770": {
-		"requirementsString": " PLAN: Computer Science or Computer Engineering",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2900": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2905": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2910": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS2990": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD) or Computer Engineering (COEAS-PHD)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3000": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3150": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) & PREQ: CS 2150",
 		"prereq": ["CS2150"]
 	},
 	"CS3210": {
@@ -318,15 +315,15 @@
 		"prereq": ["CS2510"]
 	},
 	"CS3525": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3530": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3550": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3551": {
@@ -334,23 +331,23 @@
 		"prereq": ["CS2510", "CS2550"]
 	},
 	"CS3570": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3580": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3650": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3710": {
-		"requirementsString": "  PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO) & PREQ: CS 2710",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3720": {
-		"requirementsString": "  PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3730": {
@@ -362,19 +359,19 @@
 		"prereq": ["CS2750"]
 	},
 	"CS3790": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3800": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD; CS-MS; CSMSBS-MS) or Computer Engineering (COEAS-PHD; COEAS-MS; COEENG-PHD; COEENG-MCO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"CS3900": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD) or Computer Engineering (COEAS-PHDO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	},
 	"FTDJ0000": {
-		"requirementsString": " PLAN: Computer Science (CS-PHD) or Computer Engineering (COEAS-PHDO)",
+		"requirementsString": "Check the SCI Website!",
 		"prereq": []
 	}
 }

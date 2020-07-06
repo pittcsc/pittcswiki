@@ -135,18 +135,19 @@ const RequirementsListing = ({ requirements }) => {
   }
 
   const { prereq, coreq, requirementsString } = requirements
-  if (prereq && prereq[0] === "TODO") {
-    return (
-      <>
-        <span className="font-bold">Requirements</span> {requirementsString}
-      </>
-    )
+
+  if (prereq && (prereq.length === 0 || prereq[0] === "TODO")) {
+    return requirementsString ? (
+      <div>
+        <span className="font-bold">PRE-REQ: </span> Check the SCI Website
+      </div>
+    ) : null
   }
 
   if (!prereq && !coreq) {
     return requirementsString ? (
-      <div className="p-4 bg-orange-200 text-orange-800">
-        {requirementsString}
+      <div>
+        <span className="font-bold">PRE-REQ: </span> {requirementsString}
       </div>
     ) : null
   }
