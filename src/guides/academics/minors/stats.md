@@ -1,5 +1,4 @@
 ---
-state: "Needs revision"
 title: "Applied Stats Minor"
 author: "Alex Zharichenko"
 ---
@@ -35,3 +34,16 @@ These courses are typically offered in order with STAT 1261 in the fall and STAT
 Then next course is probably one of the most eye opening, well taught, and amazing statistics course the exist at Pitt. STAT 1361 will get your into the world of all the different models, resampling methods, random forests, etc. The homework for this class is time intensive but worth every moment as it really gets you understanding how the models work and how to use them. You'll also be introduced to a fundamental concept of all models, the bias-varience trade-off. This class will basically check off the part of any data science job app. talking about have you had experince with linear regressions, LDA, PCA (kind of), random forests, etc. And a plus to it all the lecturer who teaches it, Lucas Mentch, is an amazing lecturer. During his lecturers he will make sure you understand the main concept of what's being taught, and even ask questions to the students in a way where it's ok to be wrong because he will guide you to the right direction.
 
 And that's two classes done. The third is a little bit up to you but I highly recommend taking Applied Nonparametric Statistics. The reason is because nonparametric statistics is essentially a bunch of different statistical tests and methods that avoid making assumption about the data (specifically that the data is normal).
+
+### The Applied Statistcs Path
+
+If you are just in it for the love of statistics, then simply take any of the 12XX and 13XX courses that peak your interest. Though do be in mind some classes don't always appear every year, and some almost always have just one section available.  
+
+### The Theoretical Path
+
+So this path is a little weird for the reason of it kind of against the intentions of the minor. The minor is focused on more applied statistics but technically by how they define what classes you need two theortical classes do become available. But this need permissions to take. So if you are in a position where you need more theoretical knowledge, say a more research oriented career, here is what to take.
+
+- STAT 1631 (Intermediate Probability)
+- STAT 1632 (Intermediate Mathematical Statistics)
+
+Take these two plus an additional classes such as STAT 1361 and you'll have a very stronger theoretical statistics background. There are definetly places in machine learning where having a deep fundamental understanding in statitics will make some of the knowledge/material easier to understand and digest. Though do keep in mind you need to talk to the statistics advisor about taking these courses. As you need permissions to do so since they are more difficult versions of STAT 1151 (Introduction to Probability) and STAT 1152 (Mathematical Statistcs) and you won't have the prerequisites for them.
