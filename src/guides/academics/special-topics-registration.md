@@ -1,5 +1,5 @@
 ---
-title = "How to Enroll in 1699"
+title: "How to Enroll in 1699"
 ---
 CS1699, also known as 'Special Topics', is a course hosted by Pitt, where professors teach courses still in the development phase. These subjects typically cover modern and compelling topics like Blockchain, Deep Learning, and Practical AI. 
 
