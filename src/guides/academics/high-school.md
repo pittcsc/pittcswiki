@@ -12,9 +12,9 @@ In this guide, we'll try to give a brief rundown of what to consider when choosi
 
 ## Should I study CS?
 
-Try to take one class of Computer Science in high school and see if you enjoy it. If you enjoy it, the best thing you can do is take AP Computer Science and get a 4 or 5 on the test - it'll give you a nice level of confidence coding and should adequately prep you for an introductory course in CS or the next level up (if your school accepts that AP credit).
+Try to take one class of Computer Science in high school and see if you enjoy it. If you enjoy it, the best thing you can do is take AP Computer Science and get a 4 or 5 on the test - it'll give you a nice level of confidence when coding and should adequately prep you for an introductory course in CS or the next level up (if your school accepts the AP credit).
 
-Our advice - study what you think you'll enjoy or study what you'll enjoy at least a little - there's too many people in this field studying CS purely for the money and getting burnt out by the (rapidly increasing) level of competition in the field. By taking a class in high school, you'll have a better understanding of whether you like it or not. Taking CS 0401 and deciding if it's for you won't hurt if you're an undecided major.
+Our advice - study what you think you'll enjoy or study what you'll enjoy at least a little - there's too many people in this field studying CS purely for the money and getting burnt out by the (rapidly increasing) level of competition in the field. By taking a class in high school, you'll have a better understanding of whether you like it or not. Taking CS 0401 (Intro to Programming) and deciding if it's for you also won't hurt if you're an undecided major.
 
 
 ## Why ___ CS? Why Pitt CS? 
@@ -23,12 +23,12 @@ A massive thing to consider when choosing a college/university is how much debt 
 
 
 - **Is the school's ranking good? Is the school's CS ranking good?** 
-    - This is less important, but it's still a factor to consider. If your school has *some* name brand recognition, this is all you need, in all honesty.\
-    - Pitt's name recognition is improving rapidly within the industry, although it still has lots of room to grow, and the SCI is still young.
+    - This is less important, but it's still a factor to consider. If your school has *some* name brand recognition, this is all you need, in all honesty.
+    - Pitt's name recognition is improving rapidly within the industry, although it still has lots of room to grow, and the School of Computing & Information (SCI) is still young.
 
 - **Who's recruiting from the school?**
     - If you know what kind of companies you want to work at or have an idea of a field you want to break into, see who's showing up to career fairs, who's sponsoring events, and who's working with student organizations. See which industries are big near your school - these tend to be companies that will recruit from your school.
-    - Pittsburgh, for example, is an AV (Autonomous Vehicle) company paradise. Uber ATG recruits heavily from Pitt and CMU, and Argo AI was even founded by a Pitt alumni!
+    - Pittsburgh, for example, is an Autonomous Vehicle (AV) company paradise. Uber ATG recruits heavily from Pitt and CMU, and Argo AI was even founded by a Pitt alumni!
     - The Pitt CSC has worked with several tech companies + the school is sponsored by several large Finance/Trading/Tech companies.
 
 - **How's the social life there?**
@@ -38,11 +38,11 @@ A massive thing to consider when choosing a college/university is how much debt 
 
 - **How's the CS community?**
     - Toxicity is a massive issue plaguing CS programs nationwide. Making sure that the CS community at your school is open and friendly is a good way to ensure you'll enjoy working and hanging out with fellow classmates/student org members. Keep in mind, you're there to develop your skills. If you're surrounded by those who continue to push you and work with you in a non-toxic way, you'll improve a ton and learn a lot.
-    - Pitt CS is experiencing a golden age of students coming in and helping strengthen the CS community. This wiki is a good example of current students giving back and improving the next generations of Pitt CS.
+    - Pitt CS is experiencing a golden age of students coming in and helping strengthen the CS community. This wiki is a good example of current students giving back and improving the next generations of Pitt CS. 
 
 - **How's the research?**
     - If you're interested in research, look up professors who study certain topics, and try to take a class with them or stop by office hours to get to know them better! A good professor can serve as a mentor and a valuable recommendation letter if you're interested in grad school.
-    - Pitt's CS research is actually quite good - you can search up specific area strength in topics in CS on [csrankings.com](https://csrankings.com). For example, Pitt is #4 in AI paper output nationwide.
+    - Pitt's CS research is actually quite good - you can search up specific area strength in topics in CS on [csrankings.org](https://csrankings.org). For example, Pitt is #4 in AI paper output nationwide.
 
 
 ## Assorted Questions/Tips for Pitt CS
