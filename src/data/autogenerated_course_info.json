@@ -671,7 +671,7 @@
       "title": "COMPUTER SCIENCE COOPERATIVE PROGRAM",
       "id": "CS1906",
       "credits": 1,
-      "description": "Academic Career:",
+      "description": "Co-op",
       "requirements": " Summer 2020Class No.DaysTimesRoomInstructor(s)TA(s)TypeSessionWritingClass No.: 19510 (1010)Days: ByApptTimes: 12:00 am - 12:00 amRoom: TBA Instructor(s): TA(s): Type: INDSession: 12WWriting: ",
       "terms_offered": {
         "SPRING": false,
@@ -698,7 +698,7 @@
       "id": "CS1980",
       "credits": 3,
       "description": "Students will choose a project from proposals provided by our faculty and industry partners.  Teams will consist of 3 or 4 students and they will be supervised by a project mentor.  This course satisfies the capstone requirement.",
-      "requirements": " PREQ: CS 1550; PLAN: Computer Science (CS-BS, CSCI-BS); (MIN GRADE 'C' OR TRANSFER  FOR ALL COURSES LISTED)",
+      "requirements": "CS 1550; PLAN: Computer Science (CS-BS, CSCI-BS); (MIN GRADE 'C' OR TRANSFER  FOR ALL COURSES LISTED)",
       "terms_offered": {
         "SPRING": true,
         "FALL": true,

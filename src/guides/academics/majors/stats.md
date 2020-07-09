@@ -1,5 +1,4 @@
 ---
 title: "Stats Major"
+author: "Alex Zharichenko"
 ---
-
-TODO - Alex
