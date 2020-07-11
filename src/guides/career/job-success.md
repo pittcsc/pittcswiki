@@ -13,7 +13,7 @@ Congrats on getting a job!!! Here are some tips to set you up for success.
 
 It is okay to feel overwhelmed!
 
-"Your mentor will have the most frequent contact with you. Managers typically rely on mentors to decide whether a return offer will be given. Chat regularly with your mentor and provide substantial project updates frequently (ex. once a day). Participate in team discussions and take interest in other projects your team is working on. Make it easy for your manager / mentor to vouch for you by delivering projects ahead of schedule and going above and beyond. At the end of your internship, you may be asked to present your project to the team. Ensure you're preparing for this presentation by gathering presentable material throughout your internship." - [levels.fyi/internships](levels.fyi/internships)
+"Your mentor will have the most frequent contact with you. Managers typically rely on mentors to decide whether a return offer will be given. Chat regularly with your mentor and provide substantial project updates frequently (ex. once a day). Participate in team discussions and take interest in other projects your team is working on. Make it easy for your manager / mentor to vouch for you by delivering projects ahead of schedule and going above and beyond. At the end of your internship, you may be asked to present your project to the team. Ensure you're preparing for this presentation by gathering presentable material throughout your internship." - [levels.fyi/internships](https://www.levels.fyi/internships/)
 
 [How to start your new job](https://web.archive.org/web/20181102101205/http://boz.com:80/articles/career-cold-start.html)
 
