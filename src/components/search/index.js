@@ -49,7 +49,7 @@ const useClickOutside = (ref, handler, events) => {
   })
 }
 
-const INDEX_NAME = "Guides"
+const INDEX_NAME = "AllGuides"
 
 export default function Search({ collapse }) {
   const ref = createRef()

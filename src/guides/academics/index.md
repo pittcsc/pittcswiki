@@ -7,6 +7,8 @@ Want tips on how to schedule your CS classes? [Click here!](/academics/schedulin
 
 Thinking about a double major? [Click here!](/academics/majors)
 
+Thinking about another minor? [Click here!](/academics/minors)
+
 BS/MS? [Click here!](/academics/bsms)
 
 Research? [Click here!](/academics/research)

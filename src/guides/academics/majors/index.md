@@ -1,5 +1,5 @@
 ---
-title: "Double Major?"
+title: "Majors"
 ---
 
 [Stat](/academics/majors/stats)

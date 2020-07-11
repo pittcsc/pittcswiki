@@ -1,5 +1,5 @@
 ---
-title: "Wtf is the CS Capstone?"
+title: "The Capstone Class"
 ---
 
-todo
+To graduate, you need to enroll in a Capstone class.
