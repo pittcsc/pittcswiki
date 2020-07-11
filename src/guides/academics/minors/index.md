@@ -1,9 +1,7 @@
 ---
-title: "CS + Another Minor"
+title: "Minors"
 ---
 
-Interested in other minors?
+Are you interested in taking other minors?
 
-[Stat](/academics/minors/stats/)
-
-TODO - reorganize these
+[Stat Minor](/academics/minors/stats/)

@@ -2,7 +2,14 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { siteGraphGenerator } from "../utils/sitegraph-generator"
 
+const sortAlphaByTitle = (a, b) => {
+  if (a.title < b.title) return -1
+  if (a.title > b.title) return 1
+  return 0
+}
+
 const TreeView = ({ tree }) => {
+  console.log(tree.children)
   return (
     <ol className="list-disc mb-0">
       {tree.slug && (
@@ -12,7 +19,9 @@ const TreeView = ({ tree }) => {
       )}
       {tree.children &&
         tree.slug !== "/courses/" &&
-        tree.children.map((child) => <TreeView key={child.id} tree={child} />)}
+        tree.children
+          .sort(sortAlphaByTitle)
+          .map((child) => <TreeView key={child.id} tree={child} />)}
     </ol>
   )
 }

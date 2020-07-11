@@ -48,6 +48,16 @@ const guidesQuery = `{
       }
     }
   }
+  courses: allMarkdownRemark(filter: {frontmatter: {type: {eq: "individual-course"}}}) {
+    nodes {
+      frontmatter {
+        id
+        path
+        title
+        search_tags
+      }
+    }
+  }
 }`
 
 const addCourseTags = (arr) =>
@@ -67,7 +77,7 @@ const addCourseTags = (arr) =>
 const queries = [
   {
     query: guidesQuery,
-    indexName: "Guides",
+    indexName: "AllGuides",
     settings: { hitsPerPage: 12 },
     transformer: ({ data }) =>
       data.pages.nodes
@@ -76,13 +86,8 @@ const queries = [
           ...frontmatter,
           slug,
           id,
-        })),
-  },
-  {
-    query: courseQuery,
-    transformer: ({ data }) => addCourseTags(data.pages.nodes),
-    indexName: `Guides`,
-    settings: { attributesToSnippet: [`excerpt:20`], hitsPerPage: 6 },
+        }))
+        .concat(addCourseTags(data.courses.nodes)),
   },
 ]
 
