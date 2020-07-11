@@ -5,8 +5,8 @@ search_tags: ["first job"]
 
 Congrats on getting a job!!! Here are some tips to set you up for success.
 
-1. Make a "brag doc". Read more [here](https://jvns.ca/blog/brag-documents/) **Highly Recommended**
-2. Ask good questions. Read about the XY problem [here](http://xyproblem.info/)
+1. **(Highly Recommended!)** Make a "brag doc". Read more [here](https://jvns.ca/blog/brag-documents/).
+2. Ask good questions. Read about the XY problem [here](http://xyproblem.info/).
 3. Make sure you communicate a lot, especially in the beginning!
 
 ## Other Notes
