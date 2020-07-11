@@ -1,5 +1,24 @@
 ---
 title: "The Computer Science Capstone"
+search_tags:
+- "1900"
+
+- "1906"
+
+- "1950"
+
+- "1980"
+
+- "internship"
+
+- "co-op"
+
+- "project"
+
+- "capstone"
+
+- "bureaucracy"
+
 ---
 
 ## Introduction
