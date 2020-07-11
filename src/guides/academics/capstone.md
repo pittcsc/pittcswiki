@@ -8,13 +8,18 @@ The Capstone Experience is a mandatory part of every CS student's graduation req
 
 You'll see that the steps to completing your capstone are pretty tricky/unclear to navigate, so that's why we made this guide.
 
-## What is a Capstone ??? ??? ?? ? ##
+### What is a Capstone? ###
 
 Great question. The Capstone experience is a required part of the undergraduate CS degree here at Pitt designed to make you leave with at least one major 'real world' CS experience. These can vary, from interning/co-op'ing at a company, to doing research with a professor, to completing a hefty team project with other students akin to real-world coding.
 
-## What is a Co-Op? ##
+### Co-Op vs Internship? ###
+*From Virginia Tech's career website*
 
+*"Co-op" usually refers to a multi-work term agreement with one employer; traditionally with [several] work terms alternated with school terms. Co-ops are traditionally full-time, paid positions.*
 
+*"Internship" usually refers to a one-term work assignment, most often in the summer, but not always. Internships can be full- or part-time, paid or unpaid, depending on the employer and the career field.* 
+
+Note - We almost always suggest avoiding unpaid internships in CS, but that's for a different article.
 
 ## Capstone Options
 
@@ -103,6 +108,8 @@ This embodies what we're trying to do with this wiki, help out and give back to 
 You and your faculty directing the research need to fill out that form together. Get an email screenshot of your faculty approving that the form was filled out properly and convert it to PDF.
 
 Finally, attach that screenshot PDF + the filled out CS 1950 Learning Agreement Form to a permission number request form that you can create [*here*](https://courses.sci.pitt.edu/permission). Log in with the same credentials you use to sign into MyPitt.
+
+You'll get a permission number via email, and you can then register for the CS 1950 course - spoiler alert, it meets in the same room and time as CS 1900, so you don't do anything besides make presentations about your research experience while hanging out with other researchers/interns.
 
 
 ## CS 1980 - Capstone Project ##
