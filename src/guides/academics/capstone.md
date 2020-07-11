@@ -120,7 +120,7 @@ This one's certainly more reasonable. You do research with a CS faculty member, 
 
 Where's that form? Good question, it's not online, and as of the time of this article, the SCI office where you can get the form is closed due to COVID-19.
 
-Thanks to a helpful Pitt CSC member, Avi Glozman, we have a digital + fillable version of the form available for you [HERE](./CS1950Form_fillable_empty.pdf). 
+Thanks to a helpful Pitt CSC member, Avi Glozman, we have a digital + fillable version of the form available for you [HERE](https://drive.google.com/file/d/1TOjq1xK27TLPqedb2r-NwEroCjuHHm1L/view?usp=sharing). 
 
 This embodies what we're trying to do with this wiki, help out and give back to the next generation of students, so thank you again.
 
