@@ -2,7 +2,7 @@
 title: "Guide for Incoming Freshmen"
 search_tags:
   ["freshmen", "incoming", "is pitt right for me", "hs", "high school"]
-related: ["Other Pitt Resources", "/misc/external-resources/"]
+related: ["Other Pitt Resources", "/skills/external-resources/"]
 ---
 
 ## Introduction
