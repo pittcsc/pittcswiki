@@ -10,20 +10,6 @@ const { cleanCourseId, getNumFromCourseId } = require("./course-namer")
 
 // https://www.gatsbyjs.org/docs/adding-search-with-algolia/
 
-const courseQuery = `query CoursePageQuery {
-  pages: allMarkdownRemark(filter: {frontmatter: {type: {eq: "individual-course"}}}) {
-    nodes {
-      frontmatter {
-        id
-        path
-        title
-        search_tags
-      }
-    }
-  }
-}
-`
-
 const guidesQuery = `{
   pages: allMarkdownRemark(filter: {frontmatter: {type: {ne: "individual-course"}}}) {
     nodes {
