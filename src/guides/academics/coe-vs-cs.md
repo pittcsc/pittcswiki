@@ -1,7 +1,7 @@
 ---
-title: "A Perspective: CS vs. Computer Engineering"
+title: "CS vs. Computer Engineering"
 author: "Pat Gardner"
-search_tags: ["engineering", "Perspective", "opinion", "computer", "hardware", "circuits"]
+search_tags: ["engineering", "coe", "opinion", "computer", "hardware", "circuits"]
 ---
 
 Those interested in the technology sector will probably consider both Computer Science (CS) and Computer Engineering (COE) majors when enrolling at the University of Pittsburgh. Each discipline has their advantages and disadvantages, making the decision different for any given individual. In addition, both are constantly changing - COE is currently undergoing a massive curriculum change, so I cannot talk too much about what it will be like. 
