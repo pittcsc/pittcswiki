@@ -1,12 +1,13 @@
+<h1 align="center">The Pitt Computer Science Wiki</h1>
+
 <div align="center">
-  <h1>Pitt Computer Science Wiki</h1>
-<a href="https://pittcswiki.netlify.com/">
+  <a href="https://pittcswiki.netlify.app/">
     <img src="src/images/logo.svg" alt="Pitt CS Wiki" width="400">
   </a>
-  <span>
-    <a href="https://pittcswiki.netlify.app/">Check out the website</a>
-  </span>
   <br>
+  <h3>
+    <a href="https://pittcswiki.netlify.app/">Read on the website</a>
+  </h3>
 </div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/414d5550-2260-420c-ad71-7efab98f99e0/deploy-status)](https://app.netlify.com/sites/pittcswiki/deploys)
@@ -32,6 +33,4 @@ This is a collection of guides and resources to help CS students navigate the co
 
 ## I want to contribute!
 
-Learn [how to add a new guide here](docs/how-to-write-a-good-guide.md) (it is as simple as writing a text file, and the wiki will automatically format it for you!
-
-Want to contribute to the underlying code? Read [how to get started here](docs/setup-dev.md)!
+Reach out to [wiki@pittcsc.org](mailto:wiki@pittcsc.org) or make an Github issue with an idea of what you would like to add
