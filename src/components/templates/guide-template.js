@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import BlogPostLayout from "./blog-post-layout"
 import TableOfContents from "../table-of-contents"
+import SitemapList from "../sitemap-list"
 
 // This template is used for regular plain Markdown files. Look at mdx-guide-template
 // guides that use MDX!
@@ -31,6 +32,12 @@ export default function Template({
         className="mt-4 blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
+      {isIndexPage && (
+        <div className="mb-16">
+          <h3>Guides</h3>
+          <SitemapList filterSlug={slug} />
+        </div>
+      )}
     </BlogPostLayout>
   )
 }
