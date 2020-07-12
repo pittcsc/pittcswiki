@@ -114,7 +114,7 @@ export default function SitemapList({ filterSlug }) {
   }
 
   // Allow filtering for certain sections of the sitemap
-  const filteredTree = filterSitemapTree(cachedTree, "/academics/majors/")
+  const filteredTree = filterSitemapTree(cachedTree, filterSlug)
 
   return <TreeView tree={filteredTree} />
 }
