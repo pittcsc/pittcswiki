@@ -2,4 +2,4 @@
 title: "Majors"
 ---
 
-[Stat](/academics/majors/stats)
+[Computational Biology](/academics/majors/comp-bio)
