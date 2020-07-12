@@ -330,15 +330,11 @@ li>ol {
 
 li>ul {
   margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 blockquote *:last-child {
-  margin-bottom: 0;
-}
-
-li *:last-child {
   margin-bottom: 0;
 }
 
@@ -347,7 +343,7 @@ p *:last-child {
 }
 
 li>p {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: 1px;
 }
 
 code {
