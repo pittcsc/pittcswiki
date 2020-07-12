@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { breakdownSlugIntoUrls } from "../utils/slug-utils"
 
 const arrowSvg = (
   <svg
@@ -22,12 +23,7 @@ export default ({ slug, firstBreadCrumb = { link: "/", text: "HOME" } }) => {
 
   const parts = slug.split("/").filter((x) => x)
 
-  // This turns [guides. minors, stat] into
-  // ['/guides/', '/guides/minors/', '/guides/minors/stat']
-  const urls = parts.reduce((acc, current, i) => {
-    acc[i] = (acc.slice(-1)[0] || "/") + current + "/"
-    return acc
-  }, [])
+  const urls = breakdownSlugIntoUrls(slug)
 
   const displayNames = parts.map((part) => part.replace(/-/g, " "))
 
