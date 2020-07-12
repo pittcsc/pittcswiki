@@ -62,7 +62,6 @@ function siteGraphGenerator(sites, pages) {
     }
   })
 
-  console.log(siteNodes)
   const nodeMap = { ...siteMap }
   const tree = { children: {} }
   const nodes = []
