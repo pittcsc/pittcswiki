@@ -4,7 +4,7 @@ title: "Computational Biology Major"
 
 author: "Tao Sheng"
 
-search_tags: ["compbio","bioinformatics","cs major", "major", "pre-med"]
+search_tags: ["comp bio","biology", "chemistry", "science", "alternatives", "tao", "sheng", "joint major","compbio","bioinformatics","cs major", "major", "pre-med"]
 
 ---
 
