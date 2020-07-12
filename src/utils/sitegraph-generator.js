@@ -62,6 +62,7 @@ function siteGraphGenerator(sites, pages) {
     }
   })
 
+  console.log(siteNodes)
   const nodeMap = { ...siteMap }
   const tree = { children: {} }
   const nodes = []
@@ -86,11 +87,15 @@ function siteGraphGenerator(sites, pages) {
         }
         currentBranch = currentBranch.children[currentDir]
       }
-      currentBranch.children[parts[parts.length - 1]] = {
+      let finalPart = parts[parts.length - 1]
+      const childrenForCurrentBranch = currentBranch.children[finalPart]
+        ? currentBranch.children[finalPart].children
+        : {}
+      currentBranch.children[finalPart] = {
         ...node,
-        children: {},
+        children: childrenForCurrentBranch,
       }
-      nodeMap[node.id] = { ...node, children: {} }
+      nodeMap[node.id] = { ...node, children: childrenForCurrentBranch }
     }
 
     if (node.links) {

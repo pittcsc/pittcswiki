@@ -28,11 +28,10 @@ const TreeView = ({ tree }) => {
 
 // Allow anyone to use the filter the constructed sitemap tree. For example, only show a portion.
 function filterSitemapTree(tree, filterSlug) {
-  if (filterSlug) return tree
+  if (!filterSlug) return tree
 
   const brokendownUrls = breakdownSlugIntoUrls(filterSlug)
 
-  console.log(tree)
   let depth = 0
   let currentBranch = tree
   while (depth < brokendownUrls.length && currentBranch != null) {
@@ -82,7 +81,6 @@ export default function SitemapList({ filterSlug }) {
     }
   `)
 
-  cachedTree = null
   if (!cachedTree) {
     const { tree } = siteGraphGenerator(
       sites.nodes.map((n) => n.path),
@@ -116,8 +114,7 @@ export default function SitemapList({ filterSlug }) {
   }
 
   // Allow filtering for certain sections of the sitemap
-  // const filteredTree = filterSitemapTree(cachedTree, "")
-  let filteredTree = cachedTree
+  const filteredTree = filterSitemapTree(cachedTree, "/academics/majors/")
 
   return <TreeView tree={filteredTree} />
 }
