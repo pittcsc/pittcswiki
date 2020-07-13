@@ -6,7 +6,7 @@ test("No broken links or missing index files", async () => {
   // hard code the non markdown routes
   const sites = data
     .map((node) => node.slug)
-    .concat(["/courses/", "/about/", "/guides/", "/sitemap/"])
+    .concat(["/feedback/", "/courses/", "/about/", "/guides/", "/sitemap/"])
 
   const { errors } = siteGraphGenerator(sites, data)
   if (errors.length > 0) {

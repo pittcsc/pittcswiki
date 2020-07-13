@@ -30,12 +30,27 @@ const GuidesPage = ({ data: { guides } }) => (
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
     <p>
-      These are collections of guides organized by topic. You can also use the
-      search bar at the top right to search for classes and more!
+      <ul>
+        <li>
+          Considering the CS Major or a freshmen?{" "}
+          <Link to="/academics/prospective">Click here</Link>
+        </li>
+        <li>
+          Looking for course reviews? <Link to="/courses/">Click here</Link>
+        </li>
+        <li>
+          Want to learn how to land internship and job offers?{" "}
+          <Link to="/zero-to-offer/">Click here</Link>
+        </li>
+      </ul>
+    </p>
+    <p>
+      Below are collections of guides organized by topic. You can also use the
+      search bar at the top right to search for articles, classes and more!
     </p>
     <GuidesListing posts={guides.nodes} />
     <p>
-      If you have ever any questions or feedback, you can ask by visiting{" "}
+      If you ever have any questions or feedback, you can ask by visiting{" "}
       <Link to="/feedback">this link!</Link>
     </p>
     <div>

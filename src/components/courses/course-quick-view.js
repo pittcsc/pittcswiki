@@ -29,7 +29,7 @@ const CourseQuickViewContent = ({
       className="font-semibold btn btn-blue hover:text-white border-blue-200 p-2 text-center mt-auto"
       to={`/courses/${id}`}
     >
-      View more details
+      View student reviews
     </Link>
   </>
 )

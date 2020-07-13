@@ -4,6 +4,3 @@ guides_blurb: "Curious about how to improve your skills? How can you learn Pytho
 ---
 
 > Coming soon: How to learn Python, WebDev, ML, and more!
-
-- [Hackathons](/skills/hackathons)
-- [Making a Personal Website](/skills/personal-website)
