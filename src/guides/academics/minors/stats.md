@@ -1,5 +1,5 @@
 ---
-title: "Applied Stats Minor"
+title: "Minor: Applied Stats"
 author: "Alex Zharichenko"
 ---
 
@@ -37,7 +37,7 @@ And that's two classes done. The third is a little bit up to you but I highly re
 
 ### The Applied Statistcs Path
 
-If you are just in it for the love of statistics, then simply take any of the 12XX and 13XX courses that peak your interest. Though do be in mind some classes don't always appear every year, and some almost always have just one section available.  
+If you are just in it for the love of statistics, then simply take any of the 12XX and 13XX courses that peak your interest. Though do be in mind some classes don't always appear every year, and some almost always have just one section available.
 
 ### The Theoretical Path
 

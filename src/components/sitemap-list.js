@@ -11,7 +11,7 @@ const sortAlphaByTitle = (a, b) => {
 
 const TreeView = ({ tree }) => {
   return (
-    <ol className="list-disc mb-0">
+    <ul className="list-disc mb-0">
       {tree.slug && (
         <li>
           <a href={tree.slug}>{tree.title}</a>
@@ -22,7 +22,7 @@ const TreeView = ({ tree }) => {
         tree.children
           .sort(sortAlphaByTitle)
           .map((child) => <TreeView key={child.id} tree={child} />)}
-    </ol>
+    </ul>
   )
 }
 
