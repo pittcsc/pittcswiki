@@ -117,4 +117,6 @@ It is easy for companies to distinguish genuine passion versus “resume-buildin
 
 In the meantime, make a plan how you are going to improve your skills and what specific things you are passionate about and you will work on. Then, build your case as specified above and apply!
 
-> Up next, read how to [ace your interviews](/zero-to-offer/ace-your-interview)!
+---
+
+_Next: [Acing your Interviews](/zero-to-offer/ace-your-interview)_

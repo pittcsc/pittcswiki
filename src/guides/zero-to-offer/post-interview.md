@@ -34,7 +34,6 @@ Note that the job process is not perfect. You could have been the perfect candid
 
 ### Related Reading
 
-- [Mindset](/zero-to-offer/mindset#rejection)
 - [Overcoming Rejection, When People Hurt You & Life Isn't Fair](https://www.youtube.com/watch?v=8yBfAeadqjI)
 - [The Surprising Truth About Rejection](https://www.youtube.com/watch?v=dsT5eV_m7BA)
 - [How To Get Over Rejection](https://www.youtube.com/watch?v=5motuzyLXIk)
@@ -47,8 +46,8 @@ Congrats! You got the offer. Revel in what you're feeling, you deserve it. The c
 ### Success Next Steps!
 
 - [Team Matching](/career/team-matching)
-- [How to Succeed at your Job](/career/succeed-at-your-job)
-- [Personal Finance](/skills/personal-finance)
+- [How to Succeed at your Job](/career/job-success)
+- Personal Finance (Coming Soon)
 
 ### Offer Delay
 
@@ -60,14 +59,15 @@ A good alternative to this instead is to ask your recruiter to extend the deadli
 
 Here's an example email you could send to your recruiter:
 
-```
-Hi  XXX,
+<div class="text-sm border p-3 mb-8">
+Hi XXX,
 
 I hope you have been doing well. I am excited about the offer for the internship with XXX. If I remember correctly, the deadline to make a decision is October 2nd. Is it possible to extend the deadline to November 1st?
 
 Best,
 XXX
-```
+
+</div>
 
 ### Reneging
 
@@ -81,6 +81,4 @@ Ultimately the decision is up to you, but we highly recommend taking caution whe
 
 ---
 
-We have a collection of other various tips and tricks [here](/zero-to-offer/potpourri).
-
-Congrats, you have finished reading the Zero to Offer guides! Good luck with your search. If you have feedback or questions, please let us know [here](/feedback)!
+_Next: [Potpourri](/zero-to-offer/potpourri)_

@@ -60,9 +60,9 @@ Related to money, landing a good offer _probably_ won't make you as happy as you
 
 While you are studying and tirelessly preparing, you might think that a job at XXX is all you would ever need to be happy, but it probably won't! You might say, if getting a job offer and making a lot of money is not going to make me really happy what is the point of this? Well, that is a tough question. If you happen to enjoy your job a lot, work with people you like, and do projects that actively engage your passions, then your job will very likely improve your quality of life! It is hard to find the perfect job for you, but landing your first “top” offer will make the future job search much easier.
 
-Well-being is complicated. If you are still interested, we recommend [this free course](https://www.coursera.org/learn/the-science-of-well-being/home/welcome).
+Well-being is complicated. If you interested, we recommend [this free course](https://www.coursera.org/learn/the-science-of-well-being/home/welcome) about the science behind well being.
 
-## Can CS Students from Elite Colleges Land Offers?
+## But, I don't go to an elite college :(
 
 While it might be true that top schools attract more companies to their career fairs, this does not mean that students from other schools cannot get internships. **You can get a great job no matter what school you go to.**
 
@@ -70,7 +70,7 @@ Applications are online and _most_ internship applicants are hired through these
 
 _Do not feel insecure that you do not go to a top school._ Your CS curriculum is likely very good, (and if it is not, there are plenty of free educational resources online) and it is unlikely that you are the smartest person at your college so there are people that you can learn from. Even then, you can still learn a lot from others. Make sure you leverage the resources and community around you.
 
-Of course, you will have to work harder if you do not have the elite school on your resume. However, this extra work you put in will serve you well. If you focus on building your skills (as described in the next [article](BUILD_YOUR_CASE), then you will likely be a _better_ software engineer than someone from a top school that has done nothing. This will give you an edge in the long term. **Learn how to be scrappy and revel in being an underdog. You should wear the chip on your shoulder with pride and let it fuel you in your journey to self-improvement.**
+Of course, you will have to work harder if you do not have the elite school on your resume. However, this extra work you put in will serve you well. If you focus on building your skills (as described in the next [article](/zero-to-offer/building-your-case), then you will likely be a _better_ software engineer than someone from a top school that has done nothing. This will give you an edge in the long term. **Learn how to be scrappy and revel in being an underdog. You should wear the chip on your shoulder with pride and let it fuel you in your journey to self-improvement.**
 
 If you do go to a school with a smaller CS community, think about how this could be advantageous for you. For one, is there a better culture? Elite colleges tend to have “rat race” cultures surrounding internships. If there is a small CS community at your college, take advantage of its tight-knit and collaborative environment.
 
@@ -82,7 +82,7 @@ There is definitely luck involved in the internship process.
 
 However, luck is what happens when preparation meets opportunity. We think of luck like a lightning strike that strikes dramatically. But, luck is more like the wind blowing constantly. Sometimes it is calm and sometimes it is like a gust, sometimes it comes in directions you would not even imagine. So how can you catch the winds of luck?
 
-Work hard. Follow the steps laid out in the [building your case](/zero-to-offer/BUILDCASELINK) section and seek out opportunities. Go to events, meet people, and be proactive about your career.
+Work hard. Follow the steps laid out in the [building your case](/zero-to-offer/building-your-case) section and seek out opportunities. Go to events, meet people, and be proactive about your career.
 
 Good luck! 😃
 
@@ -92,7 +92,7 @@ Good luck! 😃
 
 You will get rejected (a lot). It is okay and a part of the game. You can get rejected from a “less selective company” like Chik Fil A and still get an offer from Google in the same internship season.
 
-There is a lot more written about rejection [here](zero-to-offer/post-interview#rejection). For now, know that every rejection is one step closer to an offer and keep applying!
+There is a lot more written about rejection [here](/zero-to-offer/post-interview#rejection). For now, know that every rejection is one step closer to an offer and keep applying!
 
 ## Jealousy
 
@@ -102,6 +102,8 @@ Social comparison is a natural feature of the mind. Humans constantly think in t
 
 ## Reddit, Blind, LinkedIn, etc
 
-Subreddits like [r/cscareerquestions](www.reddit.com/r/cscareerquestions) and [/csmajors](www.reddit.com/r/csmajors), and sites Blind are okay ways to learn more about the tech industry and get more insight into the job process. However, the environment in these places is usually overwhelmingly toxic. Refrain from spending too much times on these sites. Likewise, do not become engrossed in comparing yourself to others. It is easy to see amazing people on LinkedIn and feel jealously and imposter syndrome. Realize that most of the time people only show their best foot forward on public websites.
+Subreddits like [r/cscareerquestions](www.reddit.com/r/cscareerquestions) and [r/csmajors](www.reddit.com/r/csmajors), and sites Blind are okay ways to learn more about the tech industry and get more insight into the job process. However, the environment in these places is usually overwhelmingly toxic. Refrain from spending too much times on these sites. Likewise, do not become engrossed in comparing yourself to others. It is easy to see amazing people on LinkedIn and feel jealously and imposter syndrome. Realize that most of the time people only show their best foot forward on public websites.
 
-> Next up, read about building your case [here](/zero-to-offer/building-your-case)
+---
+
+_Next: [Building your Case](/zero-to-offer/building-your-case)_

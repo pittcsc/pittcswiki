@@ -64,16 +64,16 @@ Your ultimate goal is to recognize the patterns of coding problems and the typic
 
 As said before, if you choose to use CTCI then you can solve those questions. For LeetCode, we highly recommend the [Blind 75 List](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU).
 
-For more beginner friendly problems, check out the (LeetCode Explore ProblemSets)[https://leetcode.com/explore]. We recommend the following:
+For more beginner friendly problems, check out the [LeetCode Explore Problem Sets](https://leetcode.com/explore). We recommend the following:
 
 - [Arrays 101](https://leetcode.com/explore/learn/card/fun-with-arrays/)
 - [Linked List](https://leetcode.com/explore/learn/card/linked-list/)
 - [Binary Tree](https://leetcode.com/explore/learn/card/data-structure-tree/)
 - [Recursion](https://leetcode.com/explore/learn/card/recursion-i/)
 - [Binary Search](https://leetcode.com/explore/learn/card/binary-search/)
-- and [Top Interview Questions](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
+- [Top Interview Questions](https://leetcode.com/explore/featured/card/top-interview-questions-easy/)
 
-After you can comfortably solve problems, definitely reach out to others to start interviewing. Reach out to your CS club, or visit a website like [pramp.com](https://www.pramp.com/#/). Doing mock interviews is the second best way to prepare. (The first is doing actual interviews).
+After you can comfortably solve problems, definitely reach out to others to start interviewing. Reach out to your CS club, or visit a website like [https://pramp.com](https://www.pramp.com/#/). Doing mock interviews is the second best way to get better at interviewing. (The best way is to do actual interviews).
 
 ### Patterns
 
@@ -120,4 +120,4 @@ When doing these problems try to take no more than 10 minutes thinking of a solu
 
 People tend to do better on interviews that they are not stressed about. Do not stress too much about your interviews! Pretend your going to take a final, but you
 
-> Next Article: [Post Interview](/zero-to-offer/post-interview)
+_Next: [Post Interview](/zero-to-offer/post-interview)_
