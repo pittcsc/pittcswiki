@@ -53,7 +53,7 @@ Spend another 4 minutes looking at [this post](https://jgthms.com/web-design-in-
 </html>
 ```
 
-Here is something to get you started. Be sure to replace `REPLACE_ME` with the actual content.
+Here is something to get you started. Be sure to replace `REPLACE_ME` with the actual content. You can add links to your LinkedIn, your GitHub, your Resume, and whatever else you see fit!
 
 1. Commit and publish to GitHub! You should be able to see it on your GitHub repo and if you go to https://YOUR_USERNAME.github.io/ you should see your web page.
 
