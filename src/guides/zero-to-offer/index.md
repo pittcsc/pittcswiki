@@ -9,7 +9,7 @@ redirect_from:
 
 Zero to Offer (02O) is a seminar series held by the Pitt Computer Science Club dedicated to accelerating your tech career through personal guidance, lectures, mock interviews, resume reviews, networking opportunities, and certification.
 
-These guides are a part of the course!
+These guides are a part of the course and will help you land offers from **top** tech companies!  
 
 > Interested in joining? Pre-register [here](https://forms.gle/mNx58EvtaVnWK1rL9)
 
