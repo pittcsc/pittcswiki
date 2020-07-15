@@ -3,6 +3,7 @@ title: "CS vs. Information Science"
 author: "Andrea Michael"
 search_tags: ["cs", "info", "infsci", "is", "sci", "computer", "vs", "versus"]
 ---
+
 ## Comparisons & Contrasts
 As a student interested in the tech field, two of SCI's undergrad major programs are likely to stand out: computer science and information science. These two majors will both give you technical credibility, and both supply students with programming knowledge. There's no "right" answer for which one you should take, it all depends on your academic and career priorities and interests.
 
