@@ -2,7 +2,7 @@
 title: "[02O] 5. Post Interview"
 ---
 
-The time after an interview can be tough. The anxiety on whether you get the offer or not can distract you for days on end. The only way to speed up offer decisions is by notifying the company of any other expiring offers that you may have.
+The time after an interview can be tough. The anxiety of whether you get the offer or not can distract you for days on end. Unfortunately, The only way to speed up offer decisions is by notifying the company of any other expiring offers that you may have.
 
 When you hear back there will be two outcomes: either you get rejected or you get the offer. This guide is two parted: one part is for when you pass the interview, the other is for when you get rejected. Read whichever best fits your situation.
 
