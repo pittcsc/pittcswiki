@@ -69,8 +69,8 @@ Then you can link your Github repo to your free domain by visiting [here](https:
 
 Be creative!
 
-- [http://zmwang622.github.io/](http://zmwang622.github.io/)
 - [https://alexzharichenko.me/](https://alexzharichenko.me/)
 - [http://matvarughese.me/](http://matvarughese.me)
+- [http://zmwang622.github.io/](http://zmwang622.github.io/)
 - [https://quinnan-gill.github.io/personal_website/](https://quinnan-gill.github.io/personal_website/)
 - [100+ more examples](https://github.com/HackathonHackers/personal-sites)
