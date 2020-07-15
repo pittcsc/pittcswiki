@@ -4,7 +4,7 @@ title: "[02O] 2. Mindset"
 
 > This is a part of a series of guides called Zero to Offer aimed to help you navigate the internship process. We recommend you start [here](/zero-to-offer/)!
 
-Although the internship process has the potential to lead to great experiences, it can get a bit ugly. Imposter syndrome, constant comparisons, hyper competition, jealousy, rejection, doubt - these are very normal things that can come about this process.
+Although the internship process has the potential to lead to great experiences, it can get a bit ugly. Imposter syndrome, comparisons, hyper competition, jealousy, rejection, doubt - these are very normal things that can come about this process.
 
 By keeping a good mindset you can avoid feeding into any toxicity. Below are some tips, misconceptions, and more to help you keep good head space. Feel free to read the parts that resonate with you.
 
@@ -48,15 +48,15 @@ In a similar vein, if you want to just work at a top company just to make your f
 
 Salary is a very important part of any job search. Tech internships are especially lucrative; the salaries from tech internships can help lift families out of poverty, escape student loan debt, provide capital to explore entrepreneurial endeavors, and much more.
 
-However, do not become obsessed with the number of dollars you will make an hour. There is plenty of research to show that past a certain threshold, additional money does not improve people’s life satisfaction. People who make 100k say they want 300k. People who make 300k say they would want 500k. [Hedonic adaptation](https://en.wikipedia.org/wiki/Hedonic_treadmill) is real, so do not over-optimize just for salary.
+However, do not become obsessed with the number of dollars you will make an hour. There is plenty of research to show that past a certain threshold, additional money does not improve people’s life satisfaction. People who make 100k say they want 300k. People who make 300k say they would want 500k. [Hedonic adaptation](https://www.investopedia.com/terms/h/hedonic-treadmill.asp) is real, so do not over-optimize just for salary.
 
 If you find yourself overly obsessed over what other people make, take a step back. Is it worth obsessing for that much more money?
 
-Learn more about money in relation to the Science of Well-Being [here!](https://www.coursera.org/learn/the-science-of-well-being/lecture/8bZvC/part-2-money)
+Learn more about money's relation to the Science of Well-Being [here!](https://www.coursera.org/learn/the-science-of-well-being/lecture/8bZvC/part-2-money)
 
 ### Happiness
 
-Related to money, landing a good offer _probably_ won't make you as happy as you think it will. Getting a job offer is not going to fill you with a constant stream of happiness. As mentioned above, [hedonic adaptation](https://en.wikipedia.org/wiki/Hedonic_treadmill) is real. Free food and lots of money seems great, but your mind will adapt quickly and these greatnesses will fade - it’s human nature.
+Related to money, landing a good offer _probably_ won't make you as happy as you think it will. Getting a job offer is not going to fill you with a constant stream of happiness. As mentioned above, [hedonic adaptation](https://en.wikipedia.org/wiki/Hedonic_treadmill) is real. Free food and lots of money seems great, but your mind will adapt quickly and take them for granted - it’s human nature.
 
 While you are studying and tirelessly preparing, you might think that a job at XXX is all you would ever need to be happy, but it probably won't! You might say, if getting a job offer and making a lot of money is not going to make me really happy what is the point of this? Well, that is a tough question. If you happen to enjoy your job a lot, work with people you like, and do projects that actively engage your passions, then your job will very likely improve your quality of life! It is hard to find the perfect job for you, but landing your first “top” offer will make the future job search much easier.
 
@@ -98,11 +98,11 @@ There is a lot more written about rejection [here](/zero-to-offer/post-interview
 
 Competitiveness is natural when it comes to internship applicants. Your friends and peers might get offers from companies you were rejected from. That is okay and it is natural to feel jealous! However, instead of feeling jealous, be grateful for the fact that you have peers that you can learn from and collaborate with. Perhaps it means you might even have a referral in the future.
 
-Social comparison is a natural feature of the mind. Humans constantly think in terms of relative terms instead of absolute reference points. So it makes sense for you to be upset that you only got one offer from your backup list when your peers got multiple“better” ones. Learn more about this [here](https://www.coursera.org/learn/the-science-of-well-being/lecture/mFn0u/annoying-feature-2).
+Social comparison is a natural feature of the mind. Humans constantly think in terms of relative terms instead of absolute reference points. So it makes sense for you to be upset that you only got one offer from your backup list when your peers got multiple “better” ones. Learn more about this [here](https://www.coursera.org/learn/the-science-of-well-being/lecture/mFn0u/annoying-feature-2).
 
 ## Reddit, Blind, LinkedIn, etc
 
-Subreddits like [r/cscareerquestions](www.reddit.com/r/cscareerquestions) and [r/csmajors](www.reddit.com/r/csmajors), and sites Blind are okay ways to learn more about the tech industry and get more insight into the job process. However, the environment in these places is usually overwhelmingly toxic. Refrain from spending too much times on these sites. Likewise, do not become engrossed in comparing yourself to others. It is easy to see amazing people on LinkedIn and feel jealously and imposter syndrome. Realize that most of the time people only show their best foot forward on public websites.
+Subreddits like [r/cscareerquestions](www.reddit.com/r/cscareerquestions) and [r/csmajors](www.reddit.com/r/csmajors) and sites like [Blind](www.teamblind.com) are okay ways to learn more about the tech industry and get more insight into the job process. However, the environment in these places is usually overwhelmingly toxic. Refrain from spending too much times on these sites. Likewise, do not become engrossed in comparing yourself to others. It is easy to see amazing people on LinkedIn and feel jealous and experience imposter syndrome. Realize that most of the time people only show their best foot forward on public websites.
 
 ---
 
