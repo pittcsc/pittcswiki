@@ -27,7 +27,6 @@ export default function BlogPostLayout({
         <div className="blog-post mb-8">
           <div className="frontmatter">
             <h1 className="title">{title}</h1>
-            {subtitle && <h2 className="sub-title">{subtitle}</h2>}
             {author && <i className="sub-title">{author}</i>}
           </div>
           <FreshnessDisclaimer lastUpdated={gitAuthorTime} />

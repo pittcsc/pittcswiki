@@ -1,5 +1,5 @@
 ---
-title: "Zero to Offer - Resume"
+title: "Crafting your Resume"
 ---
 
 Some of the following content is by [Yangshun Tay](https://yangshun.im/) and [Christina Ng](https://www.quora.com/profile/Christina-Ng) and rephrased for the purpose of the wiki.

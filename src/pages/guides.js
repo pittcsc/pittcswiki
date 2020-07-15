@@ -29,21 +29,19 @@ const GuidesPage = ({ data: { guides } }) => (
     <SEO title="Guides" />
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
-    <p>
-      <ul>
-        <li>
-          Considering the CS Major or a freshmen?{" "}
-          <Link to="/academics/prospective">Click here</Link>
-        </li>
-        <li>
-          Looking for course reviews? <Link to="/courses/">Click here</Link>
-        </li>
-        <li>
-          Want to learn how to land internship and job offers?{" "}
-          <Link to="/zero-to-offer/">Click here</Link>
-        </li>
-      </ul>
-    </p>
+    <ul>
+      <li>
+        Considering the CS Major or a freshmen?{" "}
+        <Link to="/academics/prospective">Click here</Link>
+      </li>
+      <li>
+        Looking for course reviews? <Link to="/courses/">Click here</Link>
+      </li>
+      <li>
+        Want to learn how to land internship and job offers?{" "}
+        <Link to="/zero-to-offer/">Click here</Link>
+      </li>
+    </ul>
     <p>
       Below are collections of guides organized by topic. You can also use the
       search bar at the top right to search for articles, classes and more!

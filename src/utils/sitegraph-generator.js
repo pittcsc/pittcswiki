@@ -35,8 +35,9 @@ const cleanSiteLink = (link) => {
   if (link.charAt(link.length - 1) !== "/") {
     clean += "/"
   }
+  // some links link to headings, delete the heading
   // some links my have "index" at the end
-  return clean.replace(/index$/g, "")
+  return clean.replace(/index$/g, "").replace(/#\w*\/$/g, "")
 }
 
 /*
@@ -65,7 +66,6 @@ function siteGraphGenerator(sites, pages) {
   const nodeMap = { ...siteMap }
   const tree = { children: {} }
   const nodes = []
-
   siteNodes.forEach((node) => {
     // turn the list of slugs ex: [/academics, /academics/minors, /academics/minors/stat, /skills]
     // into a tree

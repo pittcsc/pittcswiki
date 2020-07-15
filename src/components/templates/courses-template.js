@@ -60,7 +60,7 @@ export default function Template({
             <span>{courseData.credits}</span>
           </div>
           {courseData.replaces && (
-            <p className="p-2 bg-orange-200">
+            <p className="p-2 text-orange-600 bg-orange-200">
               Heads up, this course recently replaced {courseData.replaces} !
             </p>
           )}
