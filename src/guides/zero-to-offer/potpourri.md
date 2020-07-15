@@ -19,4 +19,4 @@ Here is a collection more of random advice!
 
 ---
 
-Congrats, you have finished reading the Zero to Offer guides! Good luck with your search. If you have feedback or questions, please let us know [here](/feedback)!
+Congrats, you have finished reading the Zero to Offer guides! Good luck with your search. If you have feedback or questions, please let us know [here](https://pitt.co1.qualtrics.com/jfe/form/SV_8iegtmXfbCsATB3)!
