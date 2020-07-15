@@ -6,11 +6,11 @@ title: "Making a Personal Website"
 
 You probably fall into two categories: A) You know at least basic web dev, B) You do not know web dev.
 
-If you are in category A, building a personal website will likely take you less than 2 hours. If you are in category B, this is a great way to learn basic web development!
+If you are in category A, building a personal website will likely take you less than 2 hours. If you are in category B, this is a great way to get started learning basic web development!
 
 ## Why Make a Website? (It is Free)
 
-Making a personal website is likely not going to get you a job. However, you never know what might come out of it!
+Making a personal website is likely not going to be what gets you a job. However, you never know what might come out of it!
 
 - Some job applications might have a 'website' field and actually having one will make you stand out
 - If you link your website on your resume and have a portfolio section, you never know what jobs might actually look at it! (A big reason why I got a Google internship offer was because of my website)
@@ -18,7 +18,7 @@ Making a personal website is likely not going to get you a job. However, you nev
 
 ## How?
 
-You need a GitHub account, know basic HTML, and be familiar with how to use Git. If you do not know any of this, take 3 hours of your life and try to learn these skills because they will pay a ridiculous amount in your future. [Watch this 15 minute video](https://www.youtube.com/watch?v=fQLK8Ib_SKk) to get started.
+You need a GitHub account, know basic HTML, and be familiar with how to use Git. If you do not know any of this, take 3 hours of your life and try to learn these skills because they will be extremely useful. [Watch this 15 minute video](https://www.youtube.com/watch?v=fQLK8Ib_SKk) to get started.
 
 Spend another 4 minutes looking at [this post](https://jgthms.com/web-design-in-4-minutes/) on how to make your website look decent.
 
@@ -69,8 +69,8 @@ Then you can link your Github repo to your free domain by visiting [here](https:
 
 Be creative!
 
-- [http://matvarughese.me/](http://matvarughese.me)
 - [http://zmwang622.github.io/](http://zmwang622.github.io/)
 - [https://alexzharichenko.me/](https://alexzharichenko.me/)
+- [http://matvarughese.me/](http://matvarughese.me)
 - [https://quinnan-gill.github.io/personal_website/](https://quinnan-gill.github.io/personal_website/)
 - [100+ more examples](https://github.com/HackathonHackers/personal-sites)
