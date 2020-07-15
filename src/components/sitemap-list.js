@@ -36,9 +36,7 @@ function filterSitemapTree(tree, filterSlug) {
   let currentBranch = tree
   while (depth < brokendownUrls.length && currentBranch != null) {
     const currentUrl = brokendownUrls[depth]
-    console.log("seraching for ", currentUrl)
     if (!currentBranch.children) break
-    console.log(currentBranch.children)
     currentBranch = currentBranch.children.filter(
       (child) => child.slug === currentUrl
     )[0]
