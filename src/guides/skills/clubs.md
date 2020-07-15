@@ -65,9 +65,14 @@ Interested? Check out WiCS's website [here](http://www.wics.cs.pitt.edu/) for mo
 
 ## Robotics and Automation Society
 
-Robotics and Automation Society (RAS) is a student-run organization that provides its members with hands-on experience in robotics. In addition to getting to work on cutting-edge autonomous robots, RAS members are given networking opportunities through RAS's corporate sponsorships. 
+RAS was founded by a group a students with a strong desire to build robots and compete in robotics competitions around the world. Their mission is to provide hands-on experience in robotics, provide an avenue for students to recieve support from Pitt to compete in various competitions, and have fun! Competitions also come with opportunities to network with sponsors, other universities in the competition, and RAS alumni.
 
-In the past RAS has participated in a plethora of robotics competitions and projects, including the Indy Autonomous Challenge and the IARC Mission 7.
+In the past RAS has participated in a plethora of [robotics competitions and projects](http://pittras.org/projects/), including the following:
+*   [Indy Autonomous Challenge](http://pittras.org/projects/2020-auto-indy)- an autonomous Indy Race car!
+*   [IARC Mission 7](http://pittras.org/projects/IARC/)- autonomous drone navigation and task completion!
+*   [Scorpion](http://pittras.org/projects/2017-scorpion/)- a hexapod robot (because why not?)
+
+RAS encourages students to explore and have fun, it's a good place to see how software systems can interact with the real world and work with hardware.
 
 Interested? Check out RAS's website [here](http://pittras.org/)!
 
