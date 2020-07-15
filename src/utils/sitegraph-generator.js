@@ -109,7 +109,6 @@ function siteGraphGenerator(sites, pages) {
           })
         } else {
           if (!isExternalLink(parsedLink) && !siteMap[parsedLink]) {
-            console.log(link, parsedLink)
             errors.push({
               file: node.slug,
               brokenLink: link,
