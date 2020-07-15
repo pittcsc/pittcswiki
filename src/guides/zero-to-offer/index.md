@@ -15,15 +15,17 @@ These guides are a part of the course!
 
 ## Why Intern?
 
-The opportunity to be a software engineering intern at top company is an incredible privilege. As a college student you will get to be showered with benefits and perks. These benefits often include (but are not limited to)
-
+The opportunity to be a software engineering intern at top company is an incredible privilege. As a college student you will get to be showered with benefits and perks like: 
 - **High** Salaries (View salaries [here](https://www.levels.fyi/internships/))
 - Free meals, snacks, and drinks
 - Free flights and ground transportation
-- Opportunity to explore new cities and areas
-- Housing stipends or nice Corporate housing - Intern events (such as distinguished speakers, baseball games, boat rides, free concerts) - Work on legitimate projects that challenge you to apply what you learn in school - Get to meet and hang out with really smart and cool students from all over the world
+- Opportunity to explore new cities and parts of the world
+- Housing stipends or nice Corporate housing 
+- Intern events (such as distinguished speakers, baseball games, boat rides, free concerts) 
+- Work on legitimate projects that challenge you to apply what you learn in school 
+- Get to meet and hang out with really smart and cool students from all over the world
 - Lots of free swag and gear
 
 <div class="text-orange-600 bg-orange-200 mb-4 p-4">
-Note that these guides are written by students. Stay skeptical of things you read on the internet, including this. That being said, we hope you get the job you want through these guides.
+Note that these guides are written by students. Stay skeptical of things you read on the internet, including this. That being said, we hope you get the job you want through our guides!
 </div>
