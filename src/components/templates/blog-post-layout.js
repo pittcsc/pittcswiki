@@ -2,7 +2,9 @@ import React from "react"
 import Layout from "../layout"
 import SEO from "../seo"
 import Breadcrumb from "../breadcrumb"
+import { Link } from "gatsby"
 import FeedbackWidget from "../feedback"
+import relatedGuidesParser from "../../utils/related-guides-parser"
 
 export default function BlogPostLayout({
   frontmatter,
@@ -25,34 +27,55 @@ export default function BlogPostLayout({
         <div className="blog-post mb-8">
           <div className="frontmatter">
             <h1 className="title">{title}</h1>
-            {subtitle && <h2 className="sub-title">{subtitle}</h2>}
             {author && <i className="sub-title">{author}</i>}
           </div>
           <FreshnessDisclaimer lastUpdated={gitAuthorTime} />
-          {children}
-          <div
-            className={
-              "my-8 text-center sm:w-full md:w-auto " +
-              (isIndexPage && "hidden")
-            }
-          >
-            <FeedbackWidget />
-          </div>
-          <div className="flex justify-between text-sm text-gray-600">
-            <EditOnGithub
-              fileType={fileType}
-              slug={slug}
-              isIndexPage={isIndexPage}
-            />
-            {lastUpdatedString && !lastUpdatedString.includes("Invalid") && (
-              <div className="text-right">
-                Last updated: {lastUpdatedString}
+          <div className="mt-4 blog-post-content">{children}</div>
+          <RelatedGuides related={frontmatter.related} />
+          {!isIndexPage && (
+            <>
+              <div className={"my-8 sm:w-full md:w-auto"}>
+                <FeedbackWidget />
               </div>
-            )}
-          </div>
+              <div className="flex justify-between text-sm text-gray-600">
+                <EditOnGithub
+                  fileType={fileType}
+                  slug={slug}
+                  isIndexPage={isIndexPage}
+                />
+                {lastUpdatedString &&
+                  !lastUpdatedString.includes("Invalid") && (
+                    <div className="text-right">
+                      Last updated: {lastUpdatedString}
+                    </div>
+                  )}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </Layout>
+  )
+}
+
+const RelatedGuides = ({ related }) => {
+  const links = relatedGuidesParser(related)
+
+  if (!links || links.length === 0) return null
+
+  return (
+    <div className="text-sm border-t border-b py-4">
+      <h4 className="mb-1">Related Resources</h4>
+      <ul className="mb-0">
+        {links.map(({ link, title }, i) =>
+          !link || !title ? null : (
+            <li key={i}>
+              <Link to={link}>{title}</Link>
+            </li>
+          )
+        )}
+      </ul>
+    </div>
   )
 }
 

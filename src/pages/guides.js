@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Breadcrumb from "../components/breadcrumb"
+import SitemapList from "../components/sitemap-list"
 import { Link, graphql } from "gatsby"
 
 const GuidesListing = ({ posts }) => {
@@ -23,48 +24,54 @@ const GuidesListing = ({ posts }) => {
   return <div className="flex flex-wrap -mx-4 -mt-4">{guides}</div>
 }
 
-// TODO - recommended and recently updated
 const GuidesPage = ({ data: { guides } }) => (
   <Layout>
     <SEO title="Guides" />
     <Breadcrumb slug="/guides/" />
     <h1>Guides</h1>
+    <ul>
+      <li>
+        Considering the CS Major or a freshmen?{" "}
+        <Link to="/academics/prospective">Click here</Link>
+      </li>
+      <li>
+        Looking for course reviews? <Link to="/courses/">Click here</Link>
+      </li>
+      <li>
+        Want to learn how to land internship and job offers?{" "}
+        <Link to="/zero-to-offer/">Click here</Link>
+      </li>
+    </ul>
     <p>
-      These are collections of guides organized by topic. You can also look at
-      the <Link to="/sitemap">sitemap</Link> for a full list of guides or use
-      the search bar at the top right corner.
+      Below are collections of guides organized by topic. You can also use the
+      search bar at the top right to search for articles, classes and more!
     </p>
     <GuidesListing posts={guides.nodes} />
+    <p>
+      If you ever have any questions or feedback, you can ask by visiting{" "}
+      <Link to="/feedback">this link!</Link>
+    </p>
     <div>
       <h2>Popular</h2>
       <ul>
         <li>
-          <Link to={"/academics/study-abroad"}>Study Abroad</Link>
-        </li>
-        <li>
           <Link to={"/academics/scheduling"}>Scheduling</Link>
         </li>
         <li>
-          <Link to={"/courses"}>Courses</Link>
+          <Link to={"/courses"}>Course Explorer</Link>
+        </li>
+        <li>
+          <Link to={"/zero-to-offer"}>Zero to Offer</Link>
         </li>
       </ul>
     </div>
-    <div>
-      <h2>New</h2>
-      <ul>
-        <li>
-          <Link to={"/academics/uta"}>How to Become a TA</Link>
-        </li>
-        <li>
-          <Link to={"/skills/hackathons"}>Hackathons</Link>
-        </li>
-      </ul>
+    <div className="mb-8">
+      <h2>Full Guide Listing</h2>
+      <SitemapList />
     </div>
     <p>
-      Still curious about a topic but cannot find it? Let us know!!{" "}
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform">
-        Fill out this form!
-      </a>
+      Still curious about something but cannot find it? Please let us know and
+      we can add it! <Link to="/feedback">Fill out this form.</Link>
     </p>
   </Layout>
 )
@@ -77,8 +84,9 @@ export const pageQuery = graphql`
     guides: allMarkdownRemark(
       filter: {
         fields: { slug: { glob: "/*/" }, isIndexPage: { eq: true } }
-        internal: {}
+        frontmatter: { guides_blurb: { ne: null } }
       }
+      sort: { order: ASC, fields: frontmatter___title }
     ) {
       nodes {
         frontmatter {

@@ -1,5 +1,3 @@
 ---
-title: "Double Major?"
+title: "Majors"
 ---
-
-[Stat](/guides/academics/majors/stats)

@@ -37,7 +37,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        postCssPlugins: [require("tailwindcss")],
+        postCssPlugins: [
+          require("tailwindcss")(require("./tailwind.config.js")),
+        ],
       },
     },
     {
@@ -123,6 +125,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     "gatsby-redirect-from",
     "gatsby-plugin-meta-redirect",
+    "gatsby-plugin-catch-links",
   ].concat(
     isIndexingAlgolia
       ? [

@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../layout"
 import Testimonial from "../testimonial"
 import SEO from "../seo"
@@ -12,8 +12,6 @@ import "../term-pills"
 import { RequirementsListing } from "../courses/requirements"
 import TermPills from "../term-pills"
 
-const REVIEW_FORM_LINK = "https://forms.gle/n5RVFe8HpgpEFJuWA"
-
 const TestimonialList = ({ googleSheetData }) => {
   const testimonials = googleSheetData.edges.map((item, key) => (
     <Testimonial key={key} {...item.node} />
@@ -23,9 +21,7 @@ const TestimonialList = ({ googleSheetData }) => {
       {testimonials}
       <p className="my-2">
         Add your review by filling out{" "}
-        <a target="_blank" rel="noopener noreferrer" href={REVIEW_FORM_LINK}>
-          this form!
-        </a>
+        <Link to="/course-review">this form!</Link>
       </p>
     </div>
   )
@@ -64,7 +60,7 @@ export default function Template({
             <span>{courseData.credits}</span>
           </div>
           {courseData.replaces && (
-            <p className="p-2 bg-orange-200">
+            <p className="p-2 text-orange-600 bg-orange-200">
               Heads up, this course recently replaced {courseData.replaces} !
             </p>
           )}

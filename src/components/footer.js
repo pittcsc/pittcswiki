@@ -1,17 +1,9 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { library, config } from "@fortawesome/fontawesome-svg-core"
-import "@fortawesome/fontawesome-svg-core/styles.css"
-import { fas } from "@fortawesome/free-solid-svg-icons"
-
-library.add(fas)
-config.autoAddCss = false
 
 const Footer = () => (
   <footer className="md:flex mt-auto text-center p-8 bg-gray-100">
     <div className="m-auto text-gray-600">
-      © {new Date().getFullYear()}, Built with{" "}
-      <FontAwesomeIcon icon="heart" color="#F44336" /> by{" "}
+      © {new Date().getFullYear()}, Built with {HeartIcon} by{" "}
       <a className="text-gray-800 font-bold" href="https://pittcsc.org">
         PittCSC
       </a>
@@ -23,16 +15,11 @@ const Footer = () => (
         <a href="mailto:pittcsc+wiki@gmail.com" className="mr-2">
           Contact
         </a>
-        <a
-          target="_blank"
-          rel="noopener"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfijKV1sHF7QGWYc6UzIbUuIIntDOPbyqdrzXg-snHeBN_qNg/viewform"
-          className="mr-2"
-        >
-          Feedback
+        <a href="/sitemap/" className="mr-2">
+          Sitemap
         </a>
-        <a href="/guides/" className="mr-2">
-          Guides
+        <a href="/feedback/" className="mr-2">
+          Feedback
         </a>
         <a href="https://github.com/PittCSWiki/pittcswiki">GitHub</a>
       </p>
@@ -80,6 +67,33 @@ const NetlifySvg = (
         ></path>
       </g>
     </g>
+  </svg>
+)
+
+// from font awesome
+const HeartIcon = (
+  <svg
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fas"
+    data-icon="heart"
+    style={{
+      width: "1em",
+      display: "inline-block",
+      fontSize: "inherit",
+      height: "1em",
+      verticalAlign: "-.125em",
+    }}
+    className="inline"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 512 512"
+    color="#F44336"
+  >
+    <path
+      fill="currentColor"
+      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+    ></path>
   </svg>
 )
 
