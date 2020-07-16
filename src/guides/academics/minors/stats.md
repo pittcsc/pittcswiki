@@ -61,7 +61,9 @@ And that's two classes done. The third is a little bit up to you, but look aroun
 
 ### The Theoretical Path
 
-So this path is a little weird for the reason of it kind of against the intentions of the minor. The minor is focused on more applied statistics but technically by how they define what classes you need two theortical classes do become available. But this need permissions to take. So if you are in a position where you need more theoretical knowledge, say a more research oriented career, here is what to take.
+So this path is a little weird for the reason of it going against the intentions of the minor. The minor is focused on more applied statistics and is meant to be fairly practical. But, by how the requirements are define, two theortical classes can be taken, though you'll likely need permission to do so. 
+
+So if you are in a position where you need more theoretical knowledge, say a more research oriented career, here is what to take.
 
 - STAT 1631 (Intermediate Probability)
 - STAT 1632 (Intermediate Mathematical Statistics)
