@@ -1,27 +1,51 @@
 ---
-title: "Minor: Applied Stats"
+title: "Minor in Applied Statistics"
 author: "Alex Zharichenko"
+search_tags: ["stats", "stats minor", "applied stats", "data science", "data", "statistics", "statistics minor"]
 ---
 
-## How to start and how to progress
+## Why a statistics minor?
 
-So you wanna become a stats minor? Well it does have a few considerations. Let's start off with making sure the course you choose the right course for completing the SCI's mathematics course requirements. The requirements that you need 12 credits of math classes, with 8 pretty much coming from Calc 1 and Calc 2. And typically the rest coming from stats but there are three options...
+There are many reasons for taking on the applied statistcs minor! Interested in machine learning and data science? Interested in exploring data and building predictive models? Interested in learning how to infer information from a sample of data? Do you just love data? This minor is right for you! This minor consists of 2 required courses, and 3 additional courses that will let you go deep enough into an area of statistics.
 
-- STAT 1000 (Applied Statistical Methods)
-- STAT 1100 (Statistics and Probability for Business Management)
-- STAT 1151 (Introduction to Probability)
+## What are the requirements?
 
-So, in going for the stats minor you will want to take STAT 1000 as it's one of the base requirements. But what about the other two, well the STAT 1100 is basically the same as STAT 1000 except won't help you to much for going further in other stat course. And for STAT 1151, this is a theoritical course and not an applied one so it doesn't complete any minor requirements but has potential to open the door to more advanced stat courses. You might need to additionally take STAT 1152 (Introduction to Mathematical Statistics), but it will allow you to enroll into STAT 1321 (Applied Time Series), STAT 1731 (Stochastic Processes), and STAT 1651 (Introduction to Bayesian Statistics). But with that I highly recommend if you are not a statistics major then you rather not take STAT 1151 or STAT 1152. Partially because there are plenty of statistics courses that don't require you to take any theortical statistics. And partially because some of these higher level courses are taught by David Stoffer; many students, including myself, find him not to be a very good lecturer and a person to avoid (I really wish this wasn't the case). If you need evidence of this statement view his rate my professor.
+The requirements for the applied stats minor are fairly simple they consist of 2 required courses as follows...
 
-tl;dr: Just take STAT 1000 and you'll be ready for what's next.
+- STAT 1000 (Applied Statistical Methods) or acceptable substitutes
+    - This will be your introduction to statstics with topics including descriptive statistics, probability, random sampling. hypothesis testing, regresion and analysis of variance.
+    - **This will complete your statistics/math portion of required gen eds for CS majors**
+    - Acceptable substitutes include STAT 1100 (Statistics and Probability for Business Management), ENGR 0020 (Probability and Statistics for Engineers 1), and STAT 0200 (Basic Applied Statistics). **But, I suggest you preferably take STAT 1000** as it is a preq. for most of the future courses and some of the content is missing in the substitutes.
+- STAT 1221 (Applied Regression)
+    - This course will enter you into the world of modeling, starting with simple linear regressions into more complicated regression models.
+    - This course will give you a lot of fundamentals that apply quickly into data science, such as the basic ML model of linear regressions or using dummy coding to help make categorical predictors work in regression models.
 
-## The Next Class: STAT 1221 (Applied Linear Regression)
-
-This is the only other defined class besides STAT 1000 that you are required to take for the minor. This course will start building up your modeling knowledge, and fun fact linear regression is a machine learning model. This course will just get your running with a lot of fundamentals that, depending on what courses you do next, will be built up into more specific versions including logistic regression, lasso regression, ridge regressions, etc. and how they can be used in classification and regression tasks.
+From there, take three additional statistics courses from 1200-level and above. Except for STAT 1223 as this is a one credit writing intensive class meant exclusively for statistics majors.
 
 ## Paths
 
-Congrats, you now have a primer in statistics :D. But now what to do next. Here are a few paths of courses to take depending on what knowledge you would like to gain.
+To help out in understanding what to choose for your three additional statistics courses, I have made a few paths to explore.
+
+### The Applied Statistcs Path
+
+If you are just in it for the love of statistics, then simply take any of the 1200-level or 1300-level courses that peak your interest. Though do be in mind some classes don't always appear every year, and some almost always have just one section available. Below I have made a list of what typically gets offered each year.
+
+- STAT 1201 (Applied Nonparametric Statistics)
+    - This courses teaches you about statistical tests that try to make as few assumptions about the data as possible (including that the data isn't normal distributed).
+    - Statistical tests included, Wilcoxin, Fisher (sign), Ansari-Bradley, Miller (jackknife), Kruskal-Wallis, Kendall, and Kolmogorov-Smirnov.
+- STAT 1211 (Applied Categorical Data Analysis)
+    - This course is aim at techniques needed for social science, medical science, and various other sciences where it's needed to investigate relationships between more qualitative variables.
+    - The courses deals with the chi-squared test and the standard 2x2 and RXC contingency tables.
+- STAT 1231 (Applied Experimental Design)
+    - This course is focused on how to design valid statistical experiments and how to analyze them.
+- STAT 1261 (Principles of Data Science)
+    - More details are in the Data Scientist Path
+- STAT 1301 (Statistical Packages)
+    - This courses teaches you how to perform various statistical methods and tests using SAS and R.
+- STAT 1331 (Financial Econometrics)
+    - This course is focused on financial econmetric models and how to use them to predict financial time series data (specifcally looking at asset returns).
+- STAT 1361 (Statistical Learning and Data Science)
+    - More details are in the Data Scientist Path
 
 ### The Data Scientist Path
 
@@ -31,13 +55,9 @@ This is probably what most CS majors are looking for. How does one make models a
 
 These courses are typically offered in order with STAT 1261 in the fall and STAT 1361 in the spring. STAT 1261 is basically just an introduction to R, tidyverse, and Edward Tufte's principles behind making visualizations with just a touch of machine learning. This course will get you very comfortable with manipulating data in R and creating really nice visualizations of your data in no time. In my personal view, R is a beast at doing all things data (seriously I rather do data manipulation and visualization in R over Python any day). This is mostly thanks to Hadley Wickham, this course is basically learning how to use all the tools he made.
 
-Then next course is probably one of the most eye opening, well taught, and amazing statistics course the exist at Pitt. STAT 1361 will get your into the world of all the different models, resampling methods, random forests, etc. The homework for this class is time intensive but worth every moment as it really gets you understanding how the models work and how to use them. You'll also be introduced to a fundamental concept of all models, the bias-varience trade-off. This class will basically check off the part of any data science job app. talking about have you had experince with linear regressions, LDA, PCA (kind of), random forests, etc. And a plus to it all the lecturer who teaches it, Lucas Mentch, is an amazing lecturer. During his lecturers he will make sure you understand the main concept of what's being taught, and even ask questions to the students in a way where it's ok to be wrong because he will guide you to the right direction.
+Then next course is probably one of the most eye opening, well taught, and amazing statistics course that exist at Pitt. STAT 1361 will get your into the world of all the different types of models, resampling methods, random forests, etc. The homework for this class is time intensive but worth every moment as it really gets you understanding how the models work and how to use them. You'll also be introduced to a fundamental concept of all models, the bias-varience trade-off. This class will basically check off the part of any data science job app. talking about have you had experince with linear regressions, LDA, PCA (kind of), random forests, etc. And a plus to it all the lecturer who teaches it, Lucas Mentch, is an amazing lecturer. During his lecturers he will make sure you understand the main concept of what's being taught, and even ask questions to the students in a way where it's ok to be wrong because he will guide you to the right direction.
 
-And that's two classes done. The third is a little bit up to you but I highly recommend taking Applied Nonparametric Statistics. The reason is because nonparametric statistics is essentially a bunch of different statistical tests and methods that avoid making assumption about the data (specifically that the data is normal).
-
-### The Applied Statistcs Path
-
-If you are just in it for the love of statistics, then simply take any of the 12XX and 13XX courses that peak your interest. Though do be in mind some classes don't always appear every year, and some almost always have just one section available.
+And that's two classes done. The third is a little bit up to you, but look around at which courses catch your eye.
 
 ### The Theoretical Path
 
@@ -47,3 +67,21 @@ So this path is a little weird for the reason of it kind of against the intentio
 - STAT 1632 (Intermediate Mathematical Statistics)
 
 Take these two plus an additional classes such as STAT 1361 and you'll have a very stronger theoretical statistics background. There are definetly places in machine learning where having a deep fundamental understanding in statitics will make some of the knowledge/material easier to understand and digest. Though do keep in mind you need to talk to the statistics advisor about taking these courses. As you need permissions to do so since they are more difficult versions of STAT 1151 (Introduction to Probability) and STAT 1152 (Mathematical Statistcs) and you won't have the prerequisites for them.
+
+
+## Should I take STAT 1151 as my statistcs/math gen ed?
+
+So you can take STAT 1151 (Introduction to Probability) to complete your statistics/math portion of your gen eds. This won't complete any portion of the minor, but it does have the potential to open the door to more advanced stat courses that can help complete the minor. In some cases, you will also need to take STAT 1152 (Introduction to Mathematical Statistics).
+
+So what are some of the courses that you can now take...
+
+- STAT 1321 (Applied Time Series)
+- STAT 1651 (Introduction to Bayesian Statistics)
+- STAT 1731 (Stochastic Processes)
+
+If any seem interesting to you, then I would highly suggest just becoming a statistics majors (w/wo your CS major). This is because getting to these classes and doing the required parts of the minor get you fairly deep into the statistics majors to the point that you aren't far of from completing the major.
+
+But two things to keep in mind with this...
+
+1. As of the time I'm writing this, there is a professor that teaches two of these courses (especially STAT 1321) that many in the major found to be a very poor lecturer. I'd suggest reading the rate my professor page to get context on what I mean by this.
+2. The theortical courses (STAT 1151 and STAT 1152) are not for everyone and are quite difficult and different. Most of the fun of statistics lives in the applied portions.
