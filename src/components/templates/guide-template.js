@@ -28,10 +28,7 @@ export default function Template({
       }}
     >
       <TableOfContents headings={headings} />
-      <div
-        className="mt-4 blog-post-content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      <div dangerouslySetInnerHTML={{ __html: html }} />
       {isIndexPage && (
         <div className="mb-16">
           <h3>Guides</h3>
@@ -50,7 +47,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        subtitle
         author
         related
       }

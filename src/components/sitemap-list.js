@@ -11,7 +11,7 @@ const sortAlphaByTitle = (a, b) => {
 
 const TreeView = ({ tree }) => {
   return (
-    <ol className="list-disc mb-0">
+    <ul className="list-disc mb-0">
       {tree.slug && (
         <li>
           <a href={tree.slug}>{tree.title}</a>
@@ -22,7 +22,7 @@ const TreeView = ({ tree }) => {
         tree.children
           .sort(sortAlphaByTitle)
           .map((child) => <TreeView key={child.id} tree={child} />)}
-    </ol>
+    </ul>
   )
 }
 
@@ -36,9 +36,7 @@ function filterSitemapTree(tree, filterSlug) {
   let currentBranch = tree
   while (depth < brokendownUrls.length && currentBranch != null) {
     const currentUrl = brokendownUrls[depth]
-    console.log("seraching for ", currentUrl)
     if (!currentBranch.children) break
-    console.log(currentBranch.children)
     currentBranch = currentBranch.children.filter(
       (child) => child.slug === currentUrl
     )[0]

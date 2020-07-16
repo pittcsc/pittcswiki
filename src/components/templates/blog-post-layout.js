@@ -18,15 +18,6 @@ export default function BlogPostLayout({
   const { title, subtitle, author } = frontmatter
   return (
     <Layout readingMode>
-      <p className="mt-0 p-2 text-center text-orange-600 bg-orange-200">
-        The Wiki is Under Construction -{" "}
-        <a href="https://github.com/PittCSWiki/pittcswiki.github.io/issues">
-          Add issues or suggestions here{" "}
-          <span role="img" aria-label="happy">
-            😃
-          </span>
-        </a>
-      </p>
       <SEO title={title} />
       <Breadcrumb
         slug={slug}
@@ -36,11 +27,10 @@ export default function BlogPostLayout({
         <div className="blog-post mb-8">
           <div className="frontmatter">
             <h1 className="title">{title}</h1>
-            {subtitle && <h2 className="sub-title">{subtitle}</h2>}
             {author && <i className="sub-title">{author}</i>}
           </div>
           <FreshnessDisclaimer lastUpdated={gitAuthorTime} />
-          {children}
+          <div className="mt-4 blog-post-content">{children}</div>
           <RelatedGuides related={frontmatter.related} />
           {!isIndexPage && (
             <>
