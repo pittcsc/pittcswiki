@@ -138,6 +138,7 @@ Some other programs:
 - [Microsoft Research](https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/)
 - [MIT Lincoln Lab](https://www.ll.mit.edu/careers/student-opportunities)
 - [NASA Jet Propulsion Laboratory](https://jpl.jobs/university-recruiting)
+- [CMU RISS (robotics research)](https://riss.ri.cmu.edu/)
 
 ### Do it alone.
 
