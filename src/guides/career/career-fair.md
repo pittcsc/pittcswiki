@@ -77,9 +77,15 @@ After preparing your elevator pitch and your 3-9-27 list, it's time to plan what
 #### Dress Code
 Many tech companies are known for having a lax dress code. **That does not mean you should show up to fair dressing casually.** 
 
+##### Women
+Women have  more options than men but the guideline is still to stay professional. A business suit with pants or skirt is always appropriate, but a dress or skirt and blouse are sufficient in most situations as well.  If you wear a skirt, do not wear it too short. A hemline just above or below the knee is best. You can also pair your outfit with a blazer or sweater/cardigan or suit jacket.  Light jewelry is allowed as well. 
+
+For shoes, boots, pumps with heels, or other closed toe shoes are acceptable, but try to avoid sneakers. Don't wear flip-flops, sandals, or flimsy shoes. Definitely avoid shoes that are hard to walk in.
+
+##### Men 
 Typically, business casual attire is recommended. At the bare minimum, wear khaki/dress pants and a button down shirt. If you don't have access to professional clothing, the career center rents out clothes. 
 
-If you want to present yourself professionally to employers, then you have to dress like it.
+For shoes, try to wear something nicer than sneakers. Definitely avoid flip-flops, sandals, or flimsy shoes.
 
 #### Accessories
 Since you are not allowed to bring a backpack into the career fair, you should also be tactical about what you carry on your hands. Bare minimum you need to print out around 20 copies of your resume.
