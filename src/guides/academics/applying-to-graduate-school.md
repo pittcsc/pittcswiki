@@ -1,8 +1,7 @@
-
 ---
 title: "Applying to Graduate School (MS/PhD)"
 author: "James Hahn"
-search_tags: ["MS", "PhD", "graduate", "school", "graduate school"]
+search_tags: ["BS","Research","grad","minecraftman92", "MS", "PhD", "graduate", "school", "graduate school"]
 ---
 
 ## Choosing a school
