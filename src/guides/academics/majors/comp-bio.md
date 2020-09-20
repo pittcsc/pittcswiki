@@ -15,12 +15,13 @@ Starting in 2018, the bioinformatics major was replaced by the new Computational
 In general, this major is quite broad. Computational Biology has numerous sub categories ranging from evolutionary biology, systems biology, medicinal chemistry, and more. Consequently, this major isn’t the most specialized and students should expect a broad overview of methods in biology that computation is useful for rather than a specialization in a certain subfield. 
 
 Fun facts: 
-*   Completing CHEM 110, 120, 310, 320, and BIOSC 1000 will automatically complete the chemistry minor. 
-*   Completing the core CS courses and taking CS447 will complete the CS minor. 
+*   Completing CHEM 110, 120, 310, 320, and BIOSC 1000 is the same as the requirements for the chemistry minor. As always, contact the registrar or official advisor for confirmation to declare. 
 *   CS is increasingly becoming a valuable skill for healthcare workers and researchers. 
+*   Biomedical researchers with computer science knowledge are the most sought after in the field. 
+*   The core CS courses in the major overlap with all except CS 447 of the CS minor. Note: you may or may not be able to declare the minor with the computational biology major in DSAS because of the credits overlap rule. Ask your advisors for more up to date information on this. 
 
 Before Declaring:
-*   CS 0011 or equivalent in Python: CS 0008 is a possible alternative (offered more often and more flexible timing). Contact your advisor to see if it’s suitable still.
+*   CS 0011 or equivalent in Python: CS 0008 is a possible alternative (offered more often and more flexible timing). Contact your advisor to see if it’s suitable still. You can also contact the major advisors to ask for a placement test to skip this requirement. 
 *   BIOSC 150: This course covers biology topics such as cell structure, genetics, metabolism and photosynthesis, and foundational chemical concepts. This class is intended for natural science majors and is decently intensive. An honors course is available. 
 *   BIOSC 160: This course covers biology topics such as evolution, ecology, reproduction, and biotechnology. Similarly, this is somewhat intensive. An honors course is available.
 *   CHEM 110: This covers the first half of chemistry topics from atomic theory to thermochemistry. An honors course is available. Note, a lab is included in the course. (4 hours once a week)
@@ -43,39 +44,47 @@ Core Science:
 *   CHEM 0310: Organic Chemistry 1
     *   A notoriously difficult course. Requires a deep understanding of chemistry fundamentals and the ability to visualize 3d structures of molecules in certain conditions, environments, and perspectives. Recommended that the student takes a light schedule as well (13-16 credits) when taking this course. There will be a lot of studying required. 
     *   Topics covered: nomenclature, stereochemistry, radical chemistry, 4 reaction mechanisms, alcohols, alkenes and alkynes.
-    *   Most professors are fantastic choices: most notably: George Bandik, Paul Floreancig, Peng Liu, Tim Tseng, Scott Nelson, Seth Horne (Honors). Most professors will teach CHEM 0320 the following spring. 
-*   CHEM 0320: Organic Chemistry 2 [elective]
-    *   Substantially more difficult than organic chemistry 2. Many reactions will be taught. Topics build upon organic 1 knowledge. Topics covered: carbonyl chemistry, carboxylic acid chemistry, carbohydrate and proteins chemistry. Also recommended the student takes a lighter schedule (13-16 credits) when taking this course. 
+    *   Most professors are fantastic choices: most notably: George Bandik, Paul Floreancig, Peng Liu, Tim Tseng, Scott Nelson, Seth Horne (Honors). 
 
 Core Bioinformatics
 *   BIOSC 1540 (fall only)
     *   Very basic course intended to “give students a broad understanding of how computational approaches can be used to solve problems in biology. Both the biological and computational underpinnings of the methods will be addressed”
     *   Will use R for projects
-*   Computational Genomics (Spring in even catalog years) OR Simulation and Modeling (Spring in odd catalog years). example: Spring 2019 was BIOSC 1542 (genomics). 
+*   Computational Genomics (Spring in even catalog years) OR Simulation and Modeling (Spring in odd catalog years). example: Spring 2019 was BIOSC 1542 (genomics). NOTE: in Spring 2020, Simulation and Modeling will NOT be offered because of an internal issue. Genomics will return in the following spring. Contact the major advisors for more information on substitute courses if needed. 
     *   Genomics: Computer-aided methods to generate and test biological hypotheses at whole-genome scales. Students will gain both a theoretical and practical understanding of working with genomic data typical of high-throughput sequencing technologies. 
     *   Simulation / Modeling: Computational structural biology, simulation and modeling, as seen through the lens of a rational, computer-aided drug discovery. Topics will include protein structure and modeling, cheminformatics, virtual small-molecule screening, molecular dynamics screenings, molecular visualization, and online resources for studying proteins and molecules. A class project will allow students to apply the relevant tools. 
     *   Both courses allow the student to choose which specialization interests them the most. Both courses are intensive given they are a high level course, but will be the most applicable of the core bioinformatics which should prove to be one of the most enjoyable ones. 
-*   BIOSC 1640 (spring only) or CS 1640 (both fall and spring)
-    *   Depends on school
+*   Capstone: BIOSC 1640 (spring only) or CS 1640 (both fall and spring)
+    *   Depends on if declared with DSAS or SCI
     *   Both are involved with bioinformatics software design and research. Courses are somewhat new and most students will be taking these as the courses’ first iterations. 
-*   Seminar Comp Bio (1630, fall only)
+*   Seminar Comp Bio BIOSC 1630, fall only
     *   Writing requirement for the major. Not much information is available on this course, but it’s likely not intensive and is the “1501 W requirement” of this major. 
 
-## Recommended Schedule
+Elective 
+*    These are too numerous to list here. Visit the program catalog for the comprehensive list [here](https://catalog.upp.pitt.edu/preview_program.php?catoid=188&poid=57800&returnto=17691)
+
+
+Extra notes:
+*   I would recommend using AP credit to skip any classes you can (especially calculus). Exceptions are for students applying to health graduate schools that would prefer to see college experience with a course over AP credit, but of course that varies on a case to case basis. 
+*   The major is quite broad and there are a lot of different biological topics covered. If you have room in your schedule, you could look into MSCBIO graduate courses to get more bioinformatics / computational biology knowledge. 
+*   This major is newly made as mentioned above. Contact the official comp bio advisors for the final say on any information. 
+*   Satisfactory/No Credit information: "One core course required for the major may be taken on an S/NC basis. Co-requisite courses may be taken on an S/NC basis subject to School limitations. Please check with your School for specific information on S/NC grades."
+
+## My Personal Recommended Schedule
 
 Year 1 Fall
-*   BIOSC 150, CHEM 0110, CS 0011 or equivalent
+*   BIOSC 0150, CHEM 0110, CS 0011 or equivalent
 
 Year 1 Spring
-*   BIOSC 160, CHEM 0120, CS 0401
-*   math (whatever calc is)
+*   BIOSC 0160, CHEM 0120, CS 0401
+*   Calculus 1
 
 Year 2 Fall
 *   CHEM 0310, CS 441,BIOSC 350, BIOSC 1540
 
 Year 2 Spring:
-*   Elective (CHEM 0320 is not an official requirement, but it used to be a pre-requisite for biochemistry. In addition, it is valuable for pre-health students and anyone interested in graduate research). For other electives, see offerings on website. Note term offered
-*   CS 445, BIOSC 1542 (can also be taken in the fall as BIOSC 1544)
+*   Electives (For a full list, see the offerings on comp bio major's (SCI or DSAS) website.
+*   CS 445, BIOSC 1542 / 1544 (depends on year)
 
 Year 3:
 *   Research / Software Design (depends on school)
