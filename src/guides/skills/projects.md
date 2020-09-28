@@ -2,6 +2,12 @@
 title: "Projects"
 ---
 
-Projects are not for everyone. But, if you are curious about how to start projects, this is a good place to start.
+Join CSC Hacks! https://pittcsc.org/csc-hacks/
 
-> Coming soon
+This page is under construction. In the meantime, here are some great resources.
+
+Remember the best way to make a project is literally to just start.
+
+- [Facebook's guide on projects](https://drive.google.com/file/d/1-RK2qjG2h1mrPfc6qSTqC6O9TdY0iSI7/view?usp=sharing)
+- [Personal Projects](https://www.youtube.com/watch?v=sEqlnPUaRX0&feature=youtu.be)
+- [Build your own X](https://github.com/danistefanovic/build-your-own-x#build-your-own-database)
