@@ -8,7 +8,7 @@ export default (clickHandler) => ({ hit }) => {
       <div>
         <Link className="" to={hit.path} onClick={clickHandler}>
           <p className="mb-0">{hit.cleanId}</p>
-          <p className="text-sm">
+          <p className="text-sm mb-0">
             <Highlight attribute="title" hit={hit} tagName="mark" />
           </p>
         </Link>
