@@ -51,6 +51,7 @@ export const pageQuery = graphql`
         related
       }
       headings {
+        id
         depth
         value
       }
