@@ -5,11 +5,5 @@
 
 // We assume nothing is wrong with the template, to reduce having to check for errors lol
 module.exports = function replaceTemplate(template, data) {
-	return template.replace(/{{\s*(\w*)\s*}}/g, (matchArr, key) => {
-		const result = data[key.trim()];
-		if (!result) {
-			console.error("Cannot find", key, " in data! Index=", i);
-		} 
-		return result;
-	})
+	return template.replace(/{{\s*(\w*)\s*}}/g, (matchArr, key) => data[key.trim()] || "")
 }
