@@ -222,6 +222,11 @@ header {
     margin-left: 50rem;
     @apply text-xs;
   }
+
+  .toc-heading-depth-6 {
+    margin-left: 60rem;
+    @apply text-xs;
+  }
 }
 
 .landing-image {
