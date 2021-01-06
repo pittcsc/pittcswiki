@@ -10,10 +10,8 @@ COURSE_REVIEW_SHEET_KEY = '1JsJKialTXTAEPljU9GDAJnxvsJUL3rKdNNBRvLzXcEk'
 
 RMP_DATA_FIELDS = [
   "professor_id",
-  "total_ratings",
   "average_rating",
   "average_difficulty_rating",
-  "rating_tag_strings",
   "professor_full_name",
 ]
 
