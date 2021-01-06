@@ -1,7 +1,7 @@
 # Ideally in the future the Pitt API will be hosted so it doesn't need to exist locally.
 from pittapi import ratemyprofessors
 import json
-from typing import List, Tuple
+from typing import List, Tuple, Union, Dict, Any
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
@@ -14,10 +14,10 @@ RMP_DATA_FIELDS = [
   "average_rating",
   "average_difficulty_rating",
   "rating_tag_strings",
-  "professor_first_name",
-  "professor_last_name",
   "professor_full_name",
 ]
+
+RMP_ALTERNATE_NAME_FIELD = "professor_all_names"
 
 def get_professor_names() -> List[Tuple[str, str, str]]:
   credentials = ServiceAccountCredentials.from_json_keyfile_name('google_api_secret.json', SCOPES)
@@ -37,24 +37,41 @@ def get_professor_names() -> List[Tuple[str, str, str]]:
   # frontend testimonial as well).
   return list(set(zip(professor_first_names, professor_last_names, professor_full_names)))
 
+def get_professor_data(
+  full_name: str, first_name: str, last_name: str) -> Union[Dict[str, Any], None]:
+  rmp_results = ratemyprofessors.get_rmp_by_name_fuzzy(
+    prof_first_name=first_name,
+    prof_last_name=last_name,
+    num_results=1,
+    response_fields=RMP_DATA_FIELDS)
+  
+  if len(rmp_results) > 0:
+    result = rmp_results[0]
+    result[RMP_ALTERNATE_NAME_FIELD] = [full_name]
+    return result
+  else:
+    return rmp_results[0] if len(rmp_results) > 0 else None
+
 def main() -> None:
   professor_names = get_professor_names()
-  rmp_professor_data = []
+  rmp_professor_data = {}
 
   for (first_name, last_name, full_name) in professor_names:
-    rmp_results = ratemyprofessors.get_rmp_by_name_fuzzy(
-        prof_first_name=first_name,
-        prof_last_name=last_name,
-        num_results=1,
-        response_fields=RMP_DATA_FIELDS)
-    if (len(rmp_results) > 0):
-      rmp_professor_data.append(rmp_results[0])
-      print("Found RMP data for: {}".format(full_name))
+    professor_data = get_professor_data(full_name, first_name, last_name)
+    if professor_data != None:
+      if professor_data['professor_id'] in rmp_professor_data:
+        rmp_professor_data[professor_data['professor_id']][RMP_ALTERNATE_NAME_FIELD].append(
+          full_name)
+        print("Appended alternate spelling to existing entry: {}".format(
+          rmp_professor_data[professor_data['professor_id']][RMP_ALTERNATE_NAME_FIELD]))
+      else:
+        rmp_professor_data[professor_data['professor_id']] = professor_data
+        print("Got RMP data for: {}".format(full_name))
     else:
-      print("Could not find RMP data for: {}".format(full_name))
+      print("Failed to get RMP data for: {}".format(full_name))
 
   with open('./src/data/graphql/rmp_data.json', 'w') as out_file:
-    json.dump(rmp_professor_data, out_file)
+    json.dump([data for (professor_id, data) in rmp_professor_data.items()], out_file)
 
 if __name__ == "__main__":
   main()
