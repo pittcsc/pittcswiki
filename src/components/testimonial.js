@@ -1,4 +1,5 @@
 import React from "react"
+import ProfessorLink from "./professor-link"
 
 const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
   return (
@@ -13,7 +14,7 @@ const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
           </span>
           <span>
             <span className="text-gray-500">Professor </span>
-            <span className="font-bold"> {prof} </span>
+            <span className="font-bold"> <ProfessorLink prof={prof} /> </span>
           </span>
         </span>
         <span>
