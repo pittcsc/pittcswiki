@@ -1,4 +1,5 @@
 # Ideally in the future the Pitt API will be hosted so it doesn't need to exist locally.
+# Currently requires fork of Pitt API with RMP scraper: https://github.com/Richie78321/PittAPI
 from pittapi import ratemyprofessors
 import json
 from typing import List, Tuple, Union, Dict, Any
