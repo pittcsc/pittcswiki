@@ -22,7 +22,7 @@ const externalLinkIcon = (
   </svg>
 )
 
-const ProfessorLink = ({ prof }) => {
+const ProfessorTooltip = ({ prof }) => {
   const data = useStaticQuery(graphql`
   query {
     allRmpData {
@@ -70,4 +70,4 @@ const ProfessorLink = ({ prof }) => {
   );
 }
 
-export default ProfessorLink;
+export default ProfessorTooltip;
