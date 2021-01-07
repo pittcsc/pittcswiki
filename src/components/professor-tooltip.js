@@ -1,6 +1,10 @@
 import { useStaticQuery, graphql } from "gatsby";
 import React from "react"
 
+// Check if the user is on a touch screen device
+// https://stackoverflow.com/a/13470899/9017299
+const supportsTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints;
+
 const externalLinkIcon = (
   <svg
     aria-hidden="true"
@@ -48,26 +52,52 @@ const ProfessorTooltip = ({ prof }) => {
     )
   }
 
-  return (
-    <a 
-      href={`https://www.ratemyprofessors.com/ShowRatings.jsp?tid=${profRMPData.professor_id}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="tooltip text-black">
-      {profRMPData.professor_full_name} {externalLinkIcon}
-      <div className="bg-white block border px-4 py-3 shadow-2xl tooltiptext">
-        <p className="mb-0">Rate My Professors</p>
-        <p className="mb-0">
-          <span className="font-medium text-gray-500">Quality rating </span>
-          <span>{profRMPData.average_rating}/5</span>
-        </p>
-        <p className="mb-0">
-          <span className="font-medium text-gray-500">Difficulty rating </span>
-          <span>{profRMPData.average_difficulty_rating}/5</span>
-        </p>
-      </div>
-    </a>
-  );
+  if (supportsTouch) {
+    return (
+      <span className="tooltip text-black">
+        {profRMPData.professor_full_name}
+        <div className="bg-white block border px-4 py-3 shadow-2xl tooltiptext">
+          <p className="mb-0">Rate My Professors</p>
+          <p className="mb-0">
+            <span className="font-medium text-gray-500">Quality rating </span>
+            <span>{profRMPData.average_rating}/5</span>
+          </p>
+          <p className="mb-0">
+            <span className="font-medium text-gray-500">Difficulty rating </span>
+            <span>{profRMPData.average_difficulty_rating}/5</span>
+          </p>
+          <a
+            href={`https://www.ratemyprofessors.com/ShowRatings.jsp?tid=${profRMPData.professor_id}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-black font-medium">
+            See more {externalLinkIcon}
+          </a>
+        </div>
+      </span>
+    );
+  } else {
+    return (
+      <a 
+        href={`https://www.ratemyprofessors.com/ShowRatings.jsp?tid=${profRMPData.professor_id}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="tooltip text-black">
+        {profRMPData.professor_full_name} {externalLinkIcon}
+        <div className="bg-white block border px-4 py-3 shadow-2xl tooltiptext">
+          <p className="mb-0">Rate My Professors</p>
+          <p className="mb-0">
+            <span className="font-medium text-gray-500">Quality rating </span>
+            <span>{profRMPData.average_rating}/5</span>
+          </p>
+          <p className="mb-0">
+            <span className="font-medium text-gray-500">Difficulty rating </span>
+            <span>{profRMPData.average_difficulty_rating}/5</span>
+          </p>
+        </div>
+      </a>
+    );
+  }
 }
 
 export default ProfessorTooltip;
