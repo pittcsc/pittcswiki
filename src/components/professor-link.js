@@ -34,7 +34,7 @@ const ProfessorLink = ({ prof }) => {
       rel="noopener noreferrer"
       className="tooltip text-black">
       {profRMPData.professor_full_name}
-      <div className="bg-gray-100 tooltiptext">
+      <div className="bg-white block border px-4 py-3 shadow-2xl tooltiptext">
         <p className="mb-0">Rate My Professor</p>
         <p className="mb-0">
           <span className="font-medium text-gray-500">Quality rating </span>
@@ -44,7 +44,6 @@ const ProfessorLink = ({ prof }) => {
           <span className="font-medium text-gray-500">Difficulty rating </span>
           <span>{profRMPData.average_difficulty_rating}/5</span>
         </p>
-        <p className="mb-0 text-sm font-normal text-gray-500">Click to see more</p>
       </div>
     </a>
   );
