@@ -56,7 +56,7 @@ const ProfessorTooltip = ({ prof }) => {
       className="tooltip text-black">
       {profRMPData.professor_full_name} {externalLinkIcon}
       <div className="bg-white block border px-4 py-3 shadow-2xl tooltiptext">
-        <p className="mb-0">Rate My Professor</p>
+        <p className="mb-0">Rate My Professors</p>
         <p className="mb-0">
           <span className="font-medium text-gray-500">Quality rating </span>
           <span>{profRMPData.average_rating}/5</span>
