@@ -276,3 +276,33 @@ header {
 button.bg-pittgold.border {
   border-color: #efa300;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  position: absolute;
+  visibility: hidden;
+  width: 200px;
+  z-index: 1;
+  bottom: 150%;
+  left: 25%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top-color: #ffffff;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

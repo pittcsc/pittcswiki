@@ -91,6 +91,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: ({ node, object, isArray }) => node.name,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/graphql`,
+      },
+    },
+    {
       resolve: "gatsby-plugin-page-creator",
       options: {
         path: `${__dirname}/src/guides`,
