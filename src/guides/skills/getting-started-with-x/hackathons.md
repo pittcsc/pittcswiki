@@ -1,5 +1,5 @@
 ---
-title: "Hackathons"
+title: "Getting Started with Hackathons"
 author: "Alex Zharichenko"
 ---
 ## What is a hackathon?
