@@ -91,7 +91,7 @@ When putting Projects on your resume, follow these guidelines:
 - Limit the use of technical jargon. You want your recruiter to be able to have a clear understanding of what you did!
 - Put information that you can readily talk and answer questions about. Anything on your resume is fair game so you don't want to be caught off guard because you were lying.
 
-Curious about how to start a project? [Consult our Projects guide to learn more!](/skills/projects)
+Curious about how to start a project? [Consult our Projects guide to learn more!](/skills/getting-started-with-x/projects/)
 
 ### Skills Section
 
