@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Getting Started with Personal Projects"
 ---
 
 Join CSC Hacks! https://pittcsc.org/csc-hacks/
