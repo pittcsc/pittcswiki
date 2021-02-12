@@ -12,7 +12,7 @@ In general, the depth of these interview questions will not require more than a 
 ## Programming Concepts
 
 ### Data Structures and Algorithms
-It is very likely you will be asked a question regarding basic data structures and their correpsonding algorithms.
+It is very likely you will be asked a question regarding basic data structures and their corresponding algorithms.
 This information can be found in CS0445 and CS1501 curricula.
 
 Understand the difference between the following data structures.
@@ -30,7 +30,7 @@ https://en.wikipedia.org/wiki/Big_O_notation
 
 ### Programming Languages
 - Be able to explain the difference between a compiled and an interpreted language.
-- Be able to explain situations where one language may be better than an other. This can be a more personal/subjective question.
+- Be able to explain situations where one language may be better than another. This can be a more personal or subjective question.
 - Understand what Imperative Programming means
   - Procedural
   - Object Oriented
@@ -61,8 +61,9 @@ https://www.codecademy.com/articles/mvc
 https://en.wikipedia.org/wiki/Software_design_pattern
 
 ## Database Programming
-Be able to explain the difference between a Database language and a Database Management System (DBMS)
-Be able to explain the difference between database models/languages
+Be able to explain the difference between a Database language and a Database Management System (DBMS).
+
+Be able to explain the difference between database models/languages.
 - Relational database e.g. SQL
 - Document-oriented e.g. MongoDB
 
