@@ -56,6 +56,8 @@ Be able to describe the use of common software design patterns.
 - Read/Write Locks
 - Model View Controller
 
+https://www.codecademy.com/articles/mvc
+
 https://en.wikipedia.org/wiki/Software_design_pattern
 
 ## Database Programming
@@ -70,6 +72,7 @@ Explain what normalization is
 - 1 Normal Form
 - 2 Normal Form
 - 3 Normal Form
+- BCNF
 
 Why normalize a database?
 
@@ -80,5 +83,35 @@ https://en.wikipedia.org/wiki/Database_normalization
 Be able to explain what an index does and why you would use them.
 
 https://en.wikipedia.org/wiki/Database_index
+
+## Web Applications
+
+### HTML/CSS
+Understand what HTML and CSS does.
+- Explain what a markup language is. What are different tags?
+- Explain the difference between a class selector and an id selector.
+
+### HTTP
+Explain what HTTP means, and basic HTTP requests
+- HTTP GET
+- HTTP HEAD
+- HTTP PUT
+- HTTP PUSH
+- HTTP DELETE
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+
+### Components of a web application/server
+Be able to explain the physical and logical components of a web application.
+- Servers
+  - Cloud vs on premise.
+  - Database Server
+- Client (Web Browser)
+- Domain Name System
+
+https://www.peerbits.com/blog/web-application-architecture.html
+
+https://en.wikipedia.org/wiki/Domain_Name_System
+
 
 
