@@ -16,7 +16,7 @@ It is very likely you will be asked a question regarding basic data structures a
 This information can be found in CS0445 and CS1501 curricula.
 
 Understand the difference between the following data structures.
-Be able to explain differences in search/sort/search runtimes and their implementation details.
+Be able to explain differences in search/sort/search runtimes and their implementation details:
 - Arrays
 - Linked List
 - Trees [Binary, B/B+]
@@ -31,13 +31,13 @@ https://en.wikipedia.org/wiki/Big_O_notation
 ### Programming Languages
 - Be able to explain the difference between a compiled and an interpreted language.
 - Be able to explain situations where one language may be better than another. This can be a more personal or subjective question.
-- Understand what Imperative Programming means
+- Understand what Imperative Programming means:
   - Procedural
   - Object Oriented
 
 ### Object Oriented Programming
 - Be able to explain what object oriented programming is, and why it is useful.
-- Be able to explain the foundations of OOP
+- Be able to explain the foundations of OOP:
   - Encapsulation
   - Abstraction
   - Inheritance
@@ -48,7 +48,7 @@ https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7
 https://en.wikipedia.org/wiki/Object-oriented_programming
 
 ### Software Design Patterns
-Be able to describe the use of common software design patterns.
+Be able to describe the use of common software design patterns:
 - Factory Class
 - Singleton Class
 - Builder
@@ -63,7 +63,7 @@ https://en.wikipedia.org/wiki/Software_design_pattern
 ## Database Programming
 Be able to explain the difference between a Database language and a Database Management System (DBMS).
 
-Be able to explain the difference between database models/languages.
+Be able to explain the difference between database models/languages:
 - Relational database e.g. SQL
 - Document-oriented e.g. MongoDB
 
@@ -93,7 +93,7 @@ Understand what HTML and CSS does.
 - Explain the difference between a class selector and an id selector.
 
 ### HTTP
-Explain what HTTP means, and basic HTTP requests
+Explain what HTTP means. Explain basic HTTP requests:
 - HTTP GET
 - HTTP HEAD
 - HTTP PUT
@@ -103,7 +103,7 @@ Explain what HTTP means, and basic HTTP requests
 https://developer.mozilla.org/en-US/docs/Web/HTTP
 
 ### Components of a web application/server
-Be able to explain the physical and logical components of a web application.
+Be able to explain the physical and logical components of a web application:
 - Servers
   - Cloud vs on premise.
   - Database Server
