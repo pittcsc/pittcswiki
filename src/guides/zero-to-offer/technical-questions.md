@@ -4,8 +4,8 @@ title: "[02O] 7. Technical Interview Questions"
 
 > This is a part of a series of guides called Zero to Offer aimed to help you navigate the internship process. We recommend you start [here](/zero-to-offer/)!
 
-In addition to being able to solve coding problems, you will likely be asked technical questions from one or more topics. 
-The following are a list of these topics and their components you may encounter when interviewing for an internship or full time position.
+In addition to being able to solve coding problems, you will likely be asked several technical questions from one or more topics. 
+The following are a list of topics and related questions you may encounter when interviewing for an internship or full time position.
 You do not necessarily have to be an expert in all of these topics, but a good understanding of the fundamentals will serve you well.
 In general, the depth of these interview questions will not require more than a one minute answer.
 
@@ -36,16 +36,49 @@ https://en.wikipedia.org/wiki/Big_O_notation
   - Object Oriented
 
 ### Object Oriented Programming
--Be able to explain what object oriented programming is, and why it is useful.
--Be able to explain the foundations of OOP
-  -Encapsulation
-  -Abstraction
-  -Inheritance
-  -Polymorphism
+- Be able to explain what object oriented programming is, and why it is useful.
+- Be able to explain the foundations of OOP
+  - Encapsulation
+  - Abstraction
+  - Inheritance
+  - Polymorphism
 
 https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
+
 https://en.wikipedia.org/wiki/Object-oriented_programming
 
 ### Software Design Patterns
+Be able to describe the use of common software design patterns.
+- Factory Class
+- Singleton Class
+- Builder
+- Prototype
+- Read/Write Locks
+- Model View Controller
+
+https://en.wikipedia.org/wiki/Software_design_pattern
+
+## Database Programming
+Be able to explain the difference between a Database language and a Database Management System (DBMS)
+Be able to explain the difference between database models/languages
+- Relational database e.g. SQL
+- Document-oriented e.g. MongoDB
+
+https://en.wikipedia.org/wiki/Database_model
+
+Explain what normalization is
+- 1 Normal Form
+- 2 Normal Form
+- 3 Normal Form
+
+Why normalize a database?
+
+Why Denormalize a database?
+
+https://en.wikipedia.org/wiki/Database_normalization
+
+Be able to explain what an index does and why you would use them.
+
+https://en.wikipedia.org/wiki/Database_index
 
 
