@@ -2,6 +2,9 @@
 title: "Conquering the Career Fair"
 ---
 
+The following content is adapted from advice from [Timothy James](https://www.linkedin.com/in/timothyjames/), an instructor at Pitt and manager at Google who
+constantly helps the Pitt community. 
+
 The career fair is a great opportunity for students to meet potential employers and practice being in a professional environment. That being said, they can be extremely intense and competitive. This guide will go through the necessary steps to succeed and stand out.
 
 ## Before the Fair
