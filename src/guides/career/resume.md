@@ -91,7 +91,7 @@ When putting Projects on your resume, follow these guidelines:
 - Limit the use of technical jargon. You want your recruiter to be able to have a clear understanding of what you did!
 - Put information that you can readily talk and answer questions about. Anything on your resume is fair game so you don't want to be caught off guard because you were lying.
 
-Curious about how to start a project? [Consult our Projects guide to learn more!](/skills/projects)
+Curious about how to start a project? [Consult our Projects guide to learn more!](/skills/getting-started-with-x/projects/)
 
 ### Skills Section
 
@@ -113,7 +113,7 @@ If you have extra space on your resume, you may want to list various clubs you a
 
 ### GPA: Important or not?
 
-Users on popular sites like [Reddit](www.reddit.com/r/cscareerquestions) and [Blind](https://www.teamblind.com/), often dismiss the importance of a student's GPA, however that is largely unaccurate.
+Users on popular sites like [Reddit](https://www.reddit.com/r/cscareerquestions/) and [Blind](https://www.teamblind.com/), often dismiss the importance of a student's GPA, however that is largely unaccurate.
 Everyone wants the cream of the crop. In the absence of a standardized test, GPA serves as that indicator. **While GPA may not necessarily be a good indication of how well you can code, a high GPA would definitely put you in a more favorable position to the recruiter.**
 
 If your GPA is rather low, but you have loads of technical experiences, you can try not listing your GPA in the resume. This kinda "forces" the recruiter to read through your projects/job experience, and perhaps grant you a first interview. If you manage to impress them, who cares about your GPA? But if your GPA is low and you do not have skills for the job... maybe you should work on one of them and revisit job applications later.

@@ -27,15 +27,13 @@ It is highly recommended you first write your pitch down and then practice it se
 - Questions for the recruiter to kickstart the conversation
 
 Example Pitch: 
-```
-Hi, my name is [First_Name] [Last_Name] and I am a freshman at the University of Pittsburgh. Right now, I am studying Computer Science but I also have plans to receive a double major in Communications, and minors in Chinese and a certificate in Leadership. My reasoning for studying communications is that I believe today most computer science majors have exceptional technical skills, but lack the necessary communication skills to be able to collaborate and lead others. I am interested in minoring in Chinese because I would like to further my current fluency in order to serve a global market and stand out from competition.
-
-Currently, I am interested in software development with hopes of working management in the future, where I would effectively lead teams of workers through powerful communication skills. I have come to realize that as a CompSci major I am much more qualified and outgoing than most of my peers, and I hope to further that margin by diversifying my work experience.
-
-That is why I am interested in interning this summer for SIG. If I were to be at your company not only will I provide an excellent work ethic and technical understanding, but I will also utilize social skills I spent the time to study in hopes of maximizing my team’s productivity. Furthermore as a Chester County native, I have gotten to know quite a few SIG employees, and through conversations with them I have realized that SIG is a great fit for me.
-
-I'm curious about your experience at SIG. How long have you been at the company and what has been the move valuable thing you've learned or experienced so far?
-```
+> Hi, my name is [First_Name] [Last_Name] and I am a freshman at the University of Pittsburgh. Right now, I am studying Computer Science but I also have plans to receive a double major in Communications, and minors in Chinese and a certificate in Leadership. My reasoning for studying communications is that I believe today most computer science majors have exceptional technical skills, but lack the necessary communication skills to be able to collaborate and lead others. I am interested in minoring in Chinese because I would like to further my current fluency in order to serve a global market and stand out from competition.
+>
+> Currently, I am interested in software development with hopes of working management in the future, where I would effectively lead teams of workers through powerful communication skills. I have come to realize that as a CompSci major I am much more qualified and outgoing than most of my peers, and I hope to further that margin by diversifying my work experience.
+>
+> That is why I am interested in interning this summer for SIG. If I were to be at your company not only will I provide an excellent work ethic and technical understanding, but I will also utilize social skills I spent the time to study in hopes of maximizing my team’s productivity. Furthermore as a Chester County native, I have gotten to know quite a few SIG employees, and through conversations with them I have realized that SIG is a great fit for me.
+>
+> I'm curious about your experience at SIG. How long have you been at the company and what has been the move valuable thing you've learned or experienced so far?
 
 Some of these things require researching the company for information. For example, it's always a good idea to bring up a company's core principles and discuss how you fit within them. But when a career fair has so many companies, it may be hard to decide which companies you should really focus and research on and which you shouldn't. Luckily, there's the **3-9-27 Rule**.
 
@@ -80,9 +78,15 @@ After preparing your elevator pitch and your 3-9-27 list, it's time to plan what
 #### Dress Code
 Many tech companies are known for having a lax dress code. **That does not mean you should show up to fair dressing casually.** 
 
+##### Women
+Women have  more options than men but the guideline is still to stay professional. A business suit with pants or skirt is always appropriate, but a dress or skirt and blouse are sufficient in most situations as well.  If you wear a skirt, do not wear it too short. A hemline just above or below the knee is best. You can also pair your outfit with a blazer or sweater/cardigan or suit jacket.  Light jewelry is allowed as well. 
+
+For shoes, boots, pumps with heels, or other closed toe shoes are acceptable, but try to avoid sneakers. Don't wear flip-flops, sandals, or flimsy shoes. Definitely avoid shoes that are hard to walk in.
+
+##### Men 
 Typically, business casual attire is recommended. At the bare minimum, wear khaki/dress pants and a button down shirt. If you don't have access to professional clothing, the career center rents out clothes. 
 
-If you want to present yourself professionally to employers, then you have to dress like it.
+For shoes, try to wear something nicer than sneakers. Definitely avoid flip-flops, sandals, or flimsy shoes.
 
 #### Accessories
 Since you are not allowed to bring a backpack into the career fair, you should also be tactical about what you carry on your hands. Bare minimum you need to print out around 20 copies of your resume.
@@ -121,17 +125,14 @@ Now that you're done with the career fair, it's time for the final step: Reachin
 
 Usually this is done through email or LinkedIn message. Here's an example email to send (we highly recommending editing it to help you stand out):
 
-```
-Dear [Contact's first name],
-
-It was great meeting you at [Career fair name], thanks for taking the time to talk with me! As we discussed, I view myself as a great candidate for [Company name here].
-
-I'd like to reaffirm my interest in [company name here] and can't wait to apply to [company name]'s [position name]. I have attached my resume to this email and am happy to provide references at your request.
-
-I had such a great time talking with you. If you have any questions or updates please let me know!
-
-Best,
-[Your Name Here]
-
-```
+> Dear [Contact's first name],
+>
+> It was great meeting you at [Career fair name], thanks for taking the time to talk with me! As we discussed, I view myself as a great candidate for [Company name here].
+>
+> I'd like to reaffirm my interest in [company name here] and can't wait to apply to [company name]'s [position name]. I have attached my resume to this email and am happy to provide references at your request.
+>
+> I had such a great time talking with you. If you have any questions or updates please let me know!
+>
+> Best,
+> [Your Name Here]
 

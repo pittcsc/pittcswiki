@@ -25,7 +25,7 @@
 		"name": "Masters",
 		"courses": ["CS1999 - 3000"],
 		"description": {
-			"__html": "It is possible to take masters classes as an undergrad! There is also the BS/MS, which <a href='/academics/bsms'>we have a guide on you can read here</a>. Read our guide on <a href='guides/gradschool'>grad school here!</a>"
+			"__html": "It is possible to take masters classes as an undergrad! There is also the BS/MS, which <a href='/academics/bsms'>we have a guide on you can read here</a>. Read our guide on <a href='/academics/applying-to-graduate-school/'>grad school here!</a>"
 		}
 	}, {
 		"name": "PhD",

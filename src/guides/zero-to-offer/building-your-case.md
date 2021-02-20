@@ -66,7 +66,7 @@ Here is a list of things you can do to improve these fundamental skills.
   - Club / Open Source Projects - All of the benefits of personal projects plus you communicate and work with others!
 - Organize Hackathons
   - Leading a hackathon shows you are passionate about something. Companies like passionate people!
-  - Leading a hackathon involves a ton of communication! - Learn about hackathons [here](/skills/hackathons)
+  - Leading a hackathon involves a ton of communication! - Learn about hackathons [here](/skills/getting-started-with-x/hackathons)
 - Organize and Lead Clubs
   - Leading a club shows you can organize people and communicate well.
   - Usually, if people elected you to lead a club it meant that they liked you. And if those people liked you, your future teammates probably would too.

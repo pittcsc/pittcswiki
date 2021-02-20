@@ -13,7 +13,7 @@ search_tags:
   ]
 ---
 
-One of the best perk of going to a Pittsburgh university is that you get to take courses at other local universities for no extra price! The process is actually quite simple:
+One of the best perks of going to a Pittsburgh university is that you get to take courses at other local universities for no extra price! The process is actually quite simple:
 
 1.  Fill out [this form](https://www.registrar.pitt.edu/sites/default/files/pdf/PCHE_Cross_Registration_Form.pdf)
 2.  Go to the relevant Pitt and host university office's to get your signatures.
