@@ -102,7 +102,7 @@ Social comparison is a natural feature of the mind. Humans constantly think in t
 
 ## Reddit, Blind, LinkedIn, etc
 
-Subreddits like [r/cscareerquestions](www.reddit.com/r/cscareerquestions) and [r/csmajors](www.reddit.com/r/csmajors) and sites like [Blind](www.teamblind.com) are okay ways to learn more about the tech industry and get more insight into the job process. However, the environment in these places is usually overwhelmingly toxic. Refrain from spending too much times on these sites. Likewise, do not become engrossed in comparing yourself to others. It is easy to see amazing people on LinkedIn and feel jealous and experience imposter syndrome. Realize that most of the time people only show their best foot forward on public websites.
+Subreddits like [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions) and [r/csmajors](https://www.reddit.com/r/csmajors) and sites like [Blind](https://www.teamblind.com) are okay ways to learn more about the tech industry and get more insight into the job process. However, the environment in these places is usually overwhelmingly toxic. Refrain from spending too much times on these sites. Likewise, do not become engrossed in comparing yourself to others. It is easy to see amazing people on LinkedIn and feel jealous and experience imposter syndrome. Realize that most of the time people only show their best foot forward on public websites.
 
 ---
 
