@@ -7,11 +7,11 @@ related: ["Succeed at your job", "/career/job-success/"]
 Career advice from [Timothy James](https://www.linkedin.com/in/timothyjames/), an instructor at Pitt and manager at Google.
 
 
-What is the difference between an average software engineer and a exceptional sofware engineer? Communication is a good 
+What is the difference between an average software engineer and an exceptional software engineer? Communication is a good 
 start, but there are **many** differentiators.
 
 ### Intellectual Curiosity
-- An average software engineer is OK get what they need from an API and assume that what's underneath is magic.
+- An average software engineer is OK to get what they need from an API and assume that what's underneath is magic.
 - An exceptional software engineer wants to know how and why it works and how those constraints and nuances affect the system.
 
 ### Quality
