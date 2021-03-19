@@ -6,7 +6,9 @@ Some of the following content is by [Yangshun Tay](https://yangshun.im/) and [Ch
 
 Are you a Pitt student? Send us your resume and we'll review it for you as soon as possible!
 
-Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search.
+Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search. 
+
+Another great resource is this presentation by Timothy James, a Tech Lead at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
 
 ## Recruiters 101
 
@@ -189,7 +191,7 @@ If you don't want to go through the hassle of formatting your resume on Word or 
 - [Resumake](https://resumake.io/)
 - [Creddle](http://creddle.io/)
 - [Overleaf](https://www.overleaf.com/latex/templates) (For LaTeX templates!)
-
+- [FlowCV](https://flowcv.io/)
 ## Cover Letters
 
 Cover Letters are definitely not required when applying. In most cases, it is better to have no cover letter than to have a bad cover letter, especially if your cover letter is "templated" content. An effective cover letter needs to highlight the fit between the job requirements and your skills/experiences. Do not just say what you have done in your cover letter; Tell the recruiter how it is a fit for what he or she is looking for.
