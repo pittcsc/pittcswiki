@@ -8,7 +8,7 @@ Are you a Pitt student? Send us your resume and we'll review it for you as soon 
 
 Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search. 
 
-Another great resource is this presentation by Timothy James, a Tech Lead at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
+Another great resource is this presentation by Timothy James, an instructor at Pitt and manager at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
 
 ## Recruiters 101
 
