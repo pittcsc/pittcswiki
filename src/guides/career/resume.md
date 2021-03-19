@@ -8,6 +8,8 @@ Are you a Pitt student? Send us your resume and we'll review it for you as soon 
 
 Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search.
 
+Another great resource is this presentation by Timothy James, an instructor at Pitt and manager at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
+
 ## Recruiters 101
 
 No matter how qualified you are for a role, not making it past resume screening also means on missing out on the job.
@@ -189,6 +191,7 @@ If you don't want to go through the hassle of formatting your resume on Word or 
 - [Resumake](https://resumake.io/)
 - [Creddle](http://creddle.io/)
 - [Overleaf](https://www.overleaf.com/latex/templates) (For LaTeX templates!)
+- [FlowCV](https://flowcv.io/)
 
 ## Cover Letters
 
