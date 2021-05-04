@@ -22,7 +22,7 @@ HTML: [https://youtu.be/UB1O30fR-EE](https://youtu.be/UB1O30fR-EE)
 CSS: [https://youtu.be/yfoY53QXEnI](https://youtu.be/yfoY53QXEnI)
 JavaScript: [https://youtu.be/hdI2bqOjy3c](https://youtu.be/hdI2bqOjy3c)
 
-Once you finished those videos, a great project to build is a personal website which you can host on [Github Page](https://pages.github.com/). Another thing I like to do is to just customize the Traversy Media projects and make it my own.  
+Once you finished those videos, a great project to build is a personal website which you can host on [GitHub Pages](https://pages.github.com/). Another thing I like to do is to just customize the Traversy Media projects and make it my own.  
 
 ### Richie Goulazian
 I recommend starting with the basics and working your way up to more shiny libraries and frameworks. Fancy libraries like [React](https://reactjs.org/) have very clear motivations that are easy to see once you've gained some experience writing web applications the more traditional way. 
