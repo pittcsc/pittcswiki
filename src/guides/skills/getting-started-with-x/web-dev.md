@@ -39,6 +39,5 @@ If you feel like taking the React track, once you're comfortable with it I'd rec
 * [ReactJS Docs](https://reactjs.org/tutorial/tutorial.html) have good beginner tutorials.
 * [NextJS Docs](https://nextjs.org/learn/basics/create-nextjs-app) have good beginner tutorials.
 
-
 ### TypeScript
 * [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) is an open source book for learning TypeScript if you already know JS.
