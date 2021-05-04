@@ -8,7 +8,7 @@ Web development touches a surprising number of software engineering projects. Ev
 
 Beyond the plethora of tools and apps used every day on the web, many widely-used desktop apps are actually web applications, just running on your desktop. For example, Visual Studio Code, Discord, and Slack all use [Electron](https://www.electronjs.org/), a framework for developing cross-platform desktop applications with web development toolsets.
 
-Ultimately, the web is one of the fastest and easiest ways that your application can make its way to a user, so understanding web development enables you to make more impactful software.
+Ultimately, the web is one of the fastest and easiest ways that your application can make its way to a user, so understanding web development can enable you to make more impactful software.
 
 ## Opinions
 ### Richie Goulazian
