@@ -4,7 +4,7 @@ title: "Getting Started with Web Development"
 
 Web development touches a surprising number of software engineering projects. Even if you aren't interested in web development as a profession, having a general understanding of web development can be useful when you inevitably encounter it.
 
-> Wait... it's all chromium?
+> Wait... it's all [chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))?
 
 Beyond the plethora of tools and apps used every day on the web, many widely-used desktop apps are actually web applications, just running on your desktop. For example, Visual Studio Code, Discord, and Slack all use [Electron](https://www.electronjs.org/), a framework for developing cross-platform desktop applications with web development toolsets.
 
