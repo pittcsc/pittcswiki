@@ -4,11 +4,9 @@ title: "Getting Started with Web Development"
 
 Web development touches a surprising number of software engineering projects. Even if you aren't interested in web development as a profession, having a general understanding of web development can be useful when you inevitably encounter it.
 
-> Wait... it's all [chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))?
-
 Beyond the plethora of tools and apps used every day on the web, many widely-used desktop apps are actually web applications, just running on your desktop. For example, Visual Studio Code, Discord, and Slack all use [Electron](https://www.electronjs.org/), a framework for developing cross-platform desktop applications with web development toolsets.
 
-Ultimately, the web is one of the fastest and easiest ways that your application can make its way to a user, so understanding web development can enable you to make more impactful software.
+Ultimately, the web is one of the fastest and easiest ways that your application can make its way to a user, so understanding web development can enable you to make impactful software quickly.
 
 ## Opinions
 ### Zhengming Wang
@@ -33,7 +31,7 @@ If you feel like taking the React track, once you're comfortable with it I'd rec
 
 ## Recommended Resources
 * [TraversyMedia on YouTube](https://www.youtube.com/c/TraversyMedia) has excellent tutorials for many different web-dev stacks.
-* [W3 Schools](https://www.w3schools.com/) is a good go-to for learning HTML, CSS, and JS. This website will likely appear a lot on Google while you're learning things.
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn) is a good go-to for learning HTML, CSS, and JS. This website will likely appear a lot on Google while you're learning things.
 
 ### React
 * [ReactJS Docs](https://reactjs.org/tutorial/tutorial.html) have good beginner tutorials.
