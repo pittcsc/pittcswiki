@@ -4,6 +4,12 @@ title: "Getting Started with Web Development"
 
 Web development touches a surprising number of software engineering projects. Even if you aren't interested in web development as a profession, having a general understanding of web development can be useful for when you inevitably encounter it.
 
+Beyond the plethora of tools and apps on the web used every day, many widely-used desktop apps are actually web applications, just running on your desktop. For example, Visual Studio Code, Discord, and Slack all use [Electron](https://www.electronjs.org/), a framework for developing cross-platform desktop applications with web development toolsets.
+
+Ultimately, the web is one of the fastest and easiest ways that your application can make its way to a user, so understanding web development can enable you to make impactful software quickly.
+
+## Web Development Overview
+
 A solid chunk of web development is divvied up into three types of job areas: the front end, the back end, and full-stack.
 
 A **Front-End Web Developer** focuses on the "look" and "feel" of a website. They're the ones that interpret design mockups and turn them into code. The front end also handles digesting any data received from the back end and displaying it effectively for the user.
@@ -11,10 +17,6 @@ A **Front-End Web Developer** focuses on the "look" and "feel" of a website. The
 A **Back-End Web Developer's** work lies behind the scenes but is generally crucial for medium to large-scale websites, especially those with heavy amounts of data or information. A back-end developer might manage a database and work with the front-end developer on querying the data or set up a server for the website to run on.
 
 **Fullstack Developers** work at both ends of the spectrum, completing front-end and back-end tasks. They might not specialize, but they have a general breadth of knowledge that allows them to be flexible for the project at hand.
-
-Beyond the plethora of tools and apps on the web used every day, many widely-used desktop apps are actually web applications, just running on your desktop. For example, Visual Studio Code, Discord, and Slack all use [Electron](https://www.electronjs.org/), a framework for developing cross-platform desktop applications with web development toolsets.
-
-Ultimately, the web is one of the fastest and easiest ways that your application can make its way to a user, so understanding web development can enable you to make impactful software quickly.
 
 ## Recommended Resources
 * [TraversyMedia on YouTube](https://www.youtube.com/c/TraversyMedia) has excellent tutorials for many different web-dev stacks.
