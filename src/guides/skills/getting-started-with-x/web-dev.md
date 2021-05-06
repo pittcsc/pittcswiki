@@ -8,7 +8,7 @@ A solid chunk of web development is divvied up into three types of job areas: th
 
 A **Front-End Web Developer** focuses on the "look" and "feel" of a website. They're the ones that interpret design mockups and turn them into code. The front end also handles digesting any data received from the back end and displaying it effectively for the user.
 
-A **Back-End Web Developer**'s work lies behind the scenes but is generally crucial for medium to large-scale websites, especially those with heavy amounts of data or information. A back-end developer might manage a database and work with the front-end developer on querying the data or set up a server for the website to run on.
+A **Back-End Web Developer's** work lies behind the scenes but is generally crucial for medium to large-scale websites, especially those with heavy amounts of data or information. A back-end developer might manage a database and work with the front-end developer on querying the data or set up a server for the website to run on.
 
 **Fullstack Developers** work at both ends of the spectrum, completing front-end and back-end tasks. They might not specialize, but they have a general breadth of knowledge that allows them to be flexible for the project at hand.
 
