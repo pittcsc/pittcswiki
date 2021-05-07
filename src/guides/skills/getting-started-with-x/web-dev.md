@@ -30,6 +30,19 @@ A **Back-End Web Developer's** work lies behind the scenes but is generally cruc
 * [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) is an open source book for learning TypeScript if you already know JS.
 
 ## Opinions
+### Alexander Grattan - 5/5/2021
+There is no singular path to becoming a web development master. You might be interested in trying to replicate the homepage of Google or even figuring out how to deploy a baked goods API to share your favorite types of cookies. Don't worry, it's totally fine if you don't know how to do any of that.
+
+If you're looking to make a super simple website, all you need is HTML and CSS. These are the building blocks that make up every single site on the internet with HTML being the meat and CSS as the decoration. What I suggest doing is learning how to organize HTML elements correctly and styling content before ever implementing JavaScript (but that's up to you).
+
+If you run into a bind or you're punching a wall trying to figure something out ("How do I center something both horizontally and vertically?" or "How do I scale a button when I hover over it?"), Google it because someone else most likely had the same problem and it was solved on StackOverflow or another site.
+
+There is a vast amount of tutorials on all of the different web-dev technologies on YouTube. You are bound to find at least one video on a certain topic or language.
+As aforementioned, Traversey Media is a great channel to follow and I would suggest watching a roadmap video of his to get a sense of what is out there to learn.
+Web Development 2021 Roadmap: [https://www.youtube.com/watch?v=VfGW0Qiy2I0](https://www.youtube.com/watch?v=VfGW0Qiy2I0)
+
+Good luck on your journey!
+
 ### Zhengming Wang - 5/4/2021
 Personally as a beginner programmer, learning web dev was one of the most daunting tasks I had to overcome. There's so many different technologies and jargon that it became super overwhelming for me to even know where to start learning. I still don't know 99% of what web development has to offer and that's okay, no one can truthfully claim that they know all of web dev. Instead, most will find their own niche and stick with it. 
 
@@ -50,15 +63,3 @@ I'd say start with raw HTML/JS, then once you're comfortable with those, pick a 
 
 If you feel like taking the React track, once you're comfortable with it I'd recommend looking into [NextJS](https://nextjs.org/) and [Vercel](https://vercel.com/). They're a pretty empowering combo. NextJS abstracts away a lot of boilerplate and makes writing some pretty useful web applications rather easy. NextJS saved the [VaccinatePA team](https://www.cs.pitt.edu/news/2021-cs-students-create-vaccinatepa-org) lots of hours of development time, and Vercel saved us many dollars in hosting costs (VaxPA source code can be found [here](https://github.com/VaccinatePA/Vaccinate-PA) if you're curious).
 
-### Alexander Grattan - 5/5/2021
-There is no singular path to becoming a web development master. You might be interested in trying to replicate the homepage of Google or even figuring out how to deploy a baked goods API to share your favorite types of cookies. Don't worry, it's totally fine if you don't how to do any of that.
-
-If you're looking to make a super simple website, all you need is HTML and CSS. These are the building blocks that make up every single site on the internet with HTML being the meat and CSS as the decoration. What I suggest doing is learning how to organize HTML elements correctly and styling content before ever implementing JavaScript (but that's up to you).
-
-If you run into a bind or you're punching a wall trying to figure something out ("How do I center something both horizontally and vertically?" or "How do I scale a button when I hover over it?"), Google it because someone else most likely had the same problem and it was solved on StackOverflow or another site.
-
-There is a vast amount of tutorials on all of the different web-dev technologies on YouTube. You are bound to find at least one video on a certain topic or language.
-As aforementioned, Traversey Media is a great channel to follow and I would suggest watching a roadmap video of his to get a sense of what is out there to learn.
-Web Development 2021 Roadmap: [https://www.youtube.com/watch?v=VfGW0Qiy2I0&t=2621s](https://www.youtube.com/watch?v=VfGW0Qiy2I0&t=2621s)
-
-Good luck on your journey!
