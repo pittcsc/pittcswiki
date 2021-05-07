@@ -6,7 +6,7 @@ title: "Getting Started with Git"
 
 ## Git Overview
 
-**Git** is the version control software -- this is the part that is free, open source, and installable on your devices to enable you to use version control through the command line or [git's GUIs](https://git-scm.com/downloads/guis). Git enables you to [create **git repositories**](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) *local to your device* which keep track of your source code as you make changes to it.
+**Git** is the version control software -- this is the part that is free, open source, and installable on your devices to enable you to use version control through the command line or [git's GUIs](https://git-scm.com/downloads/guis). Git enables you to [create **git repositories**](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository), which record the change history of your project so that you can move between historical snapshots of your source code. Git repositories are *local to your device*, existing within the root directory of your project in a directory called `.git/`.
 
 Repositories that exist on your device can also be synchronized with [**remote repositories**](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes), which can exist on computers on your local network or more likely some server on the internet. This is where familiar commands like `git pull` and `git push` come from. These commands are used to synchronize your local repository with the remote repository hosted on the internet. Remote repositories make it easier for multiple people to contribute to a single source code.
 
