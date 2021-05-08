@@ -18,7 +18,7 @@
 	}, {
 		"name": "Capstone",
 		"description": {
-			"__html": "These involve applying your skills. <a href='/academics/capstone'>Read our guide on the capstone classes here!</a>"
+			"__html": "These involve applying your skills. <a href='/academics/registration/capstone/'>Read our guide on the capstone classes here!</a>"
 		},
 		"courses": ["CS1900", "CS1902", "CS1906", "CS1950", "CS1980"]
 	}, {
