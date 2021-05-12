@@ -1,5 +1,14 @@
 [build]
   publish = "public"
 
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    cache-control = '''
+	  max-age=0,
+	  no-cache,
+  	no-store,
+	  must-revalidate'''
