@@ -65,6 +65,13 @@ This will only last for a year so keep that in mind!
 
 Then you can link your Github repo to your free domain by visiting [here](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/)!
 
+## How can I get a university website?
+
+You can get a subdirectory to host a website like [http://pitt.edu/~you/](http://pitt.edu/~you/) through the university _for free_.
+
+The technology department has created a detailed guide [here](https://www.technology.pitt.edu/help-desk/how-to-documents/creating-your-own-website)
+
+.
 ### Examples
 
 Be creative!
