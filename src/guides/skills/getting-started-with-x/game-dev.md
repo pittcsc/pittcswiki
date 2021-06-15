@@ -6,7 +6,7 @@ Game development is a fun way to learn software engineering principles, and it c
 
 Also, **before you dismiss game development as requiring a level of creativity / artisistic prowess beyond yours**, consider using existing open source assets, a simplified art style (like pixel art), or avoiding assets altogether by using ASCII art or generative art.
 
-## Game Development Overvie
+## Game Development Overview
 
 ### Technical Entry Points
 
