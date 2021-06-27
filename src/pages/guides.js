@@ -25,7 +25,8 @@ const GuidesListing = ({ posts }) => {
 }
 
 const GuidesPage = ({ data: { guides } }) => (
-  <ass>
+  <div>
+  </div>
   <Layout>
     <SEO title="Guides" />
     <Breadcrumb slug="/guides/" />
