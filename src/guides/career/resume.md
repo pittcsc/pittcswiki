@@ -8,6 +8,8 @@ Are you a Pitt student? Send us your resume and we'll review it for you as soon 
 
 Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search.
 
+Another great resource is this presentation by Timothy James, an instructor at Pitt and manager at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
+
 ## Recruiters 101
 
 No matter how qualified you are for a role, not making it past resume screening also means on missing out on the job.
@@ -113,7 +115,7 @@ If you have extra space on your resume, you may want to list various clubs you a
 
 ### GPA: Important or not?
 
-Users on popular sites like [Reddit](www.reddit.com/r/cscareerquestions) and [Blind](https://www.teamblind.com/), often dismiss the importance of a student's GPA, however that is largely unaccurate.
+Users on popular sites like [Reddit](https://www.reddit.com/r/cscareerquestions/) and [Blind](https://www.teamblind.com/), often dismiss the importance of a student's GPA, however that is largely unaccurate.
 Everyone wants the cream of the crop. In the absence of a standardized test, GPA serves as that indicator. **While GPA may not necessarily be a good indication of how well you can code, a high GPA would definitely put you in a more favorable position to the recruiter.**
 
 If your GPA is rather low, but you have loads of technical experiences, you can try not listing your GPA in the resume. This kinda "forces" the recruiter to read through your projects/job experience, and perhaps grant you a first interview. If you manage to impress them, who cares about your GPA? But if your GPA is low and you do not have skills for the job... maybe you should work on one of them and revisit job applications later.
@@ -189,6 +191,7 @@ If you don't want to go through the hassle of formatting your resume on Word or 
 - [Resumake](https://resumake.io/)
 - [Creddle](http://creddle.io/)
 - [Overleaf](https://www.overleaf.com/latex/templates) (For LaTeX templates!)
+- [FlowCV](https://flowcv.io/)
 
 ## Cover Letters
 
