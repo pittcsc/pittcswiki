@@ -22,6 +22,7 @@ There are many different git workflows (ways to use git effectively to manage yo
 
 * [Learn Git Branching](https://learngitbranching.js.org/) is a great tool for learning git visually. It particularly excels at visualizing git branching.
 * [Git and GitHub Crash Course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) by Traversy Media is a good video that goes over both git and GitHub.
+* [Pro Git](https://git-scm.com/book/en/v2) is a classic book that gives a comprehensive overview of git fundamentals.
 
 ## Opinions
 
