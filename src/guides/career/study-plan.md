@@ -78,7 +78,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Encode + Decode Strings](https://www.lintcode.com/problem/encode-and-decode-strings/)
 - [Max Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - **Bonus** - Do all the Tree traversal problems iteratively
-- [Find Duplicate Number (**Bonus**)](https://leetcode.com/problems/find-the-duplicate-number/)- [
+- [Find Duplicate Number (**Bonus**)](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ### Week 7 - Trees
 - [Same Tree](https://leetcode.com/problems/same-tree/)
