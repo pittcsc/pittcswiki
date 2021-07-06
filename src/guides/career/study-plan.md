@@ -250,7 +250,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [Longest Common Prefix (Bonus)](https://leetcode.com/problems/longest-common-prefix/)
 
-#### Week 10 - Graphs
+### Week 10 - Graphs
 - [Number of Connected Comps in Graph](https://protegejj.gitbook.io/algorithm-practice/leetcode/graph/323-number-of-connected-components-in-an-undirected-graph)
 - [Alien Dictionary](https://www.lintcode.com/problem/alien-dictionary/)
 - [Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/)
