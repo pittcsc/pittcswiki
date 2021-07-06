@@ -47,7 +47,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [Rotate Img](https://leetcode.com/problems/rotate-image/)
 - [Word Search](https://leetcode.com/problems/word-search/)
-- [Sliding Window Max (Bonus)](https://leetcode.com/problems/sliding-window-maximum/)
+- [Sliding Window Max (**Bonus**)](https://leetcode.com/problems/sliding-window-maximum/)
 
 ### Week 4 - Linked Lists
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
@@ -302,4 +302,3 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - [Range Sum Query (Bonus)](https://leetcode.com/problems/range-sum-query-immutable/)
 - [Range Sum Query 2d Immutable (Bonus)](https://leetcode.com/problems/range-sum-query-2d-immutable/)
-
