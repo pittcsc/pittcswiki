@@ -170,7 +170,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Product of Array Except Self](https://youtu.be/khTiTSZ5QZY)
 - [Maximum Subarray](https://youtu.be/jnoVtCKECmQ)
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/discuss/48276/Python-solution-with-detailed-explanation)
-- [Game of Life (Bonus)](https://youtu.be/YZ-W5DrKPQ0)
+- [Game of Life (**Bonus**)](https://youtu.be/YZ-W5DrKPQ0)
 
 ### Week 2 - Arrays + Intervals
 - [Min Rotate Sort Array](https://youtu.be/IzHR_U8Ly6c)
