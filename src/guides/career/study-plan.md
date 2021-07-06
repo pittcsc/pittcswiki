@@ -179,7 +179,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Container w Most Water](https://youtu.be/TI3e-17YAlc)
 - [Insert Interval](https://youtu.be/eeTToT5JUUY)
 - [Merge Intervals](https://youtu.be/iT9_MU2L3H0)
-- [Happy Number (Bonus)](https://youtu.be/gW4hSbRoQoY)
+- [Happy Number (**Bonus**)](https://youtu.be/gW4hSbRoQoY)
 
 ### Week 3 - Intervals + Matrix
 - [Non-overlapping Intervals](https://youtu.be/nXBQJoS1W8A)
@@ -188,7 +188,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Spiral Matrix](https://youtu.be/BdQ2AkaTgOA)
 - [Rotate Img](https://youtu.be/IdZlsG6P17w)
 - [Word Search](https://youtu.be/RqffW0smIbQ)
-- [Sliding Window Max (Bonus)](https://youtu.be/LiSdD3ljCIE)
+- [Sliding Window Max (**Bonus**)](https://youtu.be/LiSdD3ljCIE)
 
 ### Week 4 - Linked Lists
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
@@ -197,7 +197,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [Remove Nth Node](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
-- [Sort Colors (Bonus)](https://leetcode.com/problems/sort-colors/)
+- [Sort Colors (**Bonus**)](https://leetcode.com/problems/sort-colors/)
 
 ### Week 5 - String
 - [Reverse String](https://leetcode.com/problems/reverse-string/)
@@ -207,7 +207,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-- [Odd Even Linked List (Bonus)](https://leetcode.com/problems/odd-even-linked-list/)
+- [Odd Even Linked List (**Bonus**)](https://leetcode.com/problems/odd-even-linked-list/)
 
 ### Week 6 - String + Trees
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
@@ -219,7 +219,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 - [Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 - **Bonus** - Do all the Tree traversal problems iteratively
-- [Find Duplicate Number (Bonus)](https://leetcode.com/problems/find-the-duplicate-number/)
+- [Find Duplicate Number (**Bonus**)](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ### Week 7 - Trees
 - [Same Tree](https://leetcode.com/problems/same-tree/)
@@ -228,7 +228,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [Serialize + Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
-- [LRU Cache (Bonus)](https://leetcode.com/problems/lru-cache/)
+- [LRU Cache (**Bonus**)](https://leetcode.com/problems/lru-cache/)
 
 ### Week 8 - Trees 
 - [Construct Binary Tree From Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -237,7 +237,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [LCA of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Design Add + Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-- [University Career Fair (Bonus)](https://cdn.discordapp.com/attachments/758353765174083595/840082064090595388/cHg7Bod.png)
+- [University Career Fair (**Bonus**)](https://cdn.discordapp.com/attachments/758353765174083595/840082064090595388/cHg7Bod.png)
 
 ### Week 9 - Graphs
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/)
@@ -248,7 +248,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Longest Consecutive Seq](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
-- [Longest Common Prefix (Bonus)](https://leetcode.com/problems/longest-common-prefix/)
+- [Longest Common Prefix (**Bonus**)](https://leetcode.com/problems/longest-common-prefix/)
 
 ### Week 10 - Graphs
 - [Number of Connected Comps in Graph](https://protegejj.gitbook.io/algorithm-practice/leetcode/graph/323-number-of-connected-components-in-an-undirected-graph)
@@ -256,7 +256,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/)
 - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-- [Daily Temp (Bonus)](https://leetcode.com/problems/daily-temperatures/)
+- [Daily Temp (**Bonus**)](https://leetcode.com/problems/daily-temperatures/)
 
 #### Week 11 - Dynamic Programming
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
@@ -264,7 +264,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [Coin Change](https://leetcode.com/problems/coin-change/)
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [BST Iterator (Bonus)](https://leetcode.com/problems/binary-search-tree-iterator/)
+- [BST Iterator (**Bonus**)](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 #### Week 12 - Dynamic Programming 
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
@@ -273,7 +273,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [Word Break](https://leetcode.com/problems/word-break/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
-- [Max Area of Island (Bonus)](https://leetcode.com/problems/max-area-of-island/)
+- [Max Area of Island (**Bonus**)](https://leetcode.com/problems/max-area-of-island/)
 
 #### Week 13 - Binary
 - [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
@@ -281,7 +281,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [Missing Number](https://leetcode.com/problems/missing-number/)
 - [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
-- [Developer-Tester Integration (Bonus)](https://leetcode.com/discuss/interview-question/882739/Snowflake-or-Summer-2021-Internship-OA-or-Developer-Tester-Integration)
+- [Developer-Tester Integration (**Bonus**)](https://leetcode.com/discuss/interview-question/882739/Snowflake-or-Summer-2021-Internship-OA-or-Developer-Tester-Integration)
 
 #### Week 14 (Bonus) - Recursion and Backtracking
 - [Permutations](https://leetcode.com/problems/permutations/)
@@ -290,7 +290,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Subsets](https://leetcode.com/problems/subsets/)
 - [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 - [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
-- [Flatten Nested List Iterator (Bonus)](https://leetcode.com/problems/flatten-nested-list-iterator/)
+- [Flatten Nested List Iterator (**Bonus**)](https://leetcode.com/problems/flatten-nested-list-iterator/)
 
 #### Week 15 (Bonus) - Binary Search
 - [Discussion](https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
@@ -300,5 +300,5 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Capacity to Ship Packages within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
-- [Range Sum Query (Bonus)](https://leetcode.com/problems/range-sum-query-immutable/)
-- [Range Sum Query 2d Immutable (Bonus)](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+- [Range Sum Query (**Bonus**)](https://leetcode.com/problems/range-sum-query-immutable/)
+- [Range Sum Query 2d Immutable (**Bonus**)](https://leetcode.com/problems/range-sum-query-2d-immutable/)
