@@ -22,7 +22,7 @@ CS 0441 Discrete Structures (discrete mathematics), is the study of mathematical
 
 ## Why do we study discrete structures in computer science?  
 
-Since all of a computer's data is represented as discrete bits, (0 or 1), it makes sense that we'd want to be familiar with their properties. You'll find the practical applications of discrete math in algorithm analysis, computability theory, cryptography, writing proofs about algorithms, etc. Discrete math is the mathematical foundation that is necessary in order to understand the deeper, theoretical, and more complex topics in computing.
+Since all of a computer's data is represented as discrete bits, (0 or 1), it makes sense that we'd want to be familiar with their properties. You'll find practical applications of discrete math in algorithm analysis, computability theory, cryptography, writing proofs about algorithms, etc. Discrete math is the mathematical foundation that is necessary in order to understand the deeper, theoretical, and more complex topics in computing.
 
 ## How to succeed in 441:  
 
@@ -58,3 +58,7 @@ You don't have to follow all of these guidelines to pass the course, but these a
 ### **Exams**
 
 - If you did well on your homeworks and did a reasonable amound of practice problems, you should do well on the exam.
+
+## Conclusion:
+
+You can learn a *massive* amount of information from this course. You will have better problem solving skills, you'll be better prepared to understand theoretical topics in CS, and your logical thinking will be much more sound. I will admit this was a very challenging course. But if you spend enough time engaging with the material, you can and will get very comfortabile with it. Remember, if a course isn't challenging, it's probalby not increasing the value of your education.
