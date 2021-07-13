@@ -59,4 +59,4 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ## Conclusion:
 
-You can learn a *massive* amount of information from this course. You will have better problem solving skills, you'll be better prepared to understand theoretical topics in CS, and your logical thinking will be much more sound. I will admit this was a very challenging course. But if you spend enough time engaging with the material, you can and will get very comfortabile with it. Remember, if a course isn't challenging, it's probalby not increasing the value of your education.
+You can learn a *massive* amount of information from this course. You will have better problem solving skills, you'll be better prepared to understand theoretical topics in CS, and your logical thinking will be much more sound. I will admit this is a challenging course, but if you spend enough time engaging with the material you will succeed! Remember, if a course isn't challenging, it's probalby not increasing the value of your education.
