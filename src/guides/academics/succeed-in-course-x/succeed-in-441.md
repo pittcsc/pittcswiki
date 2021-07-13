@@ -6,7 +6,7 @@ search_tags:
 
 ## What is Discrete Structures?  
 
-CS 0441 Discrete Structures (discrete mathematics), is the study of mathematical structures that are discrete, rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the itegers (which are discrete by nature), whereas a continuous field like calculus focuses on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
+CS 0441 Discrete Structures (discrete mathematics), is the study of mathematical structures that are discrete, rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
 - Logic and Proofs
   - This is the theoretical foundation of the course which teaches you how to derive additional information from some given information. Thoroughly understanding the proofing techniques is incredibly important because you will be using these techniques throughout the rest of the course. 
 - Sets
