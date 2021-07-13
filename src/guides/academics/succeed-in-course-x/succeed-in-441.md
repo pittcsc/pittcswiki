@@ -39,12 +39,12 @@ You don't have to follow all of these guidelines to pass the course, but these a
 - If you're *really* stuck, don't look up the answer (especially on a homework, thats cheating). Often times is helpful to step away from a problem or even sleep on it.
 
 ### **Readings**
+
 - Read the assigned textbook chapter before class. Coming to class with a basic understanding of what will be taught in lecture is profoundly helpful. I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I would usually read at a decently deep level, and if I couldn't wrap my head around an idea, I'd just delegate learning that topic to lecture.
 
 ### **The textbook**
 
 - *Discrete Mathematics and its Applications* by Kenneth Rosen is a fantastic textbook. The concepts are explained well and there are in-text exercises to get you ready for the end-of-chapter problems. At the end of each chapter is around 50 practice problems, and the solutions to the odd-numbered problems can be found at the end of the book. A free pdf version of the textbook can be found easily. I'm not going to provide the link because that's crime, but here's something: https://bit.ly/3wB7BZi
-
 
 ### **Homeworks**
 
@@ -54,10 +54,6 @@ You don't have to follow all of these guidelines to pass the course, but these a
 ### **Studying for exams**
 
 - As with most CS courses, avoid rote memorizaiton. Computer science is very a conceptual field and memorization plays a miniscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthented with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book. 
-
-### **Exams**
-
-- If you did well on your homeworks and did a reasonable amound of practice problems, you should do well on the exam.
 
 ## Conclusion:
 
