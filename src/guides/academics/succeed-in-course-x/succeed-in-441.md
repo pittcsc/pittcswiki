@@ -55,7 +55,7 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ### **Studying for exams**
 
-- As with most CS courses, avoid rote memorizaiton. Computer science is very a conceptual field and memorization plays a miniscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthented with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book. 
+- As with most CS courses, avoid rote memorizaiton. Computer science is very a conceptual field and memorization plays a miniscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthened with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book. 
 
 ## Conclusion:
 
