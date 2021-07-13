@@ -38,7 +38,7 @@ You don't have to follow all of these guidelines to pass the course, but these a
 - Go to office hours.
 - Engage with the course material before, during, and after lecture.
 - Let yourself get stuck.. then get unstuck. 
-- If you're *really* stuck, don't look up the answer (especially on a homework, thats cheating). Often times is helpful to step away from a problem or even sleep on it.
+- If you're *really* stuck, don't look up the answer (especially on a homework, thats cheating). Often times it is helpful to step away from a problem or even sleep on it.
 
 ### **Readings**
 
