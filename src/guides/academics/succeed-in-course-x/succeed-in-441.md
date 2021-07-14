@@ -34,19 +34,20 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ### **High level ideas**
 
-- Have a problem solving mindset, and practice proofing.
+- Have a problem solving mindset.
 - Go to office hours.
-- Engage with the course material before, during, and after lecture.
+- Engage with the course material before, during, and after each lecture.
+- Practice proofs frequently.
 - Let yourself get stuck.. then get unstuck. 
-- If you're *really* stuck, don't look up the answer (especially on a homework, thats cheating). Often times it is helpful to step away from a problem or even sleep on it.
+- If you're *really* stuck, don't look up the answer on the internet (especially on a homework, thats cheating). Often times it is helpful to step away from a problem or even sleep on it.
 
 ### **Readings**
 
-- Read the assigned textbook chapter before class. Coming to class with a basic understanding of what will be taught in lecture is profoundly helpful. I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I would usually read at a decently deep level, and if I couldn't wrap my head around an idea, I'd just delegate learning that topic to lecture.
+- I recommend readings the assigned textbook chapter before class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I usually would read with pretty good depth, trying to understand the core concepts of the reading, and if I couldn't wrap my head around some difficult idea, I'd just wait unitl lecture to learn that topic.
 
 ### **The textbook**
 
-- *Discrete Mathematics and its Applications* by Kenneth Rosen is a fantastic textbook. The concepts are explained well and there are in-text exercises to get you ready for the end-of-chapter problems. At the end of each chapter is around 50 practice problems, and the solutions to the odd-numbered problems can be found at the end of the book. A free pdf version of the textbook can be found easily. I'm not going to provide the link because that's crime, but here's something: https://bit.ly/3wB7BZi
+- *Discrete Mathematics and its Applications* by Kenneth Rosen is a fantastic textbook. The concepts are explained well and there are in-text exercises to get you ready for the end-of-chapter problems. At the end of each chapter is around 50 practice problems, and the solutions to the odd-numbered problems can be found at the end of the book. A free pdf version of the textbook can be found easily. I'm not going to provide the link because that's probably crime, but here's something: https://bit.ly/3wB7BZi
 
 ### **Homeworks**
 
