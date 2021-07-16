@@ -52,6 +52,7 @@ You don't have to follow all of these guidelines to pass the course, but these a
 ### **Homeworks**
 
 - Start the homeworks as early as possible. You don't want to be stuck having to write 5+ proofs with 3 hours until the submission deadline, trust me. If you get stuck on a problem, move on and finish as many as you can. Then, go to office hours and address the problems that you are stuck on. Also, do the bonus problems.
+- *A word of advice from a 441 UTA:* early after your homework is graded, **go to office hours (UTA or prof) and ask *why* you got the problems wrong that you did.** This is helpful for you because it fills in *important* gaps of knowledge that will be needed for exam performance. Also, if you go **soon after the assignment is graded** rather than right before an exam, it prevents crowding during the UTA's office hours. Crowding is stressful for the UTAs and it prevents some students from getting their needs addressed.
 - The homeworks will start out pretty easy, but they will ramp up in difficulty very quickly. Once proofs are introduced, homeworks will probably take about twice the amount of that they did before.
 
 ### **Studying for exams**
