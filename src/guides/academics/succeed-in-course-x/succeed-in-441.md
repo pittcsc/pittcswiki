@@ -39,7 +39,7 @@ You don't have to follow all of these guidelines to pass the course, but these a
 - Engage with the course material before, during, and after each lecture.
 - Practice proofs frequently.
 - **You WILL get stuck on many problems.** It's natural and it happens to everybody. Spend time with the problem, get familiar and comfortable with it, and the answer will come to you eventually.  
-- Even if you're *really* stuck, **DO NOT look up the answer on the internet,** especially on a homework, that's cheating. Cheating = F in the course, and you rob yourself of the opportunity to build your problem-solving muscles. Often times it is helpful to step away from a problem or even sleep on it (one of many reasons to start assignments early).
+- Even if you're *really* stuck, **DO NOT look up the answer on the internet.** Especially on a homework, that's cheating. Cheating = F in the course, and you rob yourself of the opportunity to build your problem-solving muscles. Often times it is helpful to step away from a problem or even sleep on it (one of many reasons to start assignments early).
 
 ### **Preparation**
 
