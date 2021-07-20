@@ -22,7 +22,7 @@ CS 0441 Discrete Structures (discrete mathematics), is the study of mathematical
 - Counting
   - Combinatorics, pronounced (com-bin-a-tor-icks), is the study of arranging objects. You'll learn about how many ways you can arrange a number of objects in ordered or unordered arrangements of objects. For example, how many bit strings can be made from a sequence of 8 bits?
 
-## Why do we study discrete structures in computer science?  
+## Why do we study discrete mathematics in computer science?  
 
 Since all of a computer's data is represented as discrete bits, (0 or 1), it makes sense that we'd want to be familiar with their properties. You'll find practical applications of discrete math in algorithm analysis, computability theory, cryptography, writing proofs about algorithms, etc. Discrete math is the mathematical foundation that is necessary in order to understand the deeper, theoretical, and more complex topics in computing.
 
@@ -41,9 +41,13 @@ You don't have to follow all of these guidelines to pass the course, but these a
 - Let yourself get stuck.. then get unstuck. 
 - If you're *really* stuck, don't look up the answer on the internet (especially on a homework, thats cheating). Often times it is helpful to step away from a problem or even sleep on it.
 
+### **Preparation**
+
+- To specify, this section will be about the preparation you can do before the *semester*. Walking into the first day of lecture with a solid understanding of the course material is a fantastic learning advantage and confidence booster. Before the semester starts, I recommend learning a little bit about discrete math on your own. Regarding depth at which you should read / learn, I recommend going an inch deep and a mile wide. Instead of learning only the *first* course topic in its entirety, learn a little bit about all of the topics. Learning everything about logic and proofs before the semester will just make the first month of class boring, and the learning benefits will be over as soon as the next topic beings (which means your workload will increase quite a bit). If you learn a little bit about every topic, you'll have the learning advantage throughout the entire semester, and your workload will stay more consistent. That being said, if you find yourself excited about a particular topic and you wish to read deeper, do it!!!!
+
 ### **Readings**
 
-- I recommend readings the assigned textbook chapter before class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I usually would read with pretty good depth, trying to understand the core concepts of the reading, and if I couldn't wrap my head around some difficult idea, I'd just wait unitl lecture to learn that topic. If you didn't have the time or energy to do any reading, that's okay. Quickly look through the lecture slides before class to get a glance at the topics and concepts to be covered. You don't want any surprises during lecture! 
+- I recommend readings the assigned textbook chapter class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I usually would read with pretty good depth, trying to understand the core concepts of the reading, and if I couldn't wrap my head around some difficult idea, I'd just wait unitl lecture to learn that topic. If you didn't have the time or energy to do any reading, that's okay. Quickly look through the lecture slides before class to get a glance at the topics and concepts to be covered. You don't want any surprises during lecture! 
 
 ### **The textbook**
 
