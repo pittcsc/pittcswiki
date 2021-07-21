@@ -1,20 +1,20 @@
 ---
-title: "How to Succeed in CS0441, Discrete Structures"
+title: "How to Succeed in CS0441, Discrete Structures for Computer Science"
 search_tags: 
   - "441"
 ---
 
 Preface: *If you want to do well in any course, the bare minimum is attending all lectures and doing all homework assignments.*
 
-## What is Discrete Structures?  
+## What is *Discrete Structures for Computer Science?*  
 
-CS 0441 Discrete Structures (discrete mathematics), is the study of mathematical structures that are discrete rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
+CS 0441 Discrete Structures for Computer Science is a mathematics course which focuses on the study of mathematical structures that are discrete rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
 - Logic and Proofs
   - This is the theoretical foundation of the course which teaches you how to derive additional information from some given information. Thoroughly understanding the proofing techniques is incredibly important because you will be using these techniques throughout the rest of the course. 
 - Sets
-  - Sets are unordered collections of distinct objects, which have their own unique properties and laws. An example of a set is **Z**, the set of all integers. Another example is the set V of all vowels, V = {a, e, i, o, u}. So long as our sets contain distinct objects, we can define any set we want!
+  - Sets are unordered collections of distinct objects, which have their own unique properties and laws. An example of a set is **Z**, the set of all integers. Another example is the set V of all vowels, $$V = \{a, e, i, o, u\}$$ You will learn about set operations, functions which map from sets to sets, and you will use sets when doing proofs. 
 - Functions
-  - Functions are mappings from inputs to outputs, from set A to set B. Functions also have their own properties and sub-topics, such as correspondences and composition. For example, think about the function f(x) = x^2, which maps from Z to Z+, from the set of integers to the set of positive integers.
+  - Functions are mappings from inputs to outputs, from set A to set B. Functions also have their own properties and sub-topics, such as correspondences and composition. For example, think about the function $$f(x) = x^2 + 1$$, which maps from $Z\rightarrow Z+$, from the set of *all* integers to the set of all *positive* integers.
 - Sequences and Summations
   - In contrast to the unordered sets, sequences are ordered structures. Take for example the sequence 0, 1, 1, 2, 3, 5, 8, ... , the well known Fibonacci sequence, where each number is the sum of the two preceding numbers (given first is 0 and second is 1). Summations are the addition of terms over a sequence, and these have handy applications to algorithm analysis. 
 - Recursion
