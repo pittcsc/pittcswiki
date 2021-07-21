@@ -36,12 +36,22 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ### **High level ideas**
 
-- Have a problem solving mindset.
-- Go to office hours.
-- Engage with the course material before, during, and after each lecture.
-- Practice proofs frequently.
-- **You WILL get stuck on many problems.** It's natural and it happens to everybody. Spend time with the problem, get familiar and comfortable with it, and the answer will come to you eventually.  
-- Even if you're *really* stuck, **DO NOT look up the answer on the internet.** Especially on a homework, that's cheating. Cheating = F in the course, and you rob yourself of the opportunity to build your problem-solving muscles. Often times it is helpful to step away from a problem or even sleep on it (one of many reasons to start assignments early).
+- **Have a problem solving mindset**
+  - Get curious about the topics and problems
+  - Approach challenges with an open mind
+  - Appreciate and understand clever solutions, whether or not you came up with them
+  - Don't just headbut the problem, try to view it and solve it from all angles
+- Go to office hours
+- Engage with the course material before, during, and after each lecture
+  - Before lecture: read the chapter and try some exercises
+  - During lecture: focus, and think conceptually about what the professor is saying
+  - After lecture: do the assignments, do more practice problems, write and solve your own problems, etc
+- Practice proofs frequently
+- **You WILL get stuck on many problems.** It's natural and it happens to everybody. Spend time with the problem, get familiar and comfortable with it, and the answer will come to you eventually. If you want to do math right, *enjoy* being stuck. 
+  - Tweet: https://twitter.com/virtualcourtney/status/1358885975808749574
+  - Nice article about being stuck: https://mathwithbaddrawings.com/2017/09/20/the-state-of-being-stuck/
+  - Video about being stuck: https://www.youtube.com/watch?v=kenf8E1RuoA
+- Even if you're *really* stuck, **DO NOT look up the answer on the internet.** Especially on a homework, that's cheating. Cheating = F in the course, and you rob yourself of the opportunity to build your problem-solving muscles. Often times it is helpful to step away from a problem or even sleep on it (one of many reasons to start assignments early)
 
 ### **Preparation**
 
@@ -49,7 +59,7 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ### **Readings**
 
-- I recommend readings the assigned textbook chapter class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I usually would read with pretty good depth, trying to understand the core concepts of the reading, and if I couldn't wrap my head around some difficult idea, I'd just wait unitl lecture to learn that topic. If you didn't have the time or energy to do any reading, that's okay. Quickly look through the lecture slides before class to get a glance at the topics and concepts to be covered. You don't want any surprises during lecture! 
+- I recommend readings the assigned textbook chapter class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. Additionally, it's helpful to hear topics explained from a different perspective. Your professor might not explain a concept in a way that suits you, and when that happens it's nice to have the textbook explanation (don't forget, a textbook is really a professor. Dr. Rosen in this case). I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. I typically read with medium depth, trying to understand the core concepts of the reading. If I couldn't wrap my head around some difficult idea, I'd just wait until lecture to learn that topic. If you didn't have the time or energy to do any reading, that's okay. Quickly look through the lecture slides before class to get a glance at the topics and concepts to be covered. You don't want any surprises during lecture! 
 
 ### **The textbook**
 
@@ -57,13 +67,14 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ### **Homeworks**
 
-- Start the homeworks as early as possible. You don't want to be stuck having to write 5+ proofs with 3 hours until the submission deadline, trust me. If you get stuck on a problem, move on and finish as many as you can. Then, go to office hours and address the problems that you are stuck on. Also, do the bonus problems.
-- *A word of advice from a 441 UTA:* early after your homework is graded, **go to office hours (UTA or prof) and ask *why* you got the problems wrong that you did.** This is helpful for you because it fills in *important* gaps of knowledge that will be needed for exam performance. Also, if you go **soon after the assignment is graded** rather than right before an exam, it prevents crowding during the UTA's office hours. Crowding is stressful for the UTAs and it prevents some students from getting their needs addressed.
-- The homeworks will start out pretty easy, but they will ramp up in difficulty very quickly. Once proofs are introduced, homeworks will probably take about twice the amount of that they did before.
+- Start the homeworks as early as possible. You don't want to be stuck having to write 5+ proofs with 3 hours until the submission deadline, trust me. If you get stuck on a problem, move on and finish as many as you can. Then, go to office hours and address the problems that you are stuck on. Also, do the starred problems in the textbook. While you *may* get stuck on the unstarred problems, you **will** get stuck on the starred ones. These provide fantastic opportunities to get stuck when attempting questions that require a bit more creativity. 
+- When the homework is graded and you see which problems you got wrong, figure out why. Try similar odd problems from the textbook (if you got 22 wrong, 21 and 23 are probably similar, and since they're odd, the answers can be found in the back of the textbook). Try solving the problem again from scratch, or try solving a simpler version of the same problem to see where your weaknesses lie. You can also refer back to the text or lecture recording and re-learn the topic you're struggling with. If you are still stuggling to solve the problem, see the next bullet. 
+- **Go to office hours (UTA or prof) and ask *why* you got the problems wrong that you did.** This is helpful for you because it fills in *important* gaps of knowledge that will be needed for exam performance. Also, if you go **soon** after the assignment is graded rather than right before an exam, it prevents crowding during the UTA's office hours. Crowding is stressful for the UTAs and it prevents some students from getting their needs addressed.
+- The homeworks will start out relatively easy, but they will ramp up in difficulty very quickly. Once proofs are introduced, homeworks will probably take about twice the amount of that they did before.
 
 ### **Studying for exams**
 
-- As with most CS courses, avoid rote memorizaiton. Computer science is very a conceptual field and memorization plays a miniscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthened with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book. 
+- As with most CS courses, avoid rote memorization. Computer science is very a conceptual field and memorization plays a miniscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthened with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book.
 
 ## Conclusion:
 
