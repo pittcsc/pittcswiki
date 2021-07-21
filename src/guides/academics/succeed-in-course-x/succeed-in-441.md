@@ -18,13 +18,15 @@ CS 0441 Discrete Structures for Computer Science is a mathematics course which f
 - Sequences and Summations
   - In contrast to the unordered sets, sequences are ordered structures. Take for example the sequence 0, 1, 1, 2, 3, 5, 8, ... , the well known Fibonacci sequence, where each number is the sum of the two preceding numbers (given first is 0 and second is 1). Summations are the addition of terms over a sequence, and these have handy applications to algorithm analysis. 
 - Recursion
-  - A more theoretical, mathematical, and proof-focused version of the recursion you've seen in a programming class. 
+  - A more theoretical, mathematical, and proof-focused version of the recursion you've seen in a programming class. Also, you'll be able to do much more with recursion in 441. You can use recursion to define sequences like the Fibonacci sequence, you can define sets and functions recursively.
 - Counting
   - Combinatorics, pronounced (com-bin-a-tor-icks), is the study of arranging objects. You'll learn about how many ways you can arrange a number of objects in ordered or unordered arrangements of objects. For example, how many bit strings can be made from a sequence of 8 bits?
+- Probability
+  - Probability centers around the likelihood of a certain event happening given a set of conditions. You'll learn about finite probability, probabilities of compliments and unions of events, conditional probabilities, dependent vs. independent events, and much more. 
 
 ## Why do we study discrete mathematics in computer science?  
 
-Since all of a computer's data is represented as discrete bits, (0 or 1), it makes sense that we'd want to be familiar with their properties. You'll find practical applications of discrete math in algorithm analysis, computability theory, cryptography, writing proofs about algorithms, etc. Discrete math is the mathematical foundation that is necessary in order to understand the deeper, theoretical, and more complex topics in computing.
+The applications of discrete math shine well in math-y CS subjects. Consider algorithm analysis, databases, machine learning/AI, networking, compression, computability theory, cryptography, writing proofs about algorithms, etc. Although it helps with the theoretical side of CS, discrete math is also about connecting theory to practice. If we understand the math which underlies our code and algorithms, we can make simpler and more efficient software.
 
 ## How to succeed in 441:  
 
