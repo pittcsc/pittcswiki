@@ -1,7 +1,14 @@
 ---
 title: "How to Succeed in CS0441, Discrete Structures for Computer Science"
-search_tags: 
-  - "441"
+author: "Dylan Feehan"
+search_tags: [
+"discrete structures for computer science",
+"441",
+"discrete structures",
+"discrete math",
+"CS0441",
+"math"
+]
 ---
 
 Preface: *If you want to do well in any course, the bare minimum is attending all lectures and doing all homework assignments.*
