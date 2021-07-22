@@ -8,7 +8,7 @@ Preface: *If you want to do well in any course, the bare minimum is attending al
 
 ## What is *Discrete Structures for Computer Science?*  
 
-CS 0441 Discrete Structures for Computer Science is a mathematics course which focuses on the study of mathematical structures that are discrete rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
+CS 0441 Discrete Structures for Computer Science is a mathematics course which focuses on the study of mathematical structures that are discrete rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses more on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
 - Logic and Proofs
   - This is the theoretical foundation of the course which teaches you how to derive additional information from some given information. Thoroughly understanding the proofing techniques is incredibly important because you will be using these techniques throughout the rest of the course. 
 - Sets
@@ -22,7 +22,10 @@ CS 0441 Discrete Structures for Computer Science is a mathematics course which f
 - Counting
   - Combinatorics, pronounced (com-bin-a-tor-icks), is the study of arranging objects. You'll learn about how many ways you can arrange a number of objects in ordered or unordered arrangements of objects. For example, how many bit strings can be made from a sequence of 8 bits?
 - Probability
-  - Probability centers around the likelihood of a certain event happening given a set of conditions. You'll learn about finite probability, probabilities of compliments and unions of events, conditional probabilities, dependent vs. independent events, and much more. 
+  - Probability centers around the likelihood of a certain event happening given a set of conditions. You'll learn about finite probability, probabilities of compliments and unions of events, conditional probabilities, dependent vs. independent events, and much more.
+- You *may* cover either / both of these topics: 
+  - Induction: a powerful proofing technique. You'll learn about mathematical induction, strong induction, and structural induction.
+  - Relations: the study of relationships between elements of sets.
 
 ## Why do we study discrete mathematics in computer science?  
 
@@ -55,12 +58,14 @@ You don't have to follow all of these guidelines to pass the course, but these a
 
 ### **Preparation**
 
-To specify, this section will be about the preparation you can do before the *semester*. Walking into the first day of lecture with a solid understanding of the course material is a fantastic learning advantage and confidence booster. Before the semester starts, we recommend learning a little bit about discrete math on your own. 
-Regarding depth at which you should read / learn, we recommend going an inch deep and a mile wide. Instead of learning only the *first* course topic in its entirety, learn a little bit about all of the topics. Learning everything about logic and proofs before the semester will just make the first month of class boring, and the learning benefits will be over as soon as the next topic beings (which means your workload will increase quite a bit). If you learn a little bit about every topic, you'll have the learning advantage throughout the entire semester, and your workload will stay more consistent. That being said, if you find yourself excited about a particular topic and you wish to read deeper, do it!!!!
+This section will be about the preparation you can do before the *semester*. Walking into the first day of lecture with a solid understanding of the course material is a fantastic learning advantage and confidence booster. Before the semester starts, we recommend learning a little bit about discrete math on your own. 
+Regarding depth at which you should read / learn, we recommend going an inch deep and a mile wide. Instead of learning only the *first* course topic in its entirety, learn a little bit about all of the topics.  
+  
+Learning everything about logic and proofs before the semester will just make the first month of class boring, and the learning benefits will be over as soon as the next topic beings (which means your workload will increase quite a bit). If you learn a little bit about every topic, you'll have the learning advantage throughout the entire semester, and your workload will stay more consistent. That being said, if you find yourself excited about a particular topic and you wish to read deeper, do it!!!!
 
 ### **Readings**
 
-We recommend readings the assigned textbook chapter class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. Additionally, it's helpful to hear topics explained from a different perspective. Your professor might not explain a concept in a way that suits you, and when that happens it's nice to have the textbook explanation (don't forget, a textbook is really a professor. Dr. Rosen in this case). I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. It works well to read with medium depth, trying to understand the core concepts of the reading. If you can't wrap your head around some difficult idea, just wait until lecture to learn that topic.  
+We recommend readings the assigned textbook chapter class. Coming to class with a sound understanding of what will be taught in lecture is profoundly helpful. Additionally, it's helpful to hear topics explained from a different perspective. Your professor might not explain a concept in a way that suits you, and when that happens it's nice to have the textbook explanation (don't forget, a textbook is really a professor. Dr. Rosen in this case). I've always found it beneficial to read ahead before class, then use the lecture as more of a review / study session, that way I never feel like I'm actually studying. You can choose the depth at which to read before class. It works well to read with medium depth, try to understand the core concepts of the reading. If you can't wrap your head around a difficult idea, wait until lecture to address it.  
   
 If you didn't have the time or energy to do any reading, that's okay. Quickly look through the lecture slides before class to get a glance at the topics and concepts to be covered. You don't want any surprises during lecture! 
 
@@ -74,9 +79,9 @@ Here's a free pdf version of the book: https://1lib.us/book/4985595/cc406a?id=49
 
 Start the homeworks as early as possible. You don't want to be stuck having to write 5+ proofs with 3 hours until the submission deadline. If you get stuck on a problem, move on and finish as many as you can. Then, go to office hours and address the problems that you are stuck on. Also, do the starred problems in the textbook (they may be bonus questions). While you *may* get stuck on the regular problems, you **will** get stuck on the starred ones. These provide fantastic opportunities to get stuck when attempting questions that require a bit more creativity. 
  
-When the homework is graded and you see which problems you got wrong, figure out why. Try similar odd problems from the textbook (if you got 22 wrong, 21 and 23 are probably similar, and since they're odd, the answers can be found in the back of the textbook). Try solving the problem again from scratch, or try solving a simpler version of the same problem to see where your weaknesses lie. You can also refer back to the text or lecture recording and re-learn the topic you're struggling with. If you are still stuggling to solve the problem, see the next bullet. 
+When the homework is graded and you see which problems you got wrong, figure out why. This will fill in important gaps in knowledge that will be important for exams. Try odd problems (which have answers) that are similar to those you got wrong. Try solving the problem again from scratch, or try solving a simpler version of the same problem to see where your weaknesses lie. Refer back to the text or lecture recording and re-learn a topic if you're struggling with it. If you still cannot to solve the problem, see the next bullet. 
 
-**Go to office hours (UTA or prof) and ask *why* you got the problems wrong that you did.** This is helpful for you because it fills in *important* gaps of knowledge that will be needed for exam performance. Also, if you go **soon** after the assignment is graded rather than right before an exam, it prevents crowding during the UTA's office hours. Crowding is stressful for the UTAs and it prevents some students from getting their needs addressed.
+**Go to office hours (UTA or prof) and ask *why* you got the problems wrong that you did.** If you go **soon** after the assignment is graded rather than right before an exam, it prevents crowding during the UTA's office hours. Crowding is stressful for the UTAs and it prevents some students from getting their needs addressed.
 
 The homeworks will start out relatively easy, but they will ramp up in difficulty very quickly. Once proofs are introduced, homeworks will probably take about twice the amount of that they did before.
 
