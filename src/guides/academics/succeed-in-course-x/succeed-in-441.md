@@ -20,9 +20,9 @@ CS 0441 Discrete Structures for Computer Science is a mathematics course which f
 - Logic and Proofs
   - This is the theoretical foundation of the course which teaches you how to derive additional information from some given information. Thoroughly understanding the proofing techniques is incredibly important because you will be using these techniques throughout the rest of the course. 
 - Sets
-  - Sets are unordered collections of distinct objects, which have their own unique properties and laws. An example of a set is $\mathbb{Z}$, the set of all integers. Another example is the set V of all vowels, $$V = \{a, e, i, o, u\}$$ You will learn about set operations, functions which map from sets to sets, and you will use sets when doing proofs. 
+  - Sets are unordered collections of distinct objects, which have their own unique properties and laws. An example of a set is Z, the set of all integers. Another example is the set V of all vowels, V = {a, e, i, o, u}. You will learn about set operations, functions which map from sets to sets, and you will use sets when doing proofs. 
 - Functions
-  - Functions are mappings from inputs to outputs, from set A to set B. Functions also have their own properties and sub-topics, such as correspondences and composition. For example, think about the function $$f(x) = x^2 + 1$$ which maps from $\mathbb{Z}\rightarrow \mathbb{Z}+$, from the set of *all* integers to the set of all *positive* integers.
+  - Functions are mappings from inputs to outputs, from set A to set B. Functions also have their own properties and sub-topics, such as correspondences and composition. For example, think about the function f(x) = x^2 + 1 which maps from Z->Z+, from the set of *all* integers to the set of all *positive* integers.
 - Sequences and Summations
   - In contrast to the unordered sets, sequences are ordered structures. Take for example the sequence 0, 1, 1, 2, 3, 5, 8, ... , the well known Fibonacci sequence, where each number is the sum of the two preceding numbers (given first is 0 and second is 1). Summations are the addition of terms over a sequence, and these have handy applications to algorithm analysis. 
 - Recursion
