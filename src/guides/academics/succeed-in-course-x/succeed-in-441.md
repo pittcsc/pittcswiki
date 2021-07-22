@@ -12,7 +12,7 @@ CS 0441 Discrete Structures for Computer Science is a mathematics course which f
 - Logic and Proofs
   - This is the theoretical foundation of the course which teaches you how to derive additional information from some given information. Thoroughly understanding the proofing techniques is incredibly important because you will be using these techniques throughout the rest of the course. 
 - Sets
-  - Sets are unordered collections of distinct objects, which have their own unique properties and laws. An example of a set is $\mathbb{Z}$ the set of all integers. Another example is the set V of all vowels, $$V = \{a, e, i, o, u\}$$ You will learn about set operations, functions which map from sets to sets, and you will use sets when doing proofs. 
+  - Sets are unordered collections of distinct objects, which have their own unique properties and laws. An example of a set is $\mathbb{Z}$, the set of all integers. Another example is the set V of all vowels, $$V = \{a, e, i, o, u\}$$ You will learn about set operations, functions which map from sets to sets, and you will use sets when doing proofs. 
 - Functions
   - Functions are mappings from inputs to outputs, from set A to set B. Functions also have their own properties and sub-topics, such as correspondences and composition. For example, think about the function $$f(x) = x^2 + 1$$ which maps from $\mathbb{Z}\rightarrow \mathbb{Z}+$, from the set of *all* integers to the set of all *positive* integers.
 - Sequences and Summations
@@ -51,9 +51,9 @@ You don't have to follow all of these guidelines to pass the course, but these a
   - After lecture: do the assignments, do more practice problems, write and solve your own problems, etc
 - Practice proofs frequently
 - **You WILL get stuck on many problems.** It's natural and it happens to everybody. Spend time with the problem, get familiar and comfortable with it, and the answer will come to you eventually. If you want to do math right, *enjoy* being stuck. 
-  - Tweet: https://twitter.com/virtualcourtney/status/1358885975808749574
+  - Wholesome tweet: https://twitter.com/virtualcourtney/status/1358885975808749574
   - Nice article about being stuck: https://mathwithbaddrawings.com/2017/09/20/the-state-of-being-stuck/
-  - Video about being stuck: https://www.youtube.com/watch?v=kenf8E1RuoA
+  - Video about struggling with math: https://www.youtube.com/watch?v=kenf8E1RuoA
 - Even if you're *really* stuck, **DO NOT look up the answer on the internet.** Especially on a homework, that's cheating. Cheating = F in the course, and you rob yourself of the opportunity to build your problem-solving muscles. Often times it is helpful to step away from a problem or even sleep on it (one of many reasons to start assignments early)
 
 ### **Preparation**
