@@ -222,6 +222,11 @@ header {
     margin-left: 50rem;
     @apply text-xs;
   }
+
+  .toc-heading-depth-6 {
+    margin-left: 60rem;
+    @apply text-xs;
+  }
 }
 
 .landing-image {
@@ -270,4 +275,36 @@ header {
 
 button.bg-pittgold.border {
   border-color: #efa300;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  position: absolute;
+  visibility: hidden;
+  width: 200px;
+  z-index: 1;
+  bottom: 150%;
+  left: 25%;
+  margin-left: -60px;
+}
+
+@media only screen and (min-width: 600px) {
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top-color: #ffffff;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 }

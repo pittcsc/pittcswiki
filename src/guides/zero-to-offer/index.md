@@ -11,8 +11,6 @@ Zero to Offer (02O) is a seminar series held by the Pitt Computer Science Club d
 
 These guides are a part of the course and will help you land offers from **top** tech companies!  
 
-> Interested in joining? Pre-register [here](https://forms.gle/mNx58EvtaVnWK1rL9)
-
 ## Why Intern?
 
 The opportunity to be a software engineering intern at top company is an incredible privilege. As a college student you will get to be showered with benefits and perks like:

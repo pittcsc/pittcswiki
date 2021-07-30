@@ -1,10 +1,11 @@
 import React from "react"
+import ProfessorTooltip from "./professor-tooltip"
 
 const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
   return (
     <div className="border shadow-sm mb-4">
       <div className="bg-gray-100 flex flex-col md:flex-row justify-between text-gray-900 px-3 py-1 border-b">
-        <span>
+        <span className="flex flex-col sm:flex-row">
           <span className="mr-4">
             <span className="text-gray-500">Term </span>
             <span className="font-bold">
@@ -13,7 +14,7 @@ const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
           </span>
           <span>
             <span className="text-gray-500">Professor </span>
-            <span className="font-bold"> {prof} </span>
+            <span className="font-bold"> <ProfessorTooltip prof={prof} /> </span>
           </span>
         </span>
         <span>

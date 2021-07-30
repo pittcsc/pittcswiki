@@ -119,7 +119,7 @@ const EditIcon = (
 
 const FreshnessDisclaimer = ({ lastUpdated }) => {
   // How old do we consider something to display a banner? In  second
-  const FRESHNESS_THRESHOLD_IN_DAYS = 200
+  const FRESHNESS_THRESHOLD_IN_DAYS = 400
   const diff = (new Date() - new Date(lastUpdated)) / (1000 * 60 * 60 * 24)
   if (isNaN(diff) || diff < FRESHNESS_THRESHOLD_IN_DAYS) return null
 

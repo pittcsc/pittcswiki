@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import React, { useState } from "react"
 import { cleanCourseId, cleanCourseTitle } from "../../utils/course-namer"
 import { CSLegendData, PrereqLegend, RequirementDots } from "./requirements"
@@ -28,7 +28,7 @@ const Course = ({
         role="button"
         tabIndex={0}
         className={
-          "hidden md:inline-block course-pill" +
+          "hidden md:inline-block course-pill select-none" +
           (isSelected ? " selected" : "") +
           (showTitle || isPrereqFilterModeOn ? " w-auto " : "") +
           (customCss ? customCss : "")
@@ -40,6 +40,7 @@ const Course = ({
           }
         }
         onClick={onClick}
+        onDoubleClick={() => navigate(`/courses/${id}`)}
         onKeyDown={onClick}
       >
         {!highlightColor && isPrereqFilterModeOn && (
