@@ -1,5 +1,5 @@
 ---
-Credit Cards and Credit Scores: 
+title: Credit Cards and Credit Scores
 ---
 # Credit Cards and Credit Scores
 
