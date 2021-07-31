@@ -1,4 +1,6 @@
-
+---
+Credit Cards and Credit Scores: 
+---
 # Credit Cards and Credit Scores
 
 One of the first things to understand is why a Credit Score important to **you**? Your credit score is a way for financial institutions to assess your risk as a borrower, which means it stretches across a bunch of different areas. Your credit score affects the rate you get on loans, credit cards you can get, insurance premiums, some apartments, and even cell phone plans. 
