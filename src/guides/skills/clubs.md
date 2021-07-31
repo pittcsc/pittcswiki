@@ -21,23 +21,23 @@ CSC's programs include:
     *   Seminar series dedicated to helping students of all backgrounds accelerate their tech careers
     *   Personal guidance, resume reviews, mock interviews, networking opportunities, and certification are all provided!
 *   Mentorship
-    *   Looking for a helping hand? Pitt CSC's mentorship pairs distinguished upperclassmen with underclassmen looking for any kind of advice.
+    *   Looking for a helping hand? Pitt CSC's mentorship program pairs distinguished upperclassmen with underclassmen looking for any kind of advice.
     *   Past mentees have looked for advice relating to:
         *   Courses and Scheduling
         *   Professional Career Development
         *   Adjusting to College
 *   Programming Projects + Hackathons
-    *   CSC runs a wide variety of programming events and competitions, including [SteelHacks](http://steelhacks.com/)!
+    *   CSC runs a wide variety of programming events and competitions, such as a month-long project competition called CSC Hacks!
     *   [This wiki](https://github.com/PittCSWiki/pittcswiki), [Pitt API](https://github.com/Pitt-CSC/PittAPI), and [Panther View](https://github.com/Pitt-CSC/PantherView) were all built by CSC members!
-*   Study Sessions 
-    *   Study Sessions are bring-your-own-work events where members can come to chill with other students while studying for a test or working on a project in class.
-    *   TAs for various CS classes will also be present to help assist students as well.
-*   Corporate Networking Events
-    *   Network with tech giants through CSC networking meet and greets, corporate tech talks, and company site visits!
-    *   Companies CSC has collaborated with includes:
-        *   Uber
+*   Branches
+    * Connect with a community of students interested in similar areas of technology to share resources and grow your skills! Some current branches inclube web development, iOS/Swift development, game development, and financial technology. 
+    * Not finding a branch you're looking for? Start your own!
+*   Corporate & Alumni Networking Events
+    *   Network with tech giants & awesome alumni through CSC networking meet and greets, tech talks, and company site visits!
+    *   Some past company partners include:
+        *   Argo AI
         *   Google
-        *   Quora
+        *   Facebook
 
 Interested? Check out Pitt CSC's website [here](https://pittcsc.org/) for more information! 
 
