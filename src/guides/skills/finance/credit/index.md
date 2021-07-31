@@ -30,7 +30,7 @@ As long as you stay on top of your payments you will be good, but as you can see
 
 This component refers to something called *Revolving Utilization* also sometimes called *Credit Utilization*. Your credit utilization is calculated based on the total credit that you have available and the percentage of that credit amount that you are using. An example would be if you have a credit card with a $10,000 and you spend $5,000 that would make your credit utilization 50% which is *BAD*. You will see online that people recommend keeping your utilization ratio less than <30% but ideally you want to keep it below **<10%**. There are a few ways to keep your credit utilization low
 
-1. Make multiple payments per month so your monthly utilization is 10% or less. An example of this would be if you have a credit limit of $5,000 and you generally use $1,500 a month on expenses. Close to the end of your billing cycle you can pay off the majority of your amount and leave something between ~$50-$100 which gives you a very good utilization ratio of ~1-2% on your credit card statement.
+1. Make multiple payments per month so your monthly utilization is 10% or less. An example of this would be if you have a credit limit of $5,000 and you generally use $1,500 a month on expenses. Close to the end of your billing cycle you can pay off the majority of your amount and leave something between ~$50-$100 which gives you a very good utilization ratio of ~1-2% on your credit card statement. Additional note: A utilization rate of 1% is better than a 0% utilization.
 2. Another way to lower credit utilization is to get more credit. With a higher credit limit, you have more leeway with how much you can spend before you get to those unsavory credit utilization ratios. The only issue with this is that if you don't have a stable income or a good history it becomes hard to open up new lines of credit.
 
 #### Length of Credit History: 15%
@@ -45,5 +45,13 @@ This one is pretty simple, it just takes into account the types of credit accoun
 
 New Credit is calculated based on how many new accounts you have. For this, you want to avoid opening new accounts too fast, especially if you don't have a long credit history. If you are just starting off then you will naturally apply for more cards but you want to make to space out your applications if possible.
 
-Just know that if you have never opened a line of credit your score will be low, and that is ok! Everyone has to start at some point, but the earlier you begin the easier it is to set yourself up for success in the future. Before opening a credit card you need to be sure that you are financially responsible and ready to start managing your expenses.es. 
+
+### Credit Card Incentives
+
+Almost all credit card have some sort of incentives, some offer cashback percentages on certain purchases (ex. 1.5% back on all purchases or 5% back on dining) or they will offer a reward like mileage once you spend a certain amount (ex. 50,000 miles once you spend $2,000). Looking for the best credit card rewards is like a game in itself, but major companies usually have rotating deals so don't worry too much if you miss out on one. 
+
+*Note*   
+Just know that if you have never opened a line of credit your score will be low, **and that is ok!** Everyone has to start at some point, but the earlier you begin the easier it is to set yourself up for success in the future. Before opening a credit card you need to be sure that you are financially responsible and ready to start managing your expenses.
+
+
 
