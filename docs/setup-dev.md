@@ -1,6 +1,6 @@
 # How to contribute!
 
-## If you want to just contribute a guide, add text - it is much easier - [read here](docs/how-to-write-a-good-guide.md)
+## If you want to just contribute a guide, add text - it is much easier - [read here](how-to-write-a-good-guide.md)
 
 You only have to do below if you want to add new functionality with Javascript!
 
