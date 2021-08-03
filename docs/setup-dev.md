@@ -1,4 +1,4 @@
-# Contributing to the PittCSWiki!
+# Contributing to The Pitt CS Wiki!
 
 There are a few different ways that you can contribute, you can add additional material to an existing guide, create a new guide, or work on dev material! We'll walk you through how to do each one below
 
