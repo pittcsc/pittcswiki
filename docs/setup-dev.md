@@ -1,4 +1,12 @@
-# Contributing to The Pitt CS Wiki!
+<h1 align="center">Contributing to The Pitt CS Wiki!</h1>
+
+<div align="center">
+  <a href="https://pittcswiki.netlify.app/">
+    <img src="src/images/logo.svg" alt="Pitt CS Wiki" width="400">
+  </a>
+  <br>
+</div>
+
 
 There are a few different ways that you can contribute, you can add additional material to an existing guide, create a new guide, or work on dev material! We'll walk you through how to do each one below
 
