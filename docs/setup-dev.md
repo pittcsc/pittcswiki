@@ -1,12 +1,26 @@
-# How to contribute!
+# Contributing to the PittCSWiki!
 
-## If you want to just contribute a guide, add text - it is much easier - [read here](how-to-write-a-good-guide.md)
+There are a few different ways that you can contribute, you can add additional material to an existing guide, create a new guide, or work on dev material! We'll walk you through how to do each one below
+
+## Editing an Existing Guide
+
+*Insert Step-by-Step instructions for contribution here*
+
+## Creating a New Guide
+
+*Insert Step-by-Step instructions for contribution here*
+
+### Want some help on how to write? Look here! - [How to Write a Good Guide](how-to-write-a-good-guide.md)
+
+## Dev Contribution
+
+*Insert Step-by-Step instructions for contribution here*
+
+### Set up development environment
 
 You only have to do below if you want to add new functionality with Javascript!
 
-## Set up development environment
-
-I recommened using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
+We recommened using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
 
 1. Download Node https://nodejs.org/en/
   - run `node -v` to make sure it installed
