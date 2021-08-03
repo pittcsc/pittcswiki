@@ -4,11 +4,11 @@ title: "Crafting your Resume"
 
 Some of the following content is by [Yangshun Tay](https://yangshun.im/) and [Christina Ng](https://www.quora.com/profile/Christina-Ng) and rephrased for the purpose of the wiki.
 
-Are you a Pitt student? Send us your resume and we'll review it for you as soon as possible!
-
 Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search.
 
 Another great resource is this presentation by Timothy James, an instructor at Pitt and manager at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
+
+For a quick list of common resume mistakes, [check out this guide](https://pittcswiki.netlify.app/career/resume-checklist/)!
 
 ## Recruiters 101
 
