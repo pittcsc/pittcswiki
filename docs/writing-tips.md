@@ -3,7 +3,7 @@
 We consider a page that includes useful information to be a 'guide'. It can be short, like "How to become a TA", or it can be a series,
 like "Zero to Offer".
 
-All of the guides are written with by students the intent to help out other Pitt CS students which means we aren't looking for writing similar to a formal thesis. Conveying information in a manner that feels somewhat personal while informative is the desired tone for most guides
+All of the guides are written by students the intent to help out other Pitt CS students which means we aren't looking for writing similar to a formal thesis. Conveying information in a manner that feels somewhat personal while informative is the desired tone for most guides
 
 The guides are written in Markdown so there is no built in spellcheck, that means you should make sure to check for spelling/grammar mistakes.
 
