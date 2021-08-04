@@ -1,15 +1,11 @@
-# Guide on Guides
-
-A guide is any article we write that intends to help out another Pitt CS student.
+# Writing Tips for Guides
 
 We consider a page that includes useful information to be a 'guide'. It can be short, like "How to become a TA", or it can be a series,
 like "Zero to Offer".
 
-Some guides are more structured, and deserve their own folder. Like, the `Zero to Offer` set.
+All of the guides are written with by students the intent to help out other Pitt CS students which means we aren't looking for writing similar to a formal thesis. Conveying information in a manner that feels somewhat personal while informative is the desired tone for most guides
 
 We write them in Markdown.
-
-To add a guide, open a PR, and create an appropiate markdown file in the `srcs/guides` folder.
 
 ## Guiding Principles
 
@@ -23,7 +19,7 @@ We keep these things in mind when writing guides:
 
 We aim for brevity.
 
-We try our best to be unbiased and profressional, and we add
+We try our best to be unbiased and professional, and we add
 disclaimers because at the end of the day we are just college students and do
 not really know what we are talking about.
 
