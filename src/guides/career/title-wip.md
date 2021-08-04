@@ -22,7 +22,7 @@ Be kind to yourself as you go through college. You'll be encountering a lot of n
 Make sure you are happy with your current situation. Do you like the people you are around? Do you like your major? Do you even like Pitt? Be truthful in answering these questions and you'll be greatly helping your future self.
 
 ### Any Experience Possible
-If you're a freshman, the truth is you probably do not have much coding/professional experience, making it super hard to stand out as a candidate. Be scrappy and try to get any experience possible. Here are a couple of options:
+If you're a freshman/beginner to CS, the truth is you probably do not have much coding/professional experience, making it super hard to stand out as a candidate. Be scrappy and try to get any experience possible. Here are a couple of options:
 
 #### Teaching Assistant/Peer Tutoring
 If you do pretty well in your classes then you should apply to be a Teaching Assistant or Peer Tutors. Pitt CS never has enough of either which means getting the position will be non-competitive and you will get the opportunity to be paid to teach CS!
