@@ -1,4 +1,4 @@
-<h1 align="center">Contributing to The Pitt CS Wiki!</h1>
+<h1 align="center">Contributing to the Pitt CS Wiki!</h1>
 
 <div align="center">
   <a href="https://pittcswiki.netlify.app/">
@@ -14,15 +14,21 @@ Before you get started, check out our [tips for writing a good guide](writing-ti
 
 ## Editing an Existing Guide
 
-*Insert Step-by-Step instructions for contribution here*
+1. Find the wiki guide you want to edit and scroll to the bottom. Click "edit this guide on GitHub". 
+2. You should see the guide in the GitHub editor. Look to the right of the screen for the "edit" button (looks like a pencil) and click on it.
+3. Make the changes in the markdown files.
+4. At the bottom of the screen, add a description and select "Propose Changes".
+5. Select "Create a Pull Request".
+6. You can add a comment and click the new "Create a Pull Request".
+7. Now, you'll wait for reviewers to approve the pull request. You can still make new commits while you're waiting for the pull request to be approved.
 
 ## How to Create a Guide
 
 Say you wish to create a new guide on how to study abroad.
 
 1. Look in the `src/guides` folder and see what topic it would fit under. Study Abroad seems like it would go under academics.
-1. Add a new markdown file under `src/guides/academics`, Call it `study-abroad.md`
-1. Make sure to add a frontmatter to your file. This is meta information at the top of your file.
+2. Add a new markdown file under `src/guides/academics`, Call it `study-abroad.md`
+3. Make sure to add a frontmatter to your file. This is meta information at the top of your file.
 
 ```
 ---
@@ -39,7 +45,7 @@ Make sure the _very first line_ in your markdown file is the three dashes! If yo
 
 Note the 'title' will be used as the title of the web page, displayed as a title, and it will be indexed so it can be searchable by the search bar. You can add other search attributes in the search tags field.
 
-3. Submit a PR ([Follow these steps](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request))
+4. Submit a PR ([Follow these steps](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request))
 
 After you a submit a PR and it is merged to the master branch, you are all set!
 
@@ -95,8 +101,8 @@ It is likely you will run into caching issues when developing! This is when you 
 `src/pages` is the folder where all of the website routes live. For example, `localhost:8000/courses` corresponds to 
 the page defined in `src/page/courses.js`. 
 
-Markdown files are converted to HTML pages with the `src/components/templates/guides-template` file.  Read more about guides
+Markdown files are converted to HTML pages with the `src/components/templates/guides-template` file.
 
-If you are curious about how this project works and want to become a serious contributer - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/) 
+If you are curious about how this project works and want to become a serious contributer - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/).
 
 Thanks for contributing!
