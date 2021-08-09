@@ -114,4 +114,30 @@ If you struggle to get interviews, keep building personal projects! Personal pro
 
 Whether it's a new language or a website, go online and learn! The world is your oyster.
 
+### Prepare for Junior year grind
+Your junior year will be the most important year for getting internships. To maximize success then, we highly recommend sophomores spend time preparing for the upcoming grind. 
+
+#### LeetCode
+To pass interviews at top tech companies you need to be able to pass technical interviews. The questions you’ll get in those are usually carbon copies from problems found on LeetCode.com. Students typically need to study between 50-150 problems. 
+
+On forums like Reddit, you’ll see people who have done 300+ problems, but honestly that is way overblown. If you did 300 Leetcode problems and are still struggling to pass interviews then you probably didn’t study those 300 problems effectively. 
+
+We created a 12-week Leetcode study plan (with 3 bonus weeks!) that we highly recommend. The problems are logically ordered for beginners and will make you extremely well equipped for any technical interview.
+
+#### Resume
+We already mentioned resumes and we’ll say it again. Regardless of how much you study or how hard you try, if you don’t have a resume that is well formatted and effectively represents yourself, companies and recruiters will not give you the respect that you deserve. 
+
+Get resume feedback from your CS peers and adapt. You’ll probably iterate several versions before finally settling on a great one.
+ 
 ## Juniors and Seniors
+As a junior or senior you have one goal: get a job. 
+
+### Job grind
+It’s officially show time. Starting in the fall, all the work you’ve put in over the past few years will be put to the test.
+Apply apply apply. The only way to maximize your chance of an offer is to apply to as many job postings as possible. Disregard asks for specific languages or requirements, if it looks like a position of interest then send an application. Go to the career fair, to company events, and network like crazy. Make sure you are making the most of all your opportunities.
+If you have past internships or experience, you can be pickier and have more of a filter when it comes to applying but regardless you don’t stop grinding until you accept the job offer.
+Once you accept your offer, you can finally chill. Years of working last minute on projects, grinding Leetcode problems, and stress have finally culminated to your newly accepted job. We really don’t have any advice other than chill and do whatever you want to do.
+
+### Help Others 
+It is inevitable that others have helped you along your journey, be sure to thank them for their help.  Now it’s your turn to pay it forward and help the next generation of CS students succeed. Become a club leader/officer, mentor underclassmen through CSC, or even write/edit wiki guides likes these! 
+Whatever you do, be sure to leverage your wealth of experience and knowledge for the better.
