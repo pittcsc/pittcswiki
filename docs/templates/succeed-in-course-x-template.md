@@ -2,7 +2,7 @@
 title: "Succeeding in course X"
 ---
 
-TODO: Succeed in course X guides serve to give students a overview of the course and a practical step-by-step guide on how to do well in the course. Most of the content should be specific to the course so that there isn't too much repetition between the guides in this category.
+TODO: Succeed in course X guides serve to give students an overview of the course and a practical step-by-step guide on how to do well in the course. Most of the content should be specific to the course so that there isn't too much repetition between the guides in this category.
 
 ## **What is course X?**
 TODO: Explain what the topic actually is. What is deep learning? What is discrete mathematics? What is computer programming? We don't want our readers to walk into the first day of lecture only knowing the title of the course, they should have a sound understanding of what they're going to learn. Give an exciting and detailed explanation of the topics they'll cover.
