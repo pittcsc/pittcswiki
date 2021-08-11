@@ -35,5 +35,5 @@ Elaboration on specific section n.
 ## **Conclusion:**
 Wrap up the guide with an encouraging message :)
 
-### **Other reccommendations for writing the guide:** 
+### **Other recommendations for writing the guide:** 
 Reach out to professors who teach the course and get their input on the guide. It's also helpful to reach out to UTAs and students who did well in the course to get their input.
