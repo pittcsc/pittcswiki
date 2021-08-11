@@ -22,7 +22,7 @@ TODO: Sometimes we learn things without ever being told why it's important. Expl
 TODO: This is the beginning of the practical guide. 
 
 ### **High level ideas**
-TODO: Here's your change to give broad, high level advice that is course specific and will give the readers the proper mindset to start the course. More miscellaneous advice can go here. 
+TODO: Here's your chance to give broad, high level advice that is course specific and will give the readers the proper mindset to start the course. More miscellaneous advice can go here. 
 - **Piece of advice** (e.g. start your coding projects early)
   - **Explanation** of why it's important (e.g. you'll often get stuck and if you start early, you can get help in office hours)
 
