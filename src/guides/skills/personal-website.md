@@ -1,5 +1,6 @@
 ---
 title: "Making a Personal Website"
+search_tags: ["website", "html", "template", "css", "portfolio", "project", "learn"]
 ---
 
 > You can make a website and put it online for for free in less than 2 hours
