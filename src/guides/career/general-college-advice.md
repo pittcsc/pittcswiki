@@ -1,6 +1,6 @@
 ---
-title: 'Four Year Plan'
-search_tags: ['help','scheduling','freshman','sophomore','junior','senior','undergraduate','graduate','advice','career']
+title: 'General College Advice'
+search_tags: ['help','genera','scheduling','freshman','sophomore','junior','senior','undergraduate','graduate','advice','career']
 ---
 
 The purpose of this guide is to give you actionable steps based on your current school year.
