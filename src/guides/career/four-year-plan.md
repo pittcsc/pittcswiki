@@ -1,3 +1,8 @@
+---
+title: 'Four Year Plan'
+search_tags: ['help','scheduling','freshman','sophomore','junior','senior','undergraduate','graduate','advice','career']
+---
+
 The purpose of this guide is to give you actionable steps based on your current school year.
 
 This guide is very high-level. We highly recommend you go to CSC events to get more practical advice.
