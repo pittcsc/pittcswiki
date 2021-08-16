@@ -26,7 +26,13 @@ Discipline will be very important once you start applying to internships in the 
 #### Take Care of Yourself
 Be kind to yourself as you go through college. You'll be encountering a lot of new experiences and for all the highs that you will have, there will also be lows. 
 
-Make sure you are happy with your current situation. Do you like the people you are around? Do you like your major? Do you even like Pitt? Be truthful in answering these questions and you'll be greatly helping your future self.
+At the end of the school year (and generally) it pays to be introspective and retrospective. Make sure you are happy with your current situation. Here are a few questions you can ask yourself: 
+
+- Do you like the people you are around? 
+- Do you like your major/what you are studying? 
+- Do you like Pitt? 
+ 
+Be truthful in answering these questions and you'll be greatly helping your future self.
 
 ### Any Experience Possible
 If you're a freshman/beginner to CS, the truth is you probably do not have much coding/professional experience, making it super hard to stand out as a candidate. Be scrappy and try to get any experience possible. Here are a couple of options:
@@ -57,9 +63,11 @@ Sophomore year is a busy time. Your objectives are to get experience (either an 
 #### Before the Grind
 Before you even start applying and interviewing, you have to be introspective. The interview cycle is time-consuming and often compared to a 3 credit class. Will you be able to handle that on top of your school schedule? 
 
-It also is a vicious cycle - you will get rejected and fail a lot. Are you ready to be told you're not good enough? Do you have a group of friends or family that you can rely on? 
+It also is a vicious cycle - you will get rejected and fail. Are you ready to be told you're not good enough? Do you have a group of friends or family that you can rely on? 
 
-Finally, it might not even be worth your time. List the reasons to why you want to work at a top company. Do those reasons warrant going through the internship grind? 
+Finally, it might not even be worth your time. The effort needed to get a [top company offer](https://www.levels.fyi/internships/) versus a less competitive company (ones you see at the career fairs, etc.) are substantially different. Getting top company offers will be [much more laborious](https://pittcs.wiki/zero-to-offer/).
+
+List the reasons to why you want to work at a top company. Do those reasons warrant going through the internship grind? 
 
 #### After the Grind
 Your internship grind normally ends when you accept an offer or give up. Take some time off and try to reflect on the experience. 
