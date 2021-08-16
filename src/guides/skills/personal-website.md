@@ -1,5 +1,6 @@
 ---
 title: "Making a Personal Website"
+search_tags: ["website", "html", "template", "css", "portfolio", "project", "learn"]
 ---
 
 > You can make a website and put it online for for free in less than 2 hours
@@ -67,7 +68,7 @@ Then you can link your Github repo to your free domain by visiting [here](https:
 
 ## How can I get a university website?
 
-You can get a subdirectory to host a website like [http://pitt.edu/~you/](http://pitt.edu/~you/) through the university _for free_.
+You can get a subdirectory to host a website like [http://sites.pitt.edu/~you/](http://sites.pitt.edu/~you/) through the university _for free_.
 
 The technology department has created a detailed guide [here](https://www.technology.pitt.edu/help-desk/how-to-documents/creating-your-own-website)
 
