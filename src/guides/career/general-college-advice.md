@@ -1,6 +1,6 @@
 ---
 title: 'General College Advice'
-search_tags: ['help','genera','scheduling','freshman','sophomore','junior','senior','undergraduate','graduate','advice','career']
+search_tags: ['help','general','scheduling','freshman','sophomore','junior','senior','undergraduate','graduate','advice','career']
 ---
 
 The purpose of this guide is to give you actionable steps based on your current school year.
@@ -11,19 +11,19 @@ This guide is very high-level. We highly recommend you go to CSC events to get m
 As a freshman you should have two goals: acclimating yourself to college and getting any experience possible.
 
 ### Acclimating to College
-Adjusting to college is easier said than done. Below are some basics we recommend
+Adjusting to college is easier said than done. Below are some basics we recommend:
 
-#### Find your group
+#### Find Your Group
 We recommend you keep joining new clubs, trying new things, and immersing yourself in the college experience until you have a trustworthy and reliable group of friends around you. College isn't easy and having a support system around you is going to be key to your success.   
 
-If you're struggling to meet new people we highly recommend you don't give up and keep joining new clubs and finding ways to participate on campus. Eventually you'll have a breakthrough!
+If you're struggling to meet new people, don't give up! Keep joining new clubs and finding ways to participate on campus. Eventually you'll have a breakthrough!
 
-#### Learn discipline 
+#### Learn Discipline 
 College will be a vastly different experience than high school as now it is your perogative to make sure you succeed in your endeavors. Try to make sure that in addition to new social and extracurricular obligations you find time to study and do well in your classes and other academic/professional commitments.
 
 Discipline will be very important once you start applying to internships in the future as the interview process will end up being very intense and you'll have to be able to balance it alongside all your other responsibilities.  
 
-#### Take care of yourself
+#### Take Care of Yourself
 Be kind to yourself as you go through college. You'll be encountering a lot of new experiences and for all the highs that you will have, there will also be lows. 
 
 Make sure you are happy with your current situation. Do you like the people you are around? Do you like your major? Do you even like Pitt? Be truthful in answering these questions and you'll be greatly helping your future self.
@@ -32,19 +32,19 @@ Make sure you are happy with your current situation. Do you like the people you 
 If you're a freshman/beginner to CS, the truth is you probably do not have much coding/professional experience, making it super hard to stand out as a candidate. Be scrappy and try to get any experience possible. Here are a couple of options:
 
 #### Teaching Assistant/Peer Tutoring
-If you do pretty well in your classes then you should apply to be a [Teaching Assistant](https://pittcs.wiki/academics/uta/) or Peer Tutors. Pitt CS never has enough of either which means getting the position will be non-competitive and you will get the opportunity to be paid to teach CS!
+If you do pretty well in your classes then you should apply to be a [Teaching Assistant](https://pittcs.wiki/academics/uta/) or Peer Tutor. Pitt CS never has enough of either which means getting the position will be non-competitive and you will get the opportunity to be paid to teach CS!
 
 Applications usually open up mid Fall or Spring semester, but you can also ask your current CS professors to remind you. 
 
 #### Personal Projects
 It hurts when companies won't hire you for entry level technical experience because you don't have any technical experience. In these scenarios, the best way to show off your technical skills is by doing personal projects. 
 
-Learn a new language, go to hackathons, or help solve a current problem you have with code! Once you do a personal project you then can put it on your resume and talk to companies about it. Though it may be intimidating in the beginning, it also is a lot of fun!
+Learn a new language, go to hackathons, or help solve a current problem you have using code! Once you complete a personal project, you then can put it on your resume and talk to companies about it. Though it may be intimidating in the beginning, it also is a lot of fun!
 
 #### Research / Freshmen Internships
-Freshmen in the past have gotten research positions and internships but it isn't easy. The best way to maximize your chances for an internships is to apply to [all the freshmen programs](https://pittcs.wiki/career/freshman-sophomore-opportunities/) and hope one of them stick.
+Freshmen in the past have gotten research positions and internships but it isn't easy. The best way to maximize your chances for an internships is to apply to [all the freshmen programs](https://pittcs.wiki/career/freshman-sophomore-opportunities/) and hope one of them sticks.
 
-[Rsearch](https://pittcs.wiki/academics/research/) is similarly tough since it often involves domain knowledge that most freshmen don't have. We recommend you get to know your current CS professors and the research they are currently conducting. Ask if they are looking to hire/mentor a freshman, or if they know any professor who is. 
+[Research](https://pittcs.wiki/academics/research/) is similarly tough since it often involves domain knowledge that most freshmen don't have. We recommend you get to know your current CS professors and the research they are currently conducting. Ask if they are looking to hire/mentor a freshman, or if they know any professor who is. 
 
 #### Any Opportunity
 Whether it's volunteering at a local school or a club leadership position, we recommend you try to take advantage of any opportunity that is thrown your way as each opportunity is a chance to grow your network and get any semblance of technical experience. You never know what might happen! 
@@ -54,14 +54,14 @@ Sophomore year is a busy time. Your objectives are to get experience (either an 
 
 ### Be Introspective
 
-#### Before the grind
+#### Before the Grind
 Before you even start applying and interviewing, you have to be introspective. The interview cycle is time-consuming and often compared to a 3 credit class. Will you be able to handle that on top of your school schedule? 
 
 It also is a vicious cycle - you will get rejected and fail a lot. Are you ready to be told you're not good enough? Do you have a group of friends or family that you can rely on? 
 
 Finally, it might not even be worth your time. List the reasons to why you want to work at a top company. Do those reasons warrant going through the internship grind? 
 
-#### After the grind
+#### After the Grind
 Your internship grind normally ends when you accept an offer or give up. Take some time off and try to reflect on the experience. 
 
 Since you are a sophomore you will likely have another internship grind cycle coming up your junior year. How can you learn from this past experience? 
@@ -119,7 +119,7 @@ If you struggle to get interviews, keep building personal projects! Personal pro
 
 Whether it's a new language or a website, go online and learn! The world is your oyster.
 
-### Prepare for Junior year grind
+### Prepare for Junior Year Grind
 Your junior year will be the most important year for getting internships. To maximize success then, we highly recommend sophomores spend time preparing for the upcoming grind. 
 
 #### LeetCode
@@ -127,7 +127,7 @@ To pass interviews at top tech companies you need to be able to pass technical i
 
 On forums like Reddit, you’ll see people who have done 300+ problems, but honestly that is way overblown. If you did 300 Leetcode problems and are still struggling to pass interviews then you probably didn’t study those 300 problems effectively. 
 
-We created a 12-week Leetcode study plan (with 3 bonus weeks!) that we highly recommend. The problems are logically ordered for beginners and will make you extremely well equipped for any technical interview.
+We created a [12-week Leetcode study plan](https://pittcs.wiki/career/study-plan/) (with 3 bonus weeks!) that we highly recommend. The problems are logically ordered for beginners and will make you extremely well equipped for any technical interview.
 
 #### Resume
 We already mentioned resumes and we’ll say it again. Regardless of how much you study or how hard you try, if you don’t have a resume that is well formatted and effectively represents yourself, companies and recruiters will not give you the respect that you deserve. 
@@ -137,12 +137,12 @@ Get resume feedback from your CS peers and adapt. You’ll probably iterate seve
 ## Juniors and Seniors
 As a junior or senior you have one goal: get a job. 
 
-### Job grind
+### Job Grind
 It’s officially show time. Starting in the fall, all the work you’ve put in over the past few years will be put to the test.
 Apply apply apply. The only way to maximize your chance of an offer is to apply to as many job postings as possible. Disregard asks for specific languages or requirements, if it looks like a position of interest then send an application. Go to the career fair, to company events, and network like crazy. Make sure you are making the most of all your opportunities.
 If you have past internships or experience, you can be pickier and have more of a filter when it comes to applying but regardless you don’t stop grinding until you accept the job offer.
-Once you accept your offer, you can finally chill. Years of working last minute on projects, grinding Leetcode problems, and stress have finally culminated to your newly accepted job. We really don’t have any advice other than chill and do whatever you want to do.
+Once you accept your offer, you can finally chill. Years of working last minute on projects, grinding LeetCode problems, and stress have finally culminated to your newly accepted job. We really don’t have any advice other than chill and do whatever you want to do.
 
 ### Help Others 
-It is inevitable that others have helped you along your journey, be sure to thank them for their help.  Now it’s your turn to pay it forward and help the next generation of CS students succeed. Become a club leader/officer, mentor underclassmen through CSC, or even write/edit wiki guides likes these! 
+It is inevitable that others have helped you along your journey, be sure to thank them for their help.  Now it’s your turn to pay it forward and help the next generation of CS students succeed. Become a club leader/officer, mentor underclassmen through CSC, or even write/edit wiki guides like these! 
 Whatever you do, be sure to leverage your wealth of experience and knowledge for the better.
