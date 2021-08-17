@@ -4,6 +4,8 @@ title: "Resume Proofreading Checklist"
 
 Stand out to employers by following this checklist to avoid common resume mistakes.
 
+Check out [here](https://pittcswiki.netlify.app/career/resume/) for a more comprehensive resume guide.
+
 ## Resume Checklist
 1. Don't use a flashy resume template. We recommend [FlowCV.io](http://flowcv.io/)
    - Keep the colors minimal (White, Black, Dark Blue)
