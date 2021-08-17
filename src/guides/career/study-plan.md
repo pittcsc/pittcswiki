@@ -1,11 +1,12 @@
 ---
-title: "LeetCode Summer Study Plan"
+title: "LeetCode Study Plan"
 ---
 
-Everyday aim for 1-2 problems
+Everyday aim for 1-2 problems.
+
+[Robby Horvath](https://www.linkedin.com/in/robby-horvath/) made a Notion checklist template to keep track of all problems. [Check it out](https://erratic-aletopelta-d86.notion.site/Template-Leetcode-Checklist-8246bb89ac0b4016ae61daeebe2cf1ab)!
 
 LeetCode is much easier when we all work together. Please send any questions you have on the LeetCode problems/theory/anything and we'll answer them on Discord!  
-
 [Join the Discord here!](https://discord.gg/ru3Ww5Tu)
 
 ## Pre-reqs:
@@ -14,7 +15,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - Understanding Runtime
 - Know how to use Hash Tables
 
-## Resources: 
+### Pre-req Resources (optional): 
 - [**Learn Python**](https://learnxinyminutes.com/docs/python/) 
 - [**Big O in 5 minutes**](https://youtu.be/__vX2sjlpXU)
 - [**Tom Scott on Big O**](https://youtu.be/RGuJga2Gl_k) 
@@ -31,6 +32,11 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [Game of Life (**Bonus**)](https://leetcode.com/problems/game-of-life/)
 
+#### Week 1 - Arrays Resources
+- [Sets in Python](https://youtu.be/sBvaPopWOmQ)
+- [Dictionaries in Python](https://youtu.be/XCcpzWs-CI4)
+- [Traversing 2D Lists in Python](https://youtu.be/B5GhlXhDfoE)
+
 ### Week 2 - Arrays + Intervals
 - [Min Rotate Sort Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [Search Rotate Sort Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
@@ -39,6 +45,11 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [Happy Number (**Bonus**)](https://leetcode.com/problems/happy-number/)
+
+#### Week 2 - Arrays Resources
+- [How Binary Search Makes Computers Much, Much Faster](https://youtu.be/KXJSjte_OAI)
+- [Introduction to Binary Search](https://www.youtube.com/watch?v=6ysjqCUv3K4)
+- [Algorithms: Binary Search](https://www.youtube.com/watch?v=P3YID7liBug)
 
 ### Week 3 - Intervals + Matrix
 - [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
@@ -49,6 +60,9 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Word Search](https://leetcode.com/problems/word-search/)
 - [Sliding Window Max (**Bonus**)](https://leetcode.com/problems/sliding-window-maximum/)
 
+#### Week 3 - Matrix Resources
+- [2D Lists & Nested Loops - Python](https://youtu.be/B5GhlXhDfoE)
+
 ### Week 4 - Linked Lists
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
@@ -57,6 +71,12 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Remove Nth Node](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 - [Sort Colors (**Bonus**)](https://leetcode.com/problems/sort-colors/)
+
+#### Week 4 - Linked Lists Resources
+- [Data Structures: Linked Lists](https://youtu.be/njTh_OwMljA)
+- [Introduction to Linked Lists](https://youtu.be/WwfhLC16bis)
+- [Data Structures: Heaps](https://youtu.be/X4RWHH69Gi8)
+- [HeapQ for Algorithms in Python](https://youtu.be/X4RWHH69Gi8)
 
 ### Week 5 - String
 - [Reverse String](https://leetcode.com/problems/reverse-string/)
@@ -67,6 +87,9 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [Odd Even Linked List (**Bonus**)](https://leetcode.com/problems/odd-even-linked-list/)
+
+#### Week 5 - String Resources
+- [Python Stacks](https://youtu.be/NKmasqr_Xkw) 
 
 ### Week 6 - String + Trees
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
@@ -79,6 +102,9 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Max Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - **Bonus** - Do all the Tree traversal problems iteratively
 - [Find Duplicate Number (**Bonus**)](https://leetcode.com/problems/find-the-duplicate-number/)
+
+#### Week 6 - Trees Resources
+- [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE)
 
 ### Week 7 - Trees
 - [Same Tree](https://leetcode.com/problems/same-tree/)
@@ -106,11 +132,16 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Longest Consecutive Seq](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [Longest Common Prefix (**Bonus**)](https://leetcode.com/problems/longest-common-prefix/)
+
+#### Week 9 - Graph Resources
+- [Introduction to Graphs](https://youtu.be/gXgEDyodOJU)
+- [Multi-part Graph Lecture Series](https://youtu.be/c8P9kB1eun4)
+- [WilliamFiset's Graph Theory Videos](https://www.youtube.com/watch?v=DgXR2OWQnLc&list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P)
 
 ### Week 10 - Graphs
 - [Number of Connected Comps in Graph](https://protegejj.gitbook.io/algorithm-practice/leetcode/graph/323-number-of-connected-components-in-an-undirected-graph)
+- [Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [Alien Dictionary](https://www.lintcode.com/problem/alien-dictionary/)
 - [Graph Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/)
 - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -125,6 +156,15 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [BST Iterator (**Bonus**)](https://leetcode.com/problems/binary-search-tree-iterator/)
 
+#### Week 11 - Dynamic Programming Resources
+- [What is Dynammic Programming and How to Use It](https://youtu.be/vYquumk4nWw) by CS Dojo
+- [5 Simple Steps for DP](https://youtu.be/aPQY__2H3tE) by Reducible
+- MIT Lectures on DP (numbered 19-21) 
+   - [Lecture 19](https://youtu.be/OQ5jsbhAv_M)
+   - [Lecture 20](https://youtu.be/ENyox7kNKeY)
+   - [Lecture 21](https://youtu.be/ocZMDMZwhCY)
+- [MIT Lectures on Advanced DP](https://youtu.be/Tw1k46ywN6E)
+
 ### Week 12 - Dynamic Programming 
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [Jump Game](https://leetcode.com/problems/jump-game/)
@@ -134,7 +174,7 @@ LeetCode is much easier when we all work together. Please send any questions you
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [Max Area of Island (**Bonus**)](https://leetcode.com/problems/max-area-of-island/)
 
-### Week 13 - Binary
+### Week 13 (Bonus) - Binary
 - [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 - [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 - [Counting Bits](https://leetcode.com/problems/counting-bits/)
