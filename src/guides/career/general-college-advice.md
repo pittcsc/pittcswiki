@@ -14,7 +14,7 @@ As a freshman you should have two goals: acclimating yourself to college and get
 Adjusting to college is easier said than done. Below are some basics we recommend:
 
 #### Find Your Group
-We recommend you keep joining new clubs, trying new things, and immersing yourself in the college experience until you have a trustworthy and reliable group of friends around you. College isn't easy and having a support system around you is going to be key to your success.   
+We recommend you join new clubs, try new things, and immerse yourself in the college experience until you have a trustworthy and reliable group of friends around you. College isn't easy and having a support system around you is going to be key to your success.   
 
 If you're struggling to meet new people, don't give up! Keep joining new clubs and finding ways to participate on campus. Eventually you'll have a breakthrough!
 
@@ -147,10 +147,18 @@ As a junior or senior you have one goal: get a job.
 
 ### Job Grind
 It’s officially show time. Starting in the fall, all the work you’ve put in over the past few years will be put to the test.
-Apply apply apply. The only way to maximize your chance of an offer is to apply to as many job postings as possible. Disregard asks for specific languages or requirements, if it looks like a position of interest then send an application. Go to the career fair, to company events, and network like crazy. Make sure you are making the most of all your opportunities.
+
+Apply apply apply. The only way to maximize your chance of an offer is to apply to as many job postings as possible. Disregard asks for specific languages or requirements, if it looks like a position of interest then send an application. 
+
+Go to the career fair, to company events, and network like crazy. Make sure you are making the most of all your opportunities.
+
 If you have past internships or experience, you can be pickier and have more of a filter when it comes to applying but regardless you don’t stop grinding until you accept the job offer.
+
 Once you accept your offer, you can finally chill. Years of working last minute on projects, grinding LeetCode problems, and stress have finally culminated to your newly accepted job. We really don’t have any advice other than chill and do whatever you want to do.
 
 ### Help Others 
-It is inevitable that others have helped you along your journey, be sure to thank them for their help.  Now it’s your turn to pay it forward and help the next generation of CS students succeed. Become a club leader/officer, mentor underclassmen through CSC, or even write/edit wiki guides like these! 
+It is inevitable that others have helped you along your journey, be sure to thank them for their help.  Now it’s your turn to pay it forward and help the next generation of CS students succeed. 
+
+Become a club leader/officer, mentor underclassmen through CSC, or even write/edit wiki guides like these! 
+
 Whatever you do, be sure to leverage your wealth of experience and knowledge for the better.
