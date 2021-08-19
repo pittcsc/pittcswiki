@@ -32,7 +32,7 @@ export default function Template({
       {isIndexPage && (
         <div className="mb-16">
           <h3>Guides</h3>
-          <SitemapList filterSlug={slug} />
+          <SitemapList type="card" filterSlug={slug} />
         </div>
       )}
     </BlogPostLayout>

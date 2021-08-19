@@ -11,7 +11,7 @@ const arrowSvg = (
     height="1em"
     width="1em"
     xmlns="http://www.w3.org/2000/svg"
-    className="inline mx-1"
+    className="inline mt-1 mx-1"
   >
     <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
   </svg>
@@ -29,7 +29,7 @@ export default ({ slug, firstBreadCrumb = { link: "/", text: "HOME" } }) => {
 
   const breadcrumbs = urls.map((url, i) => {
     return i < urls.length - 1 ? (
-      <span key={`breadcrumb_${url}`}>
+      <span key={`breadcrumb_${url}`} className="flex items-center">
         <Link className="uppercase" to={url}>
           {displayNames[i]}
         </Link>
@@ -43,8 +43,8 @@ export default ({ slug, firstBreadCrumb = { link: "/", text: "HOME" } }) => {
   })
 
   return (
-    <div className="breadcrumbs flex md:flex-row flex-col md:items-center mb-3">
-      <span>
+    <div className="breadcrumbs flex flex-wrap items-center mb-3">
+      <span className="flex items-center">
         <Link to={firstBreadCrumb.link}>{firstBreadCrumb.text}</Link>
         {arrowSvg}
       </span>
