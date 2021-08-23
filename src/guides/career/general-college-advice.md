@@ -156,7 +156,7 @@ If you have past internships or experience, you can be pickier and have more of 
 
 Once you accept your offer, you can finally chill. Years of working last minute on projects, grinding LeetCode problems, and stress have finally culminated to your newly accepted job. We really don’t have any advice other than chill and do whatever you want to do.
 
-### Help Others 
+### Pay it Forward 
 It is inevitable that others have helped you along your journey, be sure to thank them for their help.  Now it’s your turn to pay it forward and help the next generation of CS students succeed. 
 
 Become a club leader/officer, mentor underclassmen through CSC, or even write/edit wiki guides like these! 
