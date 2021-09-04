@@ -26,6 +26,32 @@ const TreeView = ({ tree }) => {
   )
 }
 
+const CardView = ({ tree }) => {
+  return (
+    <>
+      {tree.slug && (
+        <a
+          href={tree.slug}
+          className="w-full h-32 p-4 border text-gray-800 bg-gray-200 shadow-sm transition hover:bg-gray-600 hover:font-bold hover:shadow-md"
+        >
+          {tree.title}
+        </a>
+      )}
+      {tree.children &&
+        tree.slug !== "/courses/" &&
+        tree.children.sort(sortAlphaByTitle).map((child) => (
+          <a
+            key={child.id}
+            href={child.slug}
+            className="w-full h-32 p-4 border text-gray-800 bg-gray-200 shadow-sm transition hover:text-white hover:bg-gray-600 hover:font-bold hover:shadow-md"
+          >
+            {child.title}
+          </a>
+        ))}
+    </>
+  )
+}
+
 // Allow anyone to use the filter the constructed sitemap tree. For example, only show a portion.
 function filterSitemapTree(tree, filterSlug) {
   if (!filterSlug) return tree
@@ -48,7 +74,7 @@ function filterSitemapTree(tree, filterSlug) {
 
 let cachedTree = null
 
-export default function SitemapList({ filterSlug }) {
+export default function SitemapList({ filterSlug, type }) {
   const { sites, mdx, pages } = useStaticQuery(graphql`
     {
       sites: allSitePage {
@@ -114,5 +140,11 @@ export default function SitemapList({ filterSlug }) {
   // Allow filtering for certain sections of the sitemap
   const filteredTree = filterSitemapTree(cachedTree, filterSlug)
 
-  return <TreeView tree={filteredTree} />
+  return type === "card" ? (
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <CardView tree={filteredTree} />
+    </div>
+  ) : (
+    <TreeView tree={filteredTree} />
+  )
 }

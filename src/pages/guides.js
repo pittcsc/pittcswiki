@@ -14,7 +14,7 @@ const GuidesListing = ({ posts }) => {
         to={post.fields.slug}
         key={`g_${index}`}
       >
-        <div className="border bg-gray-200 shadow-sm h-64 p-4 hover:bg-gray-600 hover:text-white hover:shadow-md">
+        <div className="border bg-gray-200 shadow-sm h-64 p-4 transition hover:bg-gray-600 hover:text-white hover:shadow-md">
           <h1>{post.frontmatter.title}</h1>
           <div>{post.frontmatter.guides_blurb}</div>
         </div>
