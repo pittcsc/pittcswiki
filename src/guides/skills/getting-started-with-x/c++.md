@@ -6,10 +6,6 @@ C++ offers unparalleled control and flexibility, which often means unparalleled 
 
 The additional complexity that C++ introduces over other modern languages is generally the reason why people new to programming are encouraged to learn something simpler first -- like Java or Python -- and then make their way to C++ once they've learned the programming fundamentals.
 
-## C++ Overview
-
-TODO: This is an optional section where you put important information that someone needs to start learning this SOMETHING. Common terms, search phrases, etc. that will allow this student to get off the ground and start Googling. Try not to reinvent existing resources here. If you catch yourself doing that, add those links to the `Recommended Resources` section below.
-
 ## Recommended Resources
 
 ### For Programmers
