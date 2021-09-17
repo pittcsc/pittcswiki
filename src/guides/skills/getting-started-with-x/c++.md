@@ -10,7 +10,7 @@ The additional complexity that C++ introduces over other modern languages is gen
 
 ### C++ Versions
 
-There are several major versions of the C++ programming language as defined by the [C++ ISO](https://isocpp.org/) spanning C++98 (version released in 1998) to C++23 (version to be released in 2023). With each new version comes new best practices. Practices seen as commonplace in older versions of C++ might now be frowned upon, so when learning C++, be cognizant of what version the resource is referencing. For example, the book "A Tour of C++" mentioned below gives an overview of C++17, the version of C++ released in 2017. 
+There are [several major versions of the C++ programming language](https://en.wikipedia.org/wiki/C%2B%2B#Standardization) as defined by the [C++ ISO](https://isocpp.org/) spanning C++98 (version released in 1998) to C++23 (version to be released in 2023). With each new version comes new best practices. Practices seen as commonplace in older versions of C++ might now be frowned upon, so when learning C++, be cognizant of what version the resource is referencing. For example, the book "A Tour of C++" mentioned below gives an overview of C++17, the version of C++ released in 2017. 
 
 ## Recommended Resources
 
