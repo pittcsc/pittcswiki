@@ -6,6 +6,12 @@ C++ offers unparalleled control and flexibility, which often means unparalleled 
 
 The additional complexity that C++ introduces over other modern languages is generally the reason why people new to programming are encouraged to learn something simpler first -- like Java or Python -- and then make their way to C++ once they've learned the programming fundamentals.
 
+## C++ Overview
+
+### C++ Versions
+
+There are several major versions of the C++ programming language as defined by the [C++ ISO](https://isocpp.org/) spanning C++98 (version released in 1998) to C++23 (version to be released in 2023). With each new version comes new best practices. Practices seen as commonplace in older versions of C++ might now be frowned upon, so when learning C++, be cognizant of what version the resource is referencing. For example, the book "A Tour of C++" mentioned below gives an overview of C++17, the version of C++ released in 2017. 
+
 ## Recommended Resources
 
 ### For Programmers
