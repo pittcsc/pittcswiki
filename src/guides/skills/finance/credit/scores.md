@@ -1,7 +1,6 @@
 ---
-title: Credit Cards and Credit Scores
+title: Credit Scores
 ---
-# Credit Cards and Credit Scores
 
 One of the first things to understand is why a Credit Score important to **you**? Your credit score is a way for financial institutions to assess your risk as a borrower, which means it stretches across a bunch of different areas. Your credit score affects the rate you get on loans, credit cards you can get, insurance premiums, some apartments, and even cell phone plans. 
 
@@ -46,14 +45,4 @@ This one is pretty simple, it just takes into account the types of credit accoun
 #### New Credit: 10%
 
 New Credit is calculated based on how many new accounts you have. For this, you want to avoid opening new accounts too fast, especially if you don't have a long credit history. If you are just starting off then you will naturally apply for more cards but you want to make to space out your applications if possible.
-
-
-### Credit Card Incentives
-
-Almost all credit card have some sort of incentives, some offer cashback percentages on certain purchases (ex. 1.5% back on all purchases or 5% back on dining) or they will offer a reward like mileage once you spend a certain amount (ex. 50,000 miles once you spend $2,000). Looking for the best credit card rewards is like a game in itself, but major companies usually have rotating deals so don't worry too much if you miss out on one. 
-
-*Note*   
-Just know that if you have never opened a line of credit your score will be low, **and that is ok!** Everyone has to start at some point, but the earlier you begin the easier it is to set yourself up for success in the future. Before opening a credit card you need to be sure that you are financially responsible and ready to start managing your expenses.
-
-
 
