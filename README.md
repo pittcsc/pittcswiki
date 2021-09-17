@@ -33,6 +33,6 @@ This is a collection of guides and resources to help CS students navigate the co
 
 ## I want to contribute!
 
-Check out the guide on setting up a local development environment [here](docs/setup-dev.md).
+Check out the guide on contributing to the Wiki [here](docs/setup-dev.md).
 
 Reach out to [wiki@pittcsc.org](mailto:wiki@pittcsc.org) or make an Github issue with an idea of what you would like to add
