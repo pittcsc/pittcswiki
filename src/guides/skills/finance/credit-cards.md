@@ -2,6 +2,9 @@
 title: Credit Cards
 ---
 
+## What is a Credit Card? Why should I get one?
+
+
 ### Credit Card Incentives
 
 Almost all credit card have some sort of incentives, some offer cashback percentages on certain purchases (ex. 1.5% back on all purchases or 5% back on dining) or they will offer a reward like mileage once you spend a certain amount (ex. 50,000 miles once you spend $2,000). Looking for the best credit card rewards is like a game in itself, but major companies usually have rotating deals so don't worry too much if you miss out on one. 
