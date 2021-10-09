@@ -22,16 +22,16 @@ This guide is still a work-in-progress, so check out our [beginner guides sectio
   - Rust can be used in programs for Windows, macOS, Linux, android, iOS, FreeBSD, and more!
 - Using a system that doesn't have a standard library
   - In Rust, you can disable the standard library with `no-std`
-  - Often required when building operating system or programs for microcontrollers 
+  - Often required when building operating system or programs for micro-controllers 
 
 #### When Not To Use Rust
 - You don't want to spend the time to learn it
   - But you should! that's what this guide is for :)
 - You need speedy development
-  - For events like hackathons, game jams, code challenges
+  - For events like hack-a-thons, game jams, code challenges
 - You don't want to or can't distribute binaries/executables
   - Related: rust's standard library (`std`) depends on `libc` (C standard library)
-    - There is an effort to reimplement necessary parts in rust, see [here](https://github.com/rust-lang/compiler-builtins)
+    - There is an effort to re-implement necessary parts in rust, see [here](https://github.com/rust-lang/compiler-builtins)
     - This also makes things more difficult for OSs like OpenBSD that don't have OS-level backwards compatibility
 - You want a short compile time
   - Compilation in Rust, generally speaking, is slow, but it *is* incremental (don't have to recompile everything if you only change a single file)
@@ -158,6 +158,6 @@ governance structure -->
 
 ### Tobias Hildebrandt - 2021-10-09 <!-- ISO 8601 date format -->
 
-Though I am by no means an expert in Rust, I really appreciate the features of the language. The compile-time checks can be frustrating -- I often call debugging "boxing with the compiler" -- but it is very satisfying to understand what things are determined to be safe and why. It has really helped me to organize my code better and think "is this really a safe thing to do?", even when programming in other langauges.
+Though I am by no means an expert in Rust, I really appreciate the features of the language. The compile-time checks can be frustrating -- I often call debugging "boxing with the compiler" -- but it is very satisfying to understand what things are determined to be safe and why. It has really helped me to organize my code better and think "is this really a safe thing to do?", even when programming in other languages.
 
-Though I probably wouldn't recommend Rust to an absolute beginner, it is my language of choice in terms of general-purpose programming. Of course, some language are better suited for specific purposes, such as Python for rapid prototyping or C for low-level portability. The number of things you can build with Rust nowadays is massive, ranging from fullstack web dev with [Seed](https://seed-rs.org/) and [Rocket](https://rocket.rs/) to building an operating system such as [Redox](https://www.redox-os.org/) to making Discord bots with [Serenity](https://github.com/serenity-rs/serenity) to creating faster commandline utilities such as [ripgrep](https://github.com/BurntSushi/ripgrep). I truly think that Rust will continue to grow in the coming years and gain a stronger foothold in industry, competing for market share in areas that currently use C++.
+Though I probably wouldn't recommend Rust to an absolute beginner, it is my language of choice in terms of general-purpose programming. Of course, some language are better suited for specific purposes, such as Python for rapid prototyping or C for low-level portability. The number of things you can build with Rust nowadays is massive, ranging from fullstack web dev with [Seed](https://seed-rs.org/) and [Rocket](https://rocket.rs/) to building an operating system such as [Redox](https://www.redox-os.org/) to making Discord bots with [Serenity](https://github.com/serenity-rs/serenity) to creating faster command-line utilities such as [ripgrep](https://github.com/BurntSushi/ripgrep). I truly think that Rust will continue to grow in the coming years and gain a stronger foothold in industry, competing for market share in areas that currently use C++.
