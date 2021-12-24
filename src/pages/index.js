@@ -10,6 +10,7 @@ import academicsIcon from "../images/icons/academic.svg"
 import careerIcon from "../images/icons/career.svg"
 import guidesIcon from "../images/icons/guides.svg"
 import sitemapIcon from "../images/icons/sitemap.svg"
+import aboutIcon from "../images/icons/about.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -169,6 +170,27 @@ const LinkPanel = () => {
         <p>
           We have a lot of content and its growing. Click here to see a list of
           everything we have. <Link to="/sitemap/">Learn more.</Link>
+        </p>
+      </div>
+      <div
+        className="quick-blurb"
+        onClick={() => navigate("/about/")}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            navigate("/about/")
+          }
+        }}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          src={aboutIcon}
+          alt="Information by Hrbon from NounProject.com"
+        />
+        <h3>About</h3>
+        <p>
+          This wiki was founded by the Pitt Computer Science Club (CSC) 2019 
+          Officers and still maintained by the club. <Link to="/about">Learn more.</Link>
         </p>
       </div>
     </div>
