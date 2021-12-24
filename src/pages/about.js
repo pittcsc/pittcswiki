@@ -27,7 +27,7 @@ export default () => (
         </p>
         <p>
           If you have feedback or questions, let us know by{" "}
-          <Link to="/feedback">filling out this form!</Link> If you are
+          <Link to="/feedback">filling out this form</Link> or <a href="mailto:pittcsc+wiki@gmail.com">email us</a>! If you are
           interested in the technical details of the wiki, everything is open
           source and documented on{" "}
           <a href="https://github.com/PittCSWiki/pittcswiki">
@@ -35,7 +35,7 @@ export default () => (
           </a>
         </p>
 
-        <p>Hope its helpful.</p>
+        <p>Best of Luck,</p>
         <i>The 2019 Pitt CSC Officers</i>
       </div>
     </div>
