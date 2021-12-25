@@ -189,7 +189,7 @@ const LinkPanel = () => {
         />
         <h3>About</h3>
         <p>
-          This wiki was founded by the 2019 Pitt Computer Science Club Officers  
+          This Wiki was created by the 2019 Pitt Computer Science Club Officers  
           and today is still maintained by the club! <Link to="/about">Learn more.</Link>
         </p>
       </div>
