@@ -78,12 +78,9 @@ const LinkPanel = () => {
         }}
         role="button"
         tabIndex={0}
+        aria-label="Go to the Courses page"
       >
-        <img
-          className="w-16 mx-auto"
-          alt="Courses from the Noun Project"
-          src={coursesIcon}
-        />
+        <img className="w-16 mx-auto" alt="" src={coursesIcon} />
         <h3>Course Explorer</h3>
         <p>
           Find the right course for you! Professor reviews, course testimonials,
@@ -100,6 +97,7 @@ const LinkPanel = () => {
         }}
         role="button"
         tabIndex={0}
+        aria-label="Go to the Guides page"
       >
         <img src={guidesIcon} alt="guide by Youmena from the Noun Project" />
         <h3>Guides</h3>
@@ -118,11 +116,9 @@ const LinkPanel = () => {
         }}
         role="button"
         tabIndex={0}
+        aria-label="Go to Careers page"
       >
-        <img
-          src={careerIcon}
-          alt="career by Thuy Nguyen from the Noun Project"
-        />
+        <img src={careerIcon} alt="" />
         <h3>Career</h3>
         <p>
           Read our carefully curated tips on how to land job offers and succeed
@@ -139,11 +135,9 @@ const LinkPanel = () => {
         }}
         role="button"
         tabIndex={0}
+        aria-label="Go to Academics page"
       >
-        <img
-          src={academicsIcon}
-          alt="academic by pam pyke from the Noun Project"
-        />
+        <img src={academicsIcon} alt="" />
         <h3>Academics</h3>
         <p>
           Thinking about a double major? Not sure what classes to take when?
@@ -161,11 +155,9 @@ const LinkPanel = () => {
         }}
         role="button"
         tabIndex={0}
+        aria-label="Go to the Sitemap page"
       >
-        <img
-          src={sitemapIcon}
-          alt="Sitemap by Adrien Coquet from the Noun Project"
-        />
+        <img src={sitemapIcon} alt="" />
         <h3>Sitemap</h3>
         <p>
           We have a lot of content and its growing. Click here to see a list of
@@ -182,15 +174,14 @@ const LinkPanel = () => {
         }}
         role="button"
         tabIndex={0}
+        aria-label="Go to the About page"
       >
-        <img
-          src={aboutIcon}
-          alt="Information by Hrbon from NounProject.com"
-        />
+        <img src={aboutIcon} alt="" />
         <h3>About</h3>
         <p>
-          This Wiki was created by the 2019 Pitt Computer Science Club Officers  
-          and today is still maintained by the club! <Link to="/about">Learn more.</Link>
+          This Wiki was created by the 2019 Pitt Computer Science Club Officers
+          and today is still maintained by the club!{" "}
+          <Link to="/about">Learn more.</Link>
         </p>
       </div>
     </div>
