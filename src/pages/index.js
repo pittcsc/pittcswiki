@@ -10,7 +10,7 @@ import academicsIcon from "../images/icons/academic.svg"
 import careerIcon from "../images/icons/career.svg"
 import guidesIcon from "../images/icons/guides.svg"
 import sitemapIcon from "../images/icons/sitemap.svg"
-import aboutIcon from "../images/icons/about.svg"
+import infoIcon from "../images/icons/info.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -176,7 +176,7 @@ const LinkPanel = () => {
         tabIndex={0}
         aria-label="Go to the About page"
       >
-        <img src={aboutIcon} alt="" />
+        <img src={infoIcon} alt="" />
         <h3>About</h3>
         <p>
           This Wiki was created by the 2019 Pitt Computer Science Club Officers
