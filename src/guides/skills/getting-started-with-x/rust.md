@@ -2,7 +2,7 @@
 title: "Getting Started with Rust"
 ---
 
-Rust is a programming language designed for safety and performance. It has been the ["most loved language" on StackOverflow](https://insights.stackoverflow.com/survey/2020#share-most-loved-dreaded-and-wanted) for several years in a row! Although primarily aimed towards a systems-programming audience, it can be written at a high level without incurring runtime penalties while still accessing and interacting with low-level interfaces and structures. Programs written in Rust have certain guarantees provided at compile-time, including type- and memory-safety. These language features are not without drawbacks, such as increased language complexity and learning time. However, once learned, Rust can be written very efficiently and debugging time can be reduced greatly thanks to compile-time guarantees.
+Rust is a general-purpose programming language designed for safety and performance. It has been the ["most loved language" on StackOverflow](https://insights.stackoverflow.com/survey/2020#share-most-loved-dreaded-and-wanted) for several years in a row! Although primarily aimed towards a low-level, systems-programming audience, it can be also written at a high level without incurring runtime penalties. Programs written in Rust have certain guarantees provided at compile-time, including type- and memory-safety. These language features are not without drawbacks, such as increased language complexity and learning time. However, once learned, Rust can be written very efficiently and debugging time can be reduced greatly thanks to compile-time guarantees.
 
 This guide is still a work-in-progress, so check out our [beginner guides section](#beginner-guides) for a more complete intro to the language. If you want to contribute, check it out on [GitHub](https://github.com/PittCSWiki/pittcswiki)!
 
@@ -13,20 +13,21 @@ This guide is still a work-in-progress, so check out our [beginner guides sectio
 #### When To Use Rust
 - You have enough time to learn the language
   - Rust has a very welcoming and inclusive community! Beginners are encouraged to ask questions! See [our community section below](#community-links) for links
-- Correctness, speed, and safety are more important to you than development speed
+- Correctness, run speed, and safety are more important to you than development speed
 - Your program needs low level access
-  - Though Rust is also great for high level programs that don't need it :)
+  - Though Rust is also great for high level programs :)
 - You are contributing to a project that already uses Rust
-  - While it is technically possible for Rust to interact with other languages (`ffi` or Foreign Function Interface), most projects won't change their build system just for you!
+  - While it *is* possible for Rust to interact with other languages (through `ffi` or Foreign Function Interface), most projects won't change their build system just for you!
 - Cross-platform development
-  - Rust can be used in programs for Windows, macOS, Linux, android, iOS, FreeBSD, and more!
+  - Rust programs can be compiled for Windows, macOS, Linux, Android, iOS, FreeBSD, and more
+  - Rust can be run in web browsers via WebAssembly (check out [`wasm-pack`](https://rustwasm.github.io/docs/wasm-pack/))
 - Using a system that doesn't have a standard library
   - In Rust, you can disable the standard library with `no-std`
-  - Often required when building operating system or programs for micro-controllers 
+  - Often required when building operating system or programs for micro-controllers (check out [AVR Rust](https://book.avr-rust.com/))
 
 #### When Not To Use Rust
 - You don't want to spend the time to learn it
-  - But you should! that's what this guide is for :)
+  - But you should! That's what this guide is for :)
 - You need speedy development
   - For events like hack-a-thons, game jams, code challenges
 - You don't want to or can't distribute binaries/executables
@@ -38,14 +39,14 @@ This guide is still a work-in-progress, so check out our [beginner guides sectio
 - Your employer/upper management is afraid of "immature" languages, see [here](https://codecs.multimedia.cx/2020/09/why-rust-is-not-a-mature-programming-language/) for a similar opinion
   - Rust technically does not have a formal language specification
   - `rustc` is not self-hosted -- it requires bootstrapping
-  - Rust essentially only has one compiler implementation (`rustc`), though `mrustc` is promising
+  - Rust has essentially only one complete compiler implementation (`rustc`), though `mrustc` is promising
   - Rust still doesn't have great assembly support (though the `asm!` macro is almost there)
   - If you are using `nightly` (the unstable branch of rust), then some things in your code might break whenever rust is updated
     - Though this is less of an issue while using the `stable` branch
 
 <!-- ### TODO: basic syntax -->
 
-### Ownership / Memory
+### Ownership / Memory in Rust
 
 What is ownership? From [Chapter 4.1 of the Rust Book](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html):
 
@@ -56,7 +57,7 @@ What is ownership? From [Chapter 4.1 of the Rust Book](https://doc.rust-lang.org
 [Here](https://hashrust.com/blog/moves-copies-and-clones-in-rust/) is another decent primer on Rust memory.
 
 #### Moves
-You can change the owner of a resource by "moving" it. This is done by assigning it to a new variable. Note that if a resource implements `Copy`, then it will *not* be moved during an assignment. See [Chapter 15.2 of Rust By Example](https://doc.rust-lang.org/rust-by-example/scope/move.html).
+You can change the owner of a value by "moving" the value. This is done by assigning it to a new variable. Note that if a resource implements `Copy`, then it will *not* be moved during an assignment (the value will just be copied into the new variable). See [Chapter 15.2 of Rust By Example](https://doc.rust-lang.org/rust-by-example/scope/move.html).
 
 ```rs
 let x = Vec::<i32>::new(); // create a new vector of 32 bit integers, x is the owner
@@ -65,7 +66,7 @@ let y = x; // y is now the owner of the vector, x is no longer the owner
 ```
 
 #### Borrowing
-To access data without changing ownership, we can *borrow* the data by passing a reference to it. This is kind of similar to pointers in C and C++. However, keep in mind that the Rust compiler guarantees that references always point to valid objects, so your program won't even compile if you try a use-after-free. See [Chapter 15.3 of Rust By Example](https://doc.rust-lang.org/rust-by-example/scope/borrow.html) for details.
+To access a value without changing ownership, we can *borrow* the value by taking a reference to it. This is similar to pointers in C and C++. However, keep in mind that the Rust compiler guarantees that references always point to valid values, so your program won't even compile if you try to use an invalid reference. See [Chapter 15.3 of Rust By Example](https://doc.rust-lang.org/rust-by-example/scope/borrow.html) for details.
 
 ```rs 
 let x = Vec::<i32>::new(); 
@@ -77,8 +78,8 @@ let z = &x; // z is also a reference to x
 In Rust, if you want to make a duplicate of some data, you can use the method `.clone()`. Your data type must implement the trait `Clone`. However, if your data type implements `Copy`, then it will automatically be copied upon assignment. 
 
 ```rs
-let x = 10i32; // i32 implements Copy (so do all integers, floats, and chars)
-let y = x; // y is now 10, but x is still valid
+let x = 10i32; // i32 implements Copy (as do all integers, floats, and chars)
+let y = x; // y is now 10, but x is still valid (since it was Copy'd)
 let z = x; // no use-after-move error, since the data is not moved!
 ```
 
@@ -120,7 +121,8 @@ governance structure -->
 
 - [Rust Website](https://www.rust-lang.org/)
   - Contains many links to other resources, guides, documentation, etc.
-- [Rust Discord](https://discord.gg/rust-lang)
+- [Official Rust Discord](https://discord.gg/rust-lang)
+  - Also check out the [Community Discord](https://discord.gg/rust-lang-community)
 - [Rust Forums](https://users.rust-lang.org/)
 - [This Week in Rust](https://this-week-in-rust.org/)
   - Weekly updates on the Rust environment and community
@@ -147,12 +149,24 @@ governance structure -->
 - [Learning Rust](https://learning-rust.github.io/docs/index.html) by Dumindu Madunuwan
 - [Tour of Rust](https://tourofrust.com)
 
+### Other Guides
+- [Rust for C++ Programmers](https://github.com/nrc/r4cppp) by Nick Cameron
+- [Rust for Embedded C Programmers](https://docs.opentitan.org/doc/ug/rust_for_c/)
+- [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+  - In Rust, writing your own linked list from scratch is (infamously) complex
+- [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
+- [AVR Rust](https://book.avr-rust.com/)
+  - Rust on microcontrollers
+- [`wasm-pack`](https://rustwasm.github.io/docs/wasm-pack/)
+  - Rust in the web browser (via WebAssembly)
 
 ### References
 
 - [Rust Language Cheat Sheet](https://cheats.rs/)
 - [The Rust Standard Library](https://doc.rust-lang.org/stable/std/)
-- [The Rust Community’s Crate Registry](https://crates.io/) ("crates" are how Rust packages software libraries)
+- [The Rust Community’s Crate Registry](https://crates.io/) 
+  - "crates" are the standard for packaging Rust libraries
+- [A curated list of Rust code and resources](https://github.com/rust-unofficial/awesome-rust)
 
 ## Opinions
 
