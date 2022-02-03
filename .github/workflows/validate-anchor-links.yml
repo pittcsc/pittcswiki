@@ -1,7 +1,6 @@
 name: Validate Markdown Anchor Links
 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ md-anchor-links ]
   pull_request:

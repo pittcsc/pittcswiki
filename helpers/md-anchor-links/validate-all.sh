@@ -30,7 +30,7 @@ function run_tests() {
     # that we set up in the beginning, though after the `parallel` command finishes
     parallel "$VALIDATE_SCRIPT {}" ::: "$MD_FILES"
 
-    echo "TEST SUCCESS" # only executed if trap not triggered
+    echo "TESTS PASS" # only executed if trap not triggered
 }
 
 function print_error() {
