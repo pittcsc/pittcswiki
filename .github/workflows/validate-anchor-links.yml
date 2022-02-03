@@ -1,10 +1,8 @@
 name: Validate Markdown Anchor Links
 
 on:
-  push:
-    branches: [ md-anchor-links ]
   pull_request:
-    branches: [ md-anchor-links ]
+    branches: [ master ]
 
   workflow_dispatch: # runnable from the Actions tab
 
