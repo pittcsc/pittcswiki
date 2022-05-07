@@ -71,16 +71,16 @@ Once you've finished that form, you'll get 2 more forms automatically emailed to
 Now, you need to do two things:
 
 1. Get someone from your company to fill out the employer form
-1. Secure a faculty sponsor
+2. Talk to your faculty mentor
 
 
 ### Employer Representative ###
 Ask your employer representative (this can be your manager, for me it was my company's tech internship program lead who contacted my manager for a job description) to fill out the employer internship form. In that form, they'll provide a description of what you'll be doing, and you'll get a copy of what they entered automatically emailed to you. You'll need this description for your...
 
-### Faculty Sponsor ###
-This can be any full-time professor in the CS department. *You don't need to know them exceptionally well to ask them to be your faculty sponsor - they've been asked many times and are aware of how little (if any) work it takes to be your faculty sponsor.* They need a description on what you'll do at the internship, so use that description that the company gave you if/when they ask for it. It's in your best interest to make the process easy for them too, so come prepped with an introduction about yourself, where you'll work, how long, what you'll be doing, etc. 
+### Faculty Mentor ###
+Use [this list](https://www.sci.pitt.edu/student-resources/academic-advising-center/faculty-mentors) to determine who your faculty mentor is. Set up a time to talk to them prior to submitting the Internship Application Form. They need a description on what you'll do at the internship, so use that description that the company gave you if/when they ask for it. It's in your best interest to make the process easy for them too, so come prepped with an introduction about yourself, where you'll work, how long, what you'll be doing, etc. 
 
-The entire faculty sponsor part of this process is a pretty outdated rule that is rarely followed up on once they sign off on that form, so don't stress about it - just be proactive and get it done. According to the CS Department rules (not us) you should be *super* proactive and "*meet/communicate with your faculty sponsor regularly to fulfill the requirements as stated in the CS 1900 Faculty Sponsor Form*". 
+The entire faculty mentor part of this process is a pretty outdated rule that is rarely followed up on once they sign off on that form, so don't stress about it - just be proactive and get it done. According to the CS Department rules (not us) you should be *super* proactive and "*meet/communicate with your faculty mentor regularly to fulfill the requirements as stated in the CS 1900 Faculty Sponsor Form*". 
 
 ### Great, I did all that. Now what? ###
 

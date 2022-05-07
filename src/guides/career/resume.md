@@ -20,7 +20,7 @@ This section goes in detail on how recruiters work with engineers and technology
 
 Before opening up a position or starting the search for a candidate, recruiters will consult with the team managers to find out the specific skill set needed for the position. These skills are then classified into three groups: "Requirements", "Nice to Haves", and "Bonus."
 
-- **Requirements** --- The most positions usually require are a degree in a technical field and some years of experience in a particular technology or language. For internships, progress towards a degree and some experience in programming are required instead.
+- **Requirements** --- Most positions usually require a degree in a technical field and some years of experience in a particular technology or language. For internships, progress towards a degree and some experience in programming are required instead.
 - **Nice to Haves** --- Familiarity with secondary languages and technologies which may not be directly relevant to what the candidate would be working on, but could be required due to some interfacing with other components of the project. Could also include proficiency in soft skills like communication ability, leadership, and ability to work with others.
 - **Special Bonus** --- Recognized skills, experiences, or accomplishments that are hard to come by. Probably not required, but could help the candidate's case.
 
@@ -113,7 +113,7 @@ If you have extra space on your resume, you may want to list various clubs you a
 
 ### Avoid Spelling or Grammatical Errors
 
-[In a study across a wide cross of applicants and jobs](http://blog.alinelerner.com/lessons-from-a-years-worth-of-hiring-data/), the most important attribute of a resume was found to be the number of its typos and grammatical errors. Having errors on your resume communicates a lack of focus and care in one's work and is an instant turn-off for most recruiters.
+[In a study across a wide range of applicants and jobs](http://blog.alinelerner.com/lessons-from-a-years-worth-of-hiring-data/), the most important attribute of a resume was found to be the number of its typos and grammatical errors. Having errors on your resume communicates a lack of focus and care in one's work and is an instant turn-off for most recruiters.
 
 ### GPA: Important or not?
 
