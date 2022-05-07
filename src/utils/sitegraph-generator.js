@@ -6,6 +6,12 @@
 
 // this is the worst code in the whole repo, hard to read, bad names
 
+const isAnchorLink = (link) => {
+  // link to a section in the same markdown document
+  // also known as anchor links or "links to heading id"
+  return link.charAt(0) == '#'; // start with a #
+}
+
 const isExternalLink = (link) =>
   link.substring(0, 3) === "www" ||
   link.substring(0, 4) === "http" ||
@@ -100,6 +106,7 @@ function siteGraphGenerator(sites, pages) {
     if (node.links) {
       // recursively check all links !
       node.links.forEach((link) => {
+        if (isAnchorLink) return; // skip anchor links, use bash script validator instead
         const parsedLink = convertLinkToFullPath(link)
         if (parsedLink.error) {
           errors.push({
