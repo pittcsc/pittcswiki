@@ -58,8 +58,6 @@ export const pageQuery = graphql`
       fields {
         slug
         isIndexPage
-        gitAuthorTime
-        lastUpdatedString: gitAuthorTime(formatString: "MMM Do YYYY")
       }
     }
   }
