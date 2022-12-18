@@ -10,6 +10,7 @@ import academicsIcon from "../images/icons/academic.svg"
 import careerIcon from "../images/icons/career.svg"
 import guidesIcon from "../images/icons/guides.svg"
 import sitemapIcon from "../images/icons/sitemap.svg"
+import blogIcon from "../images/icons/blog.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -148,6 +149,27 @@ const LinkPanel = () => {
           Thinking about a double major? Not sure what classes to take when?
           Curious about research? Learn the answers to all of your questions
           here! <Link to="/academics/">Learn more.</Link>
+        </p>
+      </div>
+      <div
+        className="quick-blurb"
+        onClick={() => navigate("/blog")}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") {
+            navigate("/sitemap/")
+          }
+        }}
+        role="button"
+        tabIndex={0}
+      >
+        <img
+          src={blogIcon}
+          alt="Book icon from UXWing"
+        />
+        <h3>Blog</h3>
+        <p>
+          Learn more about CS directly from fellow Pitt students, and
+          contribute to the conversation! <Link to="/blog">Learn more.</Link>
         </p>
       </div>
       <div
