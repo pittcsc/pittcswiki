@@ -103,3 +103,7 @@ This is incredibly difficult, and historically Pitt students have not been recru
 - Get into another prestigious company first - trading firms and prestigious tech companies are known for recruiting from each other, and the sad truth of this industry is that name-brand factor is massive when recruiting. 
 - If you land an interview, make sure to check the company's glassdoor page for practice interview questions from previous applicants.
 - Trading firms are difficult to get into, but they're nowhere near impossible. They have a bigger desire to prevent false positives than any other type of company, so it won't be entirely LeetCode that gets you in. As with everything in this field, though, everything is possible if you put in the effort.
+
+## Panther Algo Trading
+
+We're so excited to launch Panther Algo Trading, a CSC branch and study group of Pitt students and alumni interested in quantitative finance, trading strategy development, and financial institutions. All are welcome! To learn more, explore our open source projects + resource directories, and get involved, please visit our [Panther Algo Trading GitHub page](https://github.com/PantherAlgoTrading). Thanks!
