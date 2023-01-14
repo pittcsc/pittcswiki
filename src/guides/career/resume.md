@@ -4,11 +4,11 @@ title: "Crafting your Resume"
 
 Some of the following content is by [Yangshun Tay](https://yangshun.im/) and [Christina Ng](https://www.quora.com/profile/Christina-Ng) and rephrased for the purpose of the wiki.
 
-Are you a Pitt student? Send us your resume and we'll review it for you as soon as possible!
-
 Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search.
 
 Another great resource is this presentation by Timothy James, an instructor at Pitt and manager at Google, check it out [here](https://docs.google.com/presentation/d/1doJq5E33f4Bg4bYXT6sKeqZNBqnvRhPbJp83dv3Nn38/edit?usp=sharing).
+
+For a quick list of common resume mistakes, [check out this guide](https://pittcswiki.netlify.app/career/resume-checklist/)!
 
 ## Recruiters 101
 
@@ -20,7 +20,7 @@ This section goes in detail on how recruiters work with engineers and technology
 
 Before opening up a position or starting the search for a candidate, recruiters will consult with the team managers to find out the specific skill set needed for the position. These skills are then classified into three groups: "Requirements", "Nice to Haves", and "Bonus."
 
-- **Requirements** --- The most positions usually require are a degree in a technical field and some years of experience in a particular technology or language. For internships, progress towards a degree and some experience in programming are required instead.
+- **Requirements** --- Most positions usually require a degree in a technical field and some years of experience in a particular technology or language. For internships, progress towards a degree and some experience in programming are required instead.
 - **Nice to Haves** --- Familiarity with secondary languages and technologies which may not be directly relevant to what the candidate would be working on, but could be required due to some interfacing with other components of the project. Could also include proficiency in soft skills like communication ability, leadership, and ability to work with others.
 - **Special Bonus** --- Recognized skills, experiences, or accomplishments that are hard to come by. Probably not required, but could help the candidate's case.
 
@@ -68,14 +68,16 @@ As a college student expect this section to be pretty comprehensive. However, as
 
 ### Work Experience
 
-The work experience section is arguably the most important section of one's resume. However, _work experience_ truly means **relevant** work experience, not any work experience. If you are applying for a developer position, the recruiter is not interested in your experience as a barista at Starbucks. It would be better to take that space to talk about one of your programming projects.
+The work experience section is the most important section of one's resume. Aim to put as much relevant work experience as possible. If you are applying for a developer position, the recruiter is not interested in your experience as a barista at Starbucks. It would be better to take that space to talk about one of your programming projects. 
+
+That being said, if you don't have any relevant experience be sure to put as much work/volunteer experience as possible.  
+
 
 There's a lot of resources online on what to say for each work experience, but in general:
-
-- Focus on what you accomplished rather than what your day-to-day was.
+- Highlight the impact of your work instead of the responsiblities
 - Use bullet points instead of paragraphs. This makes it much more readable!
 - Start each bullet with an **action verb**.
-- List quantifiable achievements in a numerical manner (improved speeds by 20%, reduced expenses by 10%, etc.)
+- Quantify your achievements with numbers/metrics (improved speeds by 20%, reduced expenses by 10%,  generated $50,000 in revenue, etc.)
 - Quality over Quantity. Mediocre work experiences may often not be as helpful as linking a project.
 - Put information that you can readily talk and answer questions about. Anything on your resume is fair game so you don't want to be caught off guard because you were lying.
 
@@ -111,7 +113,7 @@ If you have extra space on your resume, you may want to list various clubs you a
 
 ### Avoid Spelling or Grammatical Errors
 
-[In a study across a wide cross of applicants and jobs](http://blog.alinelerner.com/lessons-from-a-years-worth-of-hiring-data/), the most important attribute of a resume was found to be the number of its typos and grammatical errors. Having errors on your resume communicates a lack of focus and care in one's work and is an instant turn-off for most recruiters.
+[In a study across a wide range of applicants and jobs](http://blog.alinelerner.com/lessons-from-a-years-worth-of-hiring-data/), the most important attribute of a resume was found to be the number of its typos and grammatical errors. Having errors on your resume communicates a lack of focus and care in one's work and is an instant turn-off for most recruiters.
 
 ### GPA: Important or not?
 
@@ -188,10 +190,9 @@ Most resumes are either made in LaTeX or Microsoft Word. Use whatever you are mo
 
 If you don't want to go through the hassle of formatting your resume on Word or LaTeX, there are a few websites that we recommend using instead.
 
-- [Resumake](https://resumake.io/)
-- [Creddle](http://creddle.io/)
-- [Overleaf](https://www.overleaf.com/latex/templates) (For LaTeX templates!)
 - [FlowCV](https://flowcv.io/)
+- [Overleaf](https://www.overleaf.com/latex/templates) (For LaTeX templates)
+
 
 ## Cover Letters
 

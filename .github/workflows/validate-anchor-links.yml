@@ -1,0 +1,21 @@
+name: Validate Markdown Anchor Links
+
+on:
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch: # runnable from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # checkout 
+      - uses: actions/checkout@v2 
+      
+      # setup pandoc
+      - uses: r-lib/actions/setup-pandoc@v2
+
+      # run validate-all
+      - name: Validate All
+        run: helpers/md-anchor-links/validate-all.sh
