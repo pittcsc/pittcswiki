@@ -50,11 +50,9 @@ The beginning of your resume should include basic contact information about your
 
 - Your name
 - Your email
-- Your phone number
 - LinkedIn username
 - Github username
 - Personal website
-- StackOverflow username
 
 Make sure you are contactable! Use professional email names (like john.doe@gmail.com instead of PennStateSucks23@gmail.com) and make sure the number you list is the best way to reach you.
 
