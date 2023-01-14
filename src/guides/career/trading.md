@@ -106,4 +106,4 @@ This is incredibly difficult, and historically Pitt students have not been recru
 
 ## Panther Algo Trading
 
-We're so excited to launch Panther Algo Trading, a CSC branch and study group of Pitt students and alumni interested in quantitative finance, trading strategy development, and financial institutions. All are welcome! To learn more, explore our open source projects + resource directories, and get involved, please visit our [Panther Algo Trading GitHub page](https://github.com/PantherAlgoTrading). Thanks!
+We're so excited to launch Panther Algo Trading, a CSC branch and study group of Pitt students and alumni interested in quantitative finance, trading strategy development, and financial institutions. All are welcome! To learn more, explore our open source projects & resource directories, and get involved, please visit our [Panther Algo Trading GitHub page](https://github.com/PantherAlgoTrading). Thanks!
