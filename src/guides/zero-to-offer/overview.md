@@ -56,7 +56,7 @@ Getting an interview is contingent on a few things:
 
 We dive deep into the first two bullets in the [Building your Case](/zero-to-offer/building-your-case) section.
 
-Applying to companies involves mass online applications and it is common to apply to over 150 companies. For companies to apply to, use internship postings like [this repository](https://github.com/Pitt-CSC/Summer2021-Internships)! Here are a few things to note about applying.
+Applying to companies involves mass online applications and it is common to apply to over 150 companies. For companies to apply to, use internship postings like [this repository](https://github.com/Pitt-CSC/Summer2021-Internships) and [this repository for New Grad positions](https://github.com/owini/New-Grad-Positions-2023)! Here are a few things to note about applying.
 
 #### Ghosting
 
