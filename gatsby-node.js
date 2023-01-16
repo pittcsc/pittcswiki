@@ -79,7 +79,6 @@ exports.createPages = ({ actions, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       if (node.frontmatter && node.frontmatter.type === "individual-course") {
-        console.log(node);
         createPage({
           path: node.frontmatter.path,
           component: path.resolve(
