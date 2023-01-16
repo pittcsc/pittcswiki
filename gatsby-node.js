@@ -25,16 +25,19 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         value: true,
       })
     }
-    // https://angelos.dev/2019/09/add-support-for-modification-times-in-gatsby/
-    const gitAuthorTime = execSync(
-      `git log -1 --pretty=format:%aI ${node.fileAbsolutePath}`
-    ).toString()
+    
+    if (node.fileAbsolutePath) {
+      // https://angelos.dev/2019/09/add-support-for-modification-times-in-gatsby/
+      const gitAuthorTime = execSync(
+        `git log -1 --pretty=format:%aI ${node.fileAbsolutePath}`
+      ).toString()
 
-    createNodeField({
-      node,
-      name: "gitAuthorTime",
-      value: gitAuthorTime,
-    })
+      createNodeField({
+        node,
+        name: "gitAuthorTime",
+        value: gitAuthorTime,
+      })
+    }
   }
 }
 
@@ -76,12 +79,14 @@ exports.createPages = ({ actions, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       if (node.frontmatter && node.frontmatter.type === "individual-course") {
+        console.log(node.frontmatter.path)
         createPage({
           path: node.frontmatter.path,
           component: path.resolve(
             `src/components/templates/courses-template.js`
           ),
           context: {
+            path: node.frontmatter.path,
             courseId: node.frontmatter.id,
           },
         })
