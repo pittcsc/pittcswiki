@@ -79,14 +79,16 @@ exports.createPages = ({ actions, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       if (node.frontmatter && node.frontmatter.type === "individual-course") {
-        console.log(node.frontmatter.path)
+        console.log(node);
         createPage({
           path: node.frontmatter.path,
           component: path.resolve(
             `src/components/templates/courses-template.js`
           ),
           context: {
-            path: node.frontmatter.path,
+            // Include the path under the field `path1`, as the CoursesTemplate page query
+            // is not able to reference the `path` field directly.
+            path1: node.frontmatter.path,
             courseId: node.frontmatter.id,
           },
         })

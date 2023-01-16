@@ -88,8 +88,8 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($path: String!, $courseId: String!) {
-    markdownRemark(frontmatter: {path: {eq: $path}}) {
+  query($path1: String!, $courseId: String!) {
+    markdownRemark(frontmatter: {path: {eq: $path1}}) {
       html
       frontmatter {
         path
