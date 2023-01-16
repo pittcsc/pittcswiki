@@ -77,6 +77,7 @@ Fun facts:
 *   The major is quite broad and there are a lot of different biological topics covered but none of them in-depth. If you have room in your schedule, you could look into other departments that offer computational courses (ex: Linguistics, Chemistry, Neuroscience etc.) to get more specialized bioinformatics / computational biology knowledge. 
 *   This major is newly made as mentioned above. Contact the official comp bio advisors for the final say on any information. 
 *   Satisfactory/No Credit information: "One core course required for the major may be taken on an S/NC basis. Co-requisite courses may be taken on an S/NC basis subject to School limitations. Please check with your School for specific information on S/NC grades."
+*   Please note that computational biology majors are not eligible for the CS minor (at least for students enrolled in the Dietrich school) since their rule is that only 8 credits may overlap between the major and a minor
 
 * About UTAing for biology or chemistry courses:
   * UTA/UTUing varies with departments -- responsibilities, compensation (either by a letter grade, S/NC, or pay), and requirements differ depending on which course you wish to help teach. This is quite different from the CS department. 
