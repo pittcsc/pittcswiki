@@ -108,7 +108,7 @@ Fill out the steps listed by the engineering school [here](https://www.engineeri
 
 Once accepted, you can do your 2 rotations (you'll enroll in a class that designates you as a student who is doing a co-op, and upon successful completion of the rotation you'll get an S grade.) Once you do *that*, you need to write a summary paper on your experience. 
 
-Check out the CS department's page on the Co-Op [HERE](https://cs.pitt.edu/degrees/bachelors/capstone/coop) where the requirements are clearly listed out. It's pretty rare for something to be so easy to understand on the CS department website (*60% joking*). 
+Check out the CS department's page on the Co-Op [HERE](https://www.cs.pitt.edu/current-students/bs-computer-science/capstone-options/co-op) where the requirements are clearly listed out. It's pretty rare for something to be so easy to understand on the CS department website (*60% joking*). 
 
 This capstone can seem a bit confusing to manage since it's between two schools, but it's really not that bad. It's a great opportunity to stack up your resume before you graduate with multiple work experiences in real-world settings.
 
