@@ -88,8 +88,8 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($path: String!, $courseId: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($path1: String!, $courseId: String!) {
+    markdownRemark(frontmatter: {path: {eq: $path1}}) {
       html
       frontmatter {
         path
@@ -98,8 +98,8 @@ export const pageQuery = graphql`
       }
     }
     allGoogleSheetCourseTestimonials(
-      filter: { courseId: { eq: $courseId } }
-      sort: { fields: year, order: DESC }
+      filter: {courseId: {eq: $courseId}}
+      sort: {year: DESC}
     ) {
       edges {
         node {

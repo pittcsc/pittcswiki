@@ -82,11 +82,8 @@ export default GuidesPage
 export const pageQuery = graphql`
   query Guides {
     guides: allMarkdownRemark(
-      filter: {
-        fields: { slug: { glob: "/*/" }, isIndexPage: { eq: true } }
-        frontmatter: { guides_blurb: { ne: null } }
-      }
-      sort: { order: ASC, fields: frontmatter___title }
+      filter: {fields: {slug: {glob: "/*/"}, isIndexPage: {eq: true}}, frontmatter: {guides_blurb: {ne: null}}}
+      sort: {frontmatter: {title: ASC}}
     ) {
       nodes {
         frontmatter {
