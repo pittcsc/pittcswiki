@@ -22,14 +22,14 @@ Check out [here](https://pittcswiki.netlify.app/career/resume/) for a more compr
    - If you have multiple sentences on one bullet you should break it up into multiple bullets
 9. Avoid acronyms unless it is widely familiar to non-technical readers 
 10. Avoid putting content in the extreme top or bottom of the page. 
-   - A cheap printer might cut out the extreme top or bottom.
-   - leave a ≥1/2 inch margin for safety.
+    - A cheap printer might cut out the extreme top or bottom.
+    - leave a ≥1/2 inch margin for safety.
 11. Avoid unnecessarily long names. 
-   - Analytic Geometry & Calculus -> Calculus. 
-   - Introduction to Systems Software -> Systems Software 
-   - The extra words generally do not convey enough information to justify the space that the words take up.
+    - Analytic Geometry & Calculus -> Calculus. 
+    - Introduction to Systems Software -> Systems Software 
+    - The extra words generally do not convey enough information to justify the space that the words take up.
 12. Make links clickable.
-   - Verify Linkedin/GitHub links, personal/project websites, and email addresses.
+    - Verify Linkedin/GitHub links, personal/project websites, and email addresses.
   
 ## LaTeX-specific tidbits
 1. Use \LaTeX when referencing LaTeX (for example, in a skills section) in a LaTeX resume.
