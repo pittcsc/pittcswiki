@@ -41,7 +41,7 @@ Note that the job process is not perfect. You could have been the perfect candid
 
 ## Success
 
-Congrats! You got the offer. Revel in what you're feeling, you deserve it. The countless hours of work, rejection, and persistence finally paid off. So what's next? Well first we **highly recommend** you read the Tech Interview Handbook [Post Interview guide](https://yangshun.github.io/tech-interview-handbook/understanding-compensation). Most of this content won't be directly relevant for internships, but is valuable to know as you trek through your corporate journey.
+Congrats! You got the offer. Revel in what you're feeling, you deserve it. The countless hours of work, rejection, and persistence finally paid off. So what's next? Well first we **highly recommend** you read the Tech Interview Handbook [Post Interview guide](https://www.techinterviewhandbook.org/understanding-compensation/). Most of this content won't be directly relevant for internships, but is valuable to know as you trek through your corporate journey.
 
 ### Success Next Steps!
 
