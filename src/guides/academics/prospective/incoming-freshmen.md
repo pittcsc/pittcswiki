@@ -29,7 +29,7 @@ A massive thing to consider when choosing a college/university is how much debt 
 - **Who's recruiting from the school?**
 
   - If you know what kind of companies you want to work at or have an idea of a field you want to break into, see who's showing up to career fairs, who's sponsoring events, and who's working with student organizations. See which industries are big near your school - these tend to be companies that will recruit from your school.
-  - Pittsburgh, for example, is an Autonomous Vehicle (AV) company paradise. Uber ATG recruits heavily from Pitt and CMU, and Argo AI was even founded by a Pitt alumni!
+  - Pittsburgh, for example, is an Autonomous Vehicle (AV) company paradise. Uber ATG recruits heavily from Pitt and CMU, and Argo AI *(unfortunately now defunct)* was even founded by a Pitt alumni! Other AV companies in the Pittsburgh area include: Waymo, Aurora, and Motional.
   - The Pitt CSC has worked with several tech companies + the school is sponsored by several large Finance/Trading/Tech companies.
 
 - **How's the social life there?**
@@ -45,7 +45,7 @@ A massive thing to consider when choosing a college/university is how much debt 
 
 - **How's the research?**
   - If you're interested in research, look up professors who study certain topics, and try to take a class with them or stop by office hours to get to know them better! A good professor can serve as a mentor and a valuable recommendation letter if you're interested in grad school.
-  - Pitt's CS research is actually quite good - you can search up specific area strength in topics in CS on [csrankings.org](https://csrankings.org). For example, Pitt is #4 in AI paper output nationwide.
+  - Pitt's CS research is actually quite good - you can search up specific area strength in topics in CS on [csrankings.org](https://csrankings.org). Pitt regularly within the top #50 of multiple categories.
 
 ## Assorted Questions/Tips for Pitt CS
 

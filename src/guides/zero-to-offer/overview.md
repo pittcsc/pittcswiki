@@ -56,7 +56,7 @@ Getting an interview is contingent on a few things:
 
 We dive deep into the first two bullets in the [Building your Case](/zero-to-offer/building-your-case) section.
 
-Applying to companies involves mass online applications and it is common to apply to over 150 companies. For find positions, we post internship postings in [this repository](https://github.com/Pitt-CSC/Summer2021-Internships) and full-time positions in [our new grad database](https://github.com/owini/New-Grad-Positions-2023)! Here are a few things to note about applying.
+Applying to companies involves mass online applications and it is common to apply to over 150 companies. For find positions, we post internship postings in [this repository](https://github.com/pittcsc/Summer2024-Internships) and full-time positions in [our new grad database](https://github.com/owini/New-Grad-Positions-2023)! Here are a few things to note about applying.
 
 #### Ghosting
 
@@ -113,7 +113,7 @@ A typical interview process may look like this:
 
 Companies tend to follow a format similar to this. Some companies may deviate slightly. For example, Google internship interviews do not have an onsite, but have a “team matching” phase. Others might have an initial “recruiter behavioral phone screen”. Some may even have multiple Hackerrank stages. But, this is what you should generally expect.
 
-All of this interviewing ends up being a decent amount of work! To succesfully land an internship, you need to do a lot of interviews. **Treat interviewing like a 3 credit class**.
+All of this interviewing ends up being a decent amount of work! To successfully land an internship, you need to do a lot of interviews. **Treat interviewing like a 3 credit class**.
 
 ## Your Todo List
 

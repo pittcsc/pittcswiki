@@ -7,7 +7,7 @@ Everyday aim for 1-2 problems.
 [Robby Horvath](https://www.linkedin.com/in/robby-horvath/) made a Notion checklist template to keep track of all problems. [Check it out](https://erratic-aletopelta-d86.notion.site/Template-Leetcode-Checklist-8246bb89ac0b4016ae61daeebe2cf1ab)!
 
 LeetCode is much easier when we all work together. Please send any questions you have on the LeetCode problems/theory/anything and we'll answer them on Discord!  
-[Join the Discord here!](https://discord.gg/ru3Ww5Tu)
+[Join the Discord here!](https://discord.gg/wzPeq2GCRT)
 
 ## Pre-reqs:
 - CS0445 (highly recommended)

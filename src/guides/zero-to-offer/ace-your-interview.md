@@ -6,11 +6,11 @@ title: "[02O] 4. Acing Your Interview"
 
 Coding Interviews are tough, but with practice you'll be able to pass them with ease. Before continuing, it is **required** to read the following Tech Interview Handbook pages:
 
-- [Coding Round Overview](https://yangshun.github.io/tech-interview-handbook/coding-round-overview) (1 minute read)
-- [Picking a Language](https://yangshun.github.io/tech-interview-handbook/picking-a-language) (5 minute read)
-- [Study and Practice](https://yangshun.github.io/tech-interview-handbook/study-and-practice) (5 minute read)
+- [Coding Round Overview](https://www.techinterviewhandbook.org/software-engineering-interview-guide/) (5 minute read)
+- [Picking a Language](https://www.techinterviewhandbook.org/programming-languages-for-coding-interviews/) (5 minute read)
+- [Study and Practice](https://www.techinterviewhandbook.org/coding-interview-study-plan/) (5 minute read)
 
-Reading the Yangshun guides should take no more than 20 minutes!
+Reading the TechInterviewHandbook guides should take no more than 20 minutes!
 
 Additionally, it might be worth it to watch a real interview. [Here](https://www.youtube.com/watch?v=3Q_oYDQ2whs) is an example video.
 
@@ -62,7 +62,7 @@ Your ultimate goal is to recognize the patterns of coding problems and the typic
 
 ### Questions to Solve
 
-As said before, if you choose to use CTCI then you can solve those questions. For LeetCode, we highly recommend the [Blind 75 List](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) and the Tech Interview Handbook's [Best Practice Questions](https://yangshun.github.io/tech-interview-handbook/best-practice-questions).
+As said before, if you choose to use CTCI then you can solve those questions. For LeetCode, we highly recommend the [Blind 75 List](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) and the Tech Interview Handbook's [Best Practice Questions](https://www.techinterviewhandbook.org/best-practice-questions/).
 
 For more beginner friendly problems, check out the [LeetCode Explore Problem Sets](https://leetcode.com/explore). We recommend the following:
 
@@ -89,7 +89,7 @@ If you are able to recognize and solve these patterns, then interviews will beco
 
 We recommend developing a study plan and sticking with it. This will be a lot easier if you do it with others. How much you need to study will be very dependent on your current skill level. It is important that you be consistent in practicing!
 
-We previously recommended the Tech Interview Handbook's [Best Practice Questions page](https://yangshun.github.io/tech-interview-handbook/best-practice-questions). This page has weekly breakdowns on problems to do. However, it is extremely unlikely that you will be able to solve all the problems every week. Instead, for each week do as many problems as you need to do. If the week ends and you haven't done all of that week's problems, just skip to the next week. Don't stress too much about following the Tech Handbook's guide so closely. You're practicing to develop your own fundamentals, so work at your own pace!
+We previously recommended the Tech Interview Handbook's [Best Practice Questions page](https://www.techinterviewhandbook.org/best-practice-questions/). This page has weekly breakdowns on problems to do. However, it is extremely unlikely that you will be able to solve all the problems every week. Instead, for each week do as many problems as you need to do. If the week ends and you haven't done all of that week's problems, just skip to the next week. Don't stress too much about following the Tech Handbook's guide so closely. You're practicing to develop your own fundamentals, so work at your own pace!
 
 ### 3 Month Plan
 

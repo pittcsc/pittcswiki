@@ -34,7 +34,7 @@ One of the best perks of going to a Pittsburgh university is that you get to tak
 
 ## Interesting CMU CS Courses
 
-There are a lot, but here are a few!
+There are a lot, but here are a few! *(some of the following only offered intermittently)*
 
 - Functional Programming (SCS 15-150)
 - Introduction to Computer Music (SCS 15-322)

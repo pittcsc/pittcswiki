@@ -16,7 +16,7 @@ Preface: *If you want to do well in any course, the bare minimum is attending al
 
 ## What is *Discrete Structures for Computer Science?*  
 
-CS 0441 Discrete Structures for Computer Science is a mathematics course which focuses on the study of mathematical structures that are discrete rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distincly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses more on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
+CS 0441 Discrete Structures for Computer Science is a mathematics course which focuses on the study of mathematical structures that are discrete rather than continuous. This means that the objects within the mathematical structures that you'll learn about are distinctly separated values. This course will focus heavily on the integers (which are discrete by nature), whereas a continuous field like calculus focuses more on real numbers. Lets start with a birds-eye view of the main topics covered in 441:
 - Logic and Proofs
   - This is the theoretical foundation of the course which teaches you how to derive additional information from some given information. Thoroughly understanding the proofing techniques is incredibly important because you will be using these techniques throughout the rest of the course. 
 - Sets
@@ -80,8 +80,6 @@ If you didn't have the time or energy to do any reading, that's okay. Quickly lo
 
 *Discrete Mathematics and its Applications* by Kenneth Rosen is a fantastic textbook. The concepts are explained well and there are in-text exercises to get you ready for the end-of-chapter problems. These in-text exercises are notated by **EXAMPLE X** in the left margin, and they consist of a small problem followed by a solution. **Try solving the exercises by hand before looking at the solution.** This is a fantastic way to engage with the material before class, even if you only do a few problems. At the end of each chapter is around 50 practice problems, and the solutions to the odd-numbered problems can be found at the end of the book.  
   
-Here's a free pdf version of the book (this is what I used):  https://1lib.us/book/4985595/cc406a?id=4985595&secret=cc406a
-
 ### **Homeworks**
 
 Start the homeworks as early as possible. You don't want to be stuck having to write 5+ proofs with 3 hours until the submission deadline. If you get stuck on a problem, move on and finish as many as you can. Then, go to office hours and address the problems that you are stuck on. Also, do the starred problems in the textbook (they may be bonus questions). While you *may* get stuck on the regular problems, you **will** get stuck on the starred ones. These provide fantastic opportunities to get stuck when attempting questions that require a bit more creativity. 
@@ -94,7 +92,7 @@ The homeworks will start out relatively easy, but they will ramp up in difficult
 
 ### **Studying for exams**
 
-As with most CS courses, avoid rote memorization. Computer science is very a conceptual field and memorization plays a miniscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthened with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book.
+As with most CS courses, avoid rote memorization. Computer science is very a conceptual field and memorization plays a minuscule role. What's important is understanding the systems / patterns, conceptualization, and problem solving, all of which are skills that can be strengthened with practice. The odd-numbered practice problems at the end of every chapter are very helpful and their answers can be found at the end of the book.
 
 ## Conclusion:
 

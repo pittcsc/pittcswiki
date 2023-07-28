@@ -86,7 +86,7 @@ ENGFLM 0570 (or FMST 0505) Introduction to New Media takes what you learn from t
 ## Extra notes
 
 For students within the School of Computing and Information attempting the Bachelor of Science, advisors will be from [SCI](https://www.sci.pitt.edu/student-resources/academic-advising-center). Dietrich School of Arts and Sciences students going for the Bachelor of Arts will have [English advisors](https://www.english.pitt.edu/undergraduate/advising), but they will have access to drop-in hours with [SCI advisors](https://www.sci.pitt.edu/student-resources/academic-advising-center) who will have a better understanding of CS and INFSCI courses.
-The DNID major has connections to the many labs on campus including, [The Open Lab](https://www.library.pitt.edu/open-lab-hillman), the [Vibrant Media Lab](http://vml.pitt.edu/), and the [Learning Technologies Lab](http://learningtechlab.pitt.edu/).
+The DNID major has connections to the many labs on campus including, [The Open Lab](https://www.library.pitt.edu/open-lab), the [Vibrant Media Lab](http://vml.pitt.edu/), and the [Learning Technologies Lab](http://learningtechlab.pitt.edu/).
 In-class projects might require special equipment, so it's important to remember the [Hillman Library's Equipment Collection](https://pitt.libguides.com/equipment/borrowersguide) has whatever you might need.
 
 ## Resources

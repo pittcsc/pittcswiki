@@ -55,7 +55,7 @@ After you a submit a PR and it is merged to the master branch, you are all set!
 
 Say you want to make 5 different guides about research.
 
-1. Make a new folder in the `src/guides/academics/` folder, called `research` (where academics is the appropiate category)
+1. Make a new folder in the `src/guides/academics/` folder, called `research` (where academics is the appropriate category)
 2. Add an `index.md` in this folder to serve as on overview. (this will be reachable via /guides/academics/research/)
 3. Add more markdown files inside the folder!
 
@@ -77,7 +77,7 @@ The related is a list, and starts with the title of the link, and next is the ac
 
 You only have to do below if you want to add new functionality with Javascript!
 
-We recommened using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
+We recommend using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
 
 1. Download Node https://nodejs.org/en/
   - run `node -v` to make sure it installed
@@ -105,6 +105,6 @@ the page defined in `src/page/courses.js`.
 
 Markdown files are converted to HTML pages with the `src/components/templates/guides-template` file.
 
-If you are curious about how this project works and want to become a serious contributer - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/).
+If you are curious about how this project works and want to become a serious contributor - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/).
 
 Thanks for contributing!

@@ -2,7 +2,7 @@
 title: "Crafting your Resume"
 ---
 
-Some of the following content is by [Yangshun Tay](https://yangshun.im/) and [Christina Ng](https://www.quora.com/profile/Christina-Ng) and rephrased for the purpose of the wiki.
+Some of the following content is by [Yangshun Tay](https://www.techinterviewhandbook.org/resume/) and [Christina Ng](https://www.quora.com/profile/Christina-Ng) and rephrased for the purpose of the wiki.
 
 Your resume is your key to getting interviews from top companies. So having a comprehensive understanding of how resumes are screened and used in industry will greatly benefit your job search.
 
@@ -72,7 +72,7 @@ That being said, if you don't have any relevant experience be sure to put as muc
 
 
 There's a lot of resources online on what to say for each work experience, but in general:
-- Highlight the impact of your work instead of the responsiblities
+- Highlight the impact of your work instead of the responsibilities
 - Use bullet points instead of paragraphs. This makes it much more readable!
 - Start each bullet with an **action verb**.
 - Quantify your achievements with numbers/metrics (improved speeds by 20%, reduced expenses by 10%,  generated $50,000 in revenue, etc.)
@@ -83,11 +83,11 @@ There's a lot of resources online on what to say for each work experience, but i
 
 If you don't have relevant work experience, the next best option to have is to put projects that you've worked on and completed in a Projects section as they can help show companies your technical expertise and background.
 
-Anything you've programmed can be considered a project. This includes school projects, hackathon projects, freelance work, open source contributions, and any other personal programming project (pretty much anything on github).
+Anything you've programmed can be considered a project. This includes school projects, hackathon projects, freelance work, open source contributions, and any other personal programming project (pretty much anything on GitHub).
 
 When putting Projects on your resume, follow these guidelines:
 
-- Have a 1-2 bullets containing the Project's title, description, and github link of the project.
+- Have a 1-2 bullets containing the Project's title, description, and GitHub link of the project.
 - Spend two-three bullets about your role within the project, what technologies you used, what you learned, etc.
 - Not necessary, but have projects that align with the position you are applying for
 - Limit the use of technical jargon. You want your recruiter to be able to have a clear understanding of what you did!
@@ -115,7 +115,7 @@ If you have extra space on your resume, you may want to list various clubs you a
 
 ### GPA: Important or not?
 
-Users on popular sites like [Reddit](https://www.reddit.com/r/cscareerquestions/) and [Blind](https://www.teamblind.com/), often dismiss the importance of a student's GPA, however that is largely unaccurate.
+Users on popular sites like [Reddit](https://www.reddit.com/r/cscareerquestions/) and [Blind](https://www.teamblind.com/), often dismiss the importance of a student's GPA, however that is largely inaccurate.
 Everyone wants the cream of the crop. In the absence of a standardized test, GPA serves as that indicator. **While GPA may not necessarily be a good indication of how well you can code, a high GPA would definitely put you in a more favorable position to the recruiter.**
 
 If your GPA is rather low, but you have loads of technical experiences, you can try not listing your GPA in the resume. This kinda "forces" the recruiter to read through your projects/job experience, and perhaps grant you a first interview. If you manage to impress them, who cares about your GPA? But if your GPA is low and you do not have skills for the job... maybe you should work on one of them and revisit job applications later.

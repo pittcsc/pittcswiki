@@ -37,7 +37,7 @@ For games that are intended to be sold, they may also require a **publisher** to
 * [Vulkan](https://en.wikipedia.org/wiki/Vulkan_(API))
 * [DirectX](https://en.wikipedia.org/wiki/DirectX)
 
-### Game Frameworks / Libaries
+### Game Frameworks / Libraries
 
 * [raylib](https://www.raylib.com/) (C++)
 * [MonoGame](https://www.monogame.net/) (C#, Stardew Valley and Terraria used this)
@@ -54,8 +54,10 @@ For games that are intended to be sold, they may also require a **publisher** to
 
 * [Open Game Art](https://opengameart.org/) has free 2D, 3D, and audio assets for use in games
 * [Brackeys’ website](https://brackeys.com/) has completely free 2D and 3D assets you can use anywhere
-* [Epic Game Store](https://www.epicgames.com/store/en-US/) gives you access to Unreal Engine 5 in early access which has 15,000+ free assets to use in addition to the Unreal Engine Asset Store
+* [Epic Game Store](https://www.epicgames.com/store/en-US/) gives you access to Unreal Engine 5 in ~~early access~~ which has 15,000+ free assets to use in addition to the Unreal Engine Asset Store
 * [Unity Asset Store](https://assetstore.unity.com/) is another plethora of game dev assets including scripts 
+
+> *Unreal Engine 5 was released from Beta April 5, 2022*
 
 ### Creative Tools
 

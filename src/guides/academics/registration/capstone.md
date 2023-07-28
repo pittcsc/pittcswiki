@@ -62,17 +62,8 @@ Here's the description of what kind of position qualifies as eligible for CS 190
 
 So you've got a position like this locked up. Congratulations! What now?
 
-*Fill out the [Undergrad Internship Application Form](https://pitt.co1.qualtrics.com/jfe/form/SV_bCVSSfdCdfABq05)*. 
-
-**MAKE SURE TO SELECT 3 CREDITS WHEN YOU ARE FILLING OUT THE FORM!**
-
-Once you've finished that form, you'll get 2 more forms automatically emailed to you (contact Alka Singh if you don't get them). If you love forms and bureaucracy, you're going to love the capstone.
-
-Now, you need to do two things:
-
-1. Get someone from your company to fill out the employer form
-2. Talk to your faculty mentor
-
+*Follow the [enrollment process](https://www.cs.pitt.edu/current-students/bs-computer-science/capstone-options)*. 
+*If you have any questions relating to enrollment, direct them towards [Emily Bennett](mailto:emb108@pitt.edu), SCI's Manager of Experiential Learning*
 
 ### Employer Representative ###
 Ask your employer representative (this can be your manager, for me it was my company's tech internship program lead who contacted my manager for a job description) to fill out the employer internship form. In that form, they'll provide a description of what you'll be doing, and you'll get a copy of what they entered automatically emailed to you. You'll need this description for your...
@@ -86,7 +77,7 @@ The entire faculty mentor part of this process is a pretty outdated rule that is
 
 You said you loved forms and bureaucracy earlier, right? Awesome!
 
-Once you get everything there done, then Alka Singh, the Director of Experiential Learning at the SCI, will send you an email with the go-ahead to apply for a permission number for CS 1900. 
+Once you get everything there done, then Emily Bennett, the Director of Experiential Learning at the SCI, will send you an email with the go-ahead to apply for a permission number for CS 1900. 
 
 Screenshot this email, convert that screenshot to PDF (there are sites online that do this for you), and attach it to a permission number request form that you can create [*here*](https://courses.sci.pitt.edu/permission). Log in with the same credentials you use to sign into MyPitt.
 

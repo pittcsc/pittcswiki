@@ -8,7 +8,7 @@ When you hear back there will be two outcomes: either you get rejected or you ge
 
 ## Rejection
 
-The one constant about rejection is that it hurts. It always hurts and it usually hurts more than we expect it to. For many of us, we take rejections personally and let it ruin our mood for days. Remember, everyone gets rejected at some point. Each rejection is a step closer to an offer. So, everytime you get rejected, imagine that you have gotten one step closer to success.
+The one constant about rejection is that it hurts. It always hurts and it usually hurts more than we expect it to. For many of us, we take rejections personally and let it ruin our mood for days. Remember, everyone gets rejected at some point. Each rejection is a step closer to an offer. So, every time you get rejected, imagine that you have gotten one step closer to success.
 
 Eventually, we feel better and more importantly, our lives get better. Our once grim prospects go back to being hopeful and amiable. Ultimately, the pessimism was overblown and frankly unnecessary. Rejection will never leave us, so our best choice is to learn how to approach it.
 
@@ -20,7 +20,7 @@ The important thing is to not let your grief overtake you. Don't let it cloud yo
 
 ### This Wasn't Your Only Chance
 
-Opportunities and interviews can feel like once in a blue moon. Everytime you feel this way, realize it's not true. The job you got rejected for today wasn't and isn't the only chance you'll get to get a job. It might take months, but opportunities will come back, they always do. Try to hold onto the hope that another chance will present itself.
+Opportunities and interviews can feel like once in a blue moon. Every time you feel this way, realize it's not true. The job you got rejected for today wasn't and isn't the only chance you'll get to get a job. It might take months, but opportunities will come back, they always do. Try to hold onto the hope that another chance will present itself.
 
 ### Think of the Bigger Picture
 

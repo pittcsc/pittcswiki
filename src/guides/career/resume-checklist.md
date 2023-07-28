@@ -11,7 +11,7 @@ Check out [here](https://pittcswiki.netlify.app/career/resume/) for a more compr
    - Keep the colors minimal (White, Black, Dark Blue)
    - No photos
 2. Place an expected graduation date.
-3. Emphasive the impact you make in your experience, not the responsibilities you had
+3. Emphasize the impact you make in your experience, not the responsibilities you had
    - Ex: Instead of "Helped customers shop" say "Generated $x in sales by helping customers with their purchases" 
 4. Place the most recent experience at the top.
 5. Start each bullet with an [action verb](https://cdn.uconnectlabs.com/wp-content/uploads/sites/32/2016/01/Resume-2.png)
@@ -29,7 +29,7 @@ Check out [here](https://pittcswiki.netlify.app/career/resume/) for a more compr
     - Introduction to Systems Software -> Systems Software 
     - The extra words generally do not convey enough information to justify the space that the words take up.
 12. Make links clickable.
-    - Verify Linkedin/GitHub links, personal/project websites, and email addresses.
+    - Verify LinkedIn/GitHub links, personal/project websites, and email addresses.
   
 ## LaTeX-specific tidbits
 1. Use \LaTeX when referencing LaTeX (for example, in a skills section) in a LaTeX resume.

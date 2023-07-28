@@ -89,7 +89,7 @@ Fun facts:
     *   Active learning facilitators work with a lecturer to guide students through Process Oriented Guided Inquiry Learning (POGIL) activities with a 1-2 hour per week time commitment
     *   Recitation co-leaders work with other UTUs to help small groups of students practice lecture concepts during recitation (my personal recommendation) with a 1+ hour per week time commitment. 
     *   Laboratory co-teachers work with a laboratory instructor to help students complete laboratory experiments with a 3 hour per week time commitment. 
-    *   Organic chemistry (CHEM 310/320) UTAs should receive full letter grades (affects GPA). Responsibilities vary but on average your role will be very important beacuse of the nature of the course.
+    *   Organic chemistry (CHEM 310/320) UTAs should receive full letter grades (affects GPA). Responsibilities vary but on average your role will be very important because of the nature of the course.
   * You can UTA for the separate biology labs and the compensation will be S/NC credit most likely and responsibilities will vary.
 
 
