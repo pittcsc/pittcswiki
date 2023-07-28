@@ -119,7 +119,7 @@ The course's reputation for being demanding is true. The course topics will like
 
 ### **Lectures**
 
-Attendance is very important. The slide decks are often sparse and occasionally include Pitt-specific instructional devices which you wouldn't be able to find information on externally (and you wouldn't want to devote too much time to as they normally have built in flaws or impracticalities).
+Attendance is very important. The slide decks are often sparse, so make sure you show up to class so you can learn everything you need to know.
 
 Asking questions is a great way to clarify topics. You are going to have questions at some point. Even if you could search it up online, why would you? You're depriving yourself of a few great benefits: 
 
@@ -129,6 +129,12 @@ Asking questions is a great way to clarify topics. You are going to have questio
 4. Actively thinking of questions is good for your brain. Why do we do things X way? What could happen if we did Y?
 
 Take notes!
+
+### **Recitations**
+
+Recitations are a great place to learn and make friends. TAs can clarify course material, give you tips on project planning, studying, and exams.
+
+Get to know your TA - they can help you get out of a real bind on your projects if you visit them during their office hours.
 
 ### **Readings**
 
@@ -147,17 +153,21 @@ You are going to be writing a bunch of code in this course. Roughly 1 project ev
 What should I do when I am assigned a project?
 1. (First Day) Read the description. Take notes if necessary. Note any questions so you can ask the TA's/professor.
 2. (First Day) Make sure your development environment is set up and can run the project.
-3. Break the project into incremental parts. You'll notice that the project interface is set in a way that allows functionalities to be tested individually. *I wonder why that is....*
-4. Build the project incrementally. Develop unit tests as you go along, it will be difficult to retroactively build them. If your professor allows multiple submissions, submit frequently to gain partial credit in the event you are not able to turn in a completed project.
+3. (First/Second Day) Break the project into incremental parts. You'll notice that the project interface is set in a way that allows functionalities to be tested individually. *I wonder why that is....* Questions to consider
+   1. What methods depend on other methods?
+   2. Which methods should I create first?
+   3. How will my project work as a whole? 
+   4. What data structures should I be using, and where?
+4. Build the project incrementally. Develop unit tests as you go along, it will be difficult to retroactively build them. Trace though your code when you make additions/changes - make sure everything is still working as expected. If your professor allows multiple submissions, submit frequently to gain partial credit in the event you are not able to turn in a completed project.
 5. (2-3 days before deadline) Build tests for your complete project. Look for edge cases in your code. Consider [fuzzing](https://en.wikipedia.org/wiki/Fuzzing) as it's a relatively easy way to find bugs and make sure your testing coverage is adequate. 
 
-You do not want to be holding on to an incomplete project the last 2-3 days before it's due. That's likely when the next project is being introduced - which means you'll have extra things to think about.
+You do not want to be holding on to an incomplete project the last 2-3 days before it's due. That's likely when the next project is being introduced - which means you'll have extra things to think about. Also, TA office hours (which you should be going to if you need help) get really busy towards the deadline, so getting help may be a challenge.
 
 > Don't cheat. It's very easy to catch. Beyond the typical meaning of cheating: *don't cheat yourself*. Did you write some code that you don't fully understand? Figure it out. Do it right.
 
 ### **Tests**
 
-Tests are challenging in 1501 because of the breadth of the information you are expected to know and the depth at which you are supposed to understand it (graph joke 😉). Memorization will be required to remember vocabulary and algorithms, however comprehension is going to be far more pivotal.
+Tests are challenging in 1501 because of the breadth of the information you are expected to know and the depth at which you are supposed to understand it (graph joke 😉). Memorization will be required to remember vocabulary and algorithms, however comprehension is going to be far more pivotal. Test weighting and policies vary between professors, but will be important either way.
 
 Most test questions revolve around tracing algorithms by hand. So, make sure you can "step through" algorithms on paper for any given input. This will likely require you to come up with some strategies and *build up speed* by practicing. Quizzes and practice tests are great for assessing your knowledge and familiarizing yourself with the format of the upcoming test before taking it.
 
@@ -171,9 +181,7 @@ Algorithms and Data Structures 2 is a challenging and rewarding course that will
 
 ## **Tips:**
 
-- Attend recitations: They are a great place to learn and make friends with your classmates. Also, get to know your TA - they can help you get out of a real bind on your projects if you visit them during their office hours.
 - Chat about the course topics with your friends, it can be a great way to learn and get immersed in the content.
 - Keep your notes organized, you will find yourself referencing them a lot.
 - Block your time for your projects: It can be really hard to start and stop work on your projects, so try to work in 2-3 hour sections if possible.
 - Create/compile "warm-up" problems to take before your tests. That way you are at peak performance when you are taking the exam.
-
