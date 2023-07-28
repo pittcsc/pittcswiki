@@ -94,7 +94,6 @@ Here is a list of things others have done which are great examples.
 
 - [Give a talk at a Python conference](https://www.pyohio.org/2019/presentations/66)
 - [Creating a weather bot as a personal project](https://github.com/Zmwang622/Weather-Bot)
-- [Go to a company sponsored hackathon and win](https://www.youtube.com/watch?v=FllvDqwGSDc)
 
 ## Building Your Case
 
@@ -108,7 +107,7 @@ What you need
 - Create a personal website (Time Permitting) (Read [here](/skills/personal-website/) on why and how to do that)
 
 What you do
-- Apply online everywhere. (See a list [here](https://github.com/Pitt-CSC/Summer2021-Internships))
+- Apply online everywhere. (See a list [here](https://github.com/pittcsc/Summer2024-Internships))
 - Apply on Handshake, LinkedIn, Jumpstart
 - Go to networking events (Career Fairs, CS Club Events)
 - Go to company-specific events (Like JPMorgan Code for Good, Capital One Summit, Jane Street SEE, Google Games, etc.)

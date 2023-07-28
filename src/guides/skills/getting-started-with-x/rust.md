@@ -23,7 +23,7 @@ This guide is still a work-in-progress, so check out our [beginner guides sectio
   - Rust can be run in web browsers via WebAssembly (check out [`wasm-pack`](https://rustwasm.github.io/docs/wasm-pack/))
 - Using a system that doesn't have a standard library
   - In Rust, you can disable the standard library with `no-std`
-  - Often required when building operating system or programs for micro-controllers (check out [AVR Rust](https://book.avr-rust.com/))
+  - Often required when building operating system or programs for micro-controllers (check out [AVR Rust](https://github.com/avr-rust)
 
 #### When Not To Use Rust
 - You don't want to spend the time to learn it
@@ -151,11 +151,11 @@ governance structure -->
 
 ### Other Guides
 - [Rust for C++ Programmers](https://github.com/nrc/r4cppp) by Nick Cameron
-- [Rust for Embedded C Programmers](https://docs.opentitan.org/doc/ug/rust_for_c/)
+- [Rust for Embedded C Programmers](https://opentitan.org/book/doc/introduction.html)
 - [Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
   - In Rust, writing your own linked list from scratch is (infamously) complex
 - [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
-- [AVR Rust](https://book.avr-rust.com/)
+- [AVR Rust](https://github.com/avr-rust)
   - Rust on microcontrollers
 - [`wasm-pack`](https://rustwasm.github.io/docs/wasm-pack/)
   - Rust in the web browser (via WebAssembly)

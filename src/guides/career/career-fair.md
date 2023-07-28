@@ -116,7 +116,7 @@ This is more easily said than done, and the only way to improve at it is to prac
 - Demonstrated skill through a technical or non-technical project displayed on your resume or brought up in conversation.
 
 ### Questions to Ask
-You'll want to have questions prepared to ask companies and employers. The tech interview handbook has a great list [here](https://yangshun.github.io/tech-interview-handbook/questions-to-ask)!
+You'll want to have questions prepared to ask companies and employers. The tech interview handbook has a great list [here](https://www.techinterviewhandbook.org/final-questions/)!
 
 Always make sure you have the contact information for each person you talk to! By the end of the conversation, be sure to ask for it if it didn't already come up.
 

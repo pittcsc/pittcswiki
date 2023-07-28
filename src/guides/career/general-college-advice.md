@@ -92,7 +92,7 @@ We have an [extensive guide](https://pittcs.wiki/career/career-fair/) on going t
 #### Apply... everywhere!
 People who want top job offers usually end up applying to every position they find. If you're successful at the career fair and don't want to work at a top company yet, then you don't need to try as hard, but it is a very insightful experience regardless!
 
-From 2020-2022, CSC ran the internet's [most popular internship job board](https://github.com/Pitt-CSC/Summer2021-Internships). Try to apply to as many companies there as possible. People often apply to several hundred postings!
+From 2020-present, CSC runs the internet's [most popular internship job board](https://github.com/pittcsc/Summer2024-Internships). Try to apply to as many companies there as possible. People often apply to several hundred postings!
 
 #### TA/Peer Tutor/Research
 If you don't think you have enough technical experience try to be a TA or Peer Tutor. Now that you've taken more CS courses and know more professors, research should also become more attainable. 
@@ -104,9 +104,9 @@ Now that you have a very serious chance of getting internships, you'll want to m
 We have a comprehensive [resume guide](https://pittcs.wiki/career/resume/) that will help make your resume stand out. Here's the basics:
 * Use online builders like [flowcv.io](https://flowcv.io/) to easily make a beautiful resume
 * Don't sell yourself short: include your personal projects, non-relevant work (eg. camp counselor, retail, bussing tables), and awards!
-* Try to write strong bullets: focus on the impact of your work not the actual day-to-day activites.
+* Try to write strong bullets: focus on the impact of your work not the actual day-to-day activities.
 
-CSC has a #resume-review channel where people often get feedback on their resume from. If you have any concerns, be sure to include yours there!
+CSC has a **#resume-review** channel where people often get feedback on their resume from. If you have any concerns, be sure to include yours there!
 
 #### Learn the Fundamentals
 Make sure you know and understand the fundamentals of how CS students get jobs. It boils down to three parts:

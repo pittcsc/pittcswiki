@@ -1,7 +1,7 @@
 ---
 title: "Applying to Graduate School (MS/PhD)"
 author: "James Hahn, Katelyn Morrison"
-search_tags: ["BS","Research","grad","minecraftman92", "MS", "PhD", "graduate", "school", "graduate school"]
+search_tags: ["BS","Research","grad", "MS", "PhD", "graduate", "school", "graduate school"]
 ---
 
 ## Choosing a school
@@ -128,7 +128,7 @@ This is the most important part of your graduate application for Ph.D. programs.
 The main structure of the statement of purpose is the most difficult part. Here is a rough outline of how to formulate it:
 - Introduction: Big picture why do you want to do research, why do you need a Ph.D., which advisor/s would you like to work with in the program you are applying to, what area of research would you like to work on, what broad research questions do you want to go after?
 - Research experiences: Choose 1-3 research experiences you had. Show what research skills you learned from this experience while explaining your role in the project. 
-- Teaching/Mentoring experiences: As a Ph.D. student, you will take on many hats. A researcher. A mentor. A teacher. A student. It is beneficial if you express your interest in mentoring and teaching as well as being a researcher. If you have any mentorship or teaching experience (UTA), you can breifly describe them as long as they are related to the flow of your statement. 
+- Teaching/Mentoring experiences: As a Ph.D. student, you will take on many hats. A researcher. A mentor. A teacher. A student. It is beneficial if you express your interest in mentoring and teaching as well as being a researcher. If you have any mentorship or teaching experience (UTA), you can briefly describe them as long as they are related to the flow of your statement. 
 - Conclusion: Summarize your experiences and skills and how all of this has helped you reach the conclusion that you a Ph.D. is a natural next step for you.
 
 **Work experience**

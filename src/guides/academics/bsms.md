@@ -8,11 +8,11 @@ related:
 
 The BS + MS Program at Pitt is a challenging 5-year program that can help students to accelerate their careers
 in computer science. This guide will provide an overview of the program, including the necessary steps to
-complete the program. You can learn more about the program at [cs.pitt.edu/degrees/bsms/](https://cs.pitt.edu/degrees/bsms/ "BS + MS").
+complete the program. You can learn more about the program [here](https://www.cs.pitt.edu/current-students/bsms-computer-science).
 
 ## Requirements for Admission
 
-- 96 credits of undergraduate courswork, with 37 credits of CS coursework
+- 96 credits of undergraduate coursework, with 37 credits of CS coursework
 - 11-12 credits in Math/Stat
 - 22 credits of specific CS courses and 18 credits of specific Math/Stat courses (specified below)
 - All general education requirements
@@ -23,7 +23,7 @@ complete the program. You can learn more about the program at [cs.pitt.edu/degre
 
 - Talk with senior SCI official/professor and acquire checklist sheet
 - Ensure you meet the checklist requirements
-- Fillout application at [ApplyYourself](https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=up-is "ApplyYourself Application")
+- Fill out application at [ApplyYourself](https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=up-is "ApplyYourself Application")
 - Make sure to acquire to two recommendations for this application
 
 ## Degree Coursework

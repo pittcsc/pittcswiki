@@ -137,7 +137,7 @@ Some other programs:
       applications from undergraduates (in addition to PhDs).
 - [Microsoft Research](https://www.microsoft.com/en-us/research/academic-program/undergraduate-research-internship-computing/)
 - [MIT Lincoln Lab](https://www.ll.mit.edu/careers/student-opportunities)
-- [NASA Jet Propulsion Laboratory](https://jpl.jobs/university-recruiting)
+- [NASA Jet Propulsion Laboratory](https://www.jpl.jobs/students-and-postdocs)
 - [CMU RISS (robotics research)](https://riss.ri.cmu.edu/)
 
 ### Do it alone.
@@ -190,7 +190,7 @@ the year.
 
 ### Honors college thesis.
 
-Pitt Honors College offers the [BPhil degree](https://www.honorscollege.pitt.edu/bphil),
+Pitt Honors College offers the [BPhil degree](https://www.frederickhonors.pitt.edu/bphil),
 which requires submitting and defending a thesis.
 
 ### Conference and journal papers.

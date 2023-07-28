@@ -30,7 +30,7 @@ CSC's programs include:
     *   CSC runs a wide variety of programming events and competitions, such as a month-long project competition called CSC Hacks!
     *   [This wiki](https://github.com/PittCSWiki/pittcswiki), [Pitt API](https://github.com/Pitt-CSC/PittAPI), and [Panther View](https://github.com/Pitt-CSC/PantherView) were all built by CSC members!
 *   Branches
-    * Connect with a community of students interested in similar areas of technology to share resources and grow your skills! Some current branches inclube web development, iOS/Swift development, game development, and financial technology. 
+    * Connect with a community of students interested in similar areas of technology to share resources and grow your skills! Some current branches include web development, iOS/Swift development, game development, and financial technology. 
     * Not finding a branch you're looking for? Start your own!
 *   Corporate & Alumni Networking Events
     *   Network with tech giants & awesome alumni through CSC networking meet and greets, tech talks, and company site visits!
@@ -67,17 +67,10 @@ Interested? Check out WiCS's website [here](http://www.wics.cs.pitt.edu/) for mo
 
 RAS was founded by a group a students with a strong desire to build robots and compete in robotics competitions around the world. Their mission is to provide hands-on experience in robotics, provide an avenue for students to recieve support from Pitt to compete in various competitions, and have fun! Competitions also come with opportunities to network with sponsors, other universities in the competition, and RAS alumni.
 
-In the past RAS has participated in a plethora of [robotics competitions and projects](http://pittras.org/projects/), including the following:
-*   [Indy Autonomous Challenge](http://pittras.org/projects/2020-auto-indy)- an autonomous Indy Race car!
-*   [IARC Mission 7](http://pittras.org/projects/IARC/)- autonomous drone navigation and task completion!
-*   [Scorpion](http://pittras.org/projects/2017-scorpion/)- a hexapod robot (because why not?)
+In the past RAS has participated in a plethora of [robotics competitions and projects](https://www.raspitt.org/projects), including the following:
+*   [Indy Autonomous Challenge](https://www.raspitt.org/mprw)- an autonomous Indy Race car!
+*   [IARC Mission 7](https://www.raspitt.org/projects/iarc)- autonomous drone navigation and task completion!
 
 RAS encourages students to explore and have fun, it's a good place to see how software systems can interact with the real world and work with hardware.
 
-Interested? Check out RAS's website [here](http://pittras.org/)!
-
-## Kappa Theta Pi
-
-Kappa Theta Pi (KTP) is Pitt's Professional Technology Fraternity. Like any other fraternity, to join students are required to go through a pledging process. After induction, KTP brothers become integrated into a nation-wide community of tech professionals and exposed to KTP-exclusive networking events. 
-
-Interested? Check out KTP's website [here](https://www.pittkappathetapi.com/)!
+Interested? Check out RAS's website [here](https://www.raspitt.org/)!

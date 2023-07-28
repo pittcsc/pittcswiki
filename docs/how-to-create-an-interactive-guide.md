@@ -2,7 +2,7 @@
 
 Regular guides are cool, but guides that have Javascript in them are cooler.
 
-To acheive this, we use [MDX](https://mdxjs.com/). This combines the ease of writing of Markdown with the
+To achieve this, we use [MDX](https://mdxjs.com/). This combines the ease of writing of Markdown with the
 power of React components.
 
 To create one, all you need to do is create a `.mdx` file. To understand more about
