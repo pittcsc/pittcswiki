@@ -69,7 +69,7 @@ Topics vary semester to semester and teacher to teacher, but usually include the
   - Max flow and Min cut
     - Ford-Fulkerson
     - Edmond's Karp
-- Dynamic programming and greedy algorithms: Techniques for solving programming problems. Dynamic programming (DP) is about breaking down problems and solving their smaller parts before building up to the full solution. Greedy algorithms is about making the best local decision at the 
+- Dynamic programming and greedy algorithms: Techniques for solving programming problems. Dynamic programming (DP) is about breaking down problems and solving their smaller parts before building up to the full solution. Greedy algorithms are about making the best local decision at each step to build up to a solution.
   - Knapsack
     - 0/1 Knapsack variation
   - Fibonacci
@@ -128,13 +128,15 @@ Asking questions is a great way to clarify topics. You are going to have questio
 3. Assisting your classmates: Your classmates probably have similar questions!
 4. Actively thinking of questions is good for your brain. Why do we do things X way? What could happen if we did Y?
 
-Take notes!
+Take notes! Attend Recitations!
 
 ### **Recitations**
 
 Recitations are a great place to learn and make friends. TAs can clarify course material, give you tips on project planning, studying, and exams.
 
 Get to know your TA - they can help you get out of a real bind on your projects if you visit them during their office hours.
+
+Recitation attendance may be mandatory depending on professor.
 
 ### **Readings**
 
@@ -145,6 +147,8 @@ Don't restrict yourself to course textbooks! Think of questions based off of you
 Code is meant to be read too!
 
 I'd recommend reading the author's implementations and making sure it lines up with what you read from the book. Once you can draw the connections, move on, or even experiment with alternate implementations. Why did the author do it that way?
+
+Textbook code is meant to be referenced - depending on the project you may be allowed to borrow some of it as part of your solution too.
 
 ### **Projects**
 
@@ -163,7 +167,7 @@ What should I do when I am assigned a project?
 
 You do not want to be holding on to an incomplete project the last 2-3 days before it's due. That's likely when the next project is being introduced - which means you'll have extra things to think about. Also, TA office hours (which you should be going to if you need help) get really busy towards the deadline, so getting help may be a challenge.
 
-> Don't cheat. It's very easy to catch. Beyond the typical meaning of cheating: *don't cheat yourself*. Did you write some code that you don't fully understand? Figure it out. Do it right.
+> Don't cheat. It's very easy to catch. Beyond the typical meaning of cheating: *don't cheat yourself*. Did you write some code that you don't fully understand? Figure it out. Do it right. Get assistance - your TA's are a great resource.
 
 ### **Tests**
 
