@@ -9,7 +9,7 @@
 const isAnchorLink = (link) => {
   // link to a section in the same markdown document
   // also known as anchor links or "links to heading id"
-  return link.charAt(0) == '#'; // start with a #
+  return link.charAt(0) === '#'; // start with a #
 }
 
 const isExternalLink = (link) =>

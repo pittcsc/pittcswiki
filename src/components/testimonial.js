@@ -2,7 +2,7 @@ import React from "react"
 import ProfessorTooltip from "./professor-tooltip"
 
 const Testimonial = ({ review, difficulty, prof, term, year, quality }) => {
-  return (
+  return new Date().getFullYear() - year <= 4 && (
     <div className="border shadow-sm mb-4">
       <div className="bg-gray-100 flex flex-col md:flex-row justify-between text-gray-900 px-3 py-1 border-b">
         <span className="flex flex-col sm:flex-row">
