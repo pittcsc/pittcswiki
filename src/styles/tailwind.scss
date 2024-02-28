@@ -96,3 +96,25 @@ a {
     @apply mr-2;
   }
 }
+
+:root {
+  --color-text: #2e353f;
+  --color-base-100: #FFFFFF;
+  --color-base-200: #f5f5f5;
+  --color-base-300: #e5e5e5;  
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-base-100);
+}
+
+body.dark {
+  --color-base-100: #171717;
+  --color-text: #ffffff;
+}
+
+body.light {
+  --color-text: #2e353f;
+  --color-base-100: #FFFFFF;
+}
