@@ -97,24 +97,17 @@ a {
   }
 }
 
-:root {
-  --color-text: #2e353f;
-  --color-base-100: #FFFFFF;
-  --color-base-200: #f5f5f5;
-  --color-base-300: #e5e5e5;  
-}
-
 body {
-  color: var(--color-text);
-  background-color: var(--color-base-100);
+  color: var(--bg-base-content);
+  background-color: var(--bg-base);
 }
 
 body.dark {
-  --color-base-100: #171717;
-  --color-text: #ffffff;
+  --bg-base: #000000;
+  --bg-base-content: #ffffff;
 }
 
 body.light {
-  --color-text: #2e353f;
-  --color-base-100: #FFFFFF;
+  --bg-base: #ffffff;
+  --bg-base-content: #000000;
 }

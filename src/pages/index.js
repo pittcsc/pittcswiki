@@ -5,11 +5,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import logo from "../images/logo.svg"
 import campusBackground from "../images/pittcampus.jpg"
-import coursesIcon from "../images/icons/courses.svg"
-import academicsIcon from "../images/icons/academic.svg"
-import careerIcon from "../images/icons/career.svg"
-import guidesIcon from "../images/icons/guides.svg"
-import sitemapIcon from "../images/icons/sitemap.svg"
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +15,7 @@ const IndexPage = () => (
       </div>
       <div className="max-w-4xl mx-auto">
         <div className="md:mt-24 flex">
-          <div className="hidden md:block self-end h-64 bg-white dark:bg-black p-6 shadow-2xl w-1/2 border">
+          <div className="hidden md:block self-end h-64 bg-white dark:bg-black p-6 shadow-2xl w-1/2 border dark:border-black">
             <h1>The Pitt CS Wiki</h1>
             <p>
               A collection of course testimonials, guides, career prep
