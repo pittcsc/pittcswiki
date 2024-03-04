@@ -10,7 +10,7 @@ So you want to be a Teaching Assistant for the CS Department… good choice! But
 
 ## Who should I contact?
 
-Before you can even help any student out, you have to apply for the job! You can message Student Success to get more information regarding UTAs and Peer Tutor job assignments. Email them at [AskSCISuccess@pitt.edu](mailto:AskSCISuccess@pitt.edu)!
+Before you can even help any student out, you have to apply for the job! You can message AskSciSuccess to get more information regarding UTAs and Peer Tutor job assignments. Email them at [AskSCISuccess@pitt.edu](mailto:AskSCISuccess@pitt.edu)!
 
 ## Should I TA?
 
