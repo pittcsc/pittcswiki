@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   purge: {
     enabled:
@@ -6,4 +7,5 @@ module.exports = {
     content: ["./src/**/*.html", "./src/**/*.js", "./src/**/*.jsx"],
   },
   theme: {},
+  darkMode: 'selector',
 }

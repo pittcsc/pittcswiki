@@ -15,7 +15,7 @@ const CoursesPage = () => (
     <h1>Courses</h1>
     <p>
       If you are new to the CS classes,
-      <span className="ml-2 bg-yellow-300 px-2 py-1">
+      <span className="ml-2 bg-yellow-300 dark:bg-yellow-800 px-2 py-1">
         we suggest viewing our{" "}
         <Link to="/academics/scheduling">scheduling guide</Link>!
       </span>

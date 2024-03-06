@@ -96,3 +96,18 @@ a {
     @apply mr-2;
   }
 }
+
+body {
+  color: var(--bg-base-content);
+  background-color: var(--bg-base);
+}
+
+body.dark {
+  --bg-base: #000000;
+  --bg-base-content: #ffffff;
+}
+
+body.light {
+  --bg-base: #ffffff;
+  --bg-base-content: #000000;
+}
