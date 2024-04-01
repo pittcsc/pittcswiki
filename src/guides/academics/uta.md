@@ -22,7 +22,7 @@ A UTA is specialized in the course they are placed in, for example, CS 441. They
 
 ## What do I need to apply to be a UTA?
 
-First, you’ll need to apply to the Talent Center. This is the website where you will attach a Resume. You will also need a recommendation from a current CS faculty member. I would recommend getting close to some of your CS professors, it will also benefit you in the long run if you need to apply for Graduate School and future internships! Often, professors with tenure are the ones who are also faculty members (Petrucci, Hoffman, Tan, Garrison, Ramirez, etc...). The professor can e-mail [AskSCISuccess@pitt.edu](mailto:AskSCISuccess@pitt.edu) or submit the letter to this [form](https://forms.office.com/r/parYapkfkY). 
+First, you’ll need to apply to the Talent Center. This is the website where you will attach a Resume. You will also need a recommendation from a current CS faculty member. I would recommend getting close to some of your CS professors, it will also benefit you in the long run if you need to apply for Graduate School and future internships! Often, professors with tenure are the ones who are also faculty members (Hoffman, Tan, Garrison, Ramirez, etc...). The professor can e-mail [AskSCISuccess@pitt.edu](mailto:AskSCISuccess@pitt.edu) or submit the letter to this [form](https://forms.office.com/r/parYapkfkY). 
 
 ## Okay, I got the job. Now what?
 
