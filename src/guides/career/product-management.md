@@ -4,11 +4,11 @@ author: "Rohit Ganguly"
 search_tags: ["pm", "product", "product management"]
 ---
 
-Product Management as a career is difficult to define, and my personal opinions on the career I chose change every year I give the 'Intro to Product' talk. I'll capture **my** consistent beliefs on the basics of the role here.
+Product Management as a career is difficult to define, and my personal opinions on the career I chose change every year I give the 'Intro to Product' talk to the CSC (stop by!). I'll capture **my** consistent beliefs on the basics of the role here.
 
 ## Product Management?
 
-There's a million definitions online, here's a summary:
+There's a million definitions online, here's a summary.
 
 In general, Product Managers do the following:
 - Work with engineering, design, and other orgs in a company collaboratively
@@ -16,7 +16,11 @@ In general, Product Managers do the following:
 - Prioritize and rally features
 - Find problems to solve and prioritize them
 
-I'd advise you to do your own research on Product Management as a career before choosing it, especially for reasons besides the fact that it's a tech job that doesn't involve constant coding. As a warning, Product Management is an incredibly hard role to break into as a new grad and you shouldn't count on it - most PMs transition later in their careers and start in a different role.
+## Sidebar
+
+I'd advise you to do your own research on Product Management as a career before choosing it, especially for reasons besides the fact that it's a tech job that doesn't involve constant coding (this attracts a lot of folks looking for the past of least resistance, which this job is not). You'll face adversity in this role that will make you miserable if you don't at least somewhat align with the role's definition.
+
+You should also know, Product Management is an incredibly hard role to break into as a new grad and you shouldn't count on it - most PMs transition later in their careers and start in a different role. That doesn't mean you shouldn't try to break into it as a student (you absolutely should if you're interested), but don't be discouraged if you don't land it early on. Careers are long, and we're all going to make it.
 
 ## The Important Basics
 
@@ -30,14 +34,14 @@ To elaborate:
 - What (exactly) are we doing? What does success look like with this feature?
 - Why should we do this (and not something else)?
 
-In the scope of an engineering team, the job of the Product Manager is to clarify the work to be done, and have a clear reason why.
+In the scope of an engineering team, the job of the Product Manager is to clarify the work to be done, and have a clear reason why. You aren't the one defining how the problem gets solved at the end of the day (design and engineering-wise). You can come to the table with ideas, but designers and engineers are there to handle that portion - you need to ensure the end result is a good answer to 'who', 'what', and 'why'.
 
 ### The second fundamental
 To be successful, you must understand what makes a product. This is something that *somehow*, people with Ivy League degrees, venture backing, and every meaningless signifier under the sun don't understand.
 
-Simply put, a product is the fix to a problem that people will pay not to have. This means that if you haven't identified a problem to solve, you don't have a product, you have a (hopefully not expensive) side project. We see it all of the time - at the moment of writing this, the AI boom has led to a lot of attempted products with no real problem to solve. *Value* is the term for solving meaningful, money-making problems.
+Simply put, a product is the fix to a problem that people will pay not to have. This means that if you haven't identified a problem to solve, you don't have a product, you have a (hopefully not expensive) side project. We see it all of the time - at the time of writing this, the AI boom has led to a lot of attempted products with no real problem to solve. *Value* is the term for solving meaningful, money-making problems.
 
-You now understand that your job is to generate clarity on who you're building for, what you're going to build, and why. You get that there's money to made only when a problem is solved. Where do you start?
+You now understand that your job is to generate clarity on who you're building for, what you're going to build, what success looks like, and why. You get that there's money to made only when a problem is solved. Where do you start?
 
 ## Product Management Skills
 
@@ -47,7 +51,7 @@ The name of the game is problem identification, prioritization, and ideation. We
 
 You're a Product Manager on a software product. Let's say you're focused on Business to Consumer (B2C) products like Netflix.
 
-My personal approach is to start backwards and always ask questions. What makes your company money? For Netflix, when focusing on customer features, it's  membership revenue. Why do customers pay money for Netflix? Because they find content they want to watch. How do they find content to watch? Through the algorithm that suggests categories and shows.
+My personal approach is to start backwards and always ask questions. What makes your company money? For Netflix, when focusing on customer features, it's  membership fees. Why do customers pay money for Netflix? Because they find content they want to watch. How do they find content to watch? Through the algorithm that suggests categories and shows. After that, you can dig deeper into specifics. What do your users look like? Who uses the most Netflix? Where are they struggling? 
 
 Understanding how your business makes money, now what are the higher ups saying strategy-wise? What can your product do to align with  overall business goals? While you represent the customers, you also have to get buy-in and aligning with strategy is a must.
 
