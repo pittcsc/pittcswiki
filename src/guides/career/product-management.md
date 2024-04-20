@@ -4,7 +4,7 @@ author: "Rohit Ganguly"
 search_tags: ["pm", "product", "product management"]
 ---
 
-Product Management as a career is difficult to define, and my personal opinions on the career I chose change every year I give the 'Intro to Product' talk. I'll capture **my** consistent beliefs here.
+Product Management as a career is difficult to define, and my personal opinions on the career I chose change every year I give the 'Intro to Product' talk. I'll capture **my** consistent beliefs on the basics of the role here.
 
 ## Product Management?
 
