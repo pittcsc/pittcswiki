@@ -23,7 +23,7 @@ I'd advise you to do your own research on Product Management as a career before 
 Product Management looks different *everywhere*. Sticking to the fundamentals will take you very far in your PM career no matter what exactly Product looks like in your organization. 
 
 ### The first fundamental
-The first thing to remember is that the term Product Management can be defined by the three words "who", "what", and "why". Everything else in the career is to gain a clearer understanding of these two concepts.
+The first thing to remember is that the term Product Management can be defined by the three words "who", "what", and "why". Everything else in the career is to gain a clearer understanding of these three concepts.
 
 To elaborate:
 - Who (exactly) are we building this for?
