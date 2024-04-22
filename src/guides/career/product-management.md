@@ -24,19 +24,22 @@ You should also know, Product Management is an incredibly hard role to break int
 
 ## The Important Basics
 
-Product Management looks different *everywhere*. Sticking to the fundamentals will take you very far in your PM career no matter what exactly Product looks like in your organization. 
+Product Management looks different *everywhere*. Sticking to the fundamentals will take you very far in your PM career no matter what the role looks like in your organization.
 
-### The first fundamental
+### The First Fundamental
+
 The first thing to remember is that the term Product Management can be defined by the three words "who", "what", and "why". Everything else in the career is to gain a clearer understanding of these three concepts.
 
 To elaborate:
-- Who (exactly) are we building this for?
-- What (exactly) are we doing? What does success look like with this feature?
-- Why should we do this (and not something else)?
 
-In the scope of an engineering team, the job of the Product Manager is to clarify the work to be done, and have a clear reason why. You aren't the one defining how the problem gets solved at the end of the day (design and engineering-wise). You can come to the table with ideas, but designers and engineers are there to handle that portion - you need to ensure the end result is a good answer to 'who', 'what', and 'why'.
+- **Who** are we building this for?
+- **What** are we doing? What does success look like with this feature?
+- **Why** should we do this (and not something else)?
 
-### The second fundamental
+In the scope of an engineering team, the job of the Product Manager is to clarify the work to be done, and have a clear reason why. You aren't the one defining how the problem gets solved at the end of the day (design and engineering-wise). You can come to the table with ideas, but designers and engineers are there to handle that portion - you need to ensure the solution is a good answer to 'who', 'what', and 'why'.
+
+### The Second Fundamental
+
 To be successful, you must understand what makes a product. This is something that *somehow*, people with Ivy League degrees, venture backing, and every meaningless signifier under the sun don't understand.
 
 Simply put, a product is the fix to a problem that people will pay not to have. This means that if you haven't identified a problem to solve, you don't have a product, you have a (hopefully not expensive) side project. We see it all of the time - at the time of writing this, the AI boom has led to a lot of attempted products with no real problem to solve. *Value* is the term for solving meaningful, money-making problems.
@@ -51,9 +54,9 @@ The name of the game is problem identification, prioritization, and ideation. We
 
 You're a Product Manager on a software product. Let's say you're focused on Business to Consumer (B2C) products like Netflix.
 
-My personal approach is to start backwards and always ask questions. What makes your company money? For Netflix, when focusing on customer features, it's  membership fees. Why do customers pay money for Netflix? Because they find content they want to watch. How do they find content to watch? Through the algorithm that suggests categories and shows. After that, you can dig deeper into specifics. What do your users look like? Who uses the most Netflix? Where are they struggling? 
+My personal approach is to start backwards and always ask questions. What makes your company money? For Netflix, when focusing on customer features, its membership fees. Why do customers pay money for Netflix? Because they find content they want to watch. How do they find content to watch? Through the algorithm that suggests categories and shows. After that, you can dig deeper into specifics. What do your users look like? Who uses the most Netflix? Where are they struggling?
 
-Understanding how your business makes money, now what are the higher ups saying strategy-wise? What can your product do to align with  overall business goals? While you represent the customers, you also have to get buy-in and aligning with strategy is a must.
+Understanding how your business makes money, now what are the higher ups saying strategy-wise? What can your product do to align with overall business goals? While you represent the customers, you also have to get buy-in and aligning with strategy is a must.
 
 Once you have a good understanding of what makes money and what your company wants to do, you can look for problems to solve. PMs do this in a variety of ways, but they can look like:
 
@@ -70,15 +73,17 @@ Ideally, this is a pretty straightforward answer once you have a good understand
 
 You should have a clear reason for prioritizing work, and if you're feeling unsure in a particular scenario, you have more to learn about your customer, the problem, your competitors, or the business.
 
-### Ideation
+### Solution Ideation
 
-You'll eventually bring your prioritized ideas to your stakeholders (design, engineering, leadership, etc) and they'll have their own thoughts on the question they're responsible for, *how* do we get it done? 
+You'll eventually bring your prioritized ideas to your stakeholders (design, engineering, leadership, etc) and they'll have their own thoughts.
 
-You can come to the table with ideas on how it should be done from a customer's perspective. Understand their job to be done (JTBD) and pain points. The design and engineering teams will handle the rest - do *not* get attached to a solution! 
+You can come to the table with ideas on how it should be done from a customer's perspective. Understand their job to be done (JTBD) and pain points. The design and engineering teams will handle the rest - do *not* get attached to a solution!
 
-The most important thing is adjusting your ideas with impact/effort. Again, you are not responsible for ideating a solution - your job is to ensure that there is value provided to customers at the end of the day. If you're getting pushback on your features and you can't defend it, you need to develop a deeper understanding of the customers/problem/business/competition OR improve your communication of your ideas.
+The most important thing is adjusting the priorities for your ideas as you understand impact/effort when collaborating with stakeholders. This is often referred to as 'scoping' your features - once a feature is scoped, there's a clear understanding of all the key pieces - who's it being built for, what it's going to do, why it's being built, and now, *how* it's going to be built and *how much* effort it's going to take.
 
-At the end of it all, you'll have to prioritize scoped features (features that have had their effort to build measured). Ideally you go for low-effort high-impact features first, and work your way backwards to medium-effort high-impact, medium-effort medium-impact, etc. This is very situational but this process will look the same everywhere.
+Again, you are not responsible for ideating a solution - your job is to ensure that there is value provided to customers at the end of the day. If you're getting pushback on your features and you can't defend it, you need to develop a deeper understanding of the customers/problem/business/competition OR improve your communication of your ideas.
+
+At the end of it all, you'll again have to prioritize scoped features. Ideally you go for low-effort high-impact features first, and work your way backwards to medium-effort high-impact, medium-effort medium-impact, etc. This is very situational but this process will look the same everywhere.
 
 ## Closing
 
