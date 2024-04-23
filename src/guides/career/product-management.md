@@ -69,7 +69,7 @@ Understanding your business and your users is key. A solution that makes everyon
 
 ### Problem Prioritization
 
-Ideally, this is a pretty straightforward answer once you have a good understanding of the problems to solve. This generally can be prioritized by looking at why you're building it. If you're building something to satisfy users, build something that satisfies a more important pain point. If you're looking to make money, pick the feature that has a higher chance to increase money made from your product.
+Ideally, this is a pretty straightforward answer once you have a good understanding of the problems to solve. When prioritizing, remember to keep in mind the initial reasoning behind building that feature. If you're building something to satisfy users, build something that satisfies a more important pain point. If you're looking to make money, pick the feature that has a higher chance to increase money made from your product.
 
 You should have a clear reason for prioritizing work, and if you're feeling unsure in a particular scenario, you have more to learn about your customer, the problem, your competitors, or the business.
 
