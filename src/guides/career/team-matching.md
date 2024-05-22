@@ -5,7 +5,7 @@ search_tags: ["google host matching", "offer"]
 related: ["Zero to Offer Guide", "/zero-to-offer"]
 ---
 
-Most companies will have a "team matching" phase where they try to pair you with an appropriate team. Some companies have stages where you fill out a team matching survey before you get an offer.
+Most companies will have a "team matching" phase where they try to pair you with an appropriate team. Some companies have stages where you fill out a team matching survey before you get an offer. This advice also can apply if you are thinking about transferring teams.
 
 ## General Advice
 
