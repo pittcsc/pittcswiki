@@ -79,8 +79,8 @@ You only have to do below if you want to add new functionality with Javascript!
 
 We recommend using VSCode and these extensions https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack
 
-1. Download Node https://nodejs.org/en/
-  - run `node -v` to make sure it installed
+1. Download Node version 16.20.2 https://nodejs.org/en/ (Versions above 16.20.2 will not work!)
+  - run `node -v` to make sure it installed AND that you are using the correct version of Node
 2. Download yarn: `npm install -g yarn`
 3. Clone this directory - `git clone https://github.com/PittCSWiki/pittcswiki.github.io.git`
 4. `yarn install`
@@ -104,6 +104,15 @@ It is likely you will run into caching issues when developing! This is when you 
 the page defined in `src/page/courses.js`. 
 
 Markdown files are converted to HTML pages with the `src/components/templates/guides-template` file.
+
+While building you might get stuck on 
+
+```
+⠋ onPostBootstrap
+⠏ Build manifest and related icons
+```
+
+in the console. To fix this is very simple! Just use the shortcut key Ctrl+C to cancel this command and try running it again. 
 
 If you are curious about how this project works and want to become a serious contributor - [read and follow these tutorials](https://www.gatsbyjs.org/tutorial/).
 
